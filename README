@@ -10,7 +10,7 @@ Data for each profile is a JSON blob of the form:
 	"numberFollowers",
 	"numberFollowing",
 	"private",
-	"posts": a list of JSON blobs for each post.
+	"posts": a list of JSON blobs corresponding to each post.
 
 Each post is blob of form:
 	"url",
