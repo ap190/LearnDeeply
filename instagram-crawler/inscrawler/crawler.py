@@ -156,7 +156,7 @@ class InsCrawler(Logging):
                 continue
 
             cur_key = ele_a_datetime.get_attribute('href')
-            dict_post['key'] = cur_key
+            dict_post['url'] = cur_key
 
             ele_datetime = browser.find_one('._1o9PC', ele_a_datetime)
             datetime = ele_datetime.get_attribute('datetime')
