@@ -2,6 +2,7 @@ from __future__ import unicode_literals
 from builtins import open
 from selenium.webdriver.common.keys import Keys
 
+from selenium import webdriver
 from .exceptions import RetryException
 from .browser import Browser
 from .utils import instagram_int
@@ -58,7 +59,27 @@ class InsCrawler(Logging):
         if ele_login:
             ele_login.click()
 
+    def login(self):
+        browser = self.browser
+        url = '%s/accounts/login/' % (InsCrawler.URL)
+        browser.get(url)
+        u_input = browser.find_one('input[name="username"]')
+        u_input.send_keys('dee290_')
+        p_input = browser.find_one('input[name="password"]')
+        p_input.send_keys('somepass')
+
+        login_btn = browser.find_one('.L3NKy')
+        login_btn.click()
+
+        @retry()
+        def check_login():
+            if browser.find_one('input[name="username"]'):
+                raise RetryException()
+
+        check_login()
+
     def get_user_profile(self, username):
+        self.login()
         browser = self.browser
         url = '%s/%s/' % (InsCrawler.URL, username)
         browser.get(url)
@@ -81,12 +102,13 @@ class InsCrawler(Logging):
     def get_user_posts(self, username, number=None, detail=False):
         user_profile = self.get_user_profile(username)
         if not number:
-            number = instagram_int(user_profile['post_num'])
+            number = instagram_int(user_profile['numberPosts'])
 
         self._dismiss_login_prompt()
 
         if detail:
-            return self._get_posts_full(number)
+            user_profile['posts'] = self._get_posts_full(number)
+            return user_profile
         else:
             return self._get_posts(number)
 
@@ -95,6 +117,11 @@ class InsCrawler(Logging):
         self.browser.get(url)
         return self._get_posts(num)
 
+    def getHashtags(description):
+        return [tag for word in description.split() if word.startswith('#')]
+
+    def getMentions(description):
+        return [tag for word in description.split() if word.startswith('@')]
 
     def _get_posts_full(self, num):
         @retry()
@@ -121,12 +148,39 @@ class InsCrawler(Logging):
 
             # Fetching datetime and url as key
             ele_a_datetime = browser.find_one('.eo2As .c-Yi7')
+            if ele_a_datetime == None:
+                pbar.update(1)
+                left_arrow = browser.find_one('.HBoOv')
+                if left_arrow:
+                    left_arrow.click()
+                continue
+
             cur_key = ele_a_datetime.get_attribute('href')
             dict_post['key'] = cur_key
 
             ele_datetime = browser.find_one('._1o9PC', ele_a_datetime)
             datetime = ele_datetime.get_attribute('datetime')
             dict_post['date'] = datetime
+
+            ele_likes = browser.find_one('.eo2As .Nm9Fw span')
+            if not ele_likes:
+                # Skip videos
+                pbar.update(1)
+                left_arrow = browser.find_one('.HBoOv')
+                if left_arrow:
+                    left_arrow.click()
+                continue
+
+            dict_post['numberLikes'] = ele_likes.text  
+            dict_post['isVideo'] = False      
+
+            ele_location = browser.find_one('.O4GlU') 
+            if ele_location == None:
+                dict_post['localization'] = None 
+            else:
+                dict_post['localization'] = ele_location.text
+
+
 
             # Fetching all img
             content = None
@@ -145,13 +199,12 @@ class InsCrawler(Logging):
                 else:
                     break
 
-            dict_post['content'] = content
-            dict_post['img_urls'] = list(img_urls)
+            dict_post['description'] = content
 
-            # Fetching number of comments
-            ele_comments = browser.find('.eo2As .gElp9')[1:]
-            if ele_comments:
-                dict_post['numComments'] = len(ele_comments)
+            dict_post['tags'] = [word for word in content.split() if word.startswith('#')]
+            dict_post['mentions'] = [word for word in content.split() if word.startswith('@')]
+
+            dict_post['urlImage'] = list(img_urls)
 
             self.log(json.dumps(dict_post, ensure_ascii=False))
             dict_posts[browser.current_url] = dict_post
@@ -191,8 +244,8 @@ class InsCrawler(Logging):
                     key_set.add(key)
                     posts.append({
                         'key': key,
-                        'content': content,
-                        'img_url': img_url
+                        'description': content,
+                        'urlImage': img_url
                     })
             if pre_post_num == len(posts):
                 pbar.set_description('Wait for %s sec' % (wait_time))

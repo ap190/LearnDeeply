@@ -18,7 +18,7 @@ class Browser:
         chrome_options.add_argument("--window-size=768,920")
         chrome_options.add_argument("--no-sandbox")
         self.driver = webdriver.Chrome(
-            executable_path='%s/bin/chromedriver' % dir_path,
+            executable_path='%s/bin/chromedriver' % dir_path, 
             service_args=service_args,
             chrome_options=chrome_options)
         self.driver.implicitly_wait(5)
@@ -49,6 +49,9 @@ class Browser:
             return obj.find_element(By.CSS_SELECTOR, css_selector)
         except NoSuchElementException:
             return None
+
+    def getDriver(self):
+        return self.driver
 
 
 

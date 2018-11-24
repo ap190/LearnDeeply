@@ -20,7 +20,7 @@ def retry(attempt=10, wait=0.3):
                 else:
                     exc = RetryException()
                     exc.__cause__ = None
-                    raise exc
+                    return
 
         return wrapped_f
     return wrap
