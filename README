@@ -17,7 +17,7 @@ Each post is blob of form:
 	"urlImage",
 	"isVideo",
 	 "multipleImage",
-	"tags",
+	"tags", - being hashtags
 	"mentions",
 	"description",
 	"localization",
