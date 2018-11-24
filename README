@@ -1,0 +1,28 @@
+Profiles folder contains post data for 16539 images from 972 Instagram influencers.
+Data for each profile is a JSON blob of the form:
+	"alias",
+	"username",
+	"descriptionProfile",
+	"urlProfile",
+	"urlImgProfile",
+	"website",
+	"numberPosts",
+	"numberFollowers",
+	"numberFollowing",
+	"private",
+	"posts": a list of JSON blobs for each post.
+
+Each post is blob of form:
+	"url",
+	"urlImage",
+	"isVideo",
+	 "multipleImage",
+	"tags",
+	"mentions",
+	"description",
+	"localization",
+	"date",
+	"numberLikes",
+	"filename"
+
+Thanks to gvsi for this dataset 
