@@ -14,7 +14,7 @@ Data for each profile is a JSON blob of the form:
 
 Each post is blob of form:
 	"url",
-	"urlImage",
+	"urlImage",- Note: in some of these this is a list
 	"isVideo",
 	 "multipleImage",
 	"tags", - being hashtags
@@ -25,4 +25,5 @@ Each post is blob of form:
 	"numberLikes",
 	"filename"
 
-Thanks to gvsi for this dataset 
+Thanks to gvsi for the orginal part of this dataset. We have built upon this dataset by implementing a webscrapper
+for Instagram using Selenium. 
