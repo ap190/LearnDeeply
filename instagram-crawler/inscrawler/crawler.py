@@ -88,10 +88,14 @@ class InsCrawler(Logging):
         photo = browser.find_one('._6q-tv')
         statistics = [ele.text for ele in browser.find('.g47SY')]
         post_num, follower_num, following_num = statistics
+
+        if desc is not None:
+            desc = desc.text.split('\n')
+
         return {
             'alias': username,
             'username': name.text,
-            'descriptionProfile': (desc.text if desc else None).split('\n'),
+            'descriptionProfile': desc,
             'urlProfile': url,
             'urlImgProfile': photo.get_attribute('src'),
             'numberPosts': post_num,
@@ -127,6 +131,8 @@ class InsCrawler(Logging):
         @retry()
         def check_next_post(cur_key):
             ele_a_datetime = browser.find_one('.eo2As .c-Yi7')
+            if not ele_a_datetime:
+                return
             next_key = ele_a_datetime.get_attribute('href')
             if cur_key == next_key:
                 raise RetryException()
@@ -148,15 +154,15 @@ class InsCrawler(Logging):
 
             # Fetching datetime and url as key
             ele_a_datetime = browser.find_one('.eo2As .c-Yi7')
-            if ele_a_datetime == None:
+            if not ele_a_datetime:
                 pbar.update(1)
                 left_arrow = browser.find_one('.HBoOv')
                 if left_arrow:
                     left_arrow.click()
                 continue
-
-            cur_key = ele_a_datetime.get_attribute('href')
-            dict_post['url'] = cur_key
+            else:
+                cur_key = ele_a_datetime.get_attribute('href')
+                dict_post['url'] = cur_key
 
             ele_datetime = browser.find_one('._1o9PC', ele_a_datetime)
             datetime = ele_datetime.get_attribute('datetime')
@@ -175,7 +181,7 @@ class InsCrawler(Logging):
             dict_post['isVideo'] = False      
 
             ele_location = browser.find_one('.O4GlU') 
-            if ele_location == None:
+            if ele_location is None:
                 dict_post['localization'] = None 
             else:
                 dict_post['localization'] = ele_location.text

@@ -68,7 +68,7 @@ if __name__ == '__main__':
             args.username,
             100,
             True,
-            False
+            'store_true'
         ),
-        '../profiles/' + args.username + '.json')
+        './profiles/' + args.username + '.json')
 
