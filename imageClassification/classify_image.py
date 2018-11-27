@@ -1,7 +1,7 @@
 # USAGE
 # python classify_image.py --image images/soccer_ball.jpg 
 
-from keras.applications import InceptionV3
+from keras.applications import InceptionResNetV2
 from keras.applications import imagenet_utils
 from keras.applications.inception_v3 import preprocess_input
 from keras.preprocessing.image import img_to_array
@@ -19,7 +19,7 @@ args = vars(ap.parse_args())
 # first time you are running this script for a given network, the
 # weights will need to be downloaded first -- the weights will be cached and 
 # subsequent runs of this script will be *much* faster)
-model = InceptionV3(weights="imagenet")
+model = InceptionResNetV2(weights="imagenet")
 
 # load the input image using the Keras helper utility while ensuring
 # the image is resized to `inputShape`, the required input dimensions
