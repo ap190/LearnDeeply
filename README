@@ -27,3 +27,7 @@ Each post is blob of form:
 
 Thanks to gvsi for the orginal part of this dataset. We have built upon this dataset by implementing a webscrapper
 for Instagram using Selenium. 
+
+Note: Instagram regenerates image urls, so we had to write a script to regenerate stale URLs for the dataset of posts 
+we took from gvsi. We also dropped posts that no longer exist, and files for users that no longer exist. The original dataset 
+now consists of 15178 images. 
