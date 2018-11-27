@@ -15,10 +15,7 @@
   "posts": [
     {
       "url": "https://www.instagram.com/p/BTh5yZyDQr8/?taken-by=beachyogagirl",
-      "urlImage": [
-        "https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/18251424_210622576108578_3299455041416462336_n.jpg",
-        "https://scontent.cdninstagram.com/t51.2885-15/s1080x1080/e35/18160298_637600169768307_8997712724251115520_n.jpg"
-      ],
+      "urlImage": "https://scontent-lga3-1.cdninstagram.com/vp/06a36e9656448ba9bd69c96dfcbf1124/5C8CAF76/t51.2885-15/e35/s612x612/18251424_210622576108578_3299455041416462336_n.jpg",
       "isVideo": false,
       "multipleImage": true,
       "tags": [
@@ -41,7 +38,7 @@
     },
     {
       "url": "https://www.instagram.com/p/BThfonKjtDn/?taken-by=beachyogagirl",
-      "urlImage": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/18160392_1943584135874539_3437123745574027264_n.jpg",
+      "urlImage": "https://scontent-lga3-1.cdninstagram.com/vp/f5084fae56d8cb7c4932fa4dba5286de/5C94E285/t51.2885-15/sh0.08/e35/s640x640/18160392_1943584135874539_3437123745574027264_n.jpg",
       "isVideo": false,
       "multipleImage": false,
       "tags": [
@@ -57,54 +54,6 @@
       "date": "2017-04-30T05:00:00.000Z",
       "numberLikes": 5984,
       "filename": "18160392_1943584135874539_3437123745574027264_n.jpg"
-    },
-    {
-      "url": "https://www.instagram.com/p/BThDVVhDl-A/?taken-by=beachyogagirl",
-      "urlImage": [
-        "https://scontent.cdninstagram.com/t51.2885-15/s640x640/e15/18252822_1743538369270068_7151577674094215168_n.jpg",
-        "https://scontent.cdninstagram.com/t51.2885-15/s1080x1080/e35/18252030_1682211258751472_8607798086833537024_n.jpg",
-        "https://scontent.cdninstagram.com/t51.2885-15/s1080x1080/e35/18162185_1330376053720162_3674007143456964608_n.jpg",
-        "https://scontent.cdninstagram.com/t51.2885-15/s1080x1080/e35/18160916_1529669183731775_2708263247072460800_n.jpg",
-        "https://scontent.cdninstagram.com/t51.2885-15/s1080x1080/e35/18162193_1316738455028585_574296346484277248_n.jpg",
-        "https://scontent.cdninstagram.com/t51.2885-15/s1080x1080/e35/18160312_1323455134407851_1630329169919344640_n.jpg",
-        "https://scontent.cdninstagram.com/t51.2885-15/s750x750/sh0.08/e35/18160890_1856770744648777_7378173633165787136_n.jpg",
-        "https://scontent.cdninstagram.com/t51.2885-15/s1080x1080/e35/18161562_327610434322788_1287898256407265280_n.jpg",
-        "https://scontent.cdninstagram.com/t51.2885-15/s1080x1080/e35/18160332_1911130532456313_6074008441527992320_n.jpg",
-        "https://scontent.cdninstagram.com/t51.2885-15/s1080x1080/e35/18160806_1301962289899681_2398162712765923328_n.jpg"
-      ],
-      "isVideo": false,
-      "multipleImage": true,
-      "tags": [
-        "#beachyogagirlretreat",
-        "#eleuthera"
-      ],
-      "mentions": [
-        "@lighthousebahamas",
-        "@daughtersofculture",
-        "@omstarsofficial",
-        "@thebeautyofhandmade",
-        "@eleutherablueseahorse",
-        "@mindoverlather",
-        "@rawelementsusa",
-        "@omishadesigns",
-        "@polarbottle"
-      ],
-      "description": "My Eleuthera Bahamas Retreat has come to an end. I had such and amazing time and I'm feeling so blessed. Thank you to all my guests/new friends who blessed me so much with your open hearts and amazing spirits. I'll miss you. \nTo Kalin @lighthousebahamas, my dear friend and amazing coordinator, you are the bomb! You make these retreats so special and well planned. \nTo all my sponsors who gave all my guests such amazing gifts, THANK YOU! \nPlease click on my sponsors and follow them! These companies I fully endorse and recommend!\n_\n\n@daughtersofculture - super hip yoga swag\n@omstarsofficial - Yoga TV\n@thebeautyofhandmade - handmade yoga straps\n@eleutherablueseahorse - pink sand key chains \n@mindoverlather - organic mat cleaner \n@rawelementsusa - environmental friendly sunscreen \n@omishadesigns - handmade bracelets \n@polarbottle - water bottles \n_\nSee you soon Eleuthera ... I'll be back. 🙏🏻 #beachyogagirlretreat #eleuthera",
-      "localization": "Eleuthera",
-      "date": "2017-04-30T05:00:00.000Z",
-      "numberLikes": 2311,
-      "filename": [
-        "18252822_1743538369270068_7151577674094215168_n.jpg",
-        "18252030_1682211258751472_8607798086833537024_n.jpg",
-        "18162185_1330376053720162_3674007143456964608_n.jpg",
-        "18160916_1529669183731775_2708263247072460800_n.jpg",
-        "18162193_1316738455028585_574296346484277248_n.jpg",
-        "18160312_1323455134407851_1630329169919344640_n.jpg",
-        "18160890_1856770744648777_7378173633165787136_n.jpg",
-        "18161562_327610434322788_1287898256407265280_n.jpg",
-        "18160332_1911130532456313_6074008441527992320_n.jpg",
-        "18160806_1301962289899681_2398162712765923328_n.jpg"
-      ]
     },
     {
       "url": "https://www.instagram.com/p/BTfkNg4jitN/?taken-by=beachyogagirl",
@@ -129,7 +78,7 @@
     },
     {
       "url": "https://www.instagram.com/p/BTen2tbjPBx/?taken-by=beachyogagirl",
-      "urlImage": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/c0.56.1080.1080/18160682_1891778931090608_8182267914150215680_n.jpg",
+      "urlImage": "https://scontent-lga3-1.cdninstagram.com/vp/d9f3cfd9fdcea8004d137e9701d0ff7b/5CA64D0A/t51.2885-15/sh0.08/e35/p640x640/18160682_1891778931090608_8182267914150215680_n.jpg",
       "isVideo": false,
       "multipleImage": false,
       "tags": [
@@ -143,30 +92,6 @@
       "date": "2017-04-29T05:00:00.000Z",
       "numberLikes": 7297,
       "filename": "18160682_1891778931090608_8182267914150215680_n.jpg"
-    },
-    {
-      "url": "https://www.instagram.com/p/BTdBcVgD02v/?taken-by=beachyogagirl",
-      "urlImage": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/18251440_681038158764136_2548653075418054656_n.jpg",
-      "isVideo": false,
-      "multipleImage": false,
-      "tags": [
-        "#mayibeginwithten",
-        "#mayibeginwithten"
-      ],
-      "mentions": [
-        "@beachyogagirl",
-        "@omstarsofficial",
-        "@beachyogagirl",
-        "@omstarsofficial",
-        "@liforme",
-        "@omstarsofficial",
-        "@yogaprowheel"
-      ],
-      "description": "MAY BEGINNER YOGA CHALLENGE!\n#mayibeginwithten\nHost: @beachyogagirl \nSponsor: @omstarsofficial \nStarts May 1st!\nThis challenge is for the total beginner who has always wanted to start a yoga practice but has no clue how. \nEveryone, including myself was a beginner at one point. I believe that just 10 minutes a day of yoga can make such a difference in your life that you will become inspired and want more. \n_\n\nI am challenging you to do 10/10/10:\n\n10 days\n10 minutes\n10 poses \n_\n\nEach day of this 10/10/10 challenge you will have one yoga pose to learn and a 10 minute practice. I have created the \"Begin With Ten\" beginners course on Omstars.com to help you! I will guide you through a 10 minute flow while teaching you the \"pose of the day\". Go to omstars.com and subscribe. Use \"101010\" and get your first month for just $10!\n_\n\nHow to participate:\n1. Repost or tag some friends!\n2. Encourage everyone to try yoga and take the 10/10/10 challenge. \n3. Follow along on Omstars.com or just post photos here on Instagram. \n4. Use #mayibeginwithten and tag @beachyogagirl & @omstarsofficial in your posts!\n_\nPrizes:\n@liforme red Omstars Mat\n@omstarsofficial leggings \n@yogaprowheel \n_\nTAG someone who you know wants to begin yoga!\nWho's in?🙋🏼",
-      "localization": null,
-      "date": "2017-04-28T05:00:00.000Z",
-      "numberLikes": 8232,
-      "filename": "18251440_681038158764136_2548653075418054656_n.jpg"
     },
     {
       "url": "https://www.instagram.com/p/BTc9YdhjpoQ/?taken-by=beachyogagirl",
@@ -190,7 +115,7 @@
     },
     {
       "url": "https://www.instagram.com/p/BTcSb-5DCt5/?taken-by=beachyogagirl",
-      "urlImage": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/c135.0.810.810/18251819_1418931448187208_2062978938090553344_n.jpg",
+      "urlImage": "https://scontent-lga3-1.cdninstagram.com/vp/cbe2fca419b3d60c28b37d25cbc8e52f/5C909343/t51.2885-15/sh0.08/e35/s640x640/18251819_1418931448187208_2062978938090553344_n.jpg",
       "isVideo": false,
       "multipleImage": false,
       "tags": [
@@ -207,7 +132,7 @@
     },
     {
       "url": "https://www.instagram.com/p/BTabMvvjuYj/?taken-by=beachyogagirl",
-      "urlImage": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/18095286_774236622759053_5775248527848374272_n.jpg",
+      "urlImage": "https://scontent-lga3-1.cdninstagram.com/vp/1dcf2a51aec34cf7581d76e9ca151348/5CAD11AA/t51.2885-15/sh0.08/e35/s640x640/18095286_774236622759053_5775248527848374272_n.jpg",
       "isVideo": false,
       "multipleImage": false,
       "tags": [
@@ -225,7 +150,7 @@
     },
     {
       "url": "https://www.instagram.com/p/BTZfRzeDAL5/?taken-by=beachyogagirl",
-      "urlImage": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/18094624_159629784566007_1725877645201113088_n.jpg",
+      "urlImage": "https://scontent-lga3-1.cdninstagram.com/vp/9f54da964d56202437fb431376ecdba3/5C92C425/t51.2885-15/sh0.08/e35/s640x640/18094624_159629784566007_1725877645201113088_n.jpg",
       "isVideo": false,
       "multipleImage": false,
       "tags": [
@@ -243,7 +168,7 @@
     },
     {
       "url": "https://www.instagram.com/p/BTX20o_jDaU/?taken-by=beachyogagirl",
-      "urlImage": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/18160876_980070322129845_4616987180596723712_n.jpg",
+      "urlImage": "https://scontent-lga3-1.cdninstagram.com/vp/d95bfe441afbae7fc219a07a24ddec03/5C78F443/t51.2885-15/sh0.08/e35/s640x640/18160876_980070322129845_4616987180596723712_n.jpg",
       "isVideo": false,
       "multipleImage": false,
       "tags": [
@@ -262,7 +187,7 @@
     },
     {
       "url": "https://www.instagram.com/p/BTWvAfijeid/?taken-by=beachyogagirl",
-      "urlImage": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/18161486_1750747455216583_2032148193961050112_n.jpg",
+      "urlImage": "https://scontent-lga3-1.cdninstagram.com/vp/95642c298ece2618a69e39458e8e3af0/5CA9F8BB/t51.2885-15/sh0.08/e35/s640x640/18161486_1750747455216583_2032148193961050112_n.jpg",
       "isVideo": false,
       "multipleImage": false,
       "tags": [
@@ -278,7 +203,7 @@
     },
     {
       "url": "https://www.instagram.com/p/BTWWKSljShL/?taken-by=beachyogagirl",
-      "urlImage": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/18095891_207888929717063_4895927521012350976_n.jpg",
+      "urlImage": "https://scontent-lga3-1.cdninstagram.com/vp/69de75e4791f49823a7ad790ec73f170/5CAD8CAA/t51.2885-15/sh0.08/e35/s640x640/18095891_207888929717063_4895927521012350976_n.jpg",
       "isVideo": false,
       "multipleImage": false,
       "tags": [
@@ -293,7 +218,7 @@
     },
     {
       "url": "https://www.instagram.com/p/BTVBcuWjffS/?taken-by=beachyogagirl",
-      "urlImage": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/18095785_1796684923992747_7293904077010763776_n.jpg",
+      "urlImage": "https://scontent-lga3-1.cdninstagram.com/vp/d0539b1503ae9e0d5f546058c3cb7e17/5CADD370/t51.2885-15/sh0.08/e35/s640x640/18095785_1796684923992747_7293904077010763776_n.jpg",
       "isVideo": false,
       "multipleImage": false,
       "tags": [
@@ -315,7 +240,7 @@
     },
     {
       "url": "https://www.instagram.com/p/BTOwsjQD-uB/?taken-by=beachyogagirl",
-      "urlImage": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/c180.0.720.720/17934341_246838992456638_3239474100845936640_n.jpg",
+      "urlImage": "https://scontent-lga3-1.cdninstagram.com/vp/f5e44ab45a87137b92f1087cfbab47b6/5CA907B1/t51.2885-15/sh0.08/e35/s640x640/17934341_246838992456638_3239474100845936640_n.jpg",
       "isVideo": false,
       "multipleImage": false,
       "tags": [
@@ -331,7 +256,7 @@
     },
     {
       "url": "https://www.instagram.com/p/BTMM-ORDZwj/?taken-by=beachyogagirl",
-      "urlImage": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/18013313_419373108421183_751276443920498688_n.jpg",
+      "urlImage": "https://scontent-lga3-1.cdninstagram.com/vp/929aed1ffc0c9872a7831b3dadd46ed7/5C78927C/t51.2885-15/sh0.08/e35/s640x640/18013313_419373108421183_751276443920498688_n.jpg",
       "isVideo": false,
       "multipleImage": false,
       "tags": [
@@ -345,26 +270,6 @@
       "date": "2017-04-22T05:00:00.000Z",
       "numberLikes": 5458,
       "filename": "18013313_419373108421183_751276443920498688_n.jpg"
-    },
-    {
-      "url": "https://www.instagram.com/p/BTJmK-nDnj5/?taken-by=beachyogagirl",
-      "urlImage": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/c20.0.1039.1039/18013225_281312328961480_8651458486686711808_n.jpg",
-      "isVideo": false,
-      "multipleImage": false,
-      "tags": [
-        "#flashbackfriday",
-        "#transformation",
-        "#yoga"
-      ],
-      "mentions": [
-        "@yogaprowheel",
-        "@yogaprowheel"
-      ],
-      "description": "I really wish I had more before photos but, on the left was an image from my very first challenge that I hosted 4 1/2 years ago. I think it was my first attempt at pushing up into wheel pose as well. I had 500 followers and I didn't care about not being able to actually do any of the poses on the challenge. I just wanted to inspire myself to try to change and guess what ... it worked! Photo on the right is a screen grab from my challenge post last night. Read my story on my last post if you need inspiration. 💪🏻\n_\n@yogaprowheel is on sale for 25% off. Use \"spring\" at checkout. \nYogaprowheel.com 👈🏻\n#flashbackfriday #transformation #yoga",
-      "localization": null,
-      "date": "2017-04-21T05:00:00.000Z",
-      "numberLikes": 10892,
-      "filename": "18013225_281312328961480_8651458486686711808_n.jpg"
     }
   ]
 }
