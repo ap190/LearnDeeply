@@ -18,6 +18,6 @@ def num_interp(number):
 		elif number.endswith('k'):
 			number = int(float(number[:-1]) * 1000)
 
-		return number
+		return int(number)
 	else:
 		return number
