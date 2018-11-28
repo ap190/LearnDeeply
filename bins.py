@@ -9,6 +9,7 @@ class bins:
 		self.bin_nums = bin_nums
 		self.path = path
 		self.counted, self.likes_array = self.count_elements()
+		self.interval, self.sequence, self.bin_edges = self.even_bins()
 
 	def count_elements(self):
 		"""
@@ -78,6 +79,13 @@ class bins:
 				bin_edges.append(likes_array[i])
 		sequence = likes_array[:self.bin_nums*interval]
 		return interval, sequence, bin_edges
+
+	def bin_classification(self, likes):
+		for i in range(1, len(self.bin_edges)):
+			if (likes > self.bin_edges[i-1]) and (likes <= self.bin_edges[i]):
+				return i-1
+
+		return i-1
 
 # BIN = bins(bin_nums = 100)
 # BIN.visualize_histogram()
