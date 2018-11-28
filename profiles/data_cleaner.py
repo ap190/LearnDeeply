@@ -21,7 +21,7 @@ filenames = [file for file in os.listdir() if file.endswith('.json')]
 
 # iterate through json files and extract data
 # each entry in the list will be a dictionary for each insta user we've collected
-data = []
+data, counter = [], 1
 for filename in filenames:
     try:
         with open(filename) as file:
@@ -53,15 +53,17 @@ for filename in filenames:
                         predictions = np.delete(np.asarray(predictions[0]), np.s_[0], axis=1)
 
                         # preprocess and restructure date information into more readable format
+                        # weekdays ordered from start at monday = 0 and sunday = 6
                         date = dateparser.parse(image['date'])
 
                         # store metadata into dictionary
                         image_data = {
-                            'picture'       : processed_img,
-                            'classification': predictions,
+                            'picture'       : processed_img.tolist(),
+                            'classification': predictions.tolist(),
                             'tags'          : image['tags'],
                             'mentions'      : image['mentions'],
                             'description'   : image['description'],
+                            'month'         : date.month,
                             'weekday'       : date.weekday(),
                             'hour'          : date.hour,
                             'likes'         : image['numberLikes']
@@ -72,8 +74,13 @@ for filename in filenames:
                     except:
                         continue
 
+
             # append instagram user's data and list of image posts into overall list
             data.append(user_data)
+
+        # print user alias that was processing was just completed for
+        print('({:d}) completed processing for user {:s}'.format(counter, user_data['user']))
+        counter += 1
 
         # close open file in preparation for next iteration
         file.close()
