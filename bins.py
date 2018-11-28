@@ -82,7 +82,7 @@ class bins:
 
 	def bin_classification(self, likes):
 		for i in range(1, len(self.bin_edges)):
-			if (likes >= self.bin_edges[i-1]) and (likes < self.bin_edges[i]):
+			if (likes > self.bin_edges[i-1]) and (likes <= self.bin_edges[i]):
 				return i-1
 
 		return i-1

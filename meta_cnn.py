@@ -2,6 +2,7 @@ import json
 import numpy as np
 from bins import *
 from keras import *
+from common import *
 
 path = './data.json'
 def preprocessing(path = path):
@@ -16,14 +17,10 @@ def preprocessing(path = path):
 			for post in user['images']:
 				num_posts = user['posts']
 				num_following = user['following']
-				num_followers = user['followers']
-				num_tags = len(post['tags'])
-				description_length = len(post['description'])				
+				num_followers = user['followers']			
 				p = [num_interp(num_posts), 
 					 num_interp(num_following), 
-					 num_interp(num_followers), 
-					 num_tags, 
-					 description_length]
+					 num_interp(num_followers)]
 				num_likes = post['likes']
 				if type(num_likes) is str:
 					num_likes = int(num_likes.replace(",", ""))
@@ -41,7 +38,7 @@ class meta_cnn:
 		self.num_classes = len(self.input_labels[0, :])
 		self.hidden_layers = hidden_layers
 		self.hidden_sizes = hidden_sizes
-		self.batch_size = 100
+		self.batch_size = 1000
 
 		self.model = Sequential()
 		self.construct_model()
@@ -61,10 +58,10 @@ class meta_cnn:
 		self.model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 
 	def train_model(self):
-		self.model.fit(self.input_data, self.input_labels, batch_size=10, epochs=1, verbose=1)
+		self.model.fit(self.input_data, self.input_labels, self.batch_size, epochs=1, verbose=1)
 
 inputs, outputs = preprocessing()
-MDL = meta_cnn(inputs, outputs, 1, [200000])
+MDL = meta_cnn(inputs, outputs, 1, [200, 200, 200, 200, 200])
 MDL.train_model()
 
 
