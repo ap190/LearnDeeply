@@ -19,7 +19,9 @@ class bins:
 		likes_array = []
 		for root, dirs, files in os.walk(self.path):
 			for file in files:
-				with open('./profiles/' + file, 'rb') as f:
+				with open(self.path + '/' + file, 'rb') as f:
+					if not file.endswith('.json'):
+						continue
 					loaded_json = json.load(f)
 					for post in loaded_json['posts']:
 						num_likes = post['numberLikes']
