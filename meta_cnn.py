@@ -11,7 +11,7 @@ def preprocessing(path = path):
 
 	with open(path, 'rb') as f:
 		loaded_json = json.load(f)
-		BIN = bins(100)
+		BIN = bins(5)
 		interval, sequence, bin_edges = BIN.even_bins()
 		for user in loaded_json:
 			for post in user['images']:
@@ -24,6 +24,7 @@ def preprocessing(path = path):
 				num_likes = post['likes']
 				if type(num_likes) is str:
 					num_likes = int(num_likes.replace(",", ""))
+				num_likes = num_likes / num_interp(num_followers)
 				label = BIN.bin_classification(num_likes)
 				inputs.append(p)
 				outputs.append(label)

@@ -5,11 +5,10 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 class bins:
-	def __init__(self, bin_nums = 10, path = "./profiles"):
+	def __init__(self, bin_nums = 10):
 		self.bin_nums = bin_nums
-		self.path = path
-		self.counted, self.likes_array = self.count_elements()
-		self.interval, self.sequence, self.bin_edges = self.even_bins()
+		self.likes_array = self.get_LFR_for_all_users()
+		_, self.sequence, self.bin_edges = self.even_bins()
 
 	def count_elements(self):
 		"""
@@ -18,19 +17,53 @@ class bins:
 		Output: counted[dictionary{num_likes: frequency}], likes_array[sequence]
 		"""
 		likes_array = []
-		for root, dirs, files in os.walk(self.path):
-			for file in files:
-				with open(self.path + '/' + file, 'rb') as f:
-					if not file.endswith('.json'):
-						continue
-					loaded_json = json.load(f)
-					for post in loaded_json['posts']:
-						num_likes = post['numberLikes']
-						if type(num_likes) is str:
-							num_likes = int(num_likes.replace(",", ""))
-						likes_array.append(num_likes)
+		with open("data.json", 'rb') as f:
+			loaded_json = json.load(f)
+			for user in loaded_json:
+				for post in user['images']:
+					num_likes = post['likes']
+					if type(num_likes) is str:
+						num_likes = int(num_likes.replace(",", ""))
+					likes_array.append(num_likes)
 		counted = Counter(likes_array)
 		return counted, likes_array
+
+	def get_LFR_for_user(self, user_data):
+		"""
+			Returns a list of LFR for a users posts.
+		"""
+		num_folowers = user_data["followers"]
+		if type(num_folowers) is str:
+			num_folowers = num_folowers.replace(",", "")
+			if "m" in num_folowers:
+				num_folowers = num_folowers.replace("m", "")
+				num_folowers = float(num_folowers) * 1000000
+			elif "k" in num_folowers:
+				num_folowers = num_folowers.replace("k", "")
+				num_folowers = float(num_folowers) * 1000
+			num_folowers = int(num_folowers)
+
+		posts = user_data["images"]
+		lfr_for_posts = []
+		for post in posts:
+			num_likes = post["likes"]
+			if type(num_likes) is str:
+				num_likes = num_likes.replace(",", "")
+				num_likes = int(num_likes)
+
+			lfr_for_posts.append(round(num_likes/num_folowers, 4))
+		return lfr_for_posts
+
+	def get_LFR_for_all_users(self):
+		"""
+		Gets
+		"""
+		with open("data.json")  as file:
+			data = json.load(file)
+			lfr_for_all_posts = []
+			for user in data:
+				lfr_for_all_posts += self.get_LFR_for_user(user)
+		return lfr_for_all_posts	
 
 	def ascii_histogram(self):
 		"""
