@@ -8,7 +8,7 @@ class bins:
 	def __init__(self, bin_nums = 10):
 		self.bin_nums = bin_nums
 		self.likes_array = self.get_LFR_for_all_users()
-		_, self.sequence, self.bin_edges = self.even_bins()
+		self.sequence, self.bin_edges = self.numpy_histogram()
 
 	def count_elements(self):
 		"""
