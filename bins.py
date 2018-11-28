@@ -7,7 +7,7 @@ import numpy as np
 class bins:
 	def __init__(self, bin_nums = 10):
 		self.bin_nums = bin_nums
-		self.likes_array = self.get_LFR_for_all_users()
+		self.likes_array = self.count_elements()
 		self.sequence, self.bin_edges = self.numpy_histogram()
 
 	def count_elements(self):
@@ -26,7 +26,7 @@ class bins:
 						num_likes = int(num_likes.replace(",", ""))
 					likes_array.append(num_likes)
 		counted = Counter(likes_array)
-		return counted, likes_array
+		return likes_array
 
 	def get_LFR_for_user(self, user_data):
 		"""
