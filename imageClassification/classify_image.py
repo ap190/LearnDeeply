@@ -1,6 +1,7 @@
 # USAGE
 # python classify_image.py --image images/soccer_ball.jpg 
-
+from urllib.request import urlopen
+from PIL import Image
 from keras.applications import InceptionResNetV2
 from keras.applications import imagenet_utils
 from keras.applications.inception_v3 import preprocess_input
@@ -26,7 +27,8 @@ model = InceptionResNetV2(weights="imagenet")
 # for the ImageNet pre-trained network
 print("[INFO] loading and pre-processing image...")
 inputShape = (299, 299)
-image = load_img(args["image"], target_size=inputShape)
+image = urlopen("https://instagram.fzty2-1.fna.fbcdn.net/vp/da8b68776d8d45b3781b5d03fc0f1594/5CAED781/t51.2885-15/sh0.08/e35/p640x640/18160447_208694132979174_816290175628869632_n.jpg")
+image = load_img(image, target_size=inputShape)
 image = img_to_array(image)
 
 # our input image is now represented as a NumPy array of shape
