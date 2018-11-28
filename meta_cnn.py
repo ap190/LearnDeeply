@@ -11,7 +11,7 @@ def preprocessing(path = path):
 
 	with open(path, 'rb') as f:
 		loaded_json = json.load(f)
-		BIN = bins(100)
+		BIN = bins(5)
 		interval, sequence, bin_edges = BIN.even_bins()
 		for user in loaded_json:
 			for post in user['images']:
