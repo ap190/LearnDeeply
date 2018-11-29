@@ -26,10 +26,9 @@ browser = webdriver.Chrome('./assets/chromedriver', options=chrome_options, chro
 
 URL = 'https://www.instagram.com'
 url = '%s/accounts/login/' % (URL)
-time.sleep(1)
 
 browser.get(url)
-time.sleep(10)
+time.sleep(3)
 u_input = browser.find_element_by_xpath('//*[@name="username"]')
 u_input.send_keys('dee290_') # your username here
 p_input = browser.find_element_by_xpath('//*[@name="password"]')
@@ -37,11 +36,8 @@ p_input.send_keys('somepass') # your password here
 
 login_btn = browser.find_element_by_class_name('L3NKy')
 login_btn.click()
-<<<<<<< HEAD
-time.sleep(10)
-=======
-time.sleep(1)
->>>>>>> a9a7b985ec962701f143cdf2105a257e557a4d19
+
+time.sleep(3)
 
 try:
   usernames = get_all_user_names()
