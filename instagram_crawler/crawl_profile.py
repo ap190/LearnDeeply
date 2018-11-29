@@ -3,6 +3,7 @@
 """Goes through all usernames and collects their information"""
 import json
 import datetime
+import time
 from util.settings import Settings
 from util.datasaver import Datasaver
 
@@ -26,6 +27,7 @@ browser = webdriver.Chrome('./assets/chromedriver', options=chrome_options, chro
 URL = 'https://www.instagram.com'
 url = '%s/accounts/login/' % (URL)
 browser.get(url)
+time.sleep(10)
 u_input = browser.find_element_by_xpath('//*[@name="username"]')
 u_input.send_keys('dee290_') # your username here
 p_input = browser.find_element_by_xpath('//*[@name="password"]')
@@ -33,7 +35,7 @@ p_input.send_keys('somepass') # your password here
 
 login_btn = browser.find_element_by_class_name('L3NKy')
 login_btn.click()
-
+time.sleep(10)
 
 try:
   usernames = get_all_user_names()
