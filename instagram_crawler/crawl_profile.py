@@ -36,8 +36,7 @@ p_input.send_keys('Joseph8388.') # your password here
 
 login_btn = browser.find_element_by_class_name('L3NKy')
 login_btn.click()
-
-time.sleep(3)
+time.sleep(10)
 
 try:
   usernames = get_all_user_names()
