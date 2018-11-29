@@ -16,6 +16,8 @@ def preprocessing(path = path):
 		#BIN = bins(100)
 		#interval, sequence, bin_edges = BIN.even_bins()
 		for user in loaded_json:
+			likes_per_post = []
+			data_without_variance = []
 			for post in user['images']:
 				num_posts = user['posts']
 				num_following = user['following']
@@ -32,16 +34,22 @@ def preprocessing(path = path):
 				num_likes = post['likes']
 				if type(num_likes) is str:
 					num_likes = int(num_likes.replace(",", ""))
-				if num_likes <= 0 or num_likes > 200000:
+				if num_likes <= 0 or num_likes > 500000:
 					continue
+				likes_per_post.append(np.log(num_likes))
 				"""
 				if num_likes < 10870:
 					label = BIN.bin_classification(num_likes)
 					inputs.append(p)
 					outputs.append(label)
 				"""
-				inputs.append(p)
 				outputs.append(np.log(num_likes))
+				data_without_variance.append(p)
+
+			variance = np.std(likes_per_post)
+			for p in data_without_variance:
+				p.append(variance)
+				inputs.append(p)
 	print(len(inputs))
 	print(len(outputs))
 	#print(inputs)
@@ -80,7 +88,7 @@ class meta_cnn:
 
 			self.model.add(layers.Dense(self.num_classes))
 
-		optimizer = optimizers.Adam(lr=0.01)
+		optimizer = optimizers.Adam(lr=0.001)
 		self.model.compile(loss='mape', optimizer=optimizer, metrics=["mae", "mse"])
 
 	def train_model(self):
@@ -94,21 +102,29 @@ class meta_cnn:
 		return self.test_data, self.prediction
 
 	def test_error(self):
-		return np.mean((np.exp(self.prediction) - self.test_labels))
+		print('test_error: %f' % (np.mean(abs(self.prediction - self.test_labels))))
+		return 
+
+	def train_error(self):
+		train_prediction = self.model.predict(self.input_data)
+		print('train_error: %f' % (np.mean(abs(train_prediction - self.input_labels))))
+		return
 
 	def item_error(self):
 		for i in range(len(self.test_labels)):
 			result = [exp(self.prediction[i]), exp(self.test_labels[i]), exp(self.prediction[i]) - exp(self.test_labels[i])]
 			print(result)
+		return
 
 inputs, outputs = preprocessing()
-MDL = meta_cnn(inputs, outputs, 3, [100, 100, 100])
+MDL = meta_cnn(inputs, outputs, 3, [200, 200, 100, 100, 100])
 MDL.train_model()
 test_data, prediction = MDL.test_model()
 print(prediction.shape)
-print(np.unique(prediction))
-print(MDL.test_error())
-print(MDL.item_error())
+print(len(np.unique(prediction)))
+MDL.train_error()
+MDL.test_error()
+MDL.item_error()
 
 
 
