@@ -12,8 +12,6 @@ import argparse
 
 # construct the argument parse and parse the arguments
 ap = argparse.ArgumentParser()
-ap.add_argument("-i", "--image", required=True,
-	help="path to the input image")
 args = vars(ap.parse_args())
 
 # load our the network weights from disk (NOTE: if this is the
@@ -48,5 +46,5 @@ P = imagenet_utils.decode_predictions(preds)
 # loop over the predictions and display the rank-5 predictions +
 # probabilities to our terminal
 for (i, (imagenetID, label, prob)) in enumerate(P[0]):
-	print("{}. {}: {:.2f}%".format(i + 1, label, prob * 100))
+	print("{}. {}: {:.2f}%".format(imagenetID, label, prob * 100))
 

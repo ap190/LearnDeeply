@@ -24,7 +24,9 @@ class bins:
 					num_likes = post['likes']
 					if type(num_likes) is str:
 						num_likes = int(num_likes.replace(",", ""))
-					likes_array.append(num_likes)
+					if num_likes < 10870:
+						likes_array.append(num_likes)
+		print(len(likes_array))
 		counted = Counter(likes_array)
 		return likes_array
 
@@ -83,6 +85,7 @@ class bins:
 		# Show hist and bin_edges
 		print(hist)
 		print(bin_edges)
+
 		return hist, bin_edges
 
 	def visualize_histogram(self):
