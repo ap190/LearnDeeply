@@ -2628,3 +2628,893 @@ INFO [2018-11-28 21:26:02] Scrapping Post Link: https://www.instagram.com/p/Bnox
 ERROR [2018-11-28 21:26:02] getting Location Infos  (perhaps not set)
 INFO [2018-11-28 21:26:02] date:2018-09-12T19:06:52.000Z
 INFO [2018-11-28 21:26:02] User taylorswift has 0 comments.
+INFO [2018-11-28 21:35:57] Extracting information from kyliejenner
+INFO [2018-11-28 21:35:59] alias name: Kylie
+INFO [2018-11-28 21:35:59] bio: @kyliecosmetics
+INFO [2018-11-28 21:35:59] url: KylieCosmetics.com
+INFO [2018-11-28 21:35:59] Posts: 5731
+INFO [2018-11-28 21:35:59] Follower: 120380613
+INFO [2018-11-28 21:35:59] Following: 129
+INFO [2018-11-28 21:35:59] isPrivate: False
+ERROR [2018-11-28 21:36:03] Couldn't get user posts.
+INFO [2018-11-28 21:36:03] User kyliejenner has 0 comments.
+INFO [2018-11-28 21:36:03] Extracting information from taylorswift
+INFO [2018-11-28 21:37:33] Extracting information from edeneats
+INFO [2018-11-28 21:37:35] alias name: Eden Grinshpan Nivron
+INFO [2018-11-28 21:37:35] bio: 👼🏻Mama to Ayv Rose Nivron🌹
+TV host 💃🏻
+Co-founder @intheDEZ 🥙🐫🌙
+#EdenEats #EdenEatsFor2
+INFO [2018-11-28 21:37:35] url: youtu.be/og0NhSnb8sg
+INFO [2018-11-28 21:37:35] Posts: 2144
+INFO [2018-11-28 21:37:35] Follower: 95074
+INFO [2018-11-28 21:37:35] Following: 1276
+INFO [2018-11-28 21:37:35] isPrivate: False
+INFO [2018-11-28 21:37:48] Scrapping Post Link: https://www.instagram.com/p/BpQJB-7HqVU/
+INFO [2018-11-28 21:37:50] location_id:152879448527347
+INFO [2018-11-28 21:37:50] location_url:https://www.instagram.com/explore/locations/152879448527347/dez/
+INFO [2018-11-28 21:37:50] location_name:DEZ
+ERROR [2018-11-28 21:37:50] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:37:50] date:2018-10-22T22:30:10.000Z
+INFO [2018-11-28 21:37:50] post-likes:
+INFO [2018-11-28 21:37:50] 2mentions
+ERROR [2018-11-28 21:37:50] Could not get information from post: https://www.instagram.com/p/BpQJB-7HqVU/
+INFO [2018-11-28 21:37:50] Scrapping Post Link: https://www.instagram.com/p/BoemMSjnFYv/
+INFO [2018-11-28 21:37:52] location_id:212991559
+INFO [2018-11-28 21:37:52] location_url:https://www.instagram.com/explore/locations/212991559/toronto-ontario/
+INFO [2018-11-28 21:37:52] location_name:Toronto, Ontario
+ERROR [2018-11-28 21:37:52] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:37:52] date:2018-10-03T16:42:57.000Z
+INFO [2018-11-28 21:37:52] post-likes:
+INFO [2018-11-28 21:37:52] 1mentions
+ERROR [2018-11-28 21:37:52] Could not get information from post: https://www.instagram.com/p/BoemMSjnFYv/
+INFO [2018-11-28 21:37:52] Scrapping Post Link: https://www.instagram.com/p/Bo4qy8kn7YD/
+INFO [2018-11-28 21:37:53] location_id:212988663
+INFO [2018-11-28 21:37:53] location_url:https://www.instagram.com/explore/locations/212988663/new-york-new-york/
+INFO [2018-11-28 21:37:53] location_name:New York, New York
+ERROR [2018-11-28 21:37:53] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:37:53] date:2018-10-13T19:43:26.000Z
+INFO [2018-11-28 21:37:53] post-likes:
+INFO [2018-11-28 21:37:53] 1mentions
+ERROR [2018-11-28 21:37:53] Could not get information from post: https://www.instagram.com/p/Bo4qy8kn7YD/
+INFO [2018-11-28 21:37:53] Scrapping Post Link: https://www.instagram.com/p/BqiLJ_Pl9q_/
+INFO [2018-11-28 21:37:55] location_id:215631076
+INFO [2018-11-28 21:37:55] location_url:https://www.instagram.com/explore/locations/215631076/williamsburg-brooklyn/
+INFO [2018-11-28 21:37:55] location_name:Williamsburg, Brooklyn
+ERROR [2018-11-28 21:37:55] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:37:55] date:2018-11-23T19:06:28.000Z
+INFO [2018-11-28 21:37:55] post-likes:
+INFO [2018-11-28 21:37:55] 1mentions
+ERROR [2018-11-28 21:37:55] Could not get information from post: https://www.instagram.com/p/BqiLJ_Pl9q_/
+INFO [2018-11-28 21:37:55] Scrapping Post Link: https://www.instagram.com/p/BqXl82elO-7/
+ERROR [2018-11-28 21:37:56] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:37:56] date:2018-11-19T16:28:57.000Z
+INFO [2018-11-28 21:37:56] post-likes:
+INFO [2018-11-28 21:37:56] 1mentions
+ERROR [2018-11-28 21:37:56] Could not get information from post: https://www.instagram.com/p/BqXl82elO-7/
+INFO [2018-11-28 21:37:56] Scrapping Post Link: https://www.instagram.com/p/Bp4XPVlli_V/
+INFO [2018-11-28 21:37:58] location_id:212988663
+INFO [2018-11-28 21:37:58] location_url:https://www.instagram.com/explore/locations/212988663/new-york-new-york/
+INFO [2018-11-28 21:37:58] location_name:New York, New York
+ERROR [2018-11-28 21:37:58] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:37:58] date:2018-11-07T13:25:01.000Z
+INFO [2018-11-28 21:37:58] post-likes:30376
+INFO [2018-11-28 21:37:58] Scrapping Post Link: https://www.instagram.com/p/Bqn99pAlnGc/
+INFO [2018-11-28 21:38:00] location_id:215631076
+INFO [2018-11-28 21:38:00] location_url:https://www.instagram.com/explore/locations/215631076/williamsburg-brooklyn/
+INFO [2018-11-28 21:38:00] location_name:Williamsburg, Brooklyn
+ERROR [2018-11-28 21:38:00] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:38:00] date:2018-11-26T01:06:37.000Z
+INFO [2018-11-28 21:38:00] post-likes:
+INFO [2018-11-28 21:38:00] 1mentions
+ERROR [2018-11-28 21:38:00] Could not get information from post: https://www.instagram.com/p/Bqn99pAlnGc/
+INFO [2018-11-28 21:38:00] Scrapping Post Link: https://www.instagram.com/p/BntjWXhH9FX/
+INFO [2018-11-28 21:38:01] location_id:215631076
+INFO [2018-11-28 21:38:01] location_url:https://www.instagram.com/explore/locations/215631076/williamsburg-brooklyn/
+INFO [2018-11-28 21:38:01] location_name:Williamsburg, Brooklyn
+ERROR [2018-11-28 21:38:01] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:38:01] date:2018-09-14T15:35:20.000Z
+INFO [2018-11-28 21:38:01] post-likes:
+INFO [2018-11-28 21:38:01] 1mentions
+ERROR [2018-11-28 21:38:01] Could not get information from post: https://www.instagram.com/p/BntjWXhH9FX/
+INFO [2018-11-28 21:38:01] Scrapping Post Link: https://www.instagram.com/p/BowlINjHAON/
+INFO [2018-11-28 21:38:03] location_id:212999109
+INFO [2018-11-28 21:38:03] location_url:https://www.instagram.com/explore/locations/212999109/los-angeles-california/
+INFO [2018-11-28 21:38:03] location_name:Los Angeles, California
+ERROR [2018-11-28 21:38:03] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:38:03] date:2018-10-10T16:19:59.000Z
+INFO [2018-11-28 21:38:03] post-likes:
+INFO [2018-11-28 21:38:03] 2mentions
+ERROR [2018-11-28 21:38:03] Could not get information from post: https://www.instagram.com/p/BowlINjHAON/
+INFO [2018-11-28 21:38:03] Scrapping Post Link: https://www.instagram.com/p/BohWQjzn6Cw/
+INFO [2018-11-28 21:38:04] location_id:212988663
+INFO [2018-11-28 21:38:04] location_url:https://www.instagram.com/explore/locations/212988663/new-york-new-york/
+INFO [2018-11-28 21:38:04] location_name:New York, New York
+ERROR [2018-11-28 21:38:04] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:38:04] date:2018-10-04T18:21:27.000Z
+INFO [2018-11-28 21:38:04] post-likes:
+INFO [2018-11-28 21:38:05] 1mentions
+ERROR [2018-11-28 21:38:05] Could not get information from post: https://www.instagram.com/p/BohWQjzn6Cw/
+INFO [2018-11-28 21:38:05] Scrapping Post Link: https://www.instagram.com/p/BpXNUYzny3J/
+INFO [2018-11-28 21:38:06] location_id:213041503
+INFO [2018-11-28 21:38:06] location_url:https://www.instagram.com/explore/locations/213041503/tel-aviv-israel/
+INFO [2018-11-28 21:38:06] location_name:Tel Aviv, Israel
+ERROR [2018-11-28 21:38:06] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:38:06] date:2018-10-25T16:22:19.000Z
+INFO [2018-11-28 21:38:06] post-likes:
+INFO [2018-11-28 21:38:06] 2mentions
+ERROR [2018-11-28 21:38:06] Could not get information from post: https://www.instagram.com/p/BpXNUYzny3J/
+INFO [2018-11-28 21:38:06] Scrapping Post Link: https://www.instagram.com/p/BoZgoWjHOr9/
+ERROR [2018-11-28 21:38:07] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:38:07] date:2018-10-01T17:44:23.000Z
+INFO [2018-11-28 21:38:07] post-likes:34044
+INFO [2018-11-28 21:38:07] Scrapping Post Link: https://www.instagram.com/p/BpsYaZVFnDc/
+INFO [2018-11-28 21:38:09] location_id:213041503
+INFO [2018-11-28 21:38:09] location_url:https://www.instagram.com/explore/locations/213041503/tel-aviv-israel/
+INFO [2018-11-28 21:38:09] location_name:Tel Aviv, Israel
+ERROR [2018-11-28 21:38:09] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:38:09] date:2018-11-02T21:43:18.000Z
+INFO [2018-11-28 21:38:09] post-likes:
+INFO [2018-11-28 21:38:09] 1mentions
+ERROR [2018-11-28 21:38:09] Could not get information from post: https://www.instagram.com/p/BpsYaZVFnDc/
+INFO [2018-11-28 21:38:09] Scrapping Post Link: https://www.instagram.com/p/BpSutDEnrOV/
+ERROR [2018-11-28 21:38:09] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:38:09] date:2018-10-23T22:38:09.000Z
+INFO [2018-11-28 21:38:10] post-likes:10969
+INFO [2018-11-28 21:38:10] Scrapping Post Link: https://www.instagram.com/p/Bn2H7oIHOFn/
+INFO [2018-11-28 21:38:11] location_id:213349446
+INFO [2018-11-28 21:38:11] location_url:https://www.instagram.com/explore/locations/213349446/toronto-pearson-international-airport/
+INFO [2018-11-28 21:38:11] location_name:Toronto Pearson International Airport
+ERROR [2018-11-28 21:38:11] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:38:11] date:2018-09-17T23:28:55.000Z
+INFO [2018-11-28 21:38:11] post-likes:
+ERROR [2018-11-28 21:38:11] Could not get information from post: https://www.instagram.com/p/Bn2H7oIHOFn/
+INFO [2018-11-28 21:38:11] Scrapping Post Link: https://www.instagram.com/p/BpCPSSPnqX2/
+ERROR [2018-11-28 21:38:12] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:38:12] date:2018-10-17T12:55:27.000Z
+INFO [2018-11-28 21:38:12] post-likes:
+INFO [2018-11-28 21:38:12] 1mentions
+ERROR [2018-11-28 21:38:12] Could not get information from post: https://www.instagram.com/p/BpCPSSPnqX2/
+INFO [2018-11-28 21:38:12] Scrapping Post Link: https://www.instagram.com/p/Bqu7eT3FBWr/
+ERROR [2018-11-28 21:38:13] getting Location Infos  (perhaps not set)
+ERROR [2018-11-28 21:38:13] ERROR - getting Post Date 
+ERROR [2018-11-28 21:38:13] Could not get information from post: https://www.instagram.com/p/Bqu7eT3FBWr/
+INFO [2018-11-28 21:38:13] Scrapping Post Link: https://www.instagram.com/p/BqfZdW4lTTs/
+ERROR [2018-11-28 21:38:13] Could not get information from post: https://www.instagram.com/p/BqfZdW4lTTs/
+INFO [2018-11-28 21:38:13] Scrapping Post Link: https://www.instagram.com/p/BqItvfWFbzM/
+ERROR [2018-11-28 21:38:13] Could not get information from post: https://www.instagram.com/p/BqItvfWFbzM/
+INFO [2018-11-28 21:38:13] Scrapping Post Link: https://www.instagram.com/p/Bot_w5DnEfs/
+ERROR [2018-11-28 21:38:13] Could not get information from post: https://www.instagram.com/p/Bot_w5DnEfs/
+INFO [2018-11-28 21:38:13] Scrapping Post Link: https://www.instagram.com/p/BqTUz0vl5Jk/
+ERROR [2018-11-28 21:38:13] Could not get information from post: https://www.instagram.com/p/BqTUz0vl5Jk/
+INFO [2018-11-28 21:38:13] Scrapping Post Link: https://www.instagram.com/p/Bnyfnf4nmDI/
+ERROR [2018-11-28 21:38:13] Could not get information from post: https://www.instagram.com/p/Bnyfnf4nmDI/
+INFO [2018-11-28 21:38:13] Scrapping Post Link: https://www.instagram.com/p/Bqm8J94luxw/
+ERROR [2018-11-28 21:38:13] Could not get information from post: https://www.instagram.com/p/Bqm8J94luxw/
+INFO [2018-11-28 21:38:13] Scrapping Post Link: https://www.instagram.com/p/Bn4jKlpHHyd/
+ERROR [2018-11-28 21:38:13] Could not get information from post: https://www.instagram.com/p/Bn4jKlpHHyd/
+INFO [2018-11-28 21:38:13] Scrapping Post Link: https://www.instagram.com/p/Bp613gQlATc/
+ERROR [2018-11-28 21:38:13] Could not get information from post: https://www.instagram.com/p/Bp613gQlATc/
+INFO [2018-11-28 21:38:13] Scrapping Post Link: https://www.instagram.com/p/BqDfysyluE8/
+ERROR [2018-11-28 21:38:13] Could not get information from post: https://www.instagram.com/p/BqDfysyluE8/
+INFO [2018-11-28 21:38:13] Scrapping Post Link: https://www.instagram.com/p/BqA08oelow0/
+ERROR [2018-11-28 21:38:13] Could not get information from post: https://www.instagram.com/p/BqA08oelow0/
+INFO [2018-11-28 21:38:13] Scrapping Post Link: https://www.instagram.com/p/BqfDBPCF0G8/
+ERROR [2018-11-28 21:38:13] Could not get information from post: https://www.instagram.com/p/BqfDBPCF0G8/
+INFO [2018-11-28 21:38:13] Scrapping Post Link: https://www.instagram.com/p/BpM87xdnO1s/
+ERROR [2018-11-28 21:38:13] Could not get information from post: https://www.instagram.com/p/BpM87xdnO1s/
+INFO [2018-11-28 21:38:13] Scrapping Post Link: https://www.instagram.com/p/BoyufiRH9xw/
+ERROR [2018-11-28 21:38:13] Could not get information from post: https://www.instagram.com/p/BoyufiRH9xw/
+INFO [2018-11-28 21:38:13] Scrapping Post Link: https://www.instagram.com/p/BpzoSUqFf1V/
+ERROR [2018-11-28 21:38:13] Could not get information from post: https://www.instagram.com/p/BpzoSUqFf1V/
+INFO [2018-11-28 21:38:13] Scrapping Post Link: https://www.instagram.com/p/Bpg57AjFlbR/
+ERROR [2018-11-28 21:38:13] Could not get information from post: https://www.instagram.com/p/Bpg57AjFlbR/
+INFO [2018-11-28 21:38:13] Scrapping Post Link: https://www.instagram.com/p/BqVGhQzFtaw/
+ERROR [2018-11-28 21:38:13] Could not get information from post: https://www.instagram.com/p/BqVGhQzFtaw/
+INFO [2018-11-28 21:38:13] Scrapping Post Link: https://www.instagram.com/p/BpFn2erHQJ-/
+ERROR [2018-11-28 21:38:13] Could not get information from post: https://www.instagram.com/p/BpFn2erHQJ-/
+INFO [2018-11-28 21:38:13] Scrapping Post Link: https://www.instagram.com/p/BqNHZMklP4Z/
+ERROR [2018-11-28 21:38:13] Could not get information from post: https://www.instagram.com/p/BqNHZMklP4Z/
+INFO [2018-11-28 21:38:13] Scrapping Post Link: https://www.instagram.com/p/BqPhjnUlJis/
+ERROR [2018-11-28 21:38:13] Could not get information from post: https://www.instagram.com/p/BqPhjnUlJis/
+INFO [2018-11-28 21:38:13] Scrapping Post Link: https://www.instagram.com/p/Bo62Ak_H5v5/
+ERROR [2018-11-28 21:38:13] Could not get information from post: https://www.instagram.com/p/Bo62Ak_H5v5/
+INFO [2018-11-28 21:38:13] Scrapping Post Link: https://www.instagram.com/p/Boo5CMCnd7G/
+ERROR [2018-11-28 21:38:13] Could not get information from post: https://www.instagram.com/p/Boo5CMCnd7G/
+INFO [2018-11-28 21:38:13] Scrapping Post Link: https://www.instagram.com/p/Bpo5jFhFbi6/
+ERROR [2018-11-28 21:38:13] Could not get information from post: https://www.instagram.com/p/Bpo5jFhFbi6/
+INFO [2018-11-28 21:38:13] Scrapping Post Link: https://www.instagram.com/p/BqKXNHPlOI2/
+ERROR [2018-11-28 21:38:13] Could not get information from post: https://www.instagram.com/p/BqKXNHPlOI2/
+INFO [2018-11-28 21:38:13] User edeneats has 0 comments.
+INFO [2018-11-28 21:38:36] Extracting information from edeneats
+INFO [2018-11-28 21:38:38] alias name: Eden Grinshpan Nivron
+INFO [2018-11-28 21:38:38] bio: 👼🏻Mama to Ayv Rose Nivron🌹
+TV host 💃🏻
+Co-founder @intheDEZ 🥙🐫🌙
+#EdenEats #EdenEatsFor2
+INFO [2018-11-28 21:38:38] url: youtu.be/og0NhSnb8sg
+INFO [2018-11-28 21:38:38] Posts: 2144
+INFO [2018-11-28 21:38:38] Follower: 95074
+INFO [2018-11-28 21:38:38] Following: 1276
+INFO [2018-11-28 21:38:38] isPrivate: False
+ERROR [2018-11-28 21:38:49] Couldn't get user posts.
+INFO [2018-11-28 21:38:49] User edeneats has 0 comments.
+INFO [2018-11-28 21:38:56] Extracting information from edeneats
+INFO [2018-11-28 21:38:58] alias name: Eden Grinshpan Nivron
+INFO [2018-11-28 21:38:58] bio: 👼🏻Mama to Ayv Rose Nivron🌹
+TV host 💃🏻
+Co-founder @intheDEZ 🥙🐫🌙
+#EdenEats #EdenEatsFor2
+INFO [2018-11-28 21:38:58] url: youtu.be/og0NhSnb8sg
+INFO [2018-11-28 21:38:58] Posts: 2144
+INFO [2018-11-28 21:38:58] Follower: 95074
+INFO [2018-11-28 21:38:58] Following: 1276
+INFO [2018-11-28 21:38:58] isPrivate: False
+ERROR [2018-11-28 21:39:02] Couldn't get user posts.
+INFO [2018-11-28 21:39:02] User edeneats has 0 comments.
+INFO [2018-11-28 21:40:14] Extracting information from edeneats
+INFO [2018-11-28 21:40:16] alias name: Eden Grinshpan Nivron
+INFO [2018-11-28 21:40:16] bio: 👼🏻Mama to Ayv Rose Nivron🌹
+TV host 💃🏻
+Co-founder @intheDEZ 🥙🐫🌙
+#EdenEats #EdenEatsFor2
+INFO [2018-11-28 21:40:16] url: youtu.be/og0NhSnb8sg
+INFO [2018-11-28 21:40:16] Posts: 2144
+INFO [2018-11-28 21:40:16] Follower: 95074
+INFO [2018-11-28 21:40:16] Following: 1276
+INFO [2018-11-28 21:40:16] isPrivate: False
+INFO [2018-11-28 21:40:31] Scrapping Post Link: https://www.instagram.com/p/BntjWXhH9FX/
+ERROR [2018-11-28 21:40:32] getting Location Infos  (perhaps not set)
+ERROR [2018-11-28 21:40:32] ERROR - getting Post Date 
+ERROR [2018-11-28 21:40:32] Could not get information from post: https://www.instagram.com/p/BntjWXhH9FX/
+INFO [2018-11-28 21:40:32] Scrapping Post Link: https://www.instagram.com/p/BohWQjzn6Cw/
+ERROR [2018-11-28 21:40:32] Could not get information from post: https://www.instagram.com/p/BohWQjzn6Cw/
+INFO [2018-11-28 21:40:32] Scrapping Post Link: https://www.instagram.com/p/BqKXNHPlOI2/
+ERROR [2018-11-28 21:40:32] Could not get information from post: https://www.instagram.com/p/BqKXNHPlOI2/
+INFO [2018-11-28 21:40:32] Scrapping Post Link: https://www.instagram.com/p/BoZgoWjHOr9/
+ERROR [2018-11-28 21:40:32] Could not get information from post: https://www.instagram.com/p/BoZgoWjHOr9/
+INFO [2018-11-28 21:40:32] Scrapping Post Link: https://www.instagram.com/p/BqXl82elO-7/
+ERROR [2018-11-28 21:40:32] Could not get information from post: https://www.instagram.com/p/BqXl82elO-7/
+INFO [2018-11-28 21:40:32] Scrapping Post Link: https://www.instagram.com/p/Bn2H7oIHOFn/
+ERROR [2018-11-28 21:40:32] Could not get information from post: https://www.instagram.com/p/Bn2H7oIHOFn/
+INFO [2018-11-28 21:40:32] Scrapping Post Link: https://www.instagram.com/p/BqfZdW4lTTs/
+ERROR [2018-11-28 21:40:32] Could not get information from post: https://www.instagram.com/p/BqfZdW4lTTs/
+INFO [2018-11-28 21:40:32] Scrapping Post Link: https://www.instagram.com/p/Bqm8J94luxw/
+ERROR [2018-11-28 21:40:32] Could not get information from post: https://www.instagram.com/p/Bqm8J94luxw/
+INFO [2018-11-28 21:40:32] Scrapping Post Link: https://www.instagram.com/p/BqfDBPCF0G8/
+ERROR [2018-11-28 21:40:32] Could not get information from post: https://www.instagram.com/p/BqfDBPCF0G8/
+INFO [2018-11-28 21:40:32] Scrapping Post Link: https://www.instagram.com/p/BqA08oelow0/
+ERROR [2018-11-28 21:40:32] Could not get information from post: https://www.instagram.com/p/BqA08oelow0/
+INFO [2018-11-28 21:40:32] Scrapping Post Link: https://www.instagram.com/p/BpsYaZVFnDc/
+ERROR [2018-11-28 21:40:32] Could not get information from post: https://www.instagram.com/p/BpsYaZVFnDc/
+INFO [2018-11-28 21:40:32] Scrapping Post Link: https://www.instagram.com/p/BpM87xdnO1s/
+ERROR [2018-11-28 21:40:32] Could not get information from post: https://www.instagram.com/p/BpM87xdnO1s/
+INFO [2018-11-28 21:40:32] Scrapping Post Link: https://www.instagram.com/p/Bot_w5DnEfs/
+ERROR [2018-11-28 21:40:32] Could not get information from post: https://www.instagram.com/p/Bot_w5DnEfs/
+INFO [2018-11-28 21:40:32] Scrapping Post Link: https://www.instagram.com/p/BpXNUYzny3J/
+ERROR [2018-11-28 21:40:32] Could not get information from post: https://www.instagram.com/p/BpXNUYzny3J/
+INFO [2018-11-28 21:40:32] Scrapping Post Link: https://www.instagram.com/p/Bpo5jFhFbi6/
+ERROR [2018-11-28 21:40:32] Could not get information from post: https://www.instagram.com/p/Bpo5jFhFbi6/
+INFO [2018-11-28 21:40:32] Scrapping Post Link: https://www.instagram.com/p/BoemMSjnFYv/
+ERROR [2018-11-28 21:40:32] Could not get information from post: https://www.instagram.com/p/BoemMSjnFYv/
+INFO [2018-11-28 21:40:32] Scrapping Post Link: https://www.instagram.com/p/Bqu7eT3FBWr/
+ERROR [2018-11-28 21:40:32] Could not get information from post: https://www.instagram.com/p/Bqu7eT3FBWr/
+INFO [2018-11-28 21:40:32] Scrapping Post Link: https://www.instagram.com/p/BowlINjHAON/
+ERROR [2018-11-28 21:40:32] Could not get information from post: https://www.instagram.com/p/BowlINjHAON/
+INFO [2018-11-28 21:40:32] Scrapping Post Link: https://www.instagram.com/p/BqItvfWFbzM/
+ERROR [2018-11-28 21:40:32] Could not get information from post: https://www.instagram.com/p/BqItvfWFbzM/
+INFO [2018-11-28 21:40:32] Scrapping Post Link: https://www.instagram.com/p/BoyufiRH9xw/
+ERROR [2018-11-28 21:40:32] Could not get information from post: https://www.instagram.com/p/BoyufiRH9xw/
+INFO [2018-11-28 21:40:32] Scrapping Post Link: https://www.instagram.com/p/Bo4qy8kn7YD/
+ERROR [2018-11-28 21:40:32] Could not get information from post: https://www.instagram.com/p/Bo4qy8kn7YD/
+INFO [2018-11-28 21:40:32] Scrapping Post Link: https://www.instagram.com/p/BqiLJ_Pl9q_/
+ERROR [2018-11-28 21:40:32] Could not get information from post: https://www.instagram.com/p/BqiLJ_Pl9q_/
+INFO [2018-11-28 21:40:32] Scrapping Post Link: https://www.instagram.com/p/Bqn99pAlnGc/
+ERROR [2018-11-28 21:40:32] Could not get information from post: https://www.instagram.com/p/Bqn99pAlnGc/
+INFO [2018-11-28 21:40:32] Scrapping Post Link: https://www.instagram.com/p/BqPhjnUlJis/
+ERROR [2018-11-28 21:40:32] Could not get information from post: https://www.instagram.com/p/BqPhjnUlJis/
+INFO [2018-11-28 21:40:32] Scrapping Post Link: https://www.instagram.com/p/BqNHZMklP4Z/
+ERROR [2018-11-28 21:40:32] Could not get information from post: https://www.instagram.com/p/BqNHZMklP4Z/
+INFO [2018-11-28 21:40:32] Scrapping Post Link: https://www.instagram.com/p/Bnyfnf4nmDI/
+ERROR [2018-11-28 21:40:32] Could not get information from post: https://www.instagram.com/p/Bnyfnf4nmDI/
+INFO [2018-11-28 21:40:32] Scrapping Post Link: https://www.instagram.com/p/Bp4XPVlli_V/
+ERROR [2018-11-28 21:40:32] Could not get information from post: https://www.instagram.com/p/Bp4XPVlli_V/
+INFO [2018-11-28 21:40:32] Scrapping Post Link: https://www.instagram.com/p/BpQJB-7HqVU/
+ERROR [2018-11-28 21:40:32] Could not get information from post: https://www.instagram.com/p/BpQJB-7HqVU/
+INFO [2018-11-28 21:40:32] Scrapping Post Link: https://www.instagram.com/p/BqVGhQzFtaw/
+ERROR [2018-11-28 21:40:32] Could not get information from post: https://www.instagram.com/p/BqVGhQzFtaw/
+INFO [2018-11-28 21:40:32] Scrapping Post Link: https://www.instagram.com/p/BpFn2erHQJ-/
+ERROR [2018-11-28 21:40:32] Could not get information from post: https://www.instagram.com/p/BpFn2erHQJ-/
+INFO [2018-11-28 21:40:32] Scrapping Post Link: https://www.instagram.com/p/BpSutDEnrOV/
+ERROR [2018-11-28 21:40:32] Could not get information from post: https://www.instagram.com/p/BpSutDEnrOV/
+INFO [2018-11-28 21:40:32] Scrapping Post Link: https://www.instagram.com/p/Boo5CMCnd7G/
+ERROR [2018-11-28 21:40:32] Could not get information from post: https://www.instagram.com/p/Boo5CMCnd7G/
+INFO [2018-11-28 21:40:32] Scrapping Post Link: https://www.instagram.com/p/BqDfysyluE8/
+ERROR [2018-11-28 21:40:32] Could not get information from post: https://www.instagram.com/p/BqDfysyluE8/
+INFO [2018-11-28 21:40:32] Scrapping Post Link: https://www.instagram.com/p/Bo62Ak_H5v5/
+ERROR [2018-11-28 21:40:32] Could not get information from post: https://www.instagram.com/p/Bo62Ak_H5v5/
+INFO [2018-11-28 21:40:32] Scrapping Post Link: https://www.instagram.com/p/BqTUz0vl5Jk/
+ERROR [2018-11-28 21:40:32] Could not get information from post: https://www.instagram.com/p/BqTUz0vl5Jk/
+INFO [2018-11-28 21:40:32] Scrapping Post Link: https://www.instagram.com/p/Bn4jKlpHHyd/
+ERROR [2018-11-28 21:40:32] Could not get information from post: https://www.instagram.com/p/Bn4jKlpHHyd/
+INFO [2018-11-28 21:40:32] Scrapping Post Link: https://www.instagram.com/p/Bp613gQlATc/
+ERROR [2018-11-28 21:40:32] Could not get information from post: https://www.instagram.com/p/Bp613gQlATc/
+INFO [2018-11-28 21:40:32] Scrapping Post Link: https://www.instagram.com/p/BpCPSSPnqX2/
+ERROR [2018-11-28 21:40:32] Could not get information from post: https://www.instagram.com/p/BpCPSSPnqX2/
+INFO [2018-11-28 21:40:32] Scrapping Post Link: https://www.instagram.com/p/Bpg57AjFlbR/
+ERROR [2018-11-28 21:40:32] Could not get information from post: https://www.instagram.com/p/Bpg57AjFlbR/
+INFO [2018-11-28 21:40:32] Scrapping Post Link: https://www.instagram.com/p/BpzoSUqFf1V/
+ERROR [2018-11-28 21:40:32] Could not get information from post: https://www.instagram.com/p/BpzoSUqFf1V/
+INFO [2018-11-28 21:40:32] User edeneats has 0 comments.
+INFO [2018-11-28 21:44:38] Extracting information from edeneats
+INFO [2018-11-28 21:44:41] alias name: Eden Grinshpan Nivron
+INFO [2018-11-28 21:44:41] bio: 👼🏻Mama to Ayv Rose Nivron🌹
+TV host 💃🏻
+Co-founder @intheDEZ 🥙🐫🌙
+#EdenEats #EdenEatsFor2
+INFO [2018-11-28 21:44:41] url: youtu.be/og0NhSnb8sg
+INFO [2018-11-28 21:44:41] Posts: 2144
+INFO [2018-11-28 21:44:41] Follower: 95073
+INFO [2018-11-28 21:44:41] Following: 1276
+INFO [2018-11-28 21:44:41] isPrivate: False
+INFO [2018-11-28 21:44:54] Scrapping Post Link: https://www.instagram.com/p/BpCPSSPnqX2/
+ERROR [2018-11-28 21:44:55] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:44:55] date:2018-10-17T12:55:27.000Z
+INFO [2018-11-28 21:44:55] post-likes:3188
+INFO [2018-11-28 21:44:55] 1mentions
+INFO [2018-11-28 21:44:55] Scrapping Post Link: https://www.instagram.com/p/Bqu7eT3FBWr/
+INFO [2018-11-28 21:44:56] location_id:215631076
+INFO [2018-11-28 21:44:56] location_url:https://www.instagram.com/explore/locations/215631076/williamsburg-brooklyn/
+INFO [2018-11-28 21:44:56] location_name:Williamsburg, Brooklyn
+ERROR [2018-11-28 21:44:56] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:44:56] date:2018-11-28T17:59:33.000Z
+INFO [2018-11-28 21:44:56] post-likes:6783
+INFO [2018-11-28 21:44:56] 2mentions
+INFO [2018-11-28 21:44:56] Scrapping Post Link: https://www.instagram.com/p/BoHENicHnBg/
+INFO [2018-11-28 21:45:00] location_id:212991559
+INFO [2018-11-28 21:45:00] location_url:https://www.instagram.com/explore/locations/212991559/toronto-ontario/
+INFO [2018-11-28 21:45:00] location_name:Toronto, Ontario
+ERROR [2018-11-28 21:45:00] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:45:00] date:2018-09-24T13:23:30.000Z
+INFO [2018-11-28 21:45:00] post-likes:2241
+INFO [2018-11-28 21:45:00] Scrapping Post Link: https://www.instagram.com/p/BqXl82elO-7/
+ERROR [2018-11-28 21:45:01] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:45:01] date:2018-11-19T16:28:57.000Z
+INFO [2018-11-28 21:45:01] post-likes:2183
+INFO [2018-11-28 21:45:01] 1mentions
+INFO [2018-11-28 21:45:01] Scrapping Post Link: https://www.instagram.com/p/BqItvfWFbzM/
+INFO [2018-11-28 21:45:02] location_id:264915885
+INFO [2018-11-28 21:45:02] location_url:https://www.instagram.com/explore/locations/264915885/israel/
+INFO [2018-11-28 21:45:02] location_name:Israel
+ERROR [2018-11-28 21:45:02] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:45:02] date:2018-11-13T21:51:18.000Z
+INFO [2018-11-28 21:45:02] post-likes:19936
+INFO [2018-11-28 21:45:02] Scrapping Post Link: https://www.instagram.com/p/BpSutDEnrOV/
+ERROR [2018-11-28 21:45:03] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:45:03] date:2018-10-23T22:38:09.000Z
+INFO [2018-11-28 21:45:03] post-likes:10971
+INFO [2018-11-28 21:45:03] Scrapping Post Link: https://www.instagram.com/p/BpM87xdnO1s/
+ERROR [2018-11-28 21:45:04] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:45:04] date:2018-10-21T16:46:44.000Z
+INFO [2018-11-28 21:45:04] post-likes:4132
+INFO [2018-11-28 21:45:04] 1mentions
+INFO [2018-11-28 21:45:04] Scrapping Post Link: https://www.instagram.com/p/BqfDBPCF0G8/
+INFO [2018-11-28 21:45:06] location_id:215631076
+INFO [2018-11-28 21:45:06] location_url:https://www.instagram.com/explore/locations/215631076/williamsburg-brooklyn/
+INFO [2018-11-28 21:45:06] location_name:Williamsburg, Brooklyn
+ERROR [2018-11-28 21:45:06] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:45:06] date:2018-11-22T13:57:38.000Z
+INFO [2018-11-28 21:45:06] post-likes:2547
+INFO [2018-11-28 21:45:06] 1mentions
+INFO [2018-11-28 21:45:06] Scrapping Post Link: https://www.instagram.com/p/BoKkmecHQQx/
+ERROR [2018-11-28 21:45:07] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:45:07] date:2018-09-25T22:04:14.000Z
+INFO [2018-11-28 21:45:07] post-likes:2246
+INFO [2018-11-28 21:45:07] 1mentions
+INFO [2018-11-28 21:45:07] Scrapping Post Link: https://www.instagram.com/p/BowlINjHAON/
+INFO [2018-11-28 21:45:08] location_id:212999109
+INFO [2018-11-28 21:45:08] location_url:https://www.instagram.com/explore/locations/212999109/los-angeles-california/
+INFO [2018-11-28 21:45:08] location_name:Los Angeles, California
+ERROR [2018-11-28 21:45:08] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:45:09] date:2018-10-10T16:19:59.000Z
+INFO [2018-11-28 21:45:09] post-likes:1716
+INFO [2018-11-28 21:45:09] 2mentions
+INFO [2018-11-28 21:45:09] Scrapping Post Link: https://www.instagram.com/p/Bo62Ak_H5v5/
+INFO [2018-11-28 21:45:10] location_id:16831920
+INFO [2018-11-28 21:45:10] location_url:https://www.instagram.com/explore/locations/16831920/robertas/
+INFO [2018-11-28 21:45:10] location_name:Roberta's
+ERROR [2018-11-28 21:45:10] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:45:10] date:2018-10-14T15:59:54.000Z
+INFO [2018-11-28 21:45:10] post-likes:5239
+INFO [2018-11-28 21:45:10] Scrapping Post Link: https://www.instagram.com/p/BqiLJ_Pl9q_/
+INFO [2018-11-28 21:45:12] location_id:215631076
+INFO [2018-11-28 21:45:12] location_url:https://www.instagram.com/explore/locations/215631076/williamsburg-brooklyn/
+INFO [2018-11-28 21:45:12] location_name:Williamsburg, Brooklyn
+ERROR [2018-11-28 21:45:12] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:45:12] date:2018-11-23T19:06:28.000Z
+INFO [2018-11-28 21:45:12] post-likes:3595
+INFO [2018-11-28 21:45:12] 1mentions
+INFO [2018-11-28 21:45:12] Scrapping Post Link: https://www.instagram.com/p/Bp4XPVlli_V/
+INFO [2018-11-28 21:45:14] location_id:212988663
+INFO [2018-11-28 21:45:14] location_url:https://www.instagram.com/explore/locations/212988663/new-york-new-york/
+INFO [2018-11-28 21:45:14] location_name:New York, New York
+ERROR [2018-11-28 21:45:14] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:45:14] date:2018-11-07T13:25:01.000Z
+INFO [2018-11-28 21:45:14] post-likes:30380
+INFO [2018-11-28 21:45:14] Scrapping Post Link: https://www.instagram.com/p/Bo4qy8kn7YD/
+INFO [2018-11-28 21:45:16] location_id:212988663
+INFO [2018-11-28 21:45:16] location_url:https://www.instagram.com/explore/locations/212988663/new-york-new-york/
+INFO [2018-11-28 21:45:16] location_name:New York, New York
+ERROR [2018-11-28 21:45:16] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:45:16] date:2018-10-13T19:43:26.000Z
+INFO [2018-11-28 21:45:16] post-likes:5053
+INFO [2018-11-28 21:45:16] 1mentions
+INFO [2018-11-28 21:45:16] Scrapping Post Link: https://www.instagram.com/p/Bqn99pAlnGc/
+INFO [2018-11-28 21:45:17] location_id:215631076
+INFO [2018-11-28 21:45:17] location_url:https://www.instagram.com/explore/locations/215631076/williamsburg-brooklyn/
+INFO [2018-11-28 21:45:17] location_name:Williamsburg, Brooklyn
+ERROR [2018-11-28 21:45:17] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:45:17] date:2018-11-26T01:06:37.000Z
+INFO [2018-11-28 21:45:17] post-likes:8995
+INFO [2018-11-28 21:45:17] 1mentions
+INFO [2018-11-28 21:45:17] Scrapping Post Link: https://www.instagram.com/p/BpFn2erHQJ-/
+INFO [2018-11-28 21:45:19] location_id:212988663
+INFO [2018-11-28 21:45:19] location_url:https://www.instagram.com/explore/locations/212988663/new-york-new-york/
+INFO [2018-11-28 21:45:19] location_name:New York, New York
+ERROR [2018-11-28 21:45:19] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:45:19] date:2018-10-18T20:27:50.000Z
+INFO [2018-11-28 21:45:19] post-likes:4510
+INFO [2018-11-28 21:45:19] Scrapping Post Link: https://www.instagram.com/p/BqVGhQzFtaw/
+INFO [2018-11-28 21:45:21] location_id:152879448527347
+INFO [2018-11-28 21:45:21] location_url:https://www.instagram.com/explore/locations/152879448527347/dez/
+INFO [2018-11-28 21:45:21] location_name:DEZ
+ERROR [2018-11-28 21:45:21] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:45:21] date:2018-11-18T17:15:49.000Z
+INFO [2018-11-28 21:45:21] post-likes:1234
+INFO [2018-11-28 21:45:21] 2mentions
+INFO [2018-11-28 21:45:21] Scrapping Post Link: https://www.instagram.com/p/Bpg57AjFlbR/
+ERROR [2018-11-28 21:45:22] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:45:22] date:2018-10-29T10:45:14.000Z
+INFO [2018-11-28 21:45:22] post-likes:1464
+INFO [2018-11-28 21:45:22] 1mentions
+INFO [2018-11-28 21:45:22] Scrapping Post Link: https://www.instagram.com/p/Bn4jKlpHHyd/
+INFO [2018-11-28 21:45:24] location_id:212991559
+INFO [2018-11-28 21:45:24] location_url:https://www.instagram.com/explore/locations/212991559/toronto-ontario/
+INFO [2018-11-28 21:45:24] location_name:Toronto, Ontario
+ERROR [2018-11-28 21:45:24] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:45:24] date:2018-09-18T22:05:22.000Z
+INFO [2018-11-28 21:45:24] post-likes:2631
+INFO [2018-11-28 21:45:24] 1mentions
+INFO [2018-11-28 21:45:24] Scrapping Post Link: https://www.instagram.com/p/BoZgoWjHOr9/
+ERROR [2018-11-28 21:45:25] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:45:25] date:2018-10-01T17:44:23.000Z
+INFO [2018-11-28 21:45:25] post-likes:34046
+INFO [2018-11-28 21:45:25] Scrapping Post Link: https://www.instagram.com/p/Boo5CMCnd7G/
+INFO [2018-11-28 21:45:26] location_id:212991559
+INFO [2018-11-28 21:45:26] location_url:https://www.instagram.com/explore/locations/212991559/toronto-ontario/
+INFO [2018-11-28 21:45:26] location_name:Toronto, Ontario
+ERROR [2018-11-28 21:45:26] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:45:26] date:2018-10-07T16:42:58.000Z
+INFO [2018-11-28 21:45:26] post-likes:22775
+INFO [2018-11-28 21:45:26] Scrapping Post Link: https://www.instagram.com/p/BqfZdW4lTTs/
+INFO [2018-11-28 21:45:28] location_id:215631076
+INFO [2018-11-28 21:45:28] location_url:https://www.instagram.com/explore/locations/215631076/williamsburg-brooklyn/
+INFO [2018-11-28 21:45:28] location_name:Williamsburg, Brooklyn
+ERROR [2018-11-28 21:45:28] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:45:28] date:2018-11-22T17:14:38.000Z
+INFO [2018-11-28 21:45:28] post-likes:19054
+INFO [2018-11-28 21:45:28] Scrapping Post Link: https://www.instagram.com/p/BqKXNHPlOI2/
+INFO [2018-11-28 21:45:29] location_id:215631076
+INFO [2018-11-28 21:45:29] location_url:https://www.instagram.com/explore/locations/215631076/williamsburg-brooklyn/
+INFO [2018-11-28 21:45:29] location_name:Williamsburg, Brooklyn
+ERROR [2018-11-28 21:45:29] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:45:29] date:2018-11-14T13:09:58.000Z
+INFO [2018-11-28 21:45:30] post-likes:3220
+INFO [2018-11-28 21:45:30] 1mentions
+INFO [2018-11-28 21:45:30] Scrapping Post Link: https://www.instagram.com/p/Bn_RzrrHuGs/
+ERROR [2018-11-28 21:45:30] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:45:30] date:2018-09-21T12:48:22.000Z
+INFO [2018-11-28 21:45:30] post-likes:3148
+INFO [2018-11-28 21:45:30] 1mentions
+INFO [2018-11-28 21:45:30] Scrapping Post Link: https://www.instagram.com/p/BqPhjnUlJis/
+INFO [2018-11-28 21:45:32] location_id:215631076
+INFO [2018-11-28 21:45:32] location_url:https://www.instagram.com/explore/locations/215631076/williamsburg-brooklyn/
+INFO [2018-11-28 21:45:32] location_name:Williamsburg, Brooklyn
+ERROR [2018-11-28 21:45:32] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:45:32] date:2018-11-16T13:16:55.000Z
+INFO [2018-11-28 21:45:32] post-likes:26149
+INFO [2018-11-28 21:45:32] Scrapping Post Link: https://www.instagram.com/p/Bqm8J94luxw/
+ERROR [2018-11-28 21:45:33] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:45:33] date:2018-11-25T15:31:35.000Z
+INFO [2018-11-28 21:45:33] post-likes:5096
+INFO [2018-11-28 21:45:33] Scrapping Post Link: https://www.instagram.com/p/Bp613gQlATc/
+INFO [2018-11-28 21:45:35] location_id:213041503
+INFO [2018-11-28 21:45:35] location_url:https://www.instagram.com/explore/locations/213041503/tel-aviv-israel/
+INFO [2018-11-28 21:45:35] location_name:Tel Aviv, Israel
+ERROR [2018-11-28 21:45:35] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:45:35] date:2018-11-08T12:30:03.000Z
+INFO [2018-11-28 21:45:35] post-likes:3725
+INFO [2018-11-28 21:45:35] Scrapping Post Link: https://www.instagram.com/p/BqNHZMklP4Z/
+INFO [2018-11-28 21:45:36] location_id:215631076
+INFO [2018-11-28 21:45:36] location_url:https://www.instagram.com/explore/locations/215631076/williamsburg-brooklyn/
+INFO [2018-11-28 21:45:36] location_name:Williamsburg, Brooklyn
+ERROR [2018-11-28 21:45:36] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:45:36] date:2018-11-15T14:50:23.000Z
+INFO [2018-11-28 21:45:36] post-likes:32640
+INFO [2018-11-28 21:45:36] Scrapping Post Link: https://www.instagram.com/p/BqDfysyluE8/
+INFO [2018-11-28 21:45:38] location_id:215631076
+INFO [2018-11-28 21:45:38] location_url:https://www.instagram.com/explore/locations/215631076/williamsburg-brooklyn/
+INFO [2018-11-28 21:45:38] location_name:Williamsburg, Brooklyn
+ERROR [2018-11-28 21:45:38] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:45:38] date:2018-11-11T21:10:19.000Z
+INFO [2018-11-28 21:45:38] post-likes:6839
+INFO [2018-11-28 21:45:38] 1mentions
+INFO [2018-11-28 21:45:38] Scrapping Post Link: https://www.instagram.com/p/BoyufiRH9xw/
+INFO [2018-11-28 21:45:40] location_id:152879448527347
+INFO [2018-11-28 21:45:40] location_url:https://www.instagram.com/explore/locations/152879448527347/dez/
+INFO [2018-11-28 21:45:40] location_name:DEZ
+ERROR [2018-11-28 21:45:40] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:45:40] date:2018-10-11T12:20:18.000Z
+INFO [2018-11-28 21:45:40] post-likes:1608
+INFO [2018-11-28 21:45:40] 1mentions
+INFO [2018-11-28 21:45:40] Scrapping Post Link: https://www.instagram.com/p/BpQJB-7HqVU/
+INFO [2018-11-28 21:45:42] location_id:152879448527347
+INFO [2018-11-28 21:45:42] location_url:https://www.instagram.com/explore/locations/152879448527347/dez/
+INFO [2018-11-28 21:45:42] location_name:DEZ
+ERROR [2018-11-28 21:45:42] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:45:42] date:2018-10-22T22:30:10.000Z
+INFO [2018-11-28 21:45:42] post-likes:3282
+INFO [2018-11-28 21:45:42] 2mentions
+INFO [2018-11-28 21:45:42] Scrapping Post Link: https://www.instagram.com/p/BoemMSjnFYv/
+INFO [2018-11-28 21:45:43] location_id:212991559
+INFO [2018-11-28 21:45:43] location_url:https://www.instagram.com/explore/locations/212991559/toronto-ontario/
+INFO [2018-11-28 21:45:43] location_name:Toronto, Ontario
+ERROR [2018-11-28 21:45:43] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:45:43] date:2018-10-03T16:42:57.000Z
+INFO [2018-11-28 21:45:43] post-likes:834
+INFO [2018-11-28 21:45:43] 1mentions
+INFO [2018-11-28 21:45:43] Scrapping Post Link: https://www.instagram.com/p/BqTUz0vl5Jk/
+INFO [2018-11-28 21:45:45] location_id:2141691619431011
+INFO [2018-11-28 21:45:45] location_url:https://www.instagram.com/explore/locations/2141691619431011/restoration-hardware/
+INFO [2018-11-28 21:45:45] location_name:Restoration Hardware
+ERROR [2018-11-28 21:45:45] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:45:45] date:2018-11-18T00:46:09.000Z
+INFO [2018-11-28 21:45:45] post-likes:32228
+INFO [2018-11-28 21:45:45] Scrapping Post Link: https://www.instagram.com/p/BpzoSUqFf1V/
+INFO [2018-11-28 21:45:47] location_id:213041503
+INFO [2018-11-28 21:45:47] location_url:https://www.instagram.com/explore/locations/213041503/tel-aviv-israel/
+INFO [2018-11-28 21:45:47] location_name:Tel Aviv, Israel
+ERROR [2018-11-28 21:45:47] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:45:47] date:2018-11-05T17:16:42.000Z
+INFO [2018-11-28 21:45:47] post-likes:4409
+INFO [2018-11-28 21:45:47] Scrapping Post Link: https://www.instagram.com/p/BohWQjzn6Cw/
+INFO [2018-11-28 21:45:49] location_id:212988663
+INFO [2018-11-28 21:45:49] location_url:https://www.instagram.com/explore/locations/212988663/new-york-new-york/
+INFO [2018-11-28 21:45:49] location_name:New York, New York
+ERROR [2018-11-28 21:45:49] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:45:49] date:2018-10-04T18:21:27.000Z
+INFO [2018-11-28 21:45:49] post-likes:6529
+INFO [2018-11-28 21:45:49] 1mentions
+INFO [2018-11-28 21:45:49] Scrapping Post Link: https://www.instagram.com/p/Bot_w5DnEfs/
+INFO [2018-11-28 21:45:50] location_id:152879448527347
+INFO [2018-11-28 21:45:50] location_url:https://www.instagram.com/explore/locations/152879448527347/dez/
+INFO [2018-11-28 21:45:50] location_name:DEZ
+ERROR [2018-11-28 21:45:50] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:45:50] date:2018-10-09T16:15:01.000Z
+INFO [2018-11-28 21:45:50] post-likes:1864
+INFO [2018-11-28 21:45:50] 1mentions
+INFO [2018-11-28 21:45:50] Scrapping Post Link: https://www.instagram.com/p/BpsYaZVFnDc/
+INFO [2018-11-28 21:45:52] location_id:213041503
+INFO [2018-11-28 21:45:52] location_url:https://www.instagram.com/explore/locations/213041503/tel-aviv-israel/
+INFO [2018-11-28 21:45:52] location_name:Tel Aviv, Israel
+ERROR [2018-11-28 21:45:52] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:45:52] date:2018-11-02T21:43:18.000Z
+INFO [2018-11-28 21:45:52] post-likes:4720
+INFO [2018-11-28 21:45:52] 1mentions
+INFO [2018-11-28 21:45:52] Scrapping Post Link: https://www.instagram.com/p/BpXNUYzny3J/
+INFO [2018-11-28 21:45:54] location_id:213041503
+INFO [2018-11-28 21:45:54] location_url:https://www.instagram.com/explore/locations/213041503/tel-aviv-israel/
+INFO [2018-11-28 21:45:54] location_name:Tel Aviv, Israel
+ERROR [2018-11-28 21:45:54] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:45:54] date:2018-10-25T16:22:19.000Z
+INFO [2018-11-28 21:45:54] post-likes:6712
+INFO [2018-11-28 21:45:54] 2mentions
+INFO [2018-11-28 21:45:54] Scrapping Post Link: https://www.instagram.com/p/BqA08oelow0/
+ERROR [2018-11-28 21:45:55] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:45:55] date:2018-11-10T20:17:28.000Z
+INFO [2018-11-28 21:45:55] post-likes:5265
+INFO [2018-11-28 21:45:55] 1mentions
+INFO [2018-11-28 21:45:55] Scrapping Post Link: https://www.instagram.com/p/Bpo5jFhFbi6/
+INFO [2018-11-28 21:45:57] location_id:212991559
+INFO [2018-11-28 21:45:57] location_url:https://www.instagram.com/explore/locations/212991559/toronto-ontario/
+INFO [2018-11-28 21:45:57] location_name:Toronto, Ontario
+ERROR [2018-11-28 21:45:57] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:45:57] date:2018-11-01T13:15:53.000Z
+INFO [2018-11-28 21:45:57] post-likes:3956
+INFO [2018-11-28 21:45:57] User edeneats has 0 comments.
+INFO [2018-11-28 21:48:21] Extracting information from edeneats
+INFO [2018-11-28 21:48:24] alias name: Eden Grinshpan Nivron
+INFO [2018-11-28 21:48:24] bio: 👼🏻Mama to Ayv Rose Nivron🌹
+TV host 💃🏻
+Co-founder @intheDEZ 🥙🐫🌙
+#EdenEats #EdenEatsFor2
+INFO [2018-11-28 21:48:24] url: youtu.be/og0NhSnb8sg
+INFO [2018-11-28 21:48:24] Posts: 2144
+INFO [2018-11-28 21:48:24] Follower: 95073
+INFO [2018-11-28 21:48:24] Following: 1276
+INFO [2018-11-28 21:48:24] isPrivate: False
+INFO [2018-11-28 21:48:37] Scrapping Post Link: https://www.instagram.com/p/Bqn99pAlnGc/
+INFO [2018-11-28 21:48:39] location_id:215631076
+INFO [2018-11-28 21:48:39] location_url:https://www.instagram.com/explore/locations/215631076/williamsburg-brooklyn/
+INFO [2018-11-28 21:48:39] location_name:Williamsburg, Brooklyn
+ERROR [2018-11-28 21:48:39] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:48:39] date:2018-11-26T01:06:37.000Z
+INFO [2018-11-28 21:48:39] post-likes:8995
+INFO [2018-11-28 21:48:39] 1mentions
+INFO [2018-11-28 21:48:39] Scrapping Post Link: https://www.instagram.com/p/BpFn2erHQJ-/
+INFO [2018-11-28 21:48:41] location_id:212988663
+INFO [2018-11-28 21:48:41] location_url:https://www.instagram.com/explore/locations/212988663/new-york-new-york/
+INFO [2018-11-28 21:48:41] location_name:New York, New York
+ERROR [2018-11-28 21:48:41] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:48:41] date:2018-10-18T20:27:50.000Z
+INFO [2018-11-28 21:48:41] post-likes:4510
+INFO [2018-11-28 21:48:41] Scrapping Post Link: https://www.instagram.com/p/BoemMSjnFYv/
+INFO [2018-11-28 21:48:43] location_id:212991559
+INFO [2018-11-28 21:48:43] location_url:https://www.instagram.com/explore/locations/212991559/toronto-ontario/
+INFO [2018-11-28 21:48:43] location_name:Toronto, Ontario
+ERROR [2018-11-28 21:48:43] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:48:43] date:2018-10-03T16:42:57.000Z
+INFO [2018-11-28 21:48:43] post-likes:834
+INFO [2018-11-28 21:48:43] 1mentions
+INFO [2018-11-28 21:48:43] Scrapping Post Link: https://www.instagram.com/p/BoyufiRH9xw/
+INFO [2018-11-28 21:48:45] location_id:152879448527347
+INFO [2018-11-28 21:48:45] location_url:https://www.instagram.com/explore/locations/152879448527347/dez/
+INFO [2018-11-28 21:48:45] location_name:DEZ
+ERROR [2018-11-28 21:48:45] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:48:45] date:2018-10-11T12:20:18.000Z
+INFO [2018-11-28 21:48:45] post-likes:1608
+INFO [2018-11-28 21:48:45] 1mentions
+INFO [2018-11-28 21:48:45] Scrapping Post Link: https://www.instagram.com/p/BpSutDEnrOV/
+ERROR [2018-11-28 21:48:46] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:48:46] date:2018-10-23T22:38:09.000Z
+INFO [2018-11-28 21:48:46] post-likes:10971
+INFO [2018-11-28 21:48:46] Scrapping Post Link: https://www.instagram.com/p/Bp4XPVlli_V/
+INFO [2018-11-28 21:48:47] location_id:212988663
+INFO [2018-11-28 21:48:47] location_url:https://www.instagram.com/explore/locations/212988663/new-york-new-york/
+INFO [2018-11-28 21:48:47] location_name:New York, New York
+ERROR [2018-11-28 21:48:47] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:48:47] date:2018-11-07T13:25:01.000Z
+INFO [2018-11-28 21:48:47] post-likes:30380
+INFO [2018-11-28 21:48:48] Scrapping Post Link: https://www.instagram.com/p/BpCPSSPnqX2/
+ERROR [2018-11-28 21:48:48] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:48:48] date:2018-10-17T12:55:27.000Z
+INFO [2018-11-28 21:48:48] post-likes:3188
+INFO [2018-11-28 21:48:48] 1mentions
+INFO [2018-11-28 21:48:48] Scrapping Post Link: https://www.instagram.com/p/Bqm8J94luxw/
+ERROR [2018-11-28 21:48:49] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:48:49] date:2018-11-25T15:31:35.000Z
+INFO [2018-11-28 21:48:49] post-likes:5096
+INFO [2018-11-28 21:48:49] Scrapping Post Link: https://www.instagram.com/p/Bn4jKlpHHyd/
+INFO [2018-11-28 21:48:51] location_id:212991559
+INFO [2018-11-28 21:48:51] location_url:https://www.instagram.com/explore/locations/212991559/toronto-ontario/
+INFO [2018-11-28 21:48:51] location_name:Toronto, Ontario
+ERROR [2018-11-28 21:48:51] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:48:51] date:2018-09-18T22:05:22.000Z
+INFO [2018-11-28 21:48:51] post-likes:2631
+INFO [2018-11-28 21:48:51] 1mentions
+INFO [2018-11-28 21:48:51] Scrapping Post Link: https://www.instagram.com/p/BqPhjnUlJis/
+INFO [2018-11-28 21:48:53] location_id:215631076
+INFO [2018-11-28 21:48:53] location_url:https://www.instagram.com/explore/locations/215631076/williamsburg-brooklyn/
+INFO [2018-11-28 21:48:53] location_name:Williamsburg, Brooklyn
+ERROR [2018-11-28 21:48:53] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:48:53] date:2018-11-16T13:16:55.000Z
+INFO [2018-11-28 21:48:53] post-likes:26152
+INFO [2018-11-28 21:48:53] Scrapping Post Link: https://www.instagram.com/p/BowlINjHAON/
+INFO [2018-11-28 21:48:55] location_id:212999109
+INFO [2018-11-28 21:48:55] location_url:https://www.instagram.com/explore/locations/212999109/los-angeles-california/
+INFO [2018-11-28 21:48:55] location_name:Los Angeles, California
+ERROR [2018-11-28 21:48:55] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:48:55] date:2018-10-10T16:19:59.000Z
+INFO [2018-11-28 21:48:55] post-likes:1716
+INFO [2018-11-28 21:48:55] 2mentions
+INFO [2018-11-28 21:48:55] Scrapping Post Link: https://www.instagram.com/p/BoHENicHnBg/
+INFO [2018-11-28 21:48:56] location_id:212991559
+INFO [2018-11-28 21:48:56] location_url:https://www.instagram.com/explore/locations/212991559/toronto-ontario/
+INFO [2018-11-28 21:48:56] location_name:Toronto, Ontario
+ERROR [2018-11-28 21:48:56] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:48:56] date:2018-09-24T13:23:30.000Z
+INFO [2018-11-28 21:48:56] post-likes:2241
+INFO [2018-11-28 21:48:56] Scrapping Post Link: https://www.instagram.com/p/BqTUz0vl5Jk/
+INFO [2018-11-28 21:48:58] location_id:2141691619431011
+INFO [2018-11-28 21:48:58] location_url:https://www.instagram.com/explore/locations/2141691619431011/restoration-hardware/
+INFO [2018-11-28 21:48:58] location_name:Restoration Hardware
+ERROR [2018-11-28 21:48:58] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:48:58] date:2018-11-18T00:46:09.000Z
+INFO [2018-11-28 21:48:58] post-likes:32231
+INFO [2018-11-28 21:48:58] Scrapping Post Link: https://www.instagram.com/p/Bot_w5DnEfs/
+INFO [2018-11-28 21:49:00] location_id:152879448527347
+INFO [2018-11-28 21:49:00] location_url:https://www.instagram.com/explore/locations/152879448527347/dez/
+INFO [2018-11-28 21:49:00] location_name:DEZ
+ERROR [2018-11-28 21:49:00] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:49:00] date:2018-10-09T16:15:01.000Z
+INFO [2018-11-28 21:49:00] post-likes:1864
+INFO [2018-11-28 21:49:00] 1mentions
+INFO [2018-11-28 21:49:00] Scrapping Post Link: https://www.instagram.com/p/Bqu7eT3FBWr/
+INFO [2018-11-28 21:49:02] location_id:215631076
+INFO [2018-11-28 21:49:02] location_url:https://www.instagram.com/explore/locations/215631076/williamsburg-brooklyn/
+INFO [2018-11-28 21:49:02] location_name:Williamsburg, Brooklyn
+ERROR [2018-11-28 21:49:02] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:49:02] date:2018-11-28T17:59:33.000Z
+INFO [2018-11-28 21:49:02] post-likes:6790
+INFO [2018-11-28 21:49:02] 2mentions
+INFO [2018-11-28 21:49:02] Scrapping Post Link: https://www.instagram.com/p/BqA08oelow0/
+ERROR [2018-11-28 21:49:03] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:49:03] date:2018-11-10T20:17:28.000Z
+INFO [2018-11-28 21:49:03] post-likes:5265
+INFO [2018-11-28 21:49:03] 1mentions
+INFO [2018-11-28 21:49:03] Scrapping Post Link: https://www.instagram.com/p/BohWQjzn6Cw/
+INFO [2018-11-28 21:49:04] location_id:212988663
+INFO [2018-11-28 21:49:04] location_url:https://www.instagram.com/explore/locations/212988663/new-york-new-york/
+INFO [2018-11-28 21:49:04] location_name:New York, New York
+ERROR [2018-11-28 21:49:04] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:49:04] date:2018-10-04T18:21:27.000Z
+INFO [2018-11-28 21:49:04] post-likes:6529
+INFO [2018-11-28 21:49:04] 1mentions
+INFO [2018-11-28 21:49:04] Scrapping Post Link: https://www.instagram.com/p/Bn_RzrrHuGs/
+ERROR [2018-11-28 21:49:05] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:49:05] date:2018-09-21T12:48:22.000Z
+INFO [2018-11-28 21:49:05] post-likes:3148
+INFO [2018-11-28 21:49:05] 1mentions
+INFO [2018-11-28 21:49:05] Scrapping Post Link: https://www.instagram.com/p/BqiLJ_Pl9q_/
+INFO [2018-11-28 21:49:07] location_id:215631076
+INFO [2018-11-28 21:49:07] location_url:https://www.instagram.com/explore/locations/215631076/williamsburg-brooklyn/
+INFO [2018-11-28 21:49:07] location_name:Williamsburg, Brooklyn
+ERROR [2018-11-28 21:49:07] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:49:07] date:2018-11-23T19:06:28.000Z
+INFO [2018-11-28 21:49:07] post-likes:3595
+INFO [2018-11-28 21:49:07] 1mentions
+INFO [2018-11-28 21:49:07] Scrapping Post Link: https://www.instagram.com/p/BpXNUYzny3J/
+INFO [2018-11-28 21:49:11] location_id:213041503
+INFO [2018-11-28 21:49:11] location_url:https://www.instagram.com/explore/locations/213041503/tel-aviv-israel/
+INFO [2018-11-28 21:49:11] location_name:Tel Aviv, Israel
+ERROR [2018-11-28 21:49:11] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:49:11] date:2018-10-25T16:22:19.000Z
+INFO [2018-11-28 21:49:11] post-likes:6712
+INFO [2018-11-28 21:49:11] 2mentions
+INFO [2018-11-28 21:49:11] Scrapping Post Link: https://www.instagram.com/p/BpM87xdnO1s/
+ERROR [2018-11-28 21:49:12] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:49:12] date:2018-10-21T16:46:44.000Z
+INFO [2018-11-28 21:49:12] post-likes:4132
+INFO [2018-11-28 21:49:12] 1mentions
+INFO [2018-11-28 21:49:12] Scrapping Post Link: https://www.instagram.com/p/Bp613gQlATc/
+INFO [2018-11-28 21:49:13] location_id:213041503
+INFO [2018-11-28 21:49:13] location_url:https://www.instagram.com/explore/locations/213041503/tel-aviv-israel/
+INFO [2018-11-28 21:49:13] location_name:Tel Aviv, Israel
+ERROR [2018-11-28 21:49:13] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:49:13] date:2018-11-08T12:30:03.000Z
+INFO [2018-11-28 21:49:13] post-likes:3725
+INFO [2018-11-28 21:49:13] Scrapping Post Link: https://www.instagram.com/p/Bpg57AjFlbR/
+ERROR [2018-11-28 21:49:14] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:49:14] date:2018-10-29T10:45:14.000Z
+INFO [2018-11-28 21:49:14] post-likes:1464
+INFO [2018-11-28 21:49:14] 1mentions
+INFO [2018-11-28 21:49:14] Scrapping Post Link: https://www.instagram.com/p/Bo4qy8kn7YD/
+INFO [2018-11-28 21:49:16] location_id:212988663
+INFO [2018-11-28 21:49:16] location_url:https://www.instagram.com/explore/locations/212988663/new-york-new-york/
+INFO [2018-11-28 21:49:16] location_name:New York, New York
+ERROR [2018-11-28 21:49:16] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:49:16] date:2018-10-13T19:43:26.000Z
+INFO [2018-11-28 21:49:16] post-likes:5053
+INFO [2018-11-28 21:49:16] 1mentions
+INFO [2018-11-28 21:49:16] Scrapping Post Link: https://www.instagram.com/p/BqXl82elO-7/
+ERROR [2018-11-28 21:49:17] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:49:17] date:2018-11-19T16:28:57.000Z
+INFO [2018-11-28 21:49:17] post-likes:2183
+INFO [2018-11-28 21:49:17] 1mentions
+INFO [2018-11-28 21:49:17] Scrapping Post Link: https://www.instagram.com/p/BqfDBPCF0G8/
+INFO [2018-11-28 21:49:18] location_id:215631076
+INFO [2018-11-28 21:49:18] location_url:https://www.instagram.com/explore/locations/215631076/williamsburg-brooklyn/
+INFO [2018-11-28 21:49:18] location_name:Williamsburg, Brooklyn
+ERROR [2018-11-28 21:49:18] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:49:18] date:2018-11-22T13:57:38.000Z
+INFO [2018-11-28 21:49:19] post-likes:2547
+INFO [2018-11-28 21:49:19] 1mentions
+INFO [2018-11-28 21:49:19] Scrapping Post Link: https://www.instagram.com/p/BqKXNHPlOI2/
+INFO [2018-11-28 21:49:20] location_id:215631076
+INFO [2018-11-28 21:49:20] location_url:https://www.instagram.com/explore/locations/215631076/williamsburg-brooklyn/
+INFO [2018-11-28 21:49:20] location_name:Williamsburg, Brooklyn
+ERROR [2018-11-28 21:49:20] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:49:20] date:2018-11-14T13:09:58.000Z
+INFO [2018-11-28 21:49:20] post-likes:3220
+INFO [2018-11-28 21:49:20] 1mentions
+INFO [2018-11-28 21:49:20] Scrapping Post Link: https://www.instagram.com/p/BoKkmecHQQx/
+ERROR [2018-11-28 21:49:21] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:49:21] date:2018-09-25T22:04:14.000Z
+INFO [2018-11-28 21:49:21] post-likes:2246
+INFO [2018-11-28 21:49:21] 1mentions
+INFO [2018-11-28 21:49:21] Scrapping Post Link: https://www.instagram.com/p/BqItvfWFbzM/
+INFO [2018-11-28 21:49:23] location_id:264915885
+INFO [2018-11-28 21:49:23] location_url:https://www.instagram.com/explore/locations/264915885/israel/
+INFO [2018-11-28 21:49:23] location_name:Israel
+ERROR [2018-11-28 21:49:23] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:49:23] date:2018-11-13T21:51:18.000Z
+INFO [2018-11-28 21:49:23] post-likes:19939
+INFO [2018-11-28 21:49:23] Scrapping Post Link: https://www.instagram.com/p/BpQJB-7HqVU/
+INFO [2018-11-28 21:49:25] location_id:152879448527347
+INFO [2018-11-28 21:49:25] location_url:https://www.instagram.com/explore/locations/152879448527347/dez/
+INFO [2018-11-28 21:49:25] location_name:DEZ
+ERROR [2018-11-28 21:49:25] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:49:25] date:2018-10-22T22:30:10.000Z
+INFO [2018-11-28 21:49:25] post-likes:3282
+INFO [2018-11-28 21:49:25] 2mentions
+INFO [2018-11-28 21:49:25] Scrapping Post Link: https://www.instagram.com/p/BqVGhQzFtaw/
+INFO [2018-11-28 21:49:27] location_id:152879448527347
+INFO [2018-11-28 21:49:27] location_url:https://www.instagram.com/explore/locations/152879448527347/dez/
+INFO [2018-11-28 21:49:27] location_name:DEZ
+ERROR [2018-11-28 21:49:27] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:49:27] date:2018-11-18T17:15:49.000Z
+INFO [2018-11-28 21:49:27] post-likes:1234
+INFO [2018-11-28 21:49:27] 2mentions
+INFO [2018-11-28 21:49:27] Scrapping Post Link: https://www.instagram.com/p/BqDfysyluE8/
+INFO [2018-11-28 21:49:28] location_id:215631076
+INFO [2018-11-28 21:49:28] location_url:https://www.instagram.com/explore/locations/215631076/williamsburg-brooklyn/
+INFO [2018-11-28 21:49:28] location_name:Williamsburg, Brooklyn
+ERROR [2018-11-28 21:49:28] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:49:28] date:2018-11-11T21:10:19.000Z
+INFO [2018-11-28 21:49:28] post-likes:6839
+INFO [2018-11-28 21:49:28] 1mentions
+INFO [2018-11-28 21:49:28] Scrapping Post Link: https://www.instagram.com/p/BpzoSUqFf1V/
+INFO [2018-11-28 21:49:30] location_id:213041503
+INFO [2018-11-28 21:49:30] location_url:https://www.instagram.com/explore/locations/213041503/tel-aviv-israel/
+INFO [2018-11-28 21:49:30] location_name:Tel Aviv, Israel
+ERROR [2018-11-28 21:49:30] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:49:30] date:2018-11-05T17:16:42.000Z
+INFO [2018-11-28 21:49:30] post-likes:4409
+INFO [2018-11-28 21:49:30] Scrapping Post Link: https://www.instagram.com/p/BpsYaZVFnDc/
+INFO [2018-11-28 21:49:32] location_id:213041503
+INFO [2018-11-28 21:49:32] location_url:https://www.instagram.com/explore/locations/213041503/tel-aviv-israel/
+INFO [2018-11-28 21:49:32] location_name:Tel Aviv, Israel
+ERROR [2018-11-28 21:49:32] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:49:32] date:2018-11-02T21:43:18.000Z
+INFO [2018-11-28 21:49:32] post-likes:4720
+INFO [2018-11-28 21:49:32] 1mentions
+INFO [2018-11-28 21:49:32] Scrapping Post Link: https://www.instagram.com/p/Boo5CMCnd7G/
+INFO [2018-11-28 21:49:33] location_id:212991559
+INFO [2018-11-28 21:49:33] location_url:https://www.instagram.com/explore/locations/212991559/toronto-ontario/
+INFO [2018-11-28 21:49:33] location_name:Toronto, Ontario
+ERROR [2018-11-28 21:49:33] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:49:33] date:2018-10-07T16:42:58.000Z
+INFO [2018-11-28 21:49:33] post-likes:22776
+INFO [2018-11-28 21:49:33] Scrapping Post Link: https://www.instagram.com/p/BqNHZMklP4Z/
+INFO [2018-11-28 21:49:35] location_id:215631076
+INFO [2018-11-28 21:49:35] location_url:https://www.instagram.com/explore/locations/215631076/williamsburg-brooklyn/
+INFO [2018-11-28 21:49:35] location_name:Williamsburg, Brooklyn
+ERROR [2018-11-28 21:49:35] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:49:35] date:2018-11-15T14:50:23.000Z
+INFO [2018-11-28 21:49:35] post-likes:32645
+INFO [2018-11-28 21:49:35] Scrapping Post Link: https://www.instagram.com/p/Bpo5jFhFbi6/
+INFO [2018-11-28 21:49:37] location_id:212991559
+INFO [2018-11-28 21:49:37] location_url:https://www.instagram.com/explore/locations/212991559/toronto-ontario/
+INFO [2018-11-28 21:49:37] location_name:Toronto, Ontario
+ERROR [2018-11-28 21:49:37] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:49:37] date:2018-11-01T13:15:53.000Z
+INFO [2018-11-28 21:49:37] post-likes:3956
+INFO [2018-11-28 21:49:37] Scrapping Post Link: https://www.instagram.com/p/Bo62Ak_H5v5/
+INFO [2018-11-28 21:49:38] location_id:16831920
+INFO [2018-11-28 21:49:38] location_url:https://www.instagram.com/explore/locations/16831920/robertas/
+INFO [2018-11-28 21:49:38] location_name:Roberta's
+ERROR [2018-11-28 21:49:38] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:49:38] date:2018-10-14T15:59:54.000Z
+INFO [2018-11-28 21:49:38] post-likes:5239
+INFO [2018-11-28 21:49:38] Scrapping Post Link: https://www.instagram.com/p/BqfZdW4lTTs/
+INFO [2018-11-28 21:49:40] location_id:215631076
+INFO [2018-11-28 21:49:40] location_url:https://www.instagram.com/explore/locations/215631076/williamsburg-brooklyn/
+INFO [2018-11-28 21:49:40] location_name:Williamsburg, Brooklyn
+ERROR [2018-11-28 21:49:40] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:49:40] date:2018-11-22T17:14:38.000Z
+INFO [2018-11-28 21:49:40] post-likes:19059
+INFO [2018-11-28 21:49:40] Scrapping Post Link: https://www.instagram.com/p/BoZgoWjHOr9/
+ERROR [2018-11-28 21:49:41] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:49:41] date:2018-10-01T17:44:23.000Z
+INFO [2018-11-28 21:49:41] post-likes:34047
+INFO [2018-11-28 21:49:41] User edeneats has 0 comments.
