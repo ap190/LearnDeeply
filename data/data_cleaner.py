@@ -86,5 +86,5 @@ for filename in filenames:
         continue
 
 # write a new data.json file with the produced dictionary object
-with open('data.json', 'w') as outfile:
+with open('dataNEW.json', 'w') as outfile:
     json.dump(data, outfile, ensure_ascii=False, indent=2)

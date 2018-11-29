@@ -2628,6 +2628,337 @@ INFO [2018-11-28 21:26:02] Scrapping Post Link: https://www.instagram.com/p/Bnox
 ERROR [2018-11-28 21:26:02] getting Location Infos  (perhaps not set)
 INFO [2018-11-28 21:26:02] date:2018-09-12T19:06:52.000Z
 INFO [2018-11-28 21:26:02] User taylorswift has 0 comments.
+<<<<<<< HEAD
+INFO [2018-11-28 21:37:39] Extracting information from betches
+INFO [2018-11-28 21:37:41] alias name: Betches
+INFO [2018-11-28 21:37:41] bio: 👆🏼 betches.com
+📖 OUR NEW BOOK: WHENS HAPPY HOUR is now available!!
+🖤 @shopbetches
+👊🏽 @betches_sup
+🎙 @uuppod @dietstartstomorrow & MORE
+INFO [2018-11-28 21:37:41] url: betches.co/switch
+INFO [2018-11-28 21:37:41] Posts: 7665
+INFO [2018-11-28 21:37:41] Follower: 6422760
+INFO [2018-11-28 21:37:41] Following: 199
+INFO [2018-11-28 21:37:41] isPrivate: False
+INFO [2018-11-28 21:37:53] Scrapping Post Link: https://www.instagram.com/p/BqprSe3hx79/
+ERROR [2018-11-28 21:37:54] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:37:54] date:2018-11-26T17:01:55.000Z
+INFO [2018-11-28 21:37:54] post-likes:
+INFO [2018-11-28 21:37:54] Scrapping Post Link: https://www.instagram.com/p/BqbFUBBBLdT/
+ERROR [2018-11-28 21:37:54] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:37:54] date:2018-11-21T01:00:43.000Z
+INFO [2018-11-28 21:37:54] post-likes:
+INFO [2018-11-28 21:37:54] Scrapping Post Link: https://www.instagram.com/p/Bqk5ZCUhb49/
+ERROR [2018-11-28 21:37:55] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:37:55] date:2018-11-24T20:28:57.000Z
+INFO [2018-11-28 21:37:55] post-likes:
+INFO [2018-11-28 21:37:55] Scrapping Post Link: https://www.instagram.com/p/BqKrLt9BNhw/
+ERROR [2018-11-28 21:37:56] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:37:56] date:2018-11-14T16:04:33.000Z
+INFO [2018-11-28 21:37:56] post-likes:
+INFO [2018-11-28 21:37:56] Scrapping Post Link: https://www.instagram.com/p/BqnmfvrhGUK/
+ERROR [2018-11-28 21:37:56] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:37:56] date:2018-11-25T21:41:34.000Z
+INFO [2018-11-28 21:37:56] post-likes:
+INFO [2018-11-28 21:37:56] Scrapping Post Link: https://www.instagram.com/p/BqvEf3Th_M4/
+ERROR [2018-11-28 21:37:57] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:37:57] date:2018-11-28T19:18:24.000Z
+INFO [2018-11-28 21:37:57] post-likes:
+INFO [2018-11-28 21:37:57] Scrapping Post Link: https://www.instagram.com/p/BqvOR4ohUc8/
+ERROR [2018-11-28 21:37:58] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:37:58] date:2018-11-28T20:43:53.000Z
+INFO [2018-11-28 21:37:58] post-likes:
+INFO [2018-11-28 21:37:58] Scrapping Post Link: https://www.instagram.com/p/BqLKOrYh2pX/
+ERROR [2018-11-28 21:37:58] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:37:58] date:2018-11-14T20:35:50.000Z
+INFO [2018-11-28 21:37:58] post-likes:
+INFO [2018-11-28 21:37:58] Scrapping Post Link: https://www.instagram.com/p/BqdGoe2hHHW/
+INFO [2018-11-28 21:38:00] location_id:215599903
+INFO [2018-11-28 21:38:00] location_url:https://www.instagram.com/explore/locations/215599903/slateny/
+INFO [2018-11-28 21:38:00] location_name:SlateNY
+ERROR [2018-11-28 21:38:00] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:38:00] date:2018-11-21T19:59:01.000Z
+INFO [2018-11-28 21:38:00] post-likes:920023
+INFO [2018-11-28 21:38:00] Scrapping Post Link: https://www.instagram.com/p/Bqkekd7BFZd/
+ERROR [2018-11-28 21:38:01] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:38:01] date:2018-11-24T16:34:35.000Z
+INFO [2018-11-28 21:38:01] post-likes:
+INFO [2018-11-28 21:38:01] Scrapping Post Link: https://www.instagram.com/p/BqI1t1LhCd3/
+ERROR [2018-11-28 21:38:02] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:38:02] date:2018-11-13T22:58:06.000Z
+INFO [2018-11-28 21:38:02] post-likes:
+INFO [2018-11-28 21:38:02] Scrapping Post Link: https://www.instagram.com/p/BqibJmghg6Y/
+ERROR [2018-11-28 21:38:02] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:38:02] date:2018-11-23T21:26:13.000Z
+INFO [2018-11-28 21:38:02] post-likes:
+INFO [2018-11-28 21:38:02] Scrapping Post Link: https://www.instagram.com/p/BqIWZy5hgCj/
+ERROR [2018-11-28 21:38:03] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:38:03] date:2018-11-13T18:24:29.000Z
+INFO [2018-11-28 21:38:03] post-likes:
+INFO [2018-11-28 21:38:03] Scrapping Post Link: https://www.instagram.com/p/BqU0J_8hlTL/
+INFO [2018-11-28 21:38:05] location_id:197896046906431
+INFO [2018-11-28 21:38:05] location_url:https://www.instagram.com/explore/locations/197896046906431/betches/
+INFO [2018-11-28 21:38:05] location_name:Betches
+ERROR [2018-11-28 21:38:05] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:38:05] date:2018-11-18T14:38:50.000Z
+INFO [2018-11-28 21:38:05] post-likes:400974
+INFO [2018-11-28 21:38:05] Scrapping Post Link: https://www.instagram.com/p/BqVX0cuhB2x/
+ERROR [2018-11-28 21:38:05] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:38:05] date:2018-11-18T19:46:59.000Z
+INFO [2018-11-28 21:38:05] post-likes:
+INFO [2018-11-28 21:38:05] Scrapping Post Link: https://www.instagram.com/p/BqvqJSsh1tJ/
+ERROR [2018-11-28 21:38:06] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:38:06] date:2018-11-29T00:47:22.000Z
+INFO [2018-11-28 21:38:06] post-likes:
+INFO [2018-11-28 21:38:06] Scrapping Post Link: https://www.instagram.com/p/BqQXZZthX2r/
+ERROR [2018-11-28 21:38:07] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:38:07] date:2018-11-16T21:07:06.000Z
+INFO [2018-11-28 21:38:07] post-likes:
+INFO [2018-11-28 21:38:07] 2mentions
+INFO [2018-11-28 21:38:07] Scrapping Post Link: https://www.instagram.com/p/BqaMHhdhf2b/
+ERROR [2018-11-28 21:38:07] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:38:07] date:2018-11-20T16:40:56.000Z
+INFO [2018-11-28 21:38:07] post-likes:
+INFO [2018-11-28 21:38:07] Scrapping Post Link: https://www.instagram.com/p/BqQHmkTBMai/
+ERROR [2018-11-28 21:38:08] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:38:08] date:2018-11-16T18:49:05.000Z
+INFO [2018-11-28 21:38:08] post-likes:
+INFO [2018-11-28 21:38:08] Scrapping Post Link: https://www.instagram.com/p/BqqgWpuB2ml/
+ERROR [2018-11-28 21:38:08] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:38:08] date:2018-11-27T00:45:37.000Z
+INFO [2018-11-28 21:38:08] post-likes:
+INFO [2018-11-28 21:38:08] Scrapping Post Link: https://www.instagram.com/p/BqXtES9hPIb/
+ERROR [2018-11-28 21:38:09] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:38:09] date:2018-11-19T17:31:08.000Z
+INFO [2018-11-28 21:38:09] post-likes:
+INFO [2018-11-28 21:38:09] Scrapping Post Link: https://www.instagram.com/p/Bqa8Vc9BqdZ/
+ERROR [2018-11-28 21:38:10] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:38:10] date:2018-11-20T23:42:16.000Z
+INFO [2018-11-28 21:38:10] post-likes:
+INFO [2018-11-28 21:38:10] Scrapping Post Link: https://www.instagram.com/p/BqYSuZoBRUd/
+ERROR [2018-11-28 21:38:10] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:38:10] date:2018-11-19T23:00:18.000Z
+INFO [2018-11-28 21:38:10] post-likes:415174
+INFO [2018-11-28 21:38:10] Scrapping Post Link: https://www.instagram.com/p/BqfJCmZhgQE/
+ERROR [2018-11-28 21:38:11] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:38:11] date:2018-11-22T14:50:37.000Z
+INFO [2018-11-28 21:38:12] post-likes:655710
+INFO [2018-11-28 21:38:12] Scrapping Post Link: https://www.instagram.com/p/BqLe3s6hr4E/
+ERROR [2018-11-28 21:38:12] Could not get information from post: https://www.instagram.com/p/BqLe3s6hr4E/
+INFO [2018-11-28 21:38:12] Scrapping Post Link: https://www.instagram.com/p/BqsvA_tBV7a/
+ERROR [2018-11-28 21:38:12] Could not get information from post: https://www.instagram.com/p/BqsvA_tBV7a/
+INFO [2018-11-28 21:38:12] Scrapping Post Link: https://www.instagram.com/p/BqQmTZKhGrS/
+ERROR [2018-11-28 21:38:12] Could not get information from post: https://www.instagram.com/p/BqQmTZKhGrS/
+INFO [2018-11-28 21:38:12] Scrapping Post Link: https://www.instagram.com/p/BqqQRu1hL8X/
+ERROR [2018-11-28 21:38:12] Could not get information from post: https://www.instagram.com/p/BqqQRu1hL8X/
+INFO [2018-11-28 21:38:12] Scrapping Post Link: https://www.instagram.com/p/BqX3tfSBOLC/
+ERROR [2018-11-28 21:38:12] Could not get information from post: https://www.instagram.com/p/BqX3tfSBOLC/
+INFO [2018-11-28 21:38:12] Scrapping Post Link: https://www.instagram.com/p/BqSfsuHBjBC/
+ERROR [2018-11-28 21:38:12] Could not get information from post: https://www.instagram.com/p/BqSfsuHBjBC/
+INFO [2018-11-28 21:38:12] Scrapping Post Link: https://www.instagram.com/p/BqOElH-BIPb/
+ERROR [2018-11-28 21:38:12] Could not get information from post: https://www.instagram.com/p/BqOElH-BIPb/
+INFO [2018-11-28 21:38:12] Scrapping Post Link: https://www.instagram.com/p/BqsX2LWBHbo/
+ERROR [2018-11-28 21:38:12] Could not get information from post: https://www.instagram.com/p/BqsX2LWBHbo/
+INFO [2018-11-28 21:38:12] Scrapping Post Link: https://www.instagram.com/p/BqnYXz-Bs8u/
+ERROR [2018-11-28 21:38:12] Could not get information from post: https://www.instagram.com/p/BqnYXz-Bs8u/
+INFO [2018-11-28 21:38:12] Scrapping Post Link: https://www.instagram.com/p/BqfQbeOBEj-/
+ERROR [2018-11-28 21:38:12] Could not get information from post: https://www.instagram.com/p/BqfQbeOBEj-/
+INFO [2018-11-28 21:38:12] Scrapping Post Link: https://www.instagram.com/p/BqYj6KphshE/
+ERROR [2018-11-28 21:38:12] Could not get information from post: https://www.instagram.com/p/BqYj6KphshE/
+INFO [2018-11-28 21:38:12] Scrapping Post Link: https://www.instagram.com/p/BqtNG8rhjG3/
+ERROR [2018-11-28 21:38:12] Could not get information from post: https://www.instagram.com/p/BqtNG8rhjG3/
+INFO [2018-11-28 21:38:12] Scrapping Post Link: https://www.instagram.com/p/BqNcX8KBHoA/
+ERROR [2018-11-28 21:38:12] Could not get information from post: https://www.instagram.com/p/BqNcX8KBHoA/
+INFO [2018-11-28 21:38:12] Scrapping Post Link: https://www.instagram.com/p/BqdBCg5BXpW/
+ERROR [2018-11-28 21:38:12] Could not get information from post: https://www.instagram.com/p/BqdBCg5BXpW/
+INFO [2018-11-28 21:38:12] Scrapping Post Link: https://www.instagram.com/p/BqfkMRbBVol/
+ERROR [2018-11-28 21:38:12] Could not get information from post: https://www.instagram.com/p/BqfkMRbBVol/
+INFO [2018-11-28 21:38:12] Scrapping Post Link: https://www.instagram.com/p/Bqc8t_HBX0z/
+ERROR [2018-11-28 21:38:12] Could not get information from post: https://www.instagram.com/p/Bqc8t_HBX0z/
+INFO [2018-11-28 21:38:12] User betches has 0 comments.
+INFO [2018-11-28 21:43:44] Extracting information from betches
+INFO [2018-11-28 21:43:45] alias name: Betches
+INFO [2018-11-28 21:43:45] bio: 👆🏼 betches.com
+📖 OUR NEW BOOK: WHENS HAPPY HOUR is now available!!
+🖤 @shopbetches
+👊🏽 @betches_sup
+🎙 @uuppod @dietstartstomorrow & MORE
+INFO [2018-11-28 21:43:45] url: betches.co/switch
+INFO [2018-11-28 21:43:45] Posts: 7665
+INFO [2018-11-28 21:43:45] Follower: 6422777
+INFO [2018-11-28 21:43:45] Following: 199
+INFO [2018-11-28 21:43:45] isPrivate: False
+INFO [2018-11-28 21:43:58] Scrapping Post Link: https://www.instagram.com/p/BqdBCg5BXpW/
+ERROR [2018-11-28 21:43:59] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:43:59] date:2018-11-21T19:01:51.000Z
+INFO [2018-11-28 21:43:59] post-likes:34101
+INFO [2018-11-28 21:43:59] 2mentions
+INFO [2018-11-28 21:43:59] Scrapping Post Link: https://www.instagram.com/p/BqSfsuHBjBC/
+ERROR [2018-11-28 21:43:59] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:43:59] date:2018-11-17T16:58:07.000Z
+INFO [2018-11-28 21:43:59] post-likes:176530
+INFO [2018-11-28 21:43:59] Scrapping Post Link: https://www.instagram.com/p/BqnmfvrhGUK/
+ERROR [2018-11-28 21:44:00] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:44:00] date:2018-11-25T21:41:34.000Z
+INFO [2018-11-28 21:44:00] post-likes:108998
+INFO [2018-11-28 21:44:00] Scrapping Post Link: https://www.instagram.com/p/BqaMHhdhf2b/
+ERROR [2018-11-28 21:44:01] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:44:01] date:2018-11-20T16:40:56.000Z
+INFO [2018-11-28 21:44:01] post-likes:103077
+INFO [2018-11-28 21:44:01] Scrapping Post Link: https://www.instagram.com/p/Bqk5ZCUhb49/
+ERROR [2018-11-28 21:44:02] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:44:02] date:2018-11-24T20:28:57.000Z
+INFO [2018-11-28 21:44:02] post-likes:178468
+INFO [2018-11-28 21:44:02] Scrapping Post Link: https://www.instagram.com/p/Bqkekd7BFZd/
+ERROR [2018-11-28 21:44:03] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:44:03] date:2018-11-24T16:34:35.000Z
+INFO [2018-11-28 21:44:03] post-likes:135570
+INFO [2018-11-28 21:44:03] Scrapping Post Link: https://www.instagram.com/p/BqsX2LWBHbo/
+ERROR [2018-11-28 21:44:03] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:44:03] date:2018-11-27T18:11:56.000Z
+INFO [2018-11-28 21:44:03] post-likes:470247
+INFO [2018-11-28 21:44:03] Scrapping Post Link: https://www.instagram.com/p/BqYj6KphshE/
+ERROR [2018-11-28 21:44:04] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:44:04] date:2018-11-20T01:30:21.000Z
+INFO [2018-11-28 21:44:04] post-likes:115519
+INFO [2018-11-28 21:44:04] Scrapping Post Link: https://www.instagram.com/p/BqqgWpuB2ml/
+ERROR [2018-11-28 21:44:05] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:44:05] date:2018-11-27T00:45:37.000Z
+INFO [2018-11-28 21:44:05] post-likes:93374
+INFO [2018-11-28 21:44:05] Scrapping Post Link: https://www.instagram.com/p/BqqQRu1hL8X/
+ERROR [2018-11-28 21:44:06] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:44:06] date:2018-11-26T22:25:08.000Z
+INFO [2018-11-28 21:44:06] post-likes:163862
+INFO [2018-11-28 21:44:06] Scrapping Post Link: https://www.instagram.com/p/BqvOR4ohUc8/
+ERROR [2018-11-28 21:44:06] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:44:06] date:2018-11-28T20:43:53.000Z
+INFO [2018-11-28 21:44:06] post-likes:31402
+INFO [2018-11-28 21:44:06] Scrapping Post Link: https://www.instagram.com/p/BqsvA_tBV7a/
+ERROR [2018-11-28 21:44:07] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:44:07] date:2018-11-27T21:32:13.000Z
+INFO [2018-11-28 21:44:07] post-likes:157376
+INFO [2018-11-28 21:44:07] Scrapping Post Link: https://www.instagram.com/p/BqbFUBBBLdT/
+ERROR [2018-11-28 21:44:08] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:44:08] date:2018-11-21T01:00:43.000Z
+INFO [2018-11-28 21:44:08] post-likes:127373
+INFO [2018-11-28 21:44:08] Scrapping Post Link: https://www.instagram.com/p/BqvEf3Th_M4/
+ERROR [2018-11-28 21:44:09] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:44:09] date:2018-11-28T19:18:24.000Z
+INFO [2018-11-28 21:44:09] post-likes:84490
+INFO [2018-11-28 21:44:09] Scrapping Post Link: https://www.instagram.com/p/Bqc8t_HBX0z/
+ERROR [2018-11-28 21:44:09] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:44:09] date:2018-11-21T18:24:06.000Z
+INFO [2018-11-28 21:44:09] post-likes:119627
+INFO [2018-11-28 21:44:09] Scrapping Post Link: https://www.instagram.com/p/BqfkMRbBVol/
+ERROR [2018-11-28 21:44:10] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:44:10] date:2018-11-22T18:47:58.000Z
+INFO [2018-11-28 21:44:10] post-likes:993523
+INFO [2018-11-28 21:44:10] Scrapping Post Link: https://www.instagram.com/p/Bqa8Vc9BqdZ/
+ERROR [2018-11-28 21:44:11] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:44:11] date:2018-11-20T23:42:16.000Z
+INFO [2018-11-28 21:44:11] post-likes:85162
+INFO [2018-11-28 21:44:11] Scrapping Post Link: https://www.instagram.com/p/BqfJCmZhgQE/
+ERROR [2018-11-28 21:44:12] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:44:12] date:2018-11-22T14:50:37.000Z
+INFO [2018-11-28 21:44:12] post-likes:655761
+INFO [2018-11-28 21:44:12] Scrapping Post Link: https://www.instagram.com/p/BqQmTZKhGrS/
+ERROR [2018-11-28 21:44:13] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:44:13] date:2018-11-16T23:17:21.000Z
+INFO [2018-11-28 21:44:13] post-likes:99726
+INFO [2018-11-28 21:44:13] Scrapping Post Link: https://www.instagram.com/p/BqdGoe2hHHW/
+INFO [2018-11-28 21:44:14] location_id:215599903
+INFO [2018-11-28 21:44:14] location_url:https://www.instagram.com/explore/locations/215599903/slateny/
+INFO [2018-11-28 21:44:14] location_name:SlateNY
+ERROR [2018-11-28 21:44:14] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:44:14] date:2018-11-21T19:59:01.000Z
+INFO [2018-11-28 21:44:14] post-likes:920057
+INFO [2018-11-28 21:44:14] Scrapping Post Link: https://www.instagram.com/p/BqX3tfSBOLC/
+ERROR [2018-11-28 21:44:15] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:44:15] date:2018-11-19T19:04:08.000Z
+INFO [2018-11-28 21:44:15] post-likes:57279
+INFO [2018-11-28 21:44:15] Scrapping Post Link: https://www.instagram.com/p/BqQHmkTBMai/
+ERROR [2018-11-28 21:44:16] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:44:16] date:2018-11-16T18:49:05.000Z
+INFO [2018-11-28 21:44:16] post-likes:155586
+INFO [2018-11-28 21:44:16] Scrapping Post Link: https://www.instagram.com/p/BqibJmghg6Y/
+ERROR [2018-11-28 21:44:17] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:44:17] date:2018-11-23T21:26:13.000Z
+INFO [2018-11-28 21:44:17] post-likes:178305
+INFO [2018-11-28 21:44:17] Scrapping Post Link: https://www.instagram.com/p/BqfQbeOBEj-/
+ERROR [2018-11-28 21:44:17] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:44:17] date:2018-11-22T15:54:49.000Z
+INFO [2018-11-28 21:44:17] post-likes:122650
+INFO [2018-11-28 21:44:17] Scrapping Post Link: https://www.instagram.com/p/BqIWZy5hgCj/
+ERROR [2018-11-28 21:44:18] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:44:18] date:2018-11-13T18:24:29.000Z
+INFO [2018-11-28 21:44:18] post-likes:138923
+INFO [2018-11-28 21:44:18] Scrapping Post Link: https://www.instagram.com/p/BqtNG8rhjG3/
+ERROR [2018-11-28 21:44:19] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:44:19] date:2018-11-28T01:55:10.000Z
+INFO [2018-11-28 21:44:19] post-likes:99289
+INFO [2018-11-28 21:44:19] Scrapping Post Link: https://www.instagram.com/p/BqprSe3hx79/
+ERROR [2018-11-28 21:44:20] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:44:20] date:2018-11-26T17:01:55.000Z
+INFO [2018-11-28 21:44:20] post-likes:121565
+INFO [2018-11-28 21:44:20] Scrapping Post Link: https://www.instagram.com/p/BqOElH-BIPb/
+ERROR [2018-11-28 21:44:21] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:44:21] date:2018-11-15T23:44:11.000Z
+INFO [2018-11-28 21:44:21] post-likes:56240
+INFO [2018-11-28 21:44:21] Scrapping Post Link: https://www.instagram.com/p/BqnYXz-Bs8u/
+ERROR [2018-11-28 21:44:21] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:44:21] date:2018-11-25T19:39:03.000Z
+INFO [2018-11-28 21:44:21] post-likes:682549
+INFO [2018-11-28 21:44:21] Scrapping Post Link: https://www.instagram.com/p/BqVX0cuhB2x/
+ERROR [2018-11-28 21:44:22] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:44:22] date:2018-11-18T19:46:59.000Z
+INFO [2018-11-28 21:44:22] post-likes:107387
+INFO [2018-11-28 21:44:22] Scrapping Post Link: https://www.instagram.com/p/BqYSuZoBRUd/
+ERROR [2018-11-28 21:44:23] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:44:23] date:2018-11-19T23:00:18.000Z
+INFO [2018-11-28 21:44:23] post-likes:415182
+INFO [2018-11-28 21:44:23] Scrapping Post Link: https://www.instagram.com/p/BqU0J_8hlTL/
+INFO [2018-11-28 21:44:25] location_id:197896046906431
+INFO [2018-11-28 21:44:25] location_url:https://www.instagram.com/explore/locations/197896046906431/betches/
+INFO [2018-11-28 21:44:25] location_name:Betches
+ERROR [2018-11-28 21:44:25] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:44:25] date:2018-11-18T14:38:50.000Z
+INFO [2018-11-28 21:44:25] post-likes:400985
+INFO [2018-11-28 21:44:25] Scrapping Post Link: https://www.instagram.com/p/BqNcX8KBHoA/
+ERROR [2018-11-28 21:44:26] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:44:26] date:2018-11-15T17:53:10.000Z
+INFO [2018-11-28 21:44:26] post-likes:947793
+INFO [2018-11-28 21:44:26] Scrapping Post Link: https://www.instagram.com/p/BqKrLt9BNhw/
+ERROR [2018-11-28 21:44:27] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:44:27] date:2018-11-14T16:04:33.000Z
+INFO [2018-11-28 21:44:27] post-likes:125029
+INFO [2018-11-28 21:44:27] Scrapping Post Link: https://www.instagram.com/p/BqXtES9hPIb/
+ERROR [2018-11-28 21:44:27] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:44:27] date:2018-11-19T17:31:08.000Z
+INFO [2018-11-28 21:44:27] post-likes:121673
+INFO [2018-11-28 21:44:27] Scrapping Post Link: https://www.instagram.com/p/BqLKOrYh2pX/
+ERROR [2018-11-28 21:44:28] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:44:28] date:2018-11-14T20:35:50.000Z
+INFO [2018-11-28 21:44:28] post-likes:155530
+INFO [2018-11-28 21:44:28] Scrapping Post Link: https://www.instagram.com/p/BqLe3s6hr4E/
+ERROR [2018-11-28 21:44:29] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:44:29] date:2018-11-14T23:36:12.000Z
+INFO [2018-11-28 21:44:29] post-likes:196183
+INFO [2018-11-28 21:44:29] Scrapping Post Link: https://www.instagram.com/p/BqvqJSsh1tJ/
+ERROR [2018-11-28 21:44:30] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:44:30] date:2018-11-29T00:47:22.000Z
+INFO [2018-11-28 21:44:30] post-likes:29806
+INFO [2018-11-28 21:44:30] Scrapping Post Link: https://www.instagram.com/p/BqI1t1LhCd3/
+ERROR [2018-11-28 21:44:34] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:44:34] date:2018-11-13T22:58:06.000Z
+INFO [2018-11-28 21:44:34] post-likes:94860
+INFO [2018-11-28 21:44:34] Scrapping Post Link: https://www.instagram.com/p/BqQXZZthX2r/
+ERROR [2018-11-28 21:44:35] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 21:44:35] date:2018-11-16T21:07:06.000Z
+INFO [2018-11-28 21:44:35] post-likes:18328
+INFO [2018-11-28 21:44:35] 2mentions
+INFO [2018-11-28 21:44:35] User betches has 0 comments.
+=======
 INFO [2018-11-28 21:35:57] Extracting information from kyliejenner
 INFO [2018-11-28 21:35:59] alias name: Kylie
 INFO [2018-11-28 21:35:59] bio: @kyliecosmetics
@@ -3518,3 +3849,4 @@ ERROR [2018-11-28 21:49:41] getting Location Infos  (perhaps not set)
 INFO [2018-11-28 21:49:41] date:2018-10-01T17:44:23.000Z
 INFO [2018-11-28 21:49:41] post-likes:34047
 INFO [2018-11-28 21:49:41] User edeneats has 0 comments.
+>>>>>>> a9a7b985ec962701f143cdf2105a257e557a4d19
