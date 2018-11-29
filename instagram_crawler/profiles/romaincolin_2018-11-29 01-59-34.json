@@ -1,0 +1,370 @@
+{
+    "alias": "Romain Colin",
+    "username": "romaincolin",
+    "bio": "\ud83c\udf0e Founder \u2022 Creative Director of @Fubiz\n\ud83d\udccd Based in Paris & New York\n\u2709\ufe0f Business Inquiries : contact@fubiz.net",
+    "prof_img": "https://instagram.fzty1-2.fna.fbcdn.net/vp/beb1c0c4c1be07d55a29490249fad24d/5C8D8B6D/t51.2885-19/11373614_1606764379592987_2004625520_a.jpg",
+    "num_of_posts": 1045,
+    "followers": 156796,
+    "following": 3799,
+    "bio_url": "fubiz.studio",
+    "isprivate": false,
+    "scrapped": "2018-11-29 01:59:34",
+    "posts": [
+        {
+            "caption": "",
+            "location": {
+                "location_url": "https://www.instagram.com/explore/locations/789783642/myconian-ambassador-hotel-relais-chateaux/",
+                "location_name": "Myconian Ambassador Hotel Relais Chateaux",
+                "location_id": "789783642",
+                "latitude": 37.415632972,
+                "longitude": 25.3436399351
+            },
+            "img": null,
+            "preview_img": null,
+            "date": "2018-06-09T16:46:47.000Z",
+            "tags": [],
+            "likes": 2179,
+            "url": "https://www.instagram.com/p/Bjz6a0mBhyu/",
+            "comments": {
+                "count": 25,
+                "list": [
+                    {
+                        "user": "romaincolin",
+                        "comment": "Amazing Shades of Blue \ud83d\udca6"
+                    }
+                ]
+            },
+            "mentions": [
+                "fubiz",
+                "myconianambassador"
+            ]
+        },
+        {
+            "caption": "",
+            "location": {
+                "location_url": "https://www.instagram.com/explore/locations/223348112/mykonos-kikladhes-greece/",
+                "location_name": "M\u00fdkonos, Kikladhes, Greece",
+                "location_id": "223348112",
+                "latitude": 37.45,
+                "longitude": 25.3333
+            },
+            "img": null,
+            "preview_img": null,
+            "date": "2018-06-17T15:37:44.000Z",
+            "tags": [],
+            "likes": 3657,
+            "url": "https://www.instagram.com/p/BkIY4IEhzMX/",
+            "comments": {
+                "count": 25,
+                "list": [
+                    {
+                        "user": "romaincolin",
+                        "comment": "Room with a View \ud83d\ude80"
+                    }
+                ]
+            },
+            "mentions": [
+                "cavotagoomykonos",
+                "fubiz"
+            ]
+        },
+        {
+            "caption": "",
+            "location": {
+                "location_url": "https://www.instagram.com/explore/locations/813048784/stade-roland-garros/",
+                "location_name": "Stade Roland Garros",
+                "location_id": "813048784",
+                "latitude": 48.847222,
+                "longitude": 2.246389
+            },
+            "img": null,
+            "preview_img": null,
+            "date": "2018-06-03T18:18:08.000Z",
+            "tags": [],
+            "likes": 2342,
+            "url": "https://www.instagram.com/p/BjkoGtyBljj/",
+            "comments": {
+                "count": 25,
+                "list": [
+                    {
+                        "user": "romaincolin",
+                        "comment": "Roland Garros View from Above \ud83c\udfbe"
+                    }
+                ]
+            },
+            "mentions": [
+                "lacoste",
+                "rolandgarros",
+                "fubiz",
+                "fubizstudio"
+            ]
+        },
+        {
+            "caption": "",
+            "location": {
+                "location_url": "https://www.instagram.com/explore/locations/561379756/w-amsterdam/",
+                "location_name": "W Amsterdam",
+                "location_id": "561379756",
+                "latitude": 52.3728721882,
+                "longitude": 4.8899859985
+            },
+            "img": null,
+            "preview_img": null,
+            "date": "2018-05-07T18:25:07.000Z",
+            "tags": [],
+            "likes": 2125,
+            "url": "https://www.instagram.com/p/BifHcNMBHtX/",
+            "comments": {
+                "count": 25,
+                "list": [
+                    {
+                        "user": "romaincolin",
+                        "comment": "Beautiful Sunrise in Amsterdam \ud83c\uddf3\ud83c\uddf1"
+                    }
+                ]
+            },
+            "mentions": [
+                "whotels",
+                "fubiz"
+            ]
+        },
+        {
+            "caption": "",
+            "location": {
+                "location_url": "https://www.instagram.com/explore/locations/293950047771953/aeroport-lyon-saint-exupery/",
+                "location_name": "A\u00e9roport Lyon Saint-Exup\u00e9ry",
+                "location_id": "293950047771953",
+                "latitude": 45.7169966941,
+                "longitude": 5.0777004991
+            },
+            "img": null,
+            "preview_img": null,
+            "date": "2018-04-30T17:47:37.000Z",
+            "tags": [],
+            "likes": 2588,
+            "url": "https://www.instagram.com/p/BiNBlbrHdAv/",
+            "comments": {
+                "count": 25,
+                "list": [
+                    {
+                        "user": "romaincolin",
+                        "comment": "Airport Life in Lyon \u2708\ufe0f"
+                    }
+                ]
+            },
+            "mentions": [
+                "fubiz",
+                "fubizstudio"
+            ]
+        },
+        {
+            "caption": "",
+            "location": {
+                "location_url": "https://www.instagram.com/explore/locations/690547340/la-bastide-de-gordes/",
+                "location_name": "La Bastide de Gordes",
+                "location_id": "690547340",
+                "latitude": 43.9114711916,
+                "longitude": 5.1986834653
+            },
+            "img": null,
+            "preview_img": null,
+            "date": "2018-08-15T17:33:57.000Z",
+            "tags": [],
+            "likes": 2695,
+            "url": "https://www.instagram.com/p/BmghE4thLyS/",
+            "comments": {
+                "count": 25,
+                "list": [
+                    {
+                        "user": "romaincolin",
+                        "comment": "Summer Vibes in Gordes \ud83d\udd25"
+                    }
+                ]
+            },
+            "mentions": [
+                "fubiz",
+                "bastidedegordes"
+            ]
+        },
+        {
+            "caption": "",
+            "location": {
+                "location_url": "https://www.instagram.com/explore/locations/213050058/milan-italy/",
+                "location_name": "Milan, Italy",
+                "location_id": "213050058",
+                "latitude": 45.4643,
+                "longitude": 9.1897
+            },
+            "img": null,
+            "preview_img": null,
+            "date": "2018-08-02T17:53:15.000Z",
+            "tags": [],
+            "likes": 2375,
+            "url": "https://www.instagram.com/p/Bl_E820nv6y/",
+            "comments": {
+                "count": 25,
+                "list": [
+                    {
+                        "user": "romaincolin",
+                        "comment": "From Milan with Love \ud83c\uddee\ud83c\uddf9"
+                    }
+                ]
+            },
+            "mentions": [
+                "fubiz",
+                "apple"
+            ]
+        },
+        {
+            "caption": "",
+            "location": {
+                "location_url": "https://www.instagram.com/explore/locations/380779541/les-roches-blanches/",
+                "location_name": "Les Roches Blanches",
+                "location_id": "380779541",
+                "latitude": 43.2114221804,
+                "longitude": 5.5294959651
+            },
+            "img": null,
+            "preview_img": null,
+            "date": "2018-11-04T18:03:44.000Z",
+            "tags": [],
+            "likes": 2231,
+            "url": "https://www.instagram.com/p/BpxI3_9gvOA/",
+            "comments": {
+                "count": 25,
+                "list": [
+                    {
+                        "user": "romaincolin",
+                        "comment": "Infinity Pool from Cassis \u2600\ufe0f"
+                    }
+                ]
+            },
+            "mentions": [
+                "fubiz",
+                "lesrochesblanches"
+            ]
+        },
+        {
+            "caption": "",
+            "location": {
+                "location_url": "https://www.instagram.com/explore/locations/2941974/cavo-tagoo-mykonos/",
+                "location_name": "Cavo Tagoo Mykonos",
+                "location_id": "2941974",
+                "latitude": 37.4566282864,
+                "longitude": 25.3288705864
+            },
+            "img": null,
+            "preview_img": null,
+            "date": "2018-06-05T17:24:55.000Z",
+            "tags": [],
+            "likes": 2595,
+            "url": "https://www.instagram.com/p/BjprmmqhLxk/",
+            "comments": {
+                "count": 25,
+                "list": [
+                    {
+                        "user": "romaincolin",
+                        "comment": "Good Morning from Mykonos \ud83c\uddec\ud83c\uddf7"
+                    }
+                ]
+            },
+            "mentions": [
+                "cavotagoomykonos",
+                "fubiz",
+                "fubiztravel",
+                "fubizstudio"
+            ]
+        },
+        {
+            "caption": "",
+            "location": {
+                "location_url": "https://www.instagram.com/explore/locations/218575406/es-saadi-marrakech-resort/",
+                "location_name": "Es Saadi Marrakech Resort",
+                "location_id": "218575406",
+                "latitude": 31.622016808,
+                "longitude": -8.0045005112
+            },
+            "img": null,
+            "preview_img": null,
+            "date": "2018-05-19T17:18:02.000Z",
+            "tags": [],
+            "likes": 3061,
+            "url": "https://www.instagram.com/p/Bi95TUOBFEV/",
+            "comments": {
+                "count": 25,
+                "list": [
+                    {
+                        "user": "romaincolin",
+                        "comment": "Palm Trees of Marrakech \ud83c\udf34"
+                    }
+                ]
+            },
+            "mentions": [
+                "fubiz",
+                "essaadimarrakech"
+            ]
+        },
+        {
+            "caption": "",
+            "location": {
+                "location_url": "https://www.instagram.com/explore/locations/292832349/clairefontaine-centre-france/",
+                "location_name": "Clairefontaine, Centre, France",
+                "location_id": "292832349",
+                "latitude": 48.6160149755,
+                "longitude": 1.9219530913
+            },
+            "img": null,
+            "preview_img": null,
+            "date": "2018-10-14T17:05:16.000Z",
+            "tags": [],
+            "likes": 2287,
+            "url": "https://www.instagram.com/p/Bo69fU0gAf6/",
+            "comments": {
+                "count": 25,
+                "list": [
+                    {
+                        "user": "romaincolin",
+                        "comment": "Beautiful Staircase from Clairefontaine \u26bd\ufe0f"
+                    }
+                ]
+            },
+            "mentions": [
+                "equipedefrance",
+                "smartwater",
+                "fubiz",
+                "fff"
+            ]
+        },
+        {
+            "caption": "",
+            "location": {
+                "location_url": "https://www.instagram.com/explore/locations/151174985/avenue-des-champs-elysees/",
+                "location_name": "Avenue des Champs-\u00c9lys\u00e9es",
+                "location_id": "151174985",
+                "latitude": 48.8717556587,
+                "longitude": 2.3037659036
+            },
+            "img": null,
+            "preview_img": null,
+            "date": "2018-07-17T06:27:26.000Z",
+            "tags": [],
+            "likes": 3656,
+            "url": "https://www.instagram.com/p/BlUpv1JhTTX/",
+            "comments": {
+                "count": 25,
+                "list": [
+                    {
+                        "user": "romaincolin",
+                        "comment": "Legendary Tribute for World Cup Victory \ud83c\uddeb\ud83c\uddf7"
+                    }
+                ]
+            },
+            "mentions": [
+                "equipedefrance",
+                "patrouilledefrance",
+                "fubiz",
+                "cocacolafr"
+            ]
+        }
+    ]
+}
