@@ -1,9 +1,11 @@
 import cv2
+import datetime
 import dateutil.parser as dateparser
 import numpy as np
 import os
 from PIL import Image
 import json
+import sys
 import urllib.request
 
 from keras.applications import InceptionResNetV2
@@ -16,14 +18,16 @@ from keras.preprocessing.image import load_img
 model = InceptionResNetV2(weights='imagenet')
 in_shape = [299, 299]
 
+# obtain parent directory for JSON data files
+fileprefix = sys.argv[1]
+
 # import all JSON file names
-fileprefix = 'profiles/'
 filenames = [file for file in os.listdir(fileprefix) if file.endswith('.json')]
 
 # iterate through json files and extract data
 # each entry in the list will be a dictionary for each insta user we've collected
 data, counter = [], 1
-for filename in filenames:
+for filename in filenames[0:1]:
     filename = fileprefix + filename
     try:
         with open(filename) as file:
@@ -86,5 +90,7 @@ for filename in filenames:
         continue
 
 # write a new data.json file with the produced dictionary object
-with open('data.json', 'w') as outfile:
+now = datetime.datetime.now()
+savename = 'data_' + str(now.month) + '-' + str(now.day) + '-' + str(now.hour) + str(now.minute) + '.json'
+with open(savename, 'w') as outfile:
     json.dump(data, outfile, ensure_ascii=False, indent=2)
