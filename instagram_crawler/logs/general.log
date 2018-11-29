@@ -1,0 +1,121 @@
+INFO [2018-11-28 23:05:09] Extracting information from edeneats
+INFO [2018-11-28 23:05:12] alias name: Eden Grinshpan Nivron
+INFO [2018-11-28 23:05:12] bio: 👼🏻Mama to Ayv Rose Nivron🌹
+TV host 💃🏻
+Co-founder @intheDEZ 🥙🐫🌙
+#EdenEats #EdenEatsFor2
+INFO [2018-11-28 23:05:12] url: youtu.be/og0NhSnb8sg
+INFO [2018-11-28 23:05:12] Posts: 2144
+INFO [2018-11-28 23:05:12] Follower: 95072
+INFO [2018-11-28 23:05:12] Following: 1276
+INFO [2018-11-28 23:05:12] isPrivate: False
+INFO [2018-11-28 23:05:25] Scrapping Post Link: https://www.instagram.com/p/BqfDBPCF0G8/
+INFO [2018-11-28 23:05:27] location_id:215631076
+INFO [2018-11-28 23:05:27] location_url:https://www.instagram.com/explore/locations/215631076/williamsburg-brooklyn/
+INFO [2018-11-28 23:05:27] location_name:Williamsburg, Brooklyn
+ERROR [2018-11-28 23:05:27] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 23:05:27] date:2018-11-22T13:57:38.000Z
+INFO [2018-11-28 23:05:27] post-likes:2547
+INFO [2018-11-28 23:05:27] edeneats -- Ayv is so incredibly thankful for this yogurt
+#happythanksgivingday 👼🏻💗
+INFO [2018-11-28 23:05:28] 20 comments.
+INFO [2018-11-28 23:05:28] 1mentions
+INFO [2018-11-28 23:05:28] Scrapping Post Link: https://www.instagram.com/p/Bqu7eT3FBWr/
+INFO [2018-11-28 23:05:29] location_id:215631076
+INFO [2018-11-28 23:05:29] location_url:https://www.instagram.com/explore/locations/215631076/williamsburg-brooklyn/
+INFO [2018-11-28 23:05:29] location_name:Williamsburg, Brooklyn
+ERROR [2018-11-28 23:05:29] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 23:05:29] date:2018-11-28T17:59:33.000Z
+INFO [2018-11-28 23:05:29] post-likes:6984
+INFO [2018-11-28 23:05:29] edeneats -- She’s definitely mine 🍕👼🏻💗
+ERROR [2018-11-28 23:05:29] ERROR something went wrong getting user_commented
+INFO [2018-11-28 23:05:30] 25 comments.
+INFO [2018-11-28 23:05:30] 2mentions
+INFO [2018-11-28 23:05:30] Scrapping Post Link: https://www.instagram.com/p/Bqn99pAlnGc/
+INFO [2018-11-28 23:05:32] location_id:215631076
+INFO [2018-11-28 23:05:32] location_url:https://www.instagram.com/explore/locations/215631076/williamsburg-brooklyn/
+INFO [2018-11-28 23:05:32] location_name:Williamsburg, Brooklyn
+ERROR [2018-11-28 23:05:32] getting Location Infos  (perhaps not set)
+INFO [2018-11-28 23:05:32] date:2018-11-26T01:06:37.000Z
+INFO [2018-11-28 23:05:32] post-likes:8995
+INFO [2018-11-28 23:05:32] edeneats -- Like mother like daughter 🍕💗👼🏻👩‍👧
+ERROR [2018-11-28 23:05:32] ERROR something went wrong getting user_commented
+INFO [2018-11-28 23:05:32] 25 comments.
+INFO [2018-11-28 23:05:32] 1mentions
+INFO [2018-11-28 23:05:32] Scrapping Post Link: https://www.instagram.com/p/BqNHZMklP4Z/
+ERROR [2018-11-28 23:05:33] getting Location Infos  (perhaps not set)
+ERROR [2018-11-28 23:05:33] ERROR - getting Post Date 
+ERROR [2018-11-28 23:05:33] Could not get information from post: https://www.instagram.com/p/BqNHZMklP4Z/
+INFO [2018-11-28 23:05:33] Scrapping Post Link: https://www.instagram.com/p/BoKkmecHQQx/
+ERROR [2018-11-28 23:05:33] Could not get information from post: https://www.instagram.com/p/BoKkmecHQQx/
+INFO [2018-11-28 23:05:33] Scrapping Post Link: https://www.instagram.com/p/BpM87xdnO1s/
+ERROR [2018-11-28 23:05:33] Could not get information from post: https://www.instagram.com/p/BpM87xdnO1s/
+INFO [2018-11-28 23:05:33] Scrapping Post Link: https://www.instagram.com/p/Bp4XPVlli_V/
+ERROR [2018-11-28 23:05:33] Could not get information from post: https://www.instagram.com/p/Bp4XPVlli_V/
+INFO [2018-11-28 23:05:33] Scrapping Post Link: https://www.instagram.com/p/Bot_w5DnEfs/
+ERROR [2018-11-28 23:05:33] Could not get information from post: https://www.instagram.com/p/Bot_w5DnEfs/
+INFO [2018-11-28 23:05:33] Scrapping Post Link: https://www.instagram.com/p/BpsYaZVFnDc/
+ERROR [2018-11-28 23:05:33] Could not get information from post: https://www.instagram.com/p/BpsYaZVFnDc/
+INFO [2018-11-28 23:05:33] Scrapping Post Link: https://www.instagram.com/p/BqiLJ_Pl9q_/
+ERROR [2018-11-28 23:05:33] Could not get information from post: https://www.instagram.com/p/BqiLJ_Pl9q_/
+INFO [2018-11-28 23:05:33] Scrapping Post Link: https://www.instagram.com/p/Bo4qy8kn7YD/
+ERROR [2018-11-28 23:05:33] Could not get information from post: https://www.instagram.com/p/Bo4qy8kn7YD/
+INFO [2018-11-28 23:05:33] Scrapping Post Link: https://www.instagram.com/p/BqDfysyluE8/
+ERROR [2018-11-28 23:05:33] Could not get information from post: https://www.instagram.com/p/BqDfysyluE8/
+INFO [2018-11-28 23:05:33] Scrapping Post Link: https://www.instagram.com/p/Bo62Ak_H5v5/
+ERROR [2018-11-28 23:05:33] Could not get information from post: https://www.instagram.com/p/Bo62Ak_H5v5/
+INFO [2018-11-28 23:05:33] Scrapping Post Link: https://www.instagram.com/p/BoZgoWjHOr9/
+ERROR [2018-11-28 23:05:33] Could not get information from post: https://www.instagram.com/p/BoZgoWjHOr9/
+INFO [2018-11-28 23:05:33] Scrapping Post Link: https://www.instagram.com/p/Bpo5jFhFbi6/
+ERROR [2018-11-28 23:05:33] Could not get information from post: https://www.instagram.com/p/Bpo5jFhFbi6/
+INFO [2018-11-28 23:05:33] Scrapping Post Link: https://www.instagram.com/p/BowlINjHAON/
+ERROR [2018-11-28 23:05:33] Could not get information from post: https://www.instagram.com/p/BowlINjHAON/
+INFO [2018-11-28 23:05:33] Scrapping Post Link: https://www.instagram.com/p/Boo5CMCnd7G/
+ERROR [2018-11-28 23:05:33] Could not get information from post: https://www.instagram.com/p/Boo5CMCnd7G/
+INFO [2018-11-28 23:05:33] Scrapping Post Link: https://www.instagram.com/p/BqPhjnUlJis/
+ERROR [2018-11-28 23:05:33] Could not get information from post: https://www.instagram.com/p/BqPhjnUlJis/
+INFO [2018-11-28 23:05:33] Scrapping Post Link: https://www.instagram.com/p/BoyufiRH9xw/
+ERROR [2018-11-28 23:05:33] Could not get information from post: https://www.instagram.com/p/BoyufiRH9xw/
+INFO [2018-11-28 23:05:33] Scrapping Post Link: https://www.instagram.com/p/BqfZdW4lTTs/
+ERROR [2018-11-28 23:05:33] Could not get information from post: https://www.instagram.com/p/BqfZdW4lTTs/
+INFO [2018-11-28 23:05:33] Scrapping Post Link: https://www.instagram.com/p/BpzoSUqFf1V/
+ERROR [2018-11-28 23:05:33] Could not get information from post: https://www.instagram.com/p/BpzoSUqFf1V/
+INFO [2018-11-28 23:05:33] Scrapping Post Link: https://www.instagram.com/p/BqKXNHPlOI2/
+ERROR [2018-11-28 23:05:33] Could not get information from post: https://www.instagram.com/p/BqKXNHPlOI2/
+INFO [2018-11-28 23:05:33] Scrapping Post Link: https://www.instagram.com/p/BqVGhQzFtaw/
+ERROR [2018-11-28 23:05:33] Could not get information from post: https://www.instagram.com/p/BqVGhQzFtaw/
+INFO [2018-11-28 23:05:33] Scrapping Post Link: https://www.instagram.com/p/Bqm8J94luxw/
+ERROR [2018-11-28 23:05:33] Could not get information from post: https://www.instagram.com/p/Bqm8J94luxw/
+INFO [2018-11-28 23:05:33] Scrapping Post Link: https://www.instagram.com/p/BqA08oelow0/
+ERROR [2018-11-28 23:05:33] Could not get information from post: https://www.instagram.com/p/BqA08oelow0/
+INFO [2018-11-28 23:05:33] Scrapping Post Link: https://www.instagram.com/p/BpXNUYzny3J/
+ERROR [2018-11-28 23:05:33] Could not get information from post: https://www.instagram.com/p/BpXNUYzny3J/
+INFO [2018-11-28 23:05:33] Scrapping Post Link: https://www.instagram.com/p/BqItvfWFbzM/
+ERROR [2018-11-28 23:05:33] Could not get information from post: https://www.instagram.com/p/BqItvfWFbzM/
+INFO [2018-11-28 23:05:33] Scrapping Post Link: https://www.instagram.com/p/BoXe0XWnqKj/
+ERROR [2018-11-28 23:05:33] Could not get information from post: https://www.instagram.com/p/BoXe0XWnqKj/
+INFO [2018-11-28 23:05:33] Scrapping Post Link: https://www.instagram.com/p/BpFn2erHQJ-/
+ERROR [2018-11-28 23:05:33] Could not get information from post: https://www.instagram.com/p/BpFn2erHQJ-/
+INFO [2018-11-28 23:05:33] Scrapping Post Link: https://www.instagram.com/p/BqXl82elO-7/
+ERROR [2018-11-28 23:05:33] Could not get information from post: https://www.instagram.com/p/BqXl82elO-7/
+INFO [2018-11-28 23:05:33] Scrapping Post Link: https://www.instagram.com/p/BohWQjzn6Cw/
+ERROR [2018-11-28 23:05:33] Could not get information from post: https://www.instagram.com/p/BohWQjzn6Cw/
+INFO [2018-11-28 23:05:33] Scrapping Post Link: https://www.instagram.com/p/BpQJB-7HqVU/
+ERROR [2018-11-28 23:05:33] Could not get information from post: https://www.instagram.com/p/BpQJB-7HqVU/
+INFO [2018-11-28 23:05:33] Scrapping Post Link: https://www.instagram.com/p/BqTUz0vl5Jk/
+ERROR [2018-11-28 23:05:33] Could not get information from post: https://www.instagram.com/p/BqTUz0vl5Jk/
+INFO [2018-11-28 23:05:33] Scrapping Post Link: https://www.instagram.com/p/Bp613gQlATc/
+ERROR [2018-11-28 23:05:33] Could not get information from post: https://www.instagram.com/p/Bp613gQlATc/
+INFO [2018-11-28 23:05:33] Scrapping Post Link: https://www.instagram.com/p/BoemMSjnFYv/
+ERROR [2018-11-28 23:05:33] Could not get information from post: https://www.instagram.com/p/BoemMSjnFYv/
+INFO [2018-11-28 23:05:33] Scrapping Post Link: https://www.instagram.com/p/BpSutDEnrOV/
+ERROR [2018-11-28 23:05:33] Could not get information from post: https://www.instagram.com/p/BpSutDEnrOV/
+INFO [2018-11-28 23:05:33] Scrapping Post Link: https://www.instagram.com/p/Bpg57AjFlbR/
+ERROR [2018-11-28 23:05:33] Could not get information from post: https://www.instagram.com/p/Bpg57AjFlbR/
+INFO [2018-11-28 23:05:33] Scrapping Post Link: https://www.instagram.com/p/BpCPSSPnqX2/
+ERROR [2018-11-28 23:05:33] Could not get information from post: https://www.instagram.com/p/BpCPSSPnqX2/
+INFO [2018-11-28 23:05:33] Scrapping Post Link: https://www.instagram.com/p/BoOksnNnc4X/
+ERROR [2018-11-28 23:05:33] Could not get information from post: https://www.instagram.com/p/BoOksnNnc4X/
+INFO [2018-11-28 23:05:33] Scrapping Post Link: https://www.instagram.com/p/BoSo_ctHo6C/
+ERROR [2018-11-28 23:05:33] Could not get information from post: https://www.instagram.com/p/BoSo_ctHo6C/
+INFO [2018-11-28 23:05:33] User edeneats has 70 comments.
