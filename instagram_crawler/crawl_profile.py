@@ -30,9 +30,9 @@ url = '%s/accounts/login/' % (URL)
 browser.get(url)
 time.sleep(3)
 u_input = browser.find_element_by_xpath('//*[@name="username"]')
-u_input.send_keys('dee290_') # your username here
+u_input.send_keys('patrickx1989') # your username here
 p_input = browser.find_element_by_xpath('//*[@name="password"]')
-p_input.send_keys('somepass') # your password here
+p_input.send_keys('Joseph8388.') # your password here
 
 login_btn = browser.find_element_by_class_name('L3NKy')
 login_btn.click()
