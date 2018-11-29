@@ -1,4 +1,8 @@
 def popular_hashtags():
+	"""
+	pull out 10k most popular hashtags
+	return: dictionary {hashtag: weight}
+	"""
 	dic = {}
 	with open('./hashtags.txt', 'r', encoding = 'utf8') as f:
 		readed = f.read()
@@ -9,7 +13,7 @@ def popular_hashtags():
 			num_hashtags -= 1
 
 	return dic
-
+# print hashtag and corresponding weight
 # hashtags = popular_hashtags()
 # for key, val in hashtags.items():
 # 	print(key, val)
