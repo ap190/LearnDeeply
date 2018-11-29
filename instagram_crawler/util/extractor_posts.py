@@ -110,6 +110,11 @@ def extract_post_info(browser, postlink):
     commentscount = 0
 
     try:
+        user_comments, user_commented_list, commentscount = extract_post_comments(browser, post)
+    except:
+        InstaLogger.logger().error("trying to get comments (function)")
+
+    try:
         caption, tags = extract_post_caption(user_comments, username)
         # delete first comment because its the caption of the user posted
         if len(caption) > 0:
@@ -146,6 +151,7 @@ def extract_post_caption(user_comments, username):
     caption = ''
     try:
         if len(user_comments) > 0:
+            print("here")
             user_commented = user_comments[0]
             if username == user_commented['user']:
                 caption = user_commented['comment']
@@ -171,33 +177,33 @@ def extract_post_comments(browser, post):
             comment_list = post.find_element_by_tag_name('ul')
             comments = comment_list.find_elements_by_tag_name('li')
 
-            if len(comments) > 1:
-                # load hidden comments
-                tried_catch_comments = 0
-                while (comments[1].text.lower() == 'load more comments' or comments[1].text.lower().startswith(
-                        'view all')):
-                    try:
-                        if comments[1].find_element_by_tag_name('button'):
-                            print("click button for loading more")
-                            comments[1].find_element_by_tag_name('button').click()
-                        elif comments[1].find_element_by_tag_name('a'):
-                            print("click a for loading more")
-                            comments[1].find_element_by_tag_name('a').click()
-                        sleep(Settings.sleep_time_between_comment_loading)
-                    except:
-                        print("error on clicking - next try (tried: " + str(tried_catch_comments) + ")comments:" + str(len(comments)) + ")")
-                        tried_catch_comments = tried_catch_comments + 1
-                        if tried_catch_comments > 10:
-                            print("exit getting comments")
-                            break
-                        sleep(Settings.sleep_time_between_comment_loading)
+            # if len(comments) > 1:
+            #     # load hidden comments
+            #     tried_catch_comments = 0
+            #     while (comments[1].text.lower() == 'load more comments' or comments[1].text.lower().startswith(
+            #             'view all')):
+            #         try:
+            #             if comments[1].find_element_by_tag_name('button'):
+            #                 print("click button for loading more")
+            #                 comments[1].find_element_by_tag_name('button').click()
+            #             elif comments[1].find_element_by_tag_name('a'):
+            #                 print("click a for loading more")
+            #                 comments[1].find_element_by_tag_name('a').click()
+            #             sleep(Settings.sleep_time_between_comment_loading)
+            #         except:
+            #             print("error on clicking - next try (tried: " + str(tried_catch_comments) + ")comments:" + str(len(comments)) + ")")
+            #             tried_catch_comments = tried_catch_comments + 1
+            #             if tried_catch_comments > 10:
+            #                 print("exit getting comments")
+            #                 break
+            #             sleep(Settings.sleep_time_between_comment_loading)
 
-                    comment_list = post.find_element_by_tag_name('ul')
-                    comments = comment_list.find_elements_by_tag_name('li')
-                # adding who commented into user_commented_list
-                InstaLogger.logger().info("found comments" + str(len(comments)))
-            else:
-                print("1 comment")
+            #         comment_list = post.find_element_by_tag_name('ul')
+            #         comments = comment_list.find_elements_by_tag_name('li')
+            #     # adding who commented into user_commented_list
+            #     InstaLogger.logger().info("found comments" + str(len(comments)))
+            # else:
+            #     print("1 comment")
 
             for comm in comments:
                 try:
