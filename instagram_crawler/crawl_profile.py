@@ -6,7 +6,7 @@ import datetime
 import time
 from util.settings import Settings
 from util.datasaver import Datasaver
-
+import time
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
@@ -26,6 +26,8 @@ browser = webdriver.Chrome('./assets/chromedriver', options=chrome_options, chro
 
 URL = 'https://www.instagram.com'
 url = '%s/accounts/login/' % (URL)
+time.sleep(1)
+
 browser.get(url)
 time.sleep(10)
 u_input = browser.find_element_by_xpath('//*[@name="username"]')
@@ -35,7 +37,11 @@ p_input.send_keys('somepass') # your password here
 
 login_btn = browser.find_element_by_class_name('L3NKy')
 login_btn.click()
+<<<<<<< HEAD
 time.sleep(10)
+=======
+time.sleep(1)
+>>>>>>> a9a7b985ec962701f143cdf2105a257e557a4d19
 
 try:
   usernames = get_all_user_names()
