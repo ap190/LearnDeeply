@@ -1,0 +1,354 @@
+{
+    "alias": "Keith Ladzinski",
+    "username": "ladzinski",
+    "bio": "@natgeo Photographer / Director @3stringsproductions / @sealegacy / @alpinestartfoods / @djiglobal / @arcteryx / @manfrottoimaginemore / @nikonusa \u270c\ud83c\udffb",
+    "prof_img": "https://instagram.fzty1-2.fna.fbcdn.net/vp/3522d8f03d57bf4752fd2708f96734e4/5CB0B3CF/t51.2885-19/s320x320/36148188_227400864742537_3640201825237336064_n.jpg",
+    "num_of_posts": 3341,
+    "followers": 1243152,
+    "following": 1202,
+    "bio_url": "goo.gl/kLWYBW",
+    "isprivate": false,
+    "scrapped": "2018-11-29 02:38:30",
+    "posts": [
+        {
+            "caption": "",
+            "location": {
+                "location_url": "",
+                "location_name": "",
+                "location_id": 0,
+                "latitude": "",
+                "longitude": ""
+            },
+            "img": null,
+            "preview_img": null,
+            "date": "2018-11-26T02:59:30.000Z",
+            "tags": [],
+            "likes": 21106,
+            "url": "https://www.instagram.com/p/BqoK4YKhdnt/",
+            "comments": {
+                "count": 25,
+                "list": [
+                    {
+                        "user": "ladzinski",
+                        "comment": "Sleeping beauty. Lions are among the few that can let their guard down enough to actually sleep in the African veld. They can sleep upwards of 22 hours a day in fact! This seems lazy but it takes a lot of energy to hunt, especially in the heat. Conservation of energy is life in the bush."
+                    }
+                ]
+            },
+            "mentions": [
+                "danahrichardson",
+                "jacadatravel",
+                "nikonusa",
+                "juliefranzrich",
+                "thornybush_collection"
+            ]
+        },
+        {
+            "caption": "",
+            "location": {
+                "location_url": "https://www.instagram.com/explore/locations/479091515/south-africa/",
+                "location_name": "South Africa",
+                "location_id": "479091515",
+                "latitude": -29.0,
+                "longitude": 24.0
+            },
+            "img": "https://instagram.fzty1-2.fna.fbcdn.net/vp/2c376dff4017f91023a7a0baac9761ad/5C975F3F/t51.2885-19/s150x150/36148188_227400864742537_3640201825237336064_n.jpg",
+            "preview_img": null,
+            "date": "2018-11-24T13:12:09.000Z",
+            "tags": [],
+            "likes": 30420,
+            "url": "https://www.instagram.com/p/BqkHZ2TBKhY/",
+            "comments": {
+                "count": -1,
+                "list": []
+            },
+            "mentions": []
+        },
+        {
+            "caption": "",
+            "location": {
+                "location_url": "https://www.instagram.com/explore/locations/56769682960/kruger-national-park/",
+                "location_name": "Kruger National Park",
+                "location_id": "56769682960",
+                "latitude": -24.9860580212,
+                "longitude": 31.584084034
+            },
+            "img": "https://instagram.fzty1-2.fna.fbcdn.net/vp/2c376dff4017f91023a7a0baac9761ad/5C975F3F/t51.2885-19/s150x150/36148188_227400864742537_3640201825237336064_n.jpg",
+            "preview_img": null,
+            "date": "2018-11-28T16:06:41.000Z",
+            "tags": [],
+            "likes": 16957,
+            "url": "https://www.instagram.com/p/BquujosBnQQ/",
+            "comments": {
+                "count": -1,
+                "list": []
+            },
+            "mentions": []
+        },
+        {
+            "caption": "",
+            "location": {
+                "location_url": "https://www.instagram.com/explore/locations/990300077/kalahari/",
+                "location_name": "Kalahari",
+                "location_id": "990300077",
+                "latitude": -22.5028,
+                "longitude": 19.4827
+            },
+            "img": "https://instagram.fzty1-2.fna.fbcdn.net/vp/2c376dff4017f91023a7a0baac9761ad/5C975F3F/t51.2885-19/s150x150/36148188_227400864742537_3640201825237336064_n.jpg",
+            "preview_img": null,
+            "date": "2018-11-28T08:18:27.000Z",
+            "tags": [],
+            "likes": 25989,
+            "url": "https://www.instagram.com/p/Bqt4-PLB3sU/",
+            "comments": {
+                "count": -1,
+                "list": []
+            },
+            "mentions": []
+        },
+        {
+            "caption": "",
+            "location": {
+                "location_url": "",
+                "location_name": "",
+                "location_id": 0,
+                "latitude": "",
+                "longitude": ""
+            },
+            "img": null,
+            "preview_img": null,
+            "date": "2018-11-24T06:17:06.000Z",
+            "tags": [],
+            "likes": 32711,
+            "url": "https://www.instagram.com/p/BqjX59VBsqK/",
+            "comments": {
+                "count": 25,
+                "list": [
+                    {
+                        "user": "ladzinski",
+                        "comment": "Eye to eye with a Nyala / @thornybush_collection"
+                    }
+                ]
+            },
+            "mentions": [
+                "danahrichardson",
+                "jacadatravel",
+                "hydroflask",
+                "juliefranzrich",
+                "thornybush_collection"
+            ]
+        },
+        {
+            "caption": "",
+            "location": {
+                "location_url": "https://www.instagram.com/explore/locations/203845713440746/tswalu-kalahari-reserve/",
+                "location_name": "Tswalu Kalahari Reserve",
+                "location_id": "203845713440746",
+                "latitude": -27.3101407226,
+                "longitude": 22.4703195775
+            },
+            "img": null,
+            "preview_img": null,
+            "date": "2018-11-26T12:31:35.000Z",
+            "tags": [],
+            "likes": 29183,
+            "url": "https://www.instagram.com/p/BqpMWeghanK/",
+            "comments": {
+                "count": 25,
+                "list": [
+                    {
+                        "user": "ladzinski",
+                        "comment": "Under stormy skies an alpha #meerkat surveying the land for predators this morning before calling to the clan to emerge. Meerkats are in the mongoose family, which basically means they\u2019re fearless and bad ass. Survival in the Kalahari isn\u2019t an easy thing, the temperature fluctuations are largely dramatic and adaptation here is a prerequisite. Meerkats rely on one another and are extremely tight knit, it\u2019s always a joy watching them work as a team all for the greater good of the pack. @tswalu @danahrichardson @juliefranzrich @jacadatravel @hydroflask @barry_peiser"
+                    }
+                ]
+            },
+            "mentions": [
+                "danahrichardson",
+                "jacadatravel",
+                "hydroflask",
+                "tswalu",
+                "barry_peiser",
+                "juliefranzrich"
+            ]
+        },
+        {
+            "caption": "",
+            "location": {
+                "location_url": "https://www.instagram.com/explore/locations/203845713440746/tswalu-kalahari-reserve/",
+                "location_name": "Tswalu Kalahari Reserve",
+                "location_id": "203845713440746",
+                "latitude": -27.3101407226,
+                "longitude": 22.4703195775
+            },
+            "img": null,
+            "preview_img": null,
+            "date": "2018-11-27T03:12:25.000Z",
+            "tags": [],
+            "likes": 45088,
+            "url": "https://www.instagram.com/p/BqqxJ3Nh0Q4/",
+            "comments": {
+                "count": 25,
+                "list": [
+                    {
+                        "user": "ladzinski",
+                        "comment": "King of the #Kalahari / lightning firing across the sky at sunset, an unbelievable evening last night with @tswalu @danahrichardson @juliefranzrich @barry_peiser @jacadatravel"
+                    }
+                ]
+            },
+            "mentions": [
+                "danahrichardson",
+                "jacadatravel",
+                "tswalu",
+                "barry_peiser",
+                "nikonusa",
+                "juliefranzrich"
+            ]
+        },
+        {
+            "caption": "",
+            "location": {
+                "location_url": "https://www.instagram.com/explore/locations/567005557/antarctica/",
+                "location_name": "Antarctica",
+                "location_id": "567005557",
+                "latitude": null,
+                "longitude": null
+            },
+            "img": null,
+            "preview_img": null,
+            "date": "2018-11-25T13:51:20.000Z",
+            "tags": [],
+            "likes": 15084,
+            "url": "https://www.instagram.com/p/BqmwrtShTi8/",
+            "comments": {
+                "count": 25,
+                "list": [
+                    {
+                        "user": "ladzinski",
+                        "comment": "Breath. Antarctica is melting faster than nearly anywhere else on the planet, bringing with it a host of unanswered questions and forth coming problems. Please take the time to read my latest story with fellow photographers @paulnicklen and @cristinamittermeier in this months @natgeo written by @craigwelch - link in bio / photographed on assignment for @natgeo @sealegacy"
+                    }
+                ]
+            },
+            "mentions": [
+                "natgeo",
+                "andy_mann",
+                "cristinamittermeier",
+                "paulnicklen",
+                "sealegacy",
+                "craigwelch"
+            ]
+        },
+        {
+            "caption": "",
+            "location": {
+                "location_url": "https://www.instagram.com/explore/locations/263356335/motse-lodge-tswalu-kalahari-reserve/",
+                "location_name": "Motse Lodge, Tswalu Kalahari Reserve",
+                "location_id": "263356335",
+                "latitude": -27.2093512056,
+                "longitude": 22.4412465186
+            },
+            "img": "https://instagram.fzty1-2.fna.fbcdn.net/vp/2c376dff4017f91023a7a0baac9761ad/5C975F3F/t51.2885-19/s150x150/36148188_227400864742537_3640201825237336064_n.jpg",
+            "preview_img": null,
+            "date": "2018-11-27T19:29:52.000Z",
+            "tags": [],
+            "likes": 17890,
+            "url": "https://www.instagram.com/p/BqshA4ghGfv/",
+            "comments": {
+                "count": -1,
+                "list": []
+            },
+            "mentions": []
+        },
+        {
+            "caption": "",
+            "location": {
+                "location_url": "https://www.instagram.com/explore/locations/479091515/south-africa/",
+                "location_name": "South Africa",
+                "location_id": "479091515",
+                "latitude": -29.0,
+                "longitude": 24.0
+            },
+            "img": null,
+            "preview_img": null,
+            "date": "2018-11-26T19:46:43.000Z",
+            "tags": [],
+            "likes": 16926,
+            "url": "https://www.instagram.com/p/Bqp-JecBfI8/",
+            "comments": {
+                "count": 25,
+                "list": [
+                    {
+                        "user": "ladzinski",
+                        "comment": "Moonrise over the African veld / In camera #DoubleExposure on the @nikonusa #Z7 a couple nights ago \ud83c\uddff\ud83c\udde6\u2764\ufe0f"
+                    }
+                ]
+            },
+            "mentions": [
+                "danahrichardson",
+                "jacadatravel",
+                "nikonusa",
+                "juliefranzrich"
+            ]
+        },
+        {
+            "caption": "",
+            "location": {
+                "location_url": "https://www.instagram.com/explore/locations/567005557/antarctica/",
+                "location_name": "Antarctica",
+                "location_id": "567005557",
+                "latitude": null,
+                "longitude": null
+            },
+            "img": null,
+            "preview_img": null,
+            "date": "2018-11-27T13:47:00.000Z",
+            "tags": [],
+            "likes": 11620,
+            "url": "https://www.instagram.com/p/Bqr5xplhvgb/",
+            "comments": {
+                "count": 25,
+                "list": [
+                    {
+                        "user": "ladzinski",
+                        "comment": "Happy birthday to this truly lovely and talented women, @cristinamittermeier - Wishing you the best my dear friend, you\u2019re valiantly opening the eyes of the world with your passionate message and photography on climate change and conservation. Biggest of hugs and best wishes!"
+                    }
+                ]
+            },
+            "mentions": [
+                "cristinamittermeier",
+                "sealegacy"
+            ]
+        },
+        {
+            "caption": "",
+            "location": {
+                "location_url": "https://www.instagram.com/explore/locations/127767747386681/thornybush-collection/",
+                "location_name": "Thornybush Collection",
+                "location_id": "127767747386681",
+                "latitude": -24.35388,
+                "longitude": 30.95043
+            },
+            "img": null,
+            "preview_img": null,
+            "date": "2018-11-24T19:22:14.000Z",
+            "tags": [],
+            "likes": 63528,
+            "url": "https://www.instagram.com/p/BqkxwckBrOd/",
+            "comments": {
+                "count": 25,
+                "list": [
+                    {
+                        "user": "ladzinski",
+                        "comment": "The face of a warrior. This lion is 11 years old, he\u2019s held a solitary pride on the fringe of Kruger National Park for the last 5 years. It\u2019s a place rich with #Lions meaning he\u2019s faced countless battles in inevitable defense to retain his Royal position as king of his territory. For a lone male to accomplish this is no easy task and in his time he\u2019s reared dozens upon dozens of cubs. His face is a badge of honor in the lion world, hieroglyphs displaying a history of violent life at the top of the food chain."
+                    }
+                ]
+            },
+            "mentions": [
+                "danahrichardson",
+                "jacadatravel",
+                "hydroflask",
+                "nikonusa",
+                "juliefranzrich",
+                "thornybush_collection"
+            ]
+        }
+    ]
+}
