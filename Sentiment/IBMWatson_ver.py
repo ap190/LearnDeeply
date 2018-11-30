@@ -56,10 +56,11 @@ def SentimentClassify(target_text):
     response_senti = natural_language_understanding.analyze(
         text= target_text,
         features=Features(sentiment=SentimentOptions(createTargetlist(target_text)))).get_result()
-    return response_senti
+    sentiscore = response_senti["sentiment"]["document"]["score"]
+    return sentiscore
 
 
 
 print(json.dumps(EmotionClassify(text4), indent=2))
 print("=========================================================")
-print(json.dumps(SentimentClassify(text4), indent=2))
+print(SentimentClassify(text4))
