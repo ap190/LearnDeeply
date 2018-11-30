@@ -5,21 +5,60 @@ from bins import *
 from keras import *
 from common import *
 from math import *
+from hashtag.popular_hashtags import *
 
 path = './data.json'
+
+hash_weights = popular_hashtags()
 
 def preprocessing(path = path):
 	"""
 	return: inputs[taining_data], outputs[training_labels]
 	inputs: [num_following, num_followers, num_posts, num_tags, 
 			description_length, num_mentions, week_of_the_day, 
-			hour_of_the_day, standard_variation]
+			hour_of_the_day, tag_weight, standard_variation]
 	outputs: [log_num_likes]
 	type: nparray
 	"""
 	inputs, outputs = [], []
 
 	print('Loading data...')
+
+	with open(path, 'rb') as f:
+		max_num_following = 0
+		max_num_followers = 0
+		max_num_posts = 0
+		max_num_tags = 0
+		max_description_length = 0
+		max_num_mentions = 0
+		max_week_of_the_day = 6
+		max_hour_of_the_day = 23
+		max_tag_weight = 0
+		max_num_likes = 0
+		loaded_json = json.load(f)
+		for user in loaded_json:
+			for post in user['images']:
+				num_likes = post['likes']
+				if type(num_likes) is str:
+					num_likes = int(num_likes.replace(",", ""))
+				if num_likes <= 0 or num_likes > 500000:
+					continue
+				max_num_likes = max(max_num_likes, num_likes)
+				max_num_following = max(max_num_following, num_interp(user['following']))
+				max_num_followers = max(max_num_followers, num_interp(user['followers']))
+				max_num_posts = max(max_num_posts, num_interp(user['posts']))
+				max_num_tags = max(max_num_tags, len(post['tags']))
+				max_description_length = max(max_description_length, len(post['description']))
+				max_num_mentions = max(max_num_mentions, len(post['mentions']))
+				tag_weight = 0
+				for tag in post['tags']:
+					if tag[1:] in hash_weights:
+						tag_weight += hash_weights[tag[1:]]
+				max_tag_weight = max(max_tag_weight, tag_weight)
+
+	print(max_num_following, max_num_followers, max_num_posts, max_num_tags, 
+		max_description_length, max_num_mentions, max_week_of_the_day, 
+		max_hour_of_the_day, max_tag_weight, max_num_likes)
 
 	with open(path, 'rb') as f:
 		loaded_json = json.load(f)
@@ -30,22 +69,27 @@ def preprocessing(path = path):
 				num_posts = user['posts']
 				num_following = user['following']
 				num_followers = user['followers']
-				date = dateparser.parse(post['date'])			
-				p = [num_interp(num_following), 
-					 num_interp(num_followers),
-					 num_interp(user['posts']),
-					 len(post['tags']),
-					 len(post['description']),
-					 len(post['mentions']),
-					 date.weekday(),
-					 date.hour]
+				date = dateparser.parse(post['date'])
+				tag_weight = 0
+				for tag in post['tags']:
+					if tag[1:] in hash_weights:
+						tag_weight += hash_weights[tag[1:]]		
+				p = [num_interp(num_following)/max_num_following, 
+					 num_interp(num_followers)/max_num_followers,
+					 num_interp(user['posts'])/max_num_posts,
+					 len(post['tags'])/max_num_posts,
+					 len(post['description'])/max_description_length,
+					 len(post['mentions'])/max_num_mentions,
+					 date.weekday()/max_week_of_the_day,
+					 date.hour/max_hour_of_the_day,
+					 tag_weight/max_tag_weight]
 				num_likes = post['likes']
 				if type(num_likes) is str:
 					num_likes = int(num_likes.replace(",", ""))
 				if num_likes <= 0 or num_likes > 500000:
 					continue
-				likes_per_post.append(np.log(num_likes))
-				outputs.append(np.log(num_likes))
+				likes_per_post.append(log(num_likes))
+				outputs.append(log(num_likes))
 				data_without_variance.append(p)
 
 			variance = np.std(likes_per_post)
@@ -66,6 +110,7 @@ def preprocessing(path = path):
 	# print to see 20 from inputs and outputs
 	# print(inputs[:20])
 	# print(outputs[:20])
+	# stop
 
 	return inputs, outputs
 
@@ -105,7 +150,7 @@ class meta_cnn:
 			self.model.add(layers.Dense(self.num_classes))
 
 		optimizer = optimizers.Adam(lr=0.001)
-		self.model.compile(loss='mape', optimizer=optimizer, metrics=["mae", "mse"])
+		self.model.compile(loss='mae', optimizer=optimizer, metrics=["mae", "mse"])
 
 	def train_model(self):
 		"""
@@ -141,7 +186,7 @@ class meta_cnn:
 		"""
 		print out some [prediction, real_label, mae]
 		"""
-		for i in range(len(self.test_labels[:20])):
+		for i in range(len(self.test_labels[:])):
 			print("prediction: %.3f | real_label: %.3f | mae: %.3f" % (exp(self.prediction[i]), exp(self.test_labels[i]), abs(exp(self.prediction[i]) - exp(self.test_labels[i]))))
 		return
 
