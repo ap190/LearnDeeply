@@ -27,7 +27,7 @@ filenames = [file for file in os.listdir(fileprefix) if file.endswith('.json')]
 # iterate through json files and extract data
 # each entry in the list will be a dictionary for each insta user we've collected
 data, counter = [], 1
-for filename in filenames[0:1]:
+for filename in filenames[500:]:
     filename = fileprefix + filename
     try:
         with open(filename) as file:
@@ -91,6 +91,6 @@ for filename in filenames[0:1]:
 
 # write a new data.json file with the produced dictionary object
 now = datetime.datetime.now()
-savename = 'data_' + str(now.month) + '-' + str(now.day) + '-' + str(now.hour) + str(now.minute) + '.json'
+savename = 'data2_' + str(now.month) + '-' + str(now.day) + '-' + str(now.hour) + str(now.minute) + '.json'
 with open(savename, 'w') as outfile:
     json.dump(data, outfile, ensure_ascii=False, indent=2)
