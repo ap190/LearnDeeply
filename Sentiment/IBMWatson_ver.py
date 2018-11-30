@@ -40,7 +40,6 @@ def createTargetlist(text):
 """
 def EmotionClassify(target_text):
     response_emo = natural_language_understanding.analyze(
-    # html="<html><head><title>Fruits</title></head><body><h1>Apples and Oranges</h1><p>I love apples! I don't like oranges.</p></body></html>",
     text=target_text,
     features=Features(emotion=EmotionOptions(document=True,targets=createTargetlist(target_text)))
     ).get_result()
