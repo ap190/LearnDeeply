@@ -7,7 +7,7 @@ from common import *
 from math import *
 from hashtag.popular_hashtags import *
 
-path = './data.json'
+path = './updated_data.json'
 
 hash_weights = popular_hashtags()
 
@@ -41,7 +41,7 @@ def preprocessing(path = path):
 				num_likes = post['likes']
 				if type(num_likes) is str:
 					num_likes = int(num_likes.replace(",", ""))
-				if num_likes <= 0 or num_likes > 500000:
+				if num_likes <= 0 or num_likes > 50000:
 					continue
 				max_num_likes = max(max_num_likes, num_likes)
 				max_num_following = max(max_num_following, num_interp(user['following']))
@@ -69,7 +69,14 @@ def preprocessing(path = path):
 				num_posts = user['posts']
 				num_following = user['following']
 				num_followers = user['followers']
-				date = dateparser.parse(post['date'])
+				if post.get('date') is not None:
+					date = dateparser.parse(post['date'])
+					weekday = date.weekday()
+					hour = date.hour
+				else:
+					weekday = post['weekday']
+					hour = post['hour']
+
 				tag_weight = 0
 				for tag in post['tags']:
 					if tag[1:] in hash_weights:
@@ -80,19 +87,19 @@ def preprocessing(path = path):
 					 len(post['tags'])/max_num_posts,
 					 len(post['description'])/max_description_length,
 					 len(post['mentions'])/max_num_mentions,
-					 date.weekday()/max_week_of_the_day,
-					 date.hour/max_hour_of_the_day,
+					 weekday/max_week_of_the_day,
+					 hour/max_hour_of_the_day,
 					 tag_weight/max_tag_weight]
 				num_likes = post['likes']
 				if type(num_likes) is str:
 					num_likes = int(num_likes.replace(",", ""))
-				if num_likes <= 0 or num_likes > 500000:
+				if num_likes <= 0 or num_likes > 50000:
 					continue
 				likes_per_post.append(log(num_likes))
 				outputs.append(log(num_likes))
 				data_without_variance.append(p)
 
-			variance = np.std(likes_per_post)
+			variance = np.var(likes_per_post)
 			for p in data_without_variance:
 				p.append(variance)
 				inputs.append(p)
