@@ -7,14 +7,22 @@ from common import *
 from math import *
 
 path = './data.json'
+
 def preprocessing(path = path):
-	# [num_posts, num_following, num_followers, num_tags, description_length]
+	"""
+	return: inputs[taining_data], outputs[training_labels]
+	inputs: [num_following, num_followers, num_posts, num_tags, 
+			description_length, num_mentions, week_of_the_day, 
+			hour_of_the_day, standard_variation]
+	outputs: [log_num_likes]
+	type: nparray
+	"""
 	inputs, outputs = [], []
+
+	print('Loading data...')
 
 	with open(path, 'rb') as f:
 		loaded_json = json.load(f)
-		#BIN = bins(100)
-		#interval, sequence, bin_edges = BIN.even_bins()
 		for user in loaded_json:
 			likes_per_post = []
 			data_without_variance = []
@@ -37,12 +45,6 @@ def preprocessing(path = path):
 				if num_likes <= 0 or num_likes > 500000:
 					continue
 				likes_per_post.append(np.log(num_likes))
-				"""
-				if num_likes < 10870:
-					label = BIN.bin_classification(num_likes)
-					inputs.append(p)
-					outputs.append(label)
-				"""
 				outputs.append(np.log(num_likes))
 				data_without_variance.append(p)
 
@@ -50,38 +52,52 @@ def preprocessing(path = path):
 			for p in data_without_variance:
 				p.append(variance)
 				inputs.append(p)
-	print(len(inputs))
-	print(len(outputs))
-	#print(inputs)
-	#print(outputs)
-	#stop
-	return np.asarray(inputs), np.asarray(outputs)
+
+	inputs = np.asarray(inputs)
+	outputs = np.asarray(outputs)
+
+	np.random.shuffle(inputs)
+	np.random.shuffle(outputs)
+
+	print('Data loaded! :)')
+	print('number of inputs: %d' % (len(inputs)))
+	print('number of outputs: %d' % (len(outputs)))
+
+	# print to see 20 from inputs and outputs
+	# print(inputs[:20])
+	# print(outputs[:20])
+
+	return inputs, outputs
 
 
 class meta_cnn:
-	def __init__(self, input_data, input_labels, hidden_layers=0, hidden_sizes=[]):
-		np.random.shuffle(input_data)
-		np.random.shuffle(input_labels)
-		self.data = input_data
-		self.labels = input_labels
+	def __init__(self, data, labels, hidden_layers=0, hidden_sizes=[]):
+
+		self.data = data
+		self.labels = labels
+
+		# splitting data for training and testing
 		self.input_data = self.data[2000:,:]
 		self.input_labels = self.labels[2000:] #np.eye(np.max(input_labels)+1)[input_labels]
 		self.test_data = self.data[:2000,:]
 		self.test_labels = self.labels[:2000]
+
 		self.num_classes = 1 #len(self.input_labels[0, :])
 		self.hidden_layers = hidden_layers
 		self.hidden_sizes = hidden_sizes
 		self.batch_size = 30
+		self.epochs = 5
 
 		self.model = Sequential()
 		self.construct_model()
 
 	def construct_model(self):
+		"""
+		setting up the feed-foward model
+		"""
 		if not self.hidden_layers:
 			self.model.add(layers.Dense(self.num_classes, input_shape=(len(self.input_data[0], ))))
-			# self.model.add(layers.Dense(np.int32(np.max(self.input_labels)), input_dim=len(self.input_data[0]), activation='sigmoid'))
 		else:
-			# self.model.add(layers.Dense(self.hidden_sizes[0], input_dim=len(self.input_data[0]), activation='relu'))
 			self.model.add(layers.Dense(self.hidden_sizes[0], input_shape=(len(self.input_data[0]), ), activation='relu'))
 			for i in range(1, self.hidden_layers):
 				self.model.add(layers.Dense(self.hidden_sizes[i], activation='relu'))
@@ -92,39 +108,50 @@ class meta_cnn:
 		self.model.compile(loss='mape', optimizer=optimizer, metrics=["mae", "mse"])
 
 	def train_model(self):
-		# print(self.input_data[:50])
-		# print(self.input_labels[:50])
-		# stop
-		self.model.fit(self.input_data, self.input_labels, self.batch_size, epochs=5, verbose=1, validation_split=0.1)
+		"""
+		training model
+		"""
+		self.model.fit(self.input_data, self.input_labels, self.batch_size, self.epochs, verbose=1, validation_split=0.1)
 
 	def test_model(self):
+		"""
+		testing model on test_data set, print out test error
+		return: test_data, prediction
+		"""
 		self.prediction = self.model.predict(self.test_data)
+		self.test_error()
 		return self.test_data, self.prediction
 
 	def test_error(self):
+		"""
+		print out test error
+		"""
 		print('test_error: %f' % (np.mean(abs(self.prediction - self.test_labels))))
 		return 
 
 	def train_error(self):
+		"""
+		print out train error
+		"""
 		train_prediction = self.model.predict(self.input_data)
 		print('train_error: %f' % (np.mean(abs(train_prediction - self.input_labels))))
 		return
 
 	def item_error(self):
-		for i in range(len(self.test_labels)):
-			result = [exp(self.prediction[i]), exp(self.test_labels[i]), exp(self.prediction[i]) - exp(self.test_labels[i])]
-			print(result)
+		"""
+		print out some [prediction, real_label, mae]
+		"""
+		for i in range(len(self.test_labels[:20])):
+			print("prediction: %.3f | real_label: %.3f | mae: %.3f" % (exp(self.prediction[i]), exp(self.test_labels[i]), abs(exp(self.prediction[i]) - exp(self.test_labels[i]))))
 		return
 
 inputs, outputs = preprocessing()
 MDL = meta_cnn(inputs, outputs, 3, [200, 200, 100, 100, 100])
 MDL.train_model()
 test_data, prediction = MDL.test_model()
-print(prediction.shape)
-print(len(np.unique(prediction)))
+print('unique predictions on test dataset: %d' % (len(np.unique(prediction))))
+MDL.item_error()
 MDL.train_error()
 MDL.test_error()
-MDL.item_error()
-
 
 
