@@ -43917,3 +43917,1820 @@ INFO [2018-11-29 23:36:07] Posts: 6145
 INFO [2018-11-29 23:36:07] Follower: 1094455
 INFO [2018-11-29 23:36:07] Following: 943
 INFO [2018-11-29 23:36:07] isPrivate: False
+INFO [2018-11-29 23:36:25] Scrapping Post Link: https://www.instagram.com/p/BqrYDQGBw_7/
+INFO [2018-11-29 23:36:27] location_id:218043599
+INFO [2018-11-29 23:36:27] location_url:https://www.instagram.com/explore/locations/218043599/oviedo-asturias/
+INFO [2018-11-29 23:36:27] location_name:Oviedo, Asturias
+ERROR [2018-11-29 23:36:27] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:36:27] date:2018-11-27T08:52:18.000Z
+INFO [2018-11-29 23:36:27] post-likes:9514
+INFO [2018-11-29 23:36:27] princepelayo -- Coffee and a Gate bag, please 🍊☕️🐎 @loewe
+ERROR [2018-11-29 23:36:27] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:36:27] 25 comments.
+INFO [2018-11-29 23:36:27] 1mentions
+INFO [2018-11-29 23:36:27] Scrapping Post Link: https://www.instagram.com/p/BpZ8PdxhTV_/
+ERROR [2018-11-29 23:36:31] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:36:31] date:2018-10-26T17:50:49.000Z
+INFO [2018-11-29 23:36:31] post-likes:17070
+INFO [2018-11-29 23:36:31] princepelayo -- Our @Cartier wedding rings and more on katelovesme.net 💍💍 Nuestras alianzas de Cartier y cómo viví la mañana de mi boda en el nuevo post de #katelovesme.net
+ERROR [2018-11-29 23:36:31] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:36:32] 25 comments.
+INFO [2018-11-29 23:36:32] 1mentions
+INFO [2018-11-29 23:36:32] Scrapping Post Link: https://www.instagram.com/p/Bpri6xHnD-E/
+INFO [2018-11-29 23:36:33] location_id:127963847
+INFO [2018-11-29 23:36:33] location_url:https://www.instagram.com/explore/locations/127963847/madrid-spain/
+INFO [2018-11-29 23:36:33] location_name:Madrid, Spain
+ERROR [2018-11-29 23:36:33] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:36:33] date:2018-11-02T13:55:52.000Z
+INFO [2018-11-29 23:36:33] post-likes:18054
+INFO [2018-11-29 23:36:34] princepelayo -- Para que algo se convierta en un icono primero tuvo que ser revolucionario! @cartier #justeunclou #cartierypelayo
+ERROR [2018-11-29 23:36:34] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:36:34] 25 comments.
+INFO [2018-11-29 23:36:34] 1mentions
+INFO [2018-11-29 23:36:34] Scrapping Post Link: https://www.instagram.com/p/BqaZ3jehQYS/
+INFO [2018-11-29 23:36:36] location_id:213100244
+INFO [2018-11-29 23:36:36] location_url:https://www.instagram.com/explore/locations/213100244/barcelona-spain/
+INFO [2018-11-29 23:36:36] location_name:Barcelona, Spain
+ERROR [2018-11-29 23:36:36] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:36:36] date:2018-11-20T18:41:05.000Z
+INFO [2018-11-29 23:36:36] post-likes:28316
+INFO [2018-11-29 23:36:36] princepelayo -- #PEOPLEINREDGALA2018 🖤 Enhorabuena @peopleinredgala por recaudar más de 720.000 Euros y a todos y todas por conseguirlo!
+ERROR [2018-11-29 23:36:36] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:36:37] 25 comments.
+INFO [2018-11-29 23:36:37] 10mentions
+INFO [2018-11-29 23:36:37] Scrapping Post Link: https://www.instagram.com/p/BpzQqbGh2XK/
+INFO [2018-11-29 23:36:39] location_id:127963847
+INFO [2018-11-29 23:36:39] location_url:https://www.instagram.com/explore/locations/127963847/madrid-spain/
+INFO [2018-11-29 23:36:39] location_name:Madrid, Spain
+ERROR [2018-11-29 23:36:39] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:36:39] date:2018-11-05T13:50:16.000Z
+INFO [2018-11-29 23:36:39] post-likes:10115
+INFO [2018-11-29 23:36:39] princepelayo -- 🍁Autumn uniform 🍄
+ERROR [2018-11-29 23:36:39] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:36:39] 25 comments.
+INFO [2018-11-29 23:36:39] 1mentions
+INFO [2018-11-29 23:36:39] Scrapping Post Link: https://www.instagram.com/p/BorDYEeHDmC/
+INFO [2018-11-29 23:36:41] location_id:127963847
+INFO [2018-11-29 23:36:41] location_url:https://www.instagram.com/explore/locations/127963847/madrid-spain/
+INFO [2018-11-29 23:36:41] location_name:Madrid, Spain
+ERROR [2018-11-29 23:36:41] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:36:41] date:2018-10-08T12:48:51.000Z
+INFO [2018-11-29 23:36:41] post-likes:13775
+INFO [2018-11-29 23:36:41] princepelayo -- Life is 10% what happens to you and 90% how you react to it ❤️🧡💛 La vida es un 10% lo que te pasa y un 90% lo que haces con lo que te pasa 📌 #tapfordetails #katelovesme
+ERROR [2018-11-29 23:36:41] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:36:42] 25 comments.
+INFO [2018-11-29 23:36:42] 2mentions
+INFO [2018-11-29 23:36:42] Scrapping Post Link: https://www.instagram.com/p/BphrxP6BNQP/
+INFO [2018-11-29 23:36:44] location_id:419320736
+INFO [2018-11-29 23:36:44] location_url:https://www.instagram.com/explore/locations/419320736/principality-of-asturias/
+INFO [2018-11-29 23:36:44] location_name:Principality of Asturias
+ERROR [2018-11-29 23:36:44] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:36:44] date:2018-10-29T18:00:48.000Z
+INFO [2018-11-29 23:36:44] post-likes:29709
+INFO [2018-11-29 23:36:44] princepelayo -- Who wants a drive in the snow with me? ❄️ @maserati_es #maserati #maseratilevante
+ERROR [2018-11-29 23:36:44] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:36:44] 25 comments.
+INFO [2018-11-29 23:36:44] 1mentions
+INFO [2018-11-29 23:36:44] Scrapping Post Link: https://www.instagram.com/p/BpHaUNUBrum/
+INFO [2018-11-29 23:36:46] location_id:688906244775155
+INFO [2018-11-29 23:36:46] location_url:https://www.instagram.com/explore/locations/688906244775155/adorado-bar-espana/
+INFO [2018-11-29 23:36:46] location_name:Adorado Bar España
+ERROR [2018-11-29 23:36:46] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:36:46] date:2018-10-19T13:08:02.000Z
+INFO [2018-11-29 23:36:46] post-likes:10282
+INFO [2018-11-29 23:36:46] princepelayo -- Healthy lunch 🍖🥑🥕
+ERROR [2018-11-29 23:36:46] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:36:47] 25 comments.
+INFO [2018-11-29 23:36:47] 1mentions
+INFO [2018-11-29 23:36:47] Scrapping Post Link: https://www.instagram.com/p/Bqub8CfBBkj/
+INFO [2018-11-29 23:36:49] location_id:1028601581
+INFO [2018-11-29 23:36:49] location_url:https://www.instagram.com/explore/locations/1028601581/madrid-international-airport/
+INFO [2018-11-29 23:36:49] location_name:Madrid International Airport
+ERROR [2018-11-29 23:36:49] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:36:49] date:2018-11-28T13:23:59.000Z
+INFO [2018-11-29 23:36:49] post-likes:24226
+INFO [2018-11-29 23:36:49] princepelayo -- Off to Tokyo for the first Dior Homme resort show by @mrkimjones 💛💛💛 De camino a Tokyo para el primer desfile resort de Kim Jones para Dior Homme! #DiorPreFall
+ERROR [2018-11-29 23:36:49] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:36:49] 25 comments.
+INFO [2018-11-29 23:36:49] 1mentions
+INFO [2018-11-29 23:36:49] Scrapping Post Link: https://www.instagram.com/p/BpCVFQcBbAU/
+INFO [2018-11-29 23:36:51] location_id:127963847
+INFO [2018-11-29 23:36:51] location_url:https://www.instagram.com/explore/locations/127963847/madrid-spain/
+INFO [2018-11-29 23:36:51] location_name:Madrid, Spain
+ERROR [2018-11-29 23:36:51] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:36:51] date:2018-10-17T13:46:06.000Z
+INFO [2018-11-29 23:36:51] post-likes:22423
+INFO [2018-11-29 23:36:51] princepelayo -- Always trying to find a different angle 📷📷📷 Siempre buscando un ángulo diferente @cartier #justeunclou #cartierypelayo
+ERROR [2018-11-29 23:36:51] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:36:52] 25 comments.
+INFO [2018-11-29 23:36:52] 1mentions
+INFO [2018-11-29 23:36:52] Scrapping Post Link: https://www.instagram.com/p/Bpj9lF0H6OI/
+INFO [2018-11-29 23:36:54] location_id:127963847
+INFO [2018-11-29 23:36:54] location_url:https://www.instagram.com/explore/locations/127963847/madrid-spain/
+INFO [2018-11-29 23:36:54] location_name:Madrid, Spain
+ERROR [2018-11-29 23:36:54] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:36:54] date:2018-10-30T15:14:55.000Z
+INFO [2018-11-29 23:36:54] post-likes:9608
+INFO [2018-11-29 23:36:54] princepelayo -- Madrid 📍
+ERROR [2018-11-29 23:36:54] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:36:54] 25 comments.
+INFO [2018-11-29 23:36:54] Scrapping Post Link: https://www.instagram.com/p/BqscnQ7BJB5/
+INFO [2018-11-29 23:36:56] location_id:691384581
+INFO [2018-11-29 23:36:56] location_url:https://www.instagram.com/explore/locations/691384581/castile-and-leon/
+INFO [2018-11-29 23:36:56] location_name:Castile and León
+ERROR [2018-11-29 23:36:56] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:36:56] date:2018-11-27T18:51:25.000Z
+INFO [2018-11-29 23:36:56] post-likes:17781
+INFO [2018-11-29 23:36:57] princepelayo -- Back to Madrid! @maserati_es #maseratilevante
+ERROR [2018-11-29 23:36:57] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:36:57] 25 comments.
+INFO [2018-11-29 23:36:57] 1mentions
+INFO [2018-11-29 23:36:57] Scrapping Post Link: https://www.instagram.com/p/BpepwKwBOBU/
+ERROR [2018-11-29 23:36:58] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:36:58] date:2018-10-28T14:07:19.000Z
+INFO [2018-11-29 23:36:58] post-likes:344701
+INFO [2018-11-29 23:36:58] princepelayo -- Here’s a little preview of the video of our wedding! In a few days I will share on Katelovesme.net all the pictures from the ceremony! 🎥👬💖 Estaba deseando compartir con vosotros este adelanto del vídeo de la boda! Esta semana en katelovesme.net publicaré un post con todas las fotos de la ceremonia! 🎬 Video credits: @ivanmonagasweddings @drone_horizon @laputasuegra #pelandy
+ERROR [2018-11-29 23:36:58] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:36:59] 25 comments.
+INFO [2018-11-29 23:36:59] Scrapping Post Link: https://www.instagram.com/p/BpZhX68hV5B/
+ERROR [2018-11-29 23:37:00] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:37:00] date:2018-10-26T13:56:03.000Z
+INFO [2018-11-29 23:37:00] princepelayo -- Mum & I a month ago 💙💙💙 Por fin tengo todas las fotos del día de la boda! Aquí con mi madre vestida de @zegarciaoficial y yo de @dolcegabbana y corona de @isidorohernandezjoyas de camino a la ceremonia. Tenéis un nuevo post en katelovesme.net (link en bio) 📲 #KATELOVESME #PELANDY
+INFO [2018-11-29 23:37:00] 1 comments.
+INFO [2018-11-29 23:37:00] 5mentions
+INFO [2018-11-29 23:37:00] Scrapping Post Link: https://www.instagram.com/p/Bpm5uymhgIE/
+INFO [2018-11-29 23:37:02] location_id:127963847
+INFO [2018-11-29 23:37:02] location_url:https://www.instagram.com/explore/locations/127963847/madrid-spain/
+INFO [2018-11-29 23:37:02] location_name:Madrid, Spain
+ERROR [2018-11-29 23:37:02] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:37:02] date:2018-10-31T18:39:00.000Z
+INFO [2018-11-29 23:37:02] post-likes:24123
+INFO [2018-11-29 23:37:02] princepelayo -- 🎃 HALLOWEEN 2018 🎃 @baltasaroficial
+ERROR [2018-11-29 23:37:02] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:37:02] 25 comments.
+INFO [2018-11-29 23:37:02] 2mentions
+INFO [2018-11-29 23:37:02] Scrapping Post Link: https://www.instagram.com/p/BphQVslBr4V/
+INFO [2018-11-29 23:37:04] location_id:236455624
+INFO [2018-11-29 23:37:04] location_url:https://www.instagram.com/explore/locations/236455624/asturias/
+INFO [2018-11-29 23:37:04] location_name:Asturias
+ERROR [2018-11-29 23:37:04] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:37:04] date:2018-10-29T14:01:07.000Z
+INFO [2018-11-29 23:37:04] post-likes:10355
+INFO [2018-11-29 23:37:05] princepelayo -- Oviedo 🚀 Madrid
+ERROR [2018-11-29 23:37:05] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:37:05] 25 comments.
+INFO [2018-11-29 23:37:05] Scrapping Post Link: https://www.instagram.com/p/BqvTWLHhkgg/
+INFO [2018-11-29 23:37:07] location_id:213281320
+INFO [2018-11-29 23:37:07] location_url:https://www.instagram.com/explore/locations/213281320/dubai-united-arab-emirates/
+INFO [2018-11-29 23:37:07] location_name:Dubai, United Arab Emirates
+ERROR [2018-11-29 23:37:07] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:37:07] date:2018-11-28T21:28:09.000Z
+INFO [2018-11-29 23:37:07] post-likes:12767
+INFO [2018-11-29 23:37:07] princepelayo -- Don’t ever believe in luck, believe in yourself, believe in how far your hard work will take you #DiorPreFall 💛💛💛 No creas en la suerte, cree en ti mismo, cree en lo lejos que llegarás con trabajo duro. Mucha gente se obceca con cualquier valor negativo que otras personas puedan proyectar en ellos pero lo cierto es que todos tenemos un talento y algo bueno por lo que destacar. Así que sed positivos y pensad únicamente en todas las cosas buenas que tenéis
+ERROR [2018-11-29 23:37:07] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:37:08] 25 comments.
+INFO [2018-11-29 23:37:08] 1mentions
+INFO [2018-11-29 23:37:08] Scrapping Post Link: https://www.instagram.com/p/BouQUhxHDP-/
+INFO [2018-11-29 23:37:09] location_id:235793073
+INFO [2018-11-29 23:37:09] location_url:https://www.instagram.com/explore/locations/235793073/conde-duque/
+INFO [2018-11-29 23:37:09] location_name:Conde Duque
+ERROR [2018-11-29 23:37:09] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:37:09] date:2018-10-09T18:39:41.000Z
+INFO [2018-11-29 23:37:10] post-likes:21179
+INFO [2018-11-29 23:37:10] princepelayo -- Quite a day today! Now ready to attend #TELVAtributo dinner gala in total look @dsquared2 🎩🎩🎩 Ha sido un día increíble! Y ahora de camino a la cena de gala #TELVATributo. Gracias @dsquared2 por vestirme siempre impecable
+ERROR [2018-11-29 23:37:10] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:37:10] 25 comments.
+INFO [2018-11-29 23:37:10] 3mentions
+INFO [2018-11-29 23:37:10] Scrapping Post Link: https://www.instagram.com/p/Bpb3lbtBX9T/
+INFO [2018-11-29 23:37:12] location_id:248487663
+INFO [2018-11-29 23:37:12] location_url:https://www.instagram.com/explore/locations/248487663/los-barrios-de-luna-spain/
+INFO [2018-11-29 23:37:12] location_name:Los Barrios de Luna, Spain
+ERROR [2018-11-29 23:37:12] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:37:12] date:2018-10-27T11:48:36.000Z
+INFO [2018-11-29 23:37:12] princepelayo -- Warning: Love storm coming through! ⚠️⚠️⚠️ Atención Asturias: Tormenta de amor en camino! @maserati_es #maserati #maseratilevante
+INFO [2018-11-29 23:37:12] 1 comments.
+INFO [2018-11-29 23:37:12] 2mentions
+INFO [2018-11-29 23:37:12] Scrapping Post Link: https://www.instagram.com/p/BpT8xLYBZuI/
+INFO [2018-11-29 23:37:14] location_id:127963847
+INFO [2018-11-29 23:37:14] location_url:https://www.instagram.com/explore/locations/127963847/madrid-spain/
+INFO [2018-11-29 23:37:14] location_name:Madrid, Spain
+ERROR [2018-11-29 23:37:14] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:37:14] date:2018-10-24T09:59:59.000Z
+INFO [2018-11-29 23:37:14] post-likes:15747
+INFO [2018-11-29 23:37:14] princepelayo -- The guest room at my new place is ready! 🐻🍓🐼🍕🍭 La habitación de invitados (o niños) en mi nueva casa ya está lista! @kenayhome #home #interiordesign
+ERROR [2018-11-29 23:37:14] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:37:14] 25 comments.
+INFO [2018-11-29 23:37:15] 1mentions
+INFO [2018-11-29 23:37:15] Scrapping Post Link: https://www.instagram.com/p/BqNM0Voh2QP/
+INFO [2018-11-29 23:37:16] location_id:127963847
+INFO [2018-11-29 23:37:16] location_url:https://www.instagram.com/explore/locations/127963847/madrid-spain/
+INFO [2018-11-29 23:37:16] location_name:Madrid, Spain
+ERROR [2018-11-29 23:37:16] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:37:17] date:2018-11-15T15:36:56.000Z
+INFO [2018-11-29 23:37:17] post-likes:37556
+INFO [2018-11-29 23:37:17] princepelayo -- 15/NOV 🎂🎂🎂 HAPPY BIRTHDAY TO THE LOVE OF MY LIFE @ANDYMCDOUGALL
+ERROR [2018-11-29 23:37:17] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:37:17] 25 comments.
+INFO [2018-11-29 23:37:17] 1mentions
+INFO [2018-11-29 23:37:17] Scrapping Post Link: https://www.instagram.com/p/BoofsN7nSqg/
+INFO [2018-11-29 23:37:19] location_id:127963847
+INFO [2018-11-29 23:37:19] location_url:https://www.instagram.com/explore/locations/127963847/madrid-spain/
+INFO [2018-11-29 23:37:19] location_name:Madrid, Spain
+ERROR [2018-11-29 23:37:19] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:37:19] date:2018-10-07T12:58:33.000Z
+INFO [2018-11-29 23:37:19] post-likes:16997
+INFO [2018-11-29 23:37:19] princepelayo -- Like a virgin 💍@voguespain #voguenovias
+ERROR [2018-11-29 23:37:19] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:37:20] 25 comments.
+INFO [2018-11-29 23:37:20] 1mentions
+INFO [2018-11-29 23:37:20] Scrapping Post Link: https://www.instagram.com/p/BpMk60tBSgC/
+INFO [2018-11-29 23:37:22] location_id:127963847
+INFO [2018-11-29 23:37:22] location_url:https://www.instagram.com/explore/locations/127963847/madrid-spain/
+INFO [2018-11-29 23:37:22] location_name:Madrid, Spain
+ERROR [2018-11-29 23:37:22] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:37:22] date:2018-10-21T13:16:54.000Z
+INFO [2018-11-29 23:37:22] post-likes:43109
+INFO [2018-11-29 23:37:22] princepelayo -- 💖 @andymcdougall
+ERROR [2018-11-29 23:37:22] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:37:22] 25 comments.
+INFO [2018-11-29 23:37:22] 2mentions
+INFO [2018-11-29 23:37:22] Scrapping Post Link: https://www.instagram.com/p/BpwlsnSBb6v/
+INFO [2018-11-29 23:37:24] location_id:215748455
+INFO [2018-11-29 23:37:24] location_url:https://www.instagram.com/explore/locations/215748455/el-rastro/
+INFO [2018-11-29 23:37:24] location_name:El Rastro
+ERROR [2018-11-29 23:37:24] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:37:24] date:2018-11-04T12:56:21.000Z
+INFO [2018-11-29 23:37:24] post-likes:14428
+INFO [2018-11-29 23:37:24] princepelayo -- ⏱📹 Flea market 🎛🎙
+ERROR [2018-11-29 23:37:24] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:37:25] 25 comments.
+INFO [2018-11-29 23:37:25] Scrapping Post Link: https://www.instagram.com/p/Bqx89QoBJ_T/
+INFO [2018-11-29 23:37:27] location_id:62752457
+INFO [2018-11-29 23:37:27] location_url:https://www.instagram.com/explore/locations/62752457/robot-restaurant/
+INFO [2018-11-29 23:37:27] location_name:Robot Restaurant 　【ロボットレストラン】
+ERROR [2018-11-29 23:37:27] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:37:27] date:2018-11-29T22:10:14.000Z
+INFO [2018-11-29 23:37:27] post-likes:6076
+INFO [2018-11-29 23:37:27] princepelayo -- Landed in Tokyo just in time for the DIOR dinner at Robot! Loved being reunited with @bryanboycom 🤖 #DiorPreFall @DIOR
+ERROR [2018-11-29 23:37:27] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:37:28] 25 comments.
+INFO [2018-11-29 23:37:28] 1mentions
+INFO [2018-11-29 23:37:28] Scrapping Post Link: https://www.instagram.com/p/BqyRVEHB9yD/
+INFO [2018-11-29 23:37:30] location_id:7226110
+INFO [2018-11-29 23:37:30] location_url:https://www.instagram.com/explore/locations/7226110/tokyo-japan/
+INFO [2018-11-29 23:37:30] location_name:Tokyo, Japan
+ERROR [2018-11-29 23:37:30] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:37:30] date:2018-11-30T01:08:15.000Z
+INFO [2018-11-29 23:37:30] post-likes:1971
+INFO [2018-11-29 23:37:30] princepelayo -- Good morning Tokyo! 🇯🇵 @DIOR #diorprefall
+INFO [2018-11-29 23:37:30] 14 comments.
+INFO [2018-11-29 23:37:30] Scrapping Post Link: https://www.instagram.com/p/BqGGdNHBV0B/
+INFO [2018-11-29 23:37:32] location_id:1618362148463407
+INFO [2018-11-29 23:37:32] location_url:https://www.instagram.com/explore/locations/1618362148463407/palacio-de-santona/
+INFO [2018-11-29 23:37:32] location_name:Palacio de Santoña
+ERROR [2018-11-29 23:37:32] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:37:32] date:2018-11-12T21:26:39.000Z
+INFO [2018-11-29 23:37:32] post-likes:52557
+INFO [2018-11-29 23:37:32] princepelayo -- @raoulvazquez 🎈
+ERROR [2018-11-29 23:37:32] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:37:33] 25 comments.
+INFO [2018-11-29 23:37:33] Scrapping Post Link: https://www.instagram.com/p/BqpXA_2BbEm/
+INFO [2018-11-29 23:37:34] location_id:218043599
+INFO [2018-11-29 23:37:34] location_url:https://www.instagram.com/explore/locations/218043599/oviedo-asturias/
+INFO [2018-11-29 23:37:34] location_name:Oviedo, Asturias
+ERROR [2018-11-29 23:37:34] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:37:35] date:2018-11-26T14:04:46.000Z
+INFO [2018-11-29 23:37:35] post-likes:17363
+INFO [2018-11-29 23:37:35] princepelayo -- Back to the city where I was born for a really exciting job tomorrow! 📍🗺 De visita en la ciudad en la que nací para un nuevo proyecto mañana!
+ERROR [2018-11-29 23:37:35] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:37:35] 25 comments.
+INFO [2018-11-29 23:37:35] 1mentions
+INFO [2018-11-29 23:37:35] Scrapping Post Link: https://www.instagram.com/p/BqciVx9h1B9/
+INFO [2018-11-29 23:37:37] location_id:127963847
+INFO [2018-11-29 23:37:37] location_url:https://www.instagram.com/explore/locations/127963847/madrid-spain/
+INFO [2018-11-29 23:37:37] location_name:Madrid, Spain
+ERROR [2018-11-29 23:37:37] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:37:37] date:2018-11-21T14:33:36.000Z
+INFO [2018-11-29 23:37:37] post-likes:10140
+INFO [2018-11-29 23:37:37] princepelayo -- 📍Madrid
+ERROR [2018-11-29 23:37:37] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:37:38] 25 comments.
+INFO [2018-11-29 23:37:38] Scrapping Post Link: https://www.instagram.com/p/BqhpZqtBYXL/
+INFO [2018-11-29 23:37:40] location_id:127963847
+INFO [2018-11-29 23:37:40] location_url:https://www.instagram.com/explore/locations/127963847/madrid-spain/
+INFO [2018-11-29 23:37:40] location_name:Madrid, Spain
+ERROR [2018-11-29 23:37:40] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:37:40] date:2018-11-23T14:11:30.000Z
+INFO [2018-11-29 23:37:40] post-likes:25916
+INFO [2018-11-29 23:37:40] princepelayo -- IMPOSSIBLE TRUE LOVE 📷 @rubenvega_ x @voguespain
+ERROR [2018-11-29 23:37:40] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:37:40] 25 comments.
+INFO [2018-11-29 23:37:40] 2mentions
+INFO [2018-11-29 23:37:40] Scrapping Post Link: https://www.instagram.com/p/Bpciu2tBDnv/
+INFO [2018-11-29 23:37:42] location_id:2310383
+INFO [2018-11-29 23:37:42] location_url:https://www.instagram.com/explore/locations/2310383/la-reconquista-eurostars/
+INFO [2018-11-29 23:37:42] location_name:La Reconquista Eurostars
+ERROR [2018-11-29 23:37:42] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:37:42] date:2018-10-27T18:05:38.000Z
+INFO [2018-11-29 23:37:42] post-likes:21126
+INFO [2018-11-29 23:37:42] princepelayo -- Room service & movies 🥂🍰☎️ Que pongan una botella de champán a enfriar que toca sofá y peli! @eurostarshotels #magiceurostars
+ERROR [2018-11-29 23:37:42] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:37:43] 25 comments.
+INFO [2018-11-29 23:37:43] 1mentions
+INFO [2018-11-29 23:37:43] Scrapping Post Link: https://www.instagram.com/p/Bqk0J87BSxo/
+INFO [2018-11-29 23:37:45] location_id:127963847
+INFO [2018-11-29 23:37:45] location_url:https://www.instagram.com/explore/locations/127963847/madrid-spain/
+INFO [2018-11-29 23:37:45] location_name:Madrid, Spain
+ERROR [2018-11-29 23:37:45] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:37:45] date:2018-11-24T19:43:12.000Z
+INFO [2018-11-29 23:37:45] post-likes:35672
+INFO [2018-11-29 23:37:45] princepelayo -- #PELANDY #WEDDING 👑💍👑 Este es el abrazo más tierno que he recibido jamás. De mi sobrino Nicolás, el día de mi boda, durante el cocktail. Un cocktail de amor y de alegría que jamás olvidaremos gracias a @laputasuegra y en el que participaron un montón de profesionales que nos entregaron su cariño: El equipo de @saporeandocostabrava nos preparó las mejores bebidas mientras disfrutamos de la música de @nasha_sak y del riquísimo arroz de @quilicua_catering, las fabadas con centollo de @cardamomo_catering, embutidos y croquetas de @ondarreta_ catering y el mejor sushi de @gosushing. Además brindamos con @annadecodorniuoficial y @cervezarosita sin parar. Tenéis todas las fotos del cocktail en mi nuevo post en #KATELOVESME.NET (link en bio) y más info en stories 💖 Photo @ladichosa
+ERROR [2018-11-29 23:37:45] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:37:45] 25 comments.
+INFO [2018-11-29 23:37:45] 4mentions
+INFO [2018-11-29 23:37:45] Scrapping Post Link: https://www.instagram.com/p/Botuh0QHqGg/
+INFO [2018-11-29 23:37:47] location_id:1025066921
+INFO [2018-11-29 23:37:47] location_url:https://www.instagram.com/explore/locations/1025066921/congreso-de-los-diputados/
+INFO [2018-11-29 23:37:47] location_name:Congreso de los Diputados
+ERROR [2018-11-29 23:37:47] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:37:47] date:2018-10-09T13:44:24.000Z
+INFO [2018-11-29 23:37:47] post-likes:17000
+INFO [2018-11-29 23:37:47] princepelayo -- Esta mañana estuve en el Congreso de los Diputados con motivo del día mundial de la salud mental hablando de cómo hacer un buen uso de las nuevas tecnologías y redes sociales para cuidar la salud mental.
+Es todo un orgullo participar en esta campaña “Educación inclusiva, salud mental positiva” y un honor formar parte de la mesa presidencial junto a La Reina Doña Letizia. Gracias Ana Pastor, la ministra de sanidad María Luisa Carcedo, Nel A. González presidente de @consaludmental y enhorabuena Damián Alcolea por tu discurso tan emotivo y valiente. Eres una inspiración.
+Y a ti, si todavía no te has atrevido a compartir tu caso: confía en tus amigos y familiares, lucha por tus sueños y, sobretodo, quiérete y acéptate como eres. #diamundialsaludmental #notehagaselloco
+ERROR [2018-11-29 23:37:47] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:37:48] 25 comments.
+INFO [2018-11-29 23:37:48] 3mentions
+INFO [2018-11-29 23:37:48] Scrapping Post Link: https://www.instagram.com/p/BpWdnXvhmWW/
+INFO [2018-11-29 23:37:50] location_id:127963847
+INFO [2018-11-29 23:37:50] location_url:https://www.instagram.com/explore/locations/127963847/madrid-spain/
+INFO [2018-11-29 23:37:50] location_name:Madrid, Spain
+ERROR [2018-11-29 23:37:50] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:37:50] date:2018-10-25T09:25:29.000Z
+INFO [2018-11-29 23:37:50] post-likes:9968
+INFO [2018-11-29 23:37:50] princepelayo -- With my sister in VOGUE 📖👯‍♀️📷 Gracias #voguenovias @voguespain @natdiazzapico
+ERROR [2018-11-29 23:37:50] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:37:50] 25 comments.
+INFO [2018-11-29 23:37:51] 2mentions
+INFO [2018-11-29 23:37:51] Scrapping Post Link: https://www.instagram.com/p/BpFBI4gBlQ3/
+INFO [2018-11-29 23:37:52] location_id:127963847
+INFO [2018-11-29 23:37:52] location_url:https://www.instagram.com/explore/locations/127963847/madrid-spain/
+INFO [2018-11-29 23:37:52] location_name:Madrid, Spain
+ERROR [2018-11-29 23:37:52] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:37:52] date:2018-10-18T14:49:33.000Z
+INFO [2018-11-29 23:37:53] post-likes:21033
+INFO [2018-11-29 23:37:53] princepelayo -- Walking 🚶‍♂️ around my new hood in Madrid! 🔍 Check my 🆕 post 📬 on Katelovesme.net (link in bio) 📲 #KATELOVESME
+ERROR [2018-11-29 23:37:53] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:37:53] 25 comments.
+INFO [2018-11-29 23:37:53] Scrapping Post Link: https://www.instagram.com/p/BqGDnkKBSXY/
+INFO [2018-11-29 23:37:55] location_id:1618362148463407
+INFO [2018-11-29 23:37:55] location_url:https://www.instagram.com/explore/locations/1618362148463407/palacio-de-santona/
+INFO [2018-11-29 23:37:55] location_name:Palacio de Santoña
+ERROR [2018-11-29 23:37:55] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:37:55] date:2018-11-12T21:01:51.000Z
+INFO [2018-11-29 23:37:55] post-likes:16099
+INFO [2018-11-29 23:37:55] princepelayo -- Party time 🌈🌈🌈 #pinkheros @mypeeptoes
+ERROR [2018-11-29 23:37:55] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:37:56] 25 comments.
+INFO [2018-11-29 23:37:56] 1mentions
+INFO [2018-11-29 23:37:56] Scrapping Post Link: https://www.instagram.com/p/BqIHag0hYx9/
+INFO [2018-11-29 23:37:57] location_id:127963847
+INFO [2018-11-29 23:37:57] location_url:https://www.instagram.com/explore/locations/127963847/madrid-spain/
+INFO [2018-11-29 23:37:57] location_name:Madrid, Spain
+ERROR [2018-11-29 23:37:57] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:37:57] date:2018-11-13T16:13:31.000Z
+INFO [2018-11-29 23:37:57] post-likes:8826
+INFO [2018-11-29 23:37:58] princepelayo -- CAN’T WAIT FOR LEVI’S X DAVIDELFIN DINNER TONIGHT ➕ #levisxdavidelfin
+ERROR [2018-11-29 23:37:58] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:37:58] 25 comments.
+INFO [2018-11-29 23:37:58] 2mentions
+INFO [2018-11-29 23:37:58] Scrapping Post Link: https://www.instagram.com/p/Bp5Bd7DB_xu/
+INFO [2018-11-29 23:38:00] location_id:127963847
+INFO [2018-11-29 23:38:00] location_url:https://www.instagram.com/explore/locations/127963847/madrid-spain/
+INFO [2018-11-29 23:38:00] location_name:Madrid, Spain
+ERROR [2018-11-29 23:38:00] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:38:00] date:2018-11-07T19:32:56.000Z
+INFO [2018-11-29 23:38:00] post-likes:46983
+INFO [2018-11-29 23:38:00] princepelayo -- PUES QUE ARDA @HIBA_ABOUK_ 🔥🔥🔥 @arde.madrid Gracias @pancreativestudio @albertomurtra @nirave #ARDEMADRID
+ERROR [2018-11-29 23:38:00] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:38:01] 25 comments.
+INFO [2018-11-29 23:38:01] 3mentions
+INFO [2018-11-29 23:38:01] Scrapping Post Link: https://www.instagram.com/p/BqKeE8ThZai/
+INFO [2018-11-29 23:38:02] location_id:127963847
+INFO [2018-11-29 23:38:02] location_url:https://www.instagram.com/explore/locations/127963847/madrid-spain/
+INFO [2018-11-29 23:38:02] location_name:Madrid, Spain
+ERROR [2018-11-29 23:38:02] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:38:02] date:2018-11-14T14:10:01.000Z
+INFO [2018-11-29 23:38:02] post-likes:47680
+INFO [2018-11-29 23:38:03] princepelayo -- #TB TO THE WEEK I MODELLED FOR DOLCE&GABBANA IN MILAN AND HAD A MOUSTACHE 📷 PHOTO @GUILLE_SOLA
+ERROR [2018-11-29 23:38:03] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:38:03] 25 comments.
+INFO [2018-11-29 23:38:03] 3mentions
+INFO [2018-11-29 23:38:03] Scrapping Post Link: https://www.instagram.com/p/BqZvtVwB6qi/
+INFO [2018-11-29 23:38:05] location_id:350087
+INFO [2018-11-29 23:38:05] location_url:https://www.instagram.com/explore/locations/350087/museu-nacional-dart-de-catalunya/
+INFO [2018-11-29 23:38:05] location_name:Museu Nacional d'Art de Catalunya
+ERROR [2018-11-29 23:38:05] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:38:05] date:2018-11-20T12:32:42.000Z
+INFO [2018-11-29 23:38:05] post-likes:19384
+INFO [2018-11-29 23:38:05] princepelayo -- Last night we gathered at the National Art Museum for the @peopleinredgala to remind the world the importance of keeping researching to find a final cure for VIH ❤️❤️❤️ Anoche unimos fuerzas con la fundación del Dr. Buenaventura Clotet y recaudar fondos para continuar con su magnífico trabajo y ponerle punto final al VIH. Gracias @peopleinredgala, patrocinadores y @equiposingular por contar conmigo un año más
+ERROR [2018-11-29 23:38:05] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:38:06] 25 comments.
+INFO [2018-11-29 23:38:06] 3mentions
+INFO [2018-11-29 23:38:06] User princepelayo has 941 comments.
+INFO [2018-11-29 23:38:06] Extracting information from aguynamedpatrick
+INFO [2018-11-29 23:38:07] alias name: Patrick Janelle
+INFO [2018-11-29 23:38:07] bio: Man about town. Creative Director. Entrepreneur.
+🏡 New York 📍Rio de Janeiro
+✉️ patrick@aguynamedpatrick.com
+👇 See my city guides & get my newsletter
+INFO [2018-11-29 23:38:07] url: agnp.co/maps
+INFO [2018-11-29 23:38:07] Posts: 5189
+INFO [2018-11-29 23:38:07] Follower: 446073
+INFO [2018-11-29 23:38:07] Following: 1169
+INFO [2018-11-29 23:38:07] isPrivate: False
+INFO [2018-11-29 23:38:24] Scrapping Post Link: https://www.instagram.com/p/BqNhN9SBnxP/
+INFO [2018-11-29 23:38:26] location_id:1702285246710212
+INFO [2018-11-29 23:38:26] location_url:https://www.instagram.com/explore/locations/1702285246710212/the-robey-chicago/
+INFO [2018-11-29 23:38:26] location_name:The Robey Chicago
+ERROR [2018-11-29 23:38:26] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:38:26] date:2018-11-15T18:35:11.000Z
+INFO [2018-11-29 23:38:26] post-likes:1910
+INFO [2018-11-29 23:38:27] theory__ -- 
+ERROR [2018-11-29 23:38:27] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:38:27] 2 comments.
+INFO [2018-11-29 23:38:27] 2mentions
+INFO [2018-11-29 23:38:27] Scrapping Post Link: https://www.instagram.com/p/BqdbFVuh5A3/
+INFO [2018-11-29 23:38:28] location_id:455384177
+INFO [2018-11-29 23:38:28] location_url:https://www.instagram.com/explore/locations/455384177/cachoeira-do-jequitiba/
+INFO [2018-11-29 23:38:28] location_name:Cachoeira Do Jequitiba
+ERROR [2018-11-29 23:38:28] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:38:28] date:2018-11-21T22:49:26.000Z
+INFO [2018-11-29 23:38:29] post-likes:2716
+ERROR [2018-11-29 23:38:29] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:38:29] ERROR something went wrong getting comment
+ERROR [2018-11-29 23:38:29] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:38:29] ERROR something went wrong getting comment
+INFO [2018-11-29 23:38:29] 0 comments.
+INFO [2018-11-29 23:38:29] Scrapping Post Link: https://www.instagram.com/p/BqkfYGghZtZ/
+INFO [2018-11-29 23:38:31] location_id:1775574979389876
+INFO [2018-11-29 23:38:31] location_url:https://www.instagram.com/explore/locations/1775574979389876/bar-do-mineiro/
+INFO [2018-11-29 23:38:31] location_name:Bar do Mineiro
+ERROR [2018-11-29 23:38:31] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:38:31] date:2018-11-24T16:41:38.000Z
+INFO [2018-11-29 23:38:31] post-likes:3031
+INFO [2018-11-29 23:38:31] aguynamedpatrick -- Behind the bar at @bardomineiro, an awesome old-school joint in the Santa Teresa neighborhood. The bar is known for making a killer feijoada—the traditional Brazilian pork and bean stew. They also make a mean caipirinha: that whole lower shelf is filled with various styles and brands of cachaça.
+ERROR [2018-11-29 23:38:31] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:38:31] 25 comments.
+INFO [2018-11-29 23:38:31] 1mentions
+INFO [2018-11-29 23:38:31] Scrapping Post Link: https://www.instagram.com/p/BphHFecBlKw/
+INFO [2018-11-29 23:38:33] location_id:11100843
+INFO [2018-11-29 23:38:33] location_url:https://www.instagram.com/explore/locations/11100843/lisbon-portugal/
+INFO [2018-11-29 23:38:33] location_name:Lisbon, Portugal
+ERROR [2018-11-29 23:38:33] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:38:33] date:2018-10-29T12:40:15.000Z
+INFO [2018-11-29 23:38:33] post-likes:2871
+INFO [2018-11-29 23:38:33] aguynamedpatrick -- Oops! Missed my connection in Lisbon, so I had to stay for one more night. But there are worse places I could have landed...not mad at one more visit. ✨
+INFO [2018-11-29 23:38:33] 16 comments.
+INFO [2018-11-29 23:38:33] Scrapping Post Link: https://www.instagram.com/p/BqNFCSdh9La/
+INFO [2018-11-29 23:38:35] location_id:717949095
+INFO [2018-11-29 23:38:35] location_url:https://www.instagram.com/explore/locations/717949095/swift-sons/
+INFO [2018-11-29 23:38:35] location_name:Swift & Sons
+ERROR [2018-11-29 23:38:35] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:38:35] date:2018-11-15T14:28:56.000Z
+INFO [2018-11-29 23:38:35] post-likes:4604
+INFO [2018-11-29 23:38:36] aguynamedpatrick -- The gorgeous bar at Chicago’s preeminent nouveau steakhouse, @swiftandsons. Anchoring a corner in the industrial West Loop—which has exploded with restaurants and hotels in the past few years—this restaurant, designed by @avroko, showcases the quality of design (and food!) happening here.
+ERROR [2018-11-29 23:38:36] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:38:36] 25 comments.
+INFO [2018-11-29 23:38:36] 2mentions
+INFO [2018-11-29 23:38:36] Scrapping Post Link: https://www.instagram.com/p/Bp91VeDBoYa/
+INFO [2018-11-29 23:38:38] location_id:539488256418630
+INFO [2018-11-29 23:38:38] location_url:https://www.instagram.com/explore/locations/539488256418630/the-carpenter-hotel/
+INFO [2018-11-29 23:38:38] location_name:The Carpenter Hotel
+ERROR [2018-11-29 23:38:38] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:38:38] date:2018-11-09T16:23:08.000Z
+INFO [2018-11-29 23:38:38] post-likes:2445
+INFO [2018-11-29 23:38:38] aguynamedpatrick -- Austin’s newest hotel/coffee shop/restaurant is the @carpenterhotel and the cutely named @hotlcoffee, all housed in a former union building for the city’s carpenters.
+INFO [2018-11-29 23:38:38] 16 comments.
+INFO [2018-11-29 23:38:38] 2mentions
+INFO [2018-11-29 23:38:38] Scrapping Post Link: https://www.instagram.com/p/Bp5IV1OhRFE/
+INFO [2018-11-29 23:38:40] location_id:235312
+INFO [2018-11-29 23:38:40] location_url:https://www.instagram.com/explore/locations/235312/hotel-saint-cecilia/
+INFO [2018-11-29 23:38:40] location_name:Hotel Saint Cecilia
+ERROR [2018-11-29 23:38:40] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:38:40] date:2018-11-07T20:33:00.000Z
+INFO [2018-11-29 23:38:41] post-likes:3432
+INFO [2018-11-29 23:38:41] hotelsaintcecilia -- 
+ERROR [2018-11-29 23:38:41] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:38:41] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:38:41] 2 comments.
+INFO [2018-11-29 23:38:41] 2mentions
+INFO [2018-11-29 23:38:41] Scrapping Post Link: https://www.instagram.com/p/BqSpXKhBtEq/
+INFO [2018-11-29 23:38:43] location_id:21543
+INFO [2018-11-29 23:38:43] location_url:https://www.instagram.com/explore/locations/21543/soho/
+INFO [2018-11-29 23:38:43] location_name:SoHo
+ERROR [2018-11-29 23:38:43] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:38:43] date:2018-11-17T18:22:33.000Z
+INFO [2018-11-29 23:38:43] post-likes:1853
+INFO [2018-11-29 23:38:43] aguynamedpatrick -- Back in NYC, and I’m scheming and dreaming of a new @SamsungUS Chef Collection kitchen. This sketch by @AlexaHamptonINC was featured this week on @newyorkermag, in a piece where I talked about the things I’ve collected through my travels and how I incorporate them into my life of entertaining at home. Link in bio for the full article. #sponsored
+INFO [2018-11-29 23:38:43] 20 comments.
+INFO [2018-11-29 23:38:43] 2mentions
+INFO [2018-11-29 23:38:43] Scrapping Post Link: https://www.instagram.com/p/Bpf5wdPhYfx/
+INFO [2018-11-29 23:38:45] location_id:219816022
+INFO [2018-11-29 23:38:45] location_url:https://www.instagram.com/explore/locations/219816022/isola-bella-taormina/
+INFO [2018-11-29 23:38:45] location_name:Isola Bella-Taormina
+ERROR [2018-11-29 23:38:45] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:38:45] date:2018-10-29T01:24:33.000Z
+INFO [2018-11-29 23:38:45] post-likes:2876
+INFO [2018-11-29 23:38:45] aguynamedpatrick -- After a delightful trip abroad with friends, I’m headed back home. But I packed a few bottles of wine to keep the travels going... for a few more days, at least. Ciao, Sicily! 🍷✨🍷
+INFO [2018-11-29 23:38:46] 19 comments.
+INFO [2018-11-29 23:38:46] Scrapping Post Link: https://www.instagram.com/p/Bqn5BFFBq2F/
+INFO [2018-11-29 23:38:47] location_id:228833401
+INFO [2018-11-29 23:38:47] location_url:https://www.instagram.com/explore/locations/228833401/ipanema/
+INFO [2018-11-29 23:38:47] location_name:Ipanema
+ERROR [2018-11-29 23:38:47] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:38:47] date:2018-11-26T00:23:24.000Z
+INFO [2018-11-29 23:38:48] post-likes:2042
+INFO [2018-11-29 23:38:48] aguynamedpatrick -- Loving the life on these beaches ✨
+INFO [2018-11-29 23:38:48] 15 comments.
+INFO [2018-11-29 23:38:48] Scrapping Post Link: https://www.instagram.com/p/BqiqmT9BRut/
+INFO [2018-11-29 23:38:50] location_id:240610496
+INFO [2018-11-29 23:38:50] location_url:https://www.instagram.com/explore/locations/240610496/mama-ruisa/
+INFO [2018-11-29 23:38:50] location_name:Mama Ruisa
+ERROR [2018-11-29 23:38:50] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:38:50] date:2018-11-23T23:41:13.000Z
+INFO [2018-11-29 23:38:50] post-likes:4527
+INFO [2018-11-29 23:38:50] aguynamedpatrick -- What I mean when I say “let’s spend the day by the pool.” 🍹👒💦
+ERROR [2018-11-29 23:38:50] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:38:51] 25 comments.
+INFO [2018-11-29 23:38:51] 1mentions
+INFO [2018-11-29 23:38:51] Scrapping Post Link: https://www.instagram.com/p/BqROBhTBSNJ/
+INFO [2018-11-29 23:38:52] location_id:1702285246710212
+INFO [2018-11-29 23:38:52] location_url:https://www.instagram.com/explore/locations/1702285246710212/the-robey-chicago/
+INFO [2018-11-29 23:38:52] location_name:The Robey Chicago
+ERROR [2018-11-29 23:38:52] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:38:52] date:2018-11-17T05:04:26.000Z
+INFO [2018-11-29 23:38:52] post-likes:7494
+INFO [2018-11-29 23:38:52] aguynamedpatrick -- Last glimpse out my window of @therobeychicago. I’ve had an incredible time making wonderful new friends. Thanks for having me—peace out Chicago!✌🏼
+ERROR [2018-11-29 23:38:52] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:38:53] 25 comments.
+INFO [2018-11-29 23:38:53] 1mentions
+INFO [2018-11-29 23:38:53] Scrapping Post Link: https://www.instagram.com/p/BqAL0TPhnlw/
+INFO [2018-11-29 23:38:55] location_id:124098621531115
+INFO [2018-11-29 23:38:55] location_url:https://www.instagram.com/explore/locations/124098621531115/better-half-coffee-cocktails/
+INFO [2018-11-29 23:38:55] location_name:Better Half Coffee & Cocktails
+ERROR [2018-11-29 23:38:55] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:38:55] date:2018-11-10T14:18:04.000Z
+INFO [2018-11-29 23:38:55] post-likes:2569
+INFO [2018-11-29 23:38:55] aguynamedpatrick -- One of my favorite stops in Austin has been @betterhalfbar, an all-day, bar/coffee shop/diner that basically has everything you need—including WiFi and cocktails on tap. This is the “Greens and Grains” from their breakfast menu, and you’d better believe I introduced a biscuit to sop up some of that savory goodness.
+ERROR [2018-11-29 23:38:55] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:38:55] 25 comments.
+INFO [2018-11-29 23:38:55] 1mentions
+INFO [2018-11-29 23:38:55] Scrapping Post Link: https://www.instagram.com/p/BqFt9GHB7vE/
+INFO [2018-11-29 23:38:57] location_id:327021187643076
+INFO [2018-11-29 23:38:57] location_url:https://www.instagram.com/explore/locations/327021187643076/vesta-coffee-roasters/
+INFO [2018-11-29 23:38:57] location_name:Vesta Coffee Roasters
+ERROR [2018-11-29 23:38:57] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:38:57] date:2018-11-12T17:52:34.000Z
+INFO [2018-11-29 23:38:57] post-likes:1435
+INFO [2018-11-29 23:38:57] aguynamedpatrick -- This pretty little place, @vestacoffee, has become my home-away-from-home coffee spot in Las Vegas.
+INFO [2018-11-29 23:38:57] 5 comments.
+INFO [2018-11-29 23:38:57] 1mentions
+INFO [2018-11-29 23:38:57] Scrapping Post Link: https://www.instagram.com/p/Bpjna4-nvGY/
+ERROR [2018-11-29 23:38:58] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:38:59] date:2018-10-30T12:01:17.000Z
+INFO [2018-11-29 23:38:59] post-likes:3882
+INFO [2018-11-29 23:38:59] aguynamedpatrick -- Listening to records on my fave headphones, the MW50+ from @masterdynamic. They’re 2-in-1 wireless headphones, so they’re perfect for travel (they saved me on all my recent flights) or just boppin’ around NYC. #ListenYourWay
+ERROR [2018-11-29 23:38:59] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:38:59] 25 comments.
+INFO [2018-11-29 23:38:59] Scrapping Post Link: https://www.instagram.com/p/BqKZcILh6pT/
+INFO [2018-11-29 23:39:01] location_id:204517928
+INFO [2018-11-29 23:39:01] location_url:https://www.instagram.com/explore/locations/204517928/chicago-illinois/
+INFO [2018-11-29 23:39:01] location_name:Chicago, Illinois
+ERROR [2018-11-29 23:39:01] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:39:01] date:2018-11-14T13:29:30.000Z
+INFO [2018-11-29 23:39:01] post-likes:2416
+INFO [2018-11-29 23:39:01] aguynamedpatrick -- 🚨GIVEAWAY🚨Good morning from chilly Chicago! Today I’m wearing a full @bonobos look (how great is this jacket?!) and I’m giving away a $500 gift card in this week’s newsletter. If you haven’t already, sign up for the newsletter (link in profile), and follow my adventures in more detail every Friday. 📸: @evantsheehan
+ERROR [2018-11-29 23:39:01] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:39:02] 25 comments.
+INFO [2018-11-29 23:39:02] 1mentions
+INFO [2018-11-29 23:39:02] Scrapping Post Link: https://www.instagram.com/p/BqECBgMhOol/
+INFO [2018-11-29 23:39:04] location_id:412002143
+INFO [2018-11-29 23:39:04] location_url:https://www.instagram.com/explore/locations/412002143/fremont-street/
+INFO [2018-11-29 23:39:04] location_name:Fremont Street
+ERROR [2018-11-29 23:39:04] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:39:04] date:2018-11-12T02:09:27.000Z
+INFO [2018-11-29 23:39:04] post-likes:2470
+ERROR [2018-11-29 23:39:04] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:39:04] ERROR something went wrong getting comment
+ERROR [2018-11-29 23:39:04] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:39:04] ERROR something went wrong getting comment
+INFO [2018-11-29 23:39:04] 0 comments.
+INFO [2018-11-29 23:39:04] Scrapping Post Link: https://www.instagram.com/p/Bp68cq8BlI_/
+INFO [2018-11-29 23:39:06] location_id:1029814954
+INFO [2018-11-29 23:39:06] location_url:https://www.instagram.com/explore/locations/1029814954/fleet-coffee/
+INFO [2018-11-29 23:39:06] location_name:Fleet Coffee
+ERROR [2018-11-29 23:39:06] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:39:06] date:2018-11-08T13:27:33.000Z
+INFO [2018-11-29 23:39:06] post-likes:2354
+INFO [2018-11-29 23:39:06] aguynamedpatrick -- Look at this charming coffee spot! East Austin’s @fleetcoffeeco is a wedge of a cafe that—like the best spots in the city—features a rotating list of roasters. Pro tip: they have a small menu of @veracruzatx tacos, so you can skip the line elsewhere. They’re also really nice and have free WiFi. What’s not to love? More on my Austin faves in tomorrow’s newsletter—sign up if you haven’t already (link in profile!).
+ERROR [2018-11-29 23:39:06] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:39:07] 25 comments.
+INFO [2018-11-29 23:39:07] 1mentions
+INFO [2018-11-29 23:39:07] Scrapping Post Link: https://www.instagram.com/p/Bqq6wMuB08s/
+INFO [2018-11-29 23:39:08] location_id:213396483
+INFO [2018-11-29 23:39:08] location_url:https://www.instagram.com/explore/locations/213396483/botafogo-rio-de-janeiro-brazil/
+INFO [2018-11-29 23:39:08] location_name:Botafogo, Rio De Janeiro, Brazil
+ERROR [2018-11-29 23:39:08] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:39:09] date:2018-11-27T04:36:18.000Z
+INFO [2018-11-29 23:39:09] post-likes:2380
+INFO [2018-11-29 23:39:09] aguynamedpatrick -- Rio’s Botafogo neighborhood is where you’ll find young, hip residents drinking microbrews and grabbing gourmet burgers. Sort of this city’s Williamsburg, Shoreditch, or Silverlake—on a smaller scale. We stumbled on the most gorgeous farmers market here and couldn’t help but pick up a few goodies for the road.
+INFO [2018-11-29 23:39:09] 19 comments.
+INFO [2018-11-29 23:39:09] Scrapping Post Link: https://www.instagram.com/p/BqlfESehyCA/
+INFO [2018-11-29 23:39:11] location_id:228833401
+INFO [2018-11-29 23:39:11] location_url:https://www.instagram.com/explore/locations/228833401/ipanema/
+INFO [2018-11-29 23:39:11] location_name:Ipanema
+ERROR [2018-11-29 23:39:11] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:39:11] date:2018-11-25T01:58:10.000Z
+INFO [2018-11-29 23:39:11] post-likes:6527
+INFO [2018-11-29 23:39:11] aguynamedpatrick -- Night falls on Ipanema.
+ERROR [2018-11-29 23:39:11] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:39:11] 25 comments.
+INFO [2018-11-29 23:39:12] Scrapping Post Link: https://www.instagram.com/p/BqC8K90BRXo/
+INFO [2018-11-29 23:39:13] location_id:507863656327506
+INFO [2018-11-29 23:39:13] location_url:https://www.instagram.com/explore/locations/507863656327506/the-nomad-hotel-las-vegas/
+INFO [2018-11-29 23:39:13] location_name:The NoMad Hotel, Las Vegas
+ERROR [2018-11-29 23:39:13] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:39:13] date:2018-11-11T15:59:04.000Z
+INFO [2018-11-29 23:39:13] post-likes:2945
+INFO [2018-11-29 23:39:14] aguynamedpatrick -- Woke up in Vegas! Not that you’d know from this room... I’m staying at @thenomadhotel, which just opened on the strip. That means there’s finally a thoughtful, charming oasis in the the middle of all this madness.
+INFO [2018-11-29 23:39:14] 24 comments.
+INFO [2018-11-29 23:39:14] 1mentions
+INFO [2018-11-29 23:39:14] Scrapping Post Link: https://www.instagram.com/p/BqK9O7Gh8zQ/
+INFO [2018-11-29 23:39:16] location_id:1021525425
+INFO [2018-11-29 23:39:16] location_url:https://www.instagram.com/explore/locations/1021525425/sawada-coffee/
+INFO [2018-11-29 23:39:16] location_name:Sawada Coffee
+ERROR [2018-11-29 23:39:16] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:39:16] date:2018-11-14T18:42:16.000Z
+INFO [2018-11-29 23:39:16] post-likes:1836
+INFO [2018-11-29 23:39:16] aguynamedpatrick -- Posting up at @sawadacoffee to get a little work done. Debating whether or not to try one of these green “military lattes” that all the kids are drinking here. 🤔
+INFO [2018-11-29 23:39:17] 22 comments.
+INFO [2018-11-29 23:39:17] 1mentions
+INFO [2018-11-29 23:39:17] Scrapping Post Link: https://www.instagram.com/p/BpiUsh2ho7c/
+ERROR [2018-11-29 23:39:18] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:39:18] date:2018-10-29T23:58:25.000Z
+INFO [2018-11-29 23:39:18] post-likes:2639
+INFO [2018-11-29 23:39:18] aguynamedpatrick -- Unpacking all these gorgeous goods from Portugal. I basically couldn’t stop buying beautifully-packaged things—tins of tuna and bacalao, soap, olive oil, toothpaste(!)—that I encountered in Lisbon. Thanks to everyone who gave me suggestions of places to visit (that’s you @rebekahpeppler, @johnphilp3, and @lauramash!). Be sure to visit my website for my own, newly-curated Lisbon city guide.
+ERROR [2018-11-29 23:39:18] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:39:18] 25 comments.
+INFO [2018-11-29 23:39:19] Scrapping Post Link: https://www.instagram.com/p/BqnNqq9hHiQ/
+INFO [2018-11-29 23:39:20] location_id:1024218748
+INFO [2018-11-29 23:39:20] location_url:https://www.instagram.com/explore/locations/1024218748/flor-do-ceu/
+INFO [2018-11-29 23:39:20] location_name:Flor do Céu
+ERROR [2018-11-29 23:39:20] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:39:20] date:2018-11-25T18:04:36.000Z
+INFO [2018-11-29 23:39:20] post-likes:1219
+INFO [2018-11-29 23:39:20] aguynamedpatrick -- This photo doesn’t do justice to the moment: high above the beach of Ipanema, @restauranteflordoceu is hidden in a hillside favela. Chef Tobia Messa makes fresh pasta—Brazilian-infused Italian cuisine—while live jazz plays in the corner, an ocean breeze passes through, and diners overlook the Atlantic beaches below. More on stories!
+INFO [2018-11-29 23:39:21] 13 comments.
+INFO [2018-11-29 23:39:21] 1mentions
+INFO [2018-11-29 23:39:21] Scrapping Post Link: https://www.instagram.com/p/BqfJSdWBdCy/
+INFO [2018-11-29 23:39:23] location_id:264751122
+INFO [2018-11-29 23:39:23] location_url:https://www.instagram.com/explore/locations/264751122/jardim-botanico-do-rio-de-janeiro/
+INFO [2018-11-29 23:39:23] location_name:Jardim Botânico do Rio de Janeiro
+ERROR [2018-11-29 23:39:23] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:39:23] date:2018-11-22T14:52:25.000Z
+INFO [2018-11-29 23:39:23] post-likes:2454
+ERROR [2018-11-29 23:39:23] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:39:23] ERROR something went wrong getting comment
+ERROR [2018-11-29 23:39:23] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:39:23] ERROR something went wrong getting comment
+ERROR [2018-11-29 23:39:23] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:39:23] ERROR something went wrong getting comment
+ERROR [2018-11-29 23:39:23] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:39:23] ERROR something went wrong getting comment
+INFO [2018-11-29 23:39:23] 0 comments.
+INFO [2018-11-29 23:39:23] Scrapping Post Link: https://www.instagram.com/p/BqxcEsgBwCD/
+INFO [2018-11-29 23:39:25] location_id:212914821
+INFO [2018-11-29 23:39:25] location_url:https://www.instagram.com/explore/locations/212914821/madison-avenue/
+INFO [2018-11-29 23:39:25] location_name:Madison Avenue
+ERROR [2018-11-29 23:39:25] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:39:25] date:2018-11-29T17:22:54.000Z
+INFO [2018-11-29 23:39:25] post-likes:1427
+INFO [2018-11-29 23:39:25] aguynamedpatrick -- And just like that, I’m wearing coats back in the city after a week at the beach. I don’t think this old trench of mine is quiiiite going to cut it in this cold. 📷: @samortizphotos
+ERROR [2018-11-29 23:39:25] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:39:25] 25 comments.
+INFO [2018-11-29 23:39:25] 3mentions
+INFO [2018-11-29 23:39:25] Scrapping Post Link: https://www.instagram.com/p/BqhzxYzhe-l/
+INFO [2018-11-29 23:39:27] location_id:834426177
+INFO [2018-11-29 23:39:27] location_url:https://www.instagram.com/explore/locations/834426177/the-slow-bakery-paes-artesanais/
+INFO [2018-11-29 23:39:27] location_name:The Slow Bakery, Pães Artesanais
+ERROR [2018-11-29 23:39:27] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:39:27] date:2018-11-23T15:42:07.000Z
+INFO [2018-11-29 23:39:27] post-likes:2061
+INFO [2018-11-29 23:39:27] 3cariocas -- 
+ERROR [2018-11-29 23:39:27] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:39:27] 2 comments.
+INFO [2018-11-29 23:39:27] 3mentions
+INFO [2018-11-29 23:39:27] Scrapping Post Link: https://www.instagram.com/p/BqPuu21hVSY/
+INFO [2018-11-29 23:39:29] location_id:215334020
+INFO [2018-11-29 23:39:29] location_url:https://www.instagram.com/explore/locations/215334020/cellar-door-provisions/
+INFO [2018-11-29 23:39:29] location_name:Cellar Door Provisions
+ERROR [2018-11-29 23:39:29] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:39:29] date:2018-11-16T15:11:45.000Z
+INFO [2018-11-29 23:39:29] post-likes:1416
+INFO [2018-11-29 23:39:29] cellardoorprovisions -- 
+ERROR [2018-11-29 23:39:29] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:39:29] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:39:29] 2 comments.
+INFO [2018-11-29 23:39:29] 2mentions
+INFO [2018-11-29 23:39:29] Scrapping Post Link: https://www.instagram.com/p/Bp-VT5ghwmA/
+INFO [2018-11-29 23:39:31] location_id:212926302
+INFO [2018-11-29 23:39:31] location_url:https://www.instagram.com/explore/locations/212926302/hotel-san-jose/
+INFO [2018-11-29 23:39:31] location_name:Hotel San José
+ERROR [2018-11-29 23:39:31] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:39:31] date:2018-11-09T21:02:32.000Z
+INFO [2018-11-29 23:39:31] post-likes:2417
+INFO [2018-11-29 23:39:31] aguynamedpatrick -- Checking out all the classic Austin spots to see which ones make the cut on my AGNP.co city guide. There’s no question that @hotelsanjose, the original @bunkhousehotels property from @thelizlambert is on the list. The hotel was re-opened in 2000 on the site of a 1940’s motor lodge. It set the precedent for many of the boutiques we love that have been opened over the past two decades.
+INFO [2018-11-29 23:39:32] 24 comments.
+INFO [2018-11-29 23:39:32] 2mentions
+INFO [2018-11-29 23:39:32] Scrapping Post Link: https://www.instagram.com/p/BqgUxgkhAvZ/
+INFO [2018-11-29 23:39:34] location_id:213263591
+INFO [2018-11-29 23:39:34] location_url:https://www.instagram.com/explore/locations/213263591/ipanema-rio-de-janeiro-brazil/
+INFO [2018-11-29 23:39:34] location_name:Ipanema, Rio De Janeiro, Brazil
+ERROR [2018-11-29 23:39:34] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:39:34] date:2018-11-23T01:52:01.000Z
+INFO [2018-11-29 23:39:34] post-likes:5118
+ERROR [2018-11-29 23:39:34] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:39:34] ERROR something went wrong getting comment
+ERROR [2018-11-29 23:39:34] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:39:34] ERROR something went wrong getting comment
+ERROR [2018-11-29 23:39:34] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:39:34] ERROR something went wrong getting comment
+ERROR [2018-11-29 23:39:34] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:39:34] ERROR something went wrong getting comment
+INFO [2018-11-29 23:39:34] 0 comments.
+INFO [2018-11-29 23:39:34] Scrapping Post Link: https://www.instagram.com/p/BqpkG5khrfo/
+ERROR [2018-11-29 23:39:35] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:39:35] date:2018-11-26T15:59:11.000Z
+INFO [2018-11-29 23:39:35] post-likes:2434
+INFO [2018-11-29 23:39:35] aguynamedpatrick -- I booked a holiday trip to Rio using points from my #AmexPlatinum. One of the many reasons I use my @AmericanExpress Card all year long...for moments like this. #AmexAmbassador #AmexLife
+ERROR [2018-11-29 23:39:35] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:39:36] 25 comments.
+INFO [2018-11-29 23:39:36] 1mentions
+INFO [2018-11-29 23:39:36] Scrapping Post Link: https://www.instagram.com/p/BqZuOl2hnCm/
+INFO [2018-11-29 23:39:38] location_id:212926609
+INFO [2018-11-29 23:39:38] location_url:https://www.instagram.com/explore/locations/212926609/belmond-copacabana-palace/
+INFO [2018-11-29 23:39:38] location_name:Belmond Copacabana Palace
+ERROR [2018-11-29 23:39:38] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:39:38] date:2018-11-20T12:19:45.000Z
+INFO [2018-11-29 23:39:38] post-likes:4383
+INFO [2018-11-29 23:39:38] aguynamedpatrick -- TBH it’s been raining pretty much nonstop for the last day, so I may not get to swim much in the pool here at the @belmondcopacabanapalace. But it sure is pretty to look at. #belmondpostcards
+ERROR [2018-11-29 23:39:38] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:39:38] 25 comments.
+INFO [2018-11-29 23:39:38] 1mentions
+INFO [2018-11-29 23:39:38] Scrapping Post Link: https://www.instagram.com/p/BqGSPg4hJt5/
+INFO [2018-11-29 23:39:40] location_id:119705598739508
+INFO [2018-11-29 23:39:40] location_url:https://www.instagram.com/explore/locations/119705598739508/esthers-kitchen/
+INFO [2018-11-29 23:39:40] location_name:Esther's Kitchen
+ERROR [2018-11-29 23:39:40] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:39:40] date:2018-11-12T23:09:39.000Z
+INFO [2018-11-29 23:39:41] post-likes:2317
+INFO [2018-11-29 23:39:41] estherskitchenlv -- 
+INFO [2018-11-29 23:39:41] 2 comments.
+INFO [2018-11-29 23:39:41] 2mentions
+INFO [2018-11-29 23:39:41] Scrapping Post Link: https://www.instagram.com/p/Bqv9xBSBqcQ/
+INFO [2018-11-29 23:39:43] location_id:405027146
+INFO [2018-11-29 23:39:43] location_url:https://www.instagram.com/explore/locations/405027146/rio-de-janeiro/
+INFO [2018-11-29 23:39:43] location_name:Rio de Janeiro
+ERROR [2018-11-29 23:39:43] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:39:43] date:2018-11-29T03:38:49.000Z
+INFO [2018-11-29 23:39:43] post-likes:4042
+ERROR [2018-11-29 23:39:43] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:39:43] ERROR something went wrong getting comment
+INFO [2018-11-29 23:39:43] esspeer -- 
+ERROR [2018-11-29 23:39:43] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:39:43] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:39:43] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:39:43] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:39:43] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:39:43] 1 comments.
+INFO [2018-11-29 23:39:43] 1mentions
+INFO [2018-11-29 23:39:43] Scrapping Post Link: https://www.instagram.com/p/BqIiPHjhBKa/
+ERROR [2018-11-29 23:39:44] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:39:44] date:2018-11-13T20:07:53.000Z
+INFO [2018-11-29 23:39:44] post-likes:2643
+INFO [2018-11-29 23:39:44] aguynamedpatrick -- The guy next to me was trying to have a conversation about his lake house, but honestly I was more interested in what was happening out the window. So I reached across him and took this photo—somewhere over Utah or Colorado—midway between Las Vegas and Chicago.
+INFO [2018-11-29 23:39:44] 25 comments.
+INFO [2018-11-29 23:39:44] Scrapping Post Link: https://www.instagram.com/p/BqBGIzrh4c_/
+INFO [2018-11-29 23:39:46] location_id:539488256418630
+INFO [2018-11-29 23:39:46] location_url:https://www.instagram.com/explore/locations/539488256418630/the-carpenter-hotel/
+INFO [2018-11-29 23:39:46] location_name:The Carpenter Hotel
+ERROR [2018-11-29 23:39:46] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:39:46] date:2018-11-10T22:47:40.000Z
+INFO [2018-11-29 23:39:46] post-likes:1768
+INFO [2018-11-29 23:39:46] aguynamedpatrick -- A quick little cocktail and a bite to eat at Austin’s new @carpentershallatx. The food is seasonal American—with some under-the-radar European influences. At the moment, I’m eating this thing called “Carmelized Onion Pie,” which is basically a pie version of French onion soup. It’s served with the lightest, creamiest, crème fraîche...and I’m in heaven.
+INFO [2018-11-29 23:39:47] 14 comments.
+INFO [2018-11-29 23:39:47] 2mentions
+INFO [2018-11-29 23:39:47] Scrapping Post Link: https://www.instagram.com/p/BqV4JC0h1Kz/
+ERROR [2018-11-29 23:39:48] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:39:48] date:2018-11-19T00:29:25.000Z
+INFO [2018-11-29 23:39:48] post-likes:2102
+INFO [2018-11-29 23:39:48] basilhaydens -- 
+ERROR [2018-11-29 23:39:48] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:39:48] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:39:48] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:39:48] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:39:48] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:39:48] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:39:48] 2 comments.
+INFO [2018-11-29 23:39:48] 2mentions
+INFO [2018-11-29 23:39:48] Scrapping Post Link: https://www.instagram.com/p/BqQdnFtBMAh/
+INFO [2018-11-29 23:39:50] location_id:1026770448
+INFO [2018-11-29 23:39:50] location_url:https://www.instagram.com/explore/locations/1026770448/bucktown-chicago/
+INFO [2018-11-29 23:39:50] location_name:Bucktown, Chicago
+ERROR [2018-11-29 23:39:50] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:39:50] date:2018-11-16T22:01:23.000Z
+INFO [2018-11-29 23:39:50] post-likes:2630
+INFO [2018-11-29 23:39:50] aguynamedpatrick -- When you’re on the road for so long that it’s time to renew reuse recycle. Thankfully I can get beging the vintage vibes at this laundromat. Thanks to the nice lady who works at Bucktown Bubbles for taking my photo. 🧺
+ERROR [2018-11-29 23:39:50] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:39:51] 25 comments.
+INFO [2018-11-29 23:39:51] 2mentions
+INFO [2018-11-29 23:39:51] Scrapping Post Link: https://www.instagram.com/p/BqcfwZqhs6b/
+INFO [2018-11-29 23:39:53] location_id:240610496
+INFO [2018-11-29 23:39:53] location_url:https://www.instagram.com/explore/locations/240610496/mama-ruisa/
+INFO [2018-11-29 23:39:53] location_name:Mama Ruisa
+ERROR [2018-11-29 23:39:53] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:39:53] date:2018-11-21T14:11:01.000Z
+INFO [2018-11-29 23:39:53] post-likes:1941
+INFO [2018-11-29 23:39:53] aguynamedpatrick -- Look at this gorgeous view! Woke up this morning at the charming @mamaruisa, a boutique hotel set in an old hillside mansion in Rio de Janeiro. Opened in 2000, the hotel was the first of its kind in the neighborhood of Santa Teresa, and it has since seen a handful of other similar, small hotels in the area follow
+INFO [2018-11-29 23:39:53] 25 comments.
+INFO [2018-11-29 23:39:53] 1mentions
+INFO [2018-11-29 23:39:53] Scrapping Post Link: https://www.instagram.com/p/BqXJ6w-hqMd/
+INFO [2018-11-29 23:39:55] location_id:409076789478706
+INFO [2018-11-29 23:39:55] location_url:https://www.instagram.com/explore/locations/409076789478706/restaurante-pergula/
+INFO [2018-11-29 23:39:55] location_name:Restaurante Pérgula
+ERROR [2018-11-29 23:39:55] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:39:55] date:2018-11-19T12:24:00.000Z
+INFO [2018-11-29 23:39:55] post-likes:2841
+INFO [2018-11-29 23:39:55] aguynamedpatrick -- I’m spending Thanksgiving week somewhere warm and tropical—Rio! Just landed and I’m settling in for breakfast at Pérgula at the @belmondcopacabanapalace. #BelmondPostcards
+ERROR [2018-11-29 23:39:55] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:39:56] 25 comments.
+INFO [2018-11-29 23:39:56] 1mentions
+INFO [2018-11-29 23:39:56] User aguynamedpatrick has 645 comments.
+INFO [2018-11-29 23:39:56] Extracting information from conrad_anker
+INFO [2018-11-29 23:39:57] alias name: Conrad Anker
+INFO [2018-11-29 23:39:57] bio: In a daily struggle with gravity.
+Birth factory setting is: "climb all the time".
+No plan B. Just climb.
+INFO [2018-11-29 23:39:57] url: www.conradanker.com
+INFO [2018-11-29 23:39:57] Posts: 981
+INFO [2018-11-29 23:39:57] Follower: 304972
+INFO [2018-11-29 23:39:57] Following: 1047
+INFO [2018-11-29 23:39:57] isPrivate: False
+INFO [2018-11-29 23:40:14] Scrapping Post Link: https://www.instagram.com/p/Bm11HJoBfD6/
+ERROR [2018-11-29 23:40:15] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:40:15] date:2018-08-24T00:13:04.000Z
+INFO [2018-11-29 23:40:15] post-likes:3520
+INFO [2018-11-29 23:40:15] conrad_anker -- Four years on. We miss you Brian.
+If the clouds of depression hang heavy in your circle of friends, be the one to offer a hand up and a shoulder for comfort.
+INFO [2018-11-29 23:40:16] 25 comments.
+INFO [2018-11-29 23:40:16] Scrapping Post Link: https://www.instagram.com/p/BmJn0WzBaAJ/
+ERROR [2018-11-29 23:40:17] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:40:17] date:2018-08-06T20:10:19.000Z
+INFO [2018-11-29 23:40:17] post-likes:6619
+INFO [2018-11-29 23:40:17] conrad_anker -- 200,000 to 130,000 years ago the Bull Lake glacial period carved out the classic U shaped valley at the head of Lava Lake in southwest Montana. 🔭🔬 Always humbling to stand amongst 2.5 billion year old Gneiss, look up to the sky, splash a touch of water on our forehead and understand our insignificance. #leemetcalfwilderness #publiclands
+ERROR [2018-11-29 23:40:17] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:40:18] 25 comments.
+INFO [2018-11-29 23:40:18] 1mentions
+INFO [2018-11-29 23:40:18] Scrapping Post Link: https://www.instagram.com/p/Boj3PdvBCBJ/
+ERROR [2018-11-29 23:40:18] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:40:18] date:2018-10-05T17:48:08.000Z
+INFO [2018-11-29 23:40:18] 0 comments.
+INFO [2018-11-29 23:40:18] Scrapping Post Link: https://www.instagram.com/p/BnpPtgiBmLR/
+ERROR [2018-11-29 23:40:19] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:40:19] date:2018-09-12T23:30:06.000Z
+INFO [2018-11-29 23:40:19] post-likes:16647
+INFO [2018-11-29 23:40:20] conrad_anker -- 4.5 billion years of looking good. Happening somewhere right now.
+As the sun sets I think about what I did during the day. As it rises I think about what I can do.
+#prieststation
+INFO [2018-11-29 23:40:20] 20 comments.
+INFO [2018-11-29 23:40:20] Scrapping Post Link: https://www.instagram.com/p/BqfmG12l2oq/
+ERROR [2018-11-29 23:40:21] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:40:21] date:2018-11-22T19:04:14.000Z
+INFO [2018-11-29 23:40:21] post-likes:5244
+INFO [2018-11-29 23:40:21] conrad_anker -- On the day of giving thanks may we honor those that came before us and those who helped us get to where we are today. My mom & dad with my sisters & cousins and a calf in Big Oak Flat, California.
+My dad had this story about lifting a calf every day as a way to get strong. As a child I always asked him when did the calf get too heavy? I was intrigued. I’m still lifting the metaphorical calf. We are stronger together.
+Happy Thanksgiving one and all. #tbt to 1963
+ERROR [2018-11-29 23:40:21] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:40:22] 25 comments.
+INFO [2018-11-29 23:40:22] Scrapping Post Link: https://www.instagram.com/p/BntoEcCh3zo/
+ERROR [2018-11-29 23:40:23] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:40:23] date:2018-09-14T16:16:34.000Z
+INFO [2018-11-29 23:40:23] post-likes:7218
+INFO [2018-11-29 23:40:23] conrad_anker -- @rickridgeway pulling his cart through a torrent of mud water on the border of the Chang Tang Plateau and the Taklimakan Desert. During the summer of 2002 the late Galen Rowell, Rick, @jimmy_chin & me embarked on a @natgeo expedition to document the migration and calving grounds of the endangered chiru, a small goat also known as the Tibetan antelope. The chiru is under pressure from poaching and habitat loss due to gold mining. Our goal was to supplement the work of the biologist George Schaller, encourage the Chinese government to expand the boundaries of the park these animals needed to survive and bring attention to illegal fur trade.
+
+For 30 days we walked from the southern edge of the Chang Tang to the Taklimakan Desert, following the migration of these hardy animals. Over the 432 km (270 miles) of high altitude desert we didn’t see a single tree. There were a few tiny plants, stipple grass and burzel, to support these antelope like caprids. The chiru is the food source for wolves and Tibetan bears. Luckily we didn’t see any bears and the lone wolf we met was long in the tooth and curious. Perhaps the wolf understood we were not hunters and there by paid us a visit.
+Our own challenges were focused on finding water each day. (This image is from the last day.) From scooping up sand speckled snow to finding saline seeps water was a constant worry. After this journey we all had a deeper appreciation for water.
+On this trip Galen opened up and shared his knowledge of photography with Jimmy. From the practical of how to care for your camera to the art of working the light Jimmy was a sponge. If there was one salient lesson it was work hard. Jimmy already had this built into his ethos, thanks to his dad. This was Galen’s last expedition as he and his wife Barbara perished in a plane crash one month after the expedition.
+Rick was a veritable encyclopedia of bird knowledge. For a more detailed overview check out the April 2003 National Geographic Magazine, available online in the digital archive. For an in depth look please read “The Big Open” by Rick.
+#drogpapoints
+ERROR [2018-11-29 23:40:23] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:40:23] 25 comments.
+INFO [2018-11-29 23:40:23] 1mentions
+INFO [2018-11-29 23:40:23] Scrapping Post Link: https://www.instagram.com/p/BmDvnf-hw_i/
+ERROR [2018-11-29 23:40:25] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:40:25] date:2018-08-04T13:23:02.000Z
+INFO [2018-11-29 23:40:25] post-likes:8664
+ERROR [2018-11-29 23:40:25] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:40:25] ERROR something went wrong getting comment
+ERROR [2018-11-29 23:40:25] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:40:25] ERROR something went wrong getting comment
+ERROR [2018-11-29 23:40:25] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:40:25] ERROR something went wrong getting comment
+INFO [2018-11-29 23:40:25] 0 comments.
+INFO [2018-11-29 23:40:25] Scrapping Post Link: https://www.instagram.com/p/BlB1UocB_J0/
+INFO [2018-11-29 23:40:27] location_id:213011753
+INFO [2018-11-29 23:40:27] location_url:https://www.instagram.com/explore/locations/213011753/sydney-australia/
+INFO [2018-11-29 23:40:27] location_name:Sydney, Australia
+ERROR [2018-11-29 23:40:27] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:40:27] date:2018-07-09T23:03:00.000Z
+INFO [2018-11-29 23:40:27] post-likes:4583
+INFO [2018-11-29 23:40:27] conrad_anker -- @timmacartneysnape is about as real as one can get. In 1984 he climbed a new route on the North Face of Everest with out supplemental oxygen. “The White Limbo” ascent was the first time an Australian team made it to the top. And he did it in leather telemark boots as his standard high altitude kit was eaten by an avalanche. He went on to nab the second ascent of Gasherbrum IV in the Karakoram with Greg Child. He subsequently climbed Chomolungma again starting at the Bay of Bengal. This ascent was the start of @seatosummitgear, named after this journey. We spent two days in the Blue Mountains swapping tales and climbing with Mountain Youth Services Team, a program for at risk teens. We both firmly see the value of outdoor activity being the foundation of a healthy life style. He’ll be joining me tonight at the Seymour Centre for a slide show at 7pm. @thenorthface_aunz
+ERROR [2018-11-29 23:40:27] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:40:28] 25 comments.
+INFO [2018-11-29 23:40:28] 1mentions
+INFO [2018-11-29 23:40:28] Scrapping Post Link: https://www.instagram.com/p/BpsSwlNlCTe/
+ERROR [2018-11-29 23:40:29] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:40:29] date:2018-11-02T20:53:54.000Z
+INFO [2018-11-29 23:40:29] post-likes:7310
+ERROR [2018-11-29 23:40:29] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:40:29] ERROR something went wrong getting comment
+ERROR [2018-11-29 23:40:29] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:40:29] ERROR something went wrong getting comment
+ERROR [2018-11-29 23:40:29] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:40:29] ERROR something went wrong getting comment
+ERROR [2018-11-29 23:40:29] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:40:29] ERROR something went wrong getting comment
+ERROR [2018-11-29 23:40:29] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:40:29] ERROR something went wrong getting comment
+INFO [2018-11-29 23:40:29] 0 comments.
+INFO [2018-11-29 23:40:29] Scrapping Post Link: https://www.instagram.com/p/BkIv_VZhcDd/
+ERROR [2018-11-29 23:40:30] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:40:30] date:2018-06-17T18:59:42.000Z
+INFO [2018-11-29 23:40:30] post-likes:5181
+INFO [2018-11-29 23:40:30] conrad_anker -- Wallace Robert Anker - thanks sharing the mountains with your spouse and four kids. We love you! 📷 :: dad on the right, mom on the left.
+INFO [2018-11-29 23:40:30] 10 comments.
+INFO [2018-11-29 23:40:30] 1mentions
+INFO [2018-11-29 23:40:30] Scrapping Post Link: https://www.instagram.com/p/BpcRgnTljF6/
+ERROR [2018-11-29 23:40:31] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:40:31] date:2018-10-27T15:35:08.000Z
+INFO [2018-11-29 23:40:31] post-likes:12693
+INFO [2018-11-29 23:40:31] conrad_anker -- Ready to swing your tools?
+Ice season is good fun. #knifeclimbing
+Photo by @max.lowe for the @macfreefilms & @nationalparkservice centennial IMAX Film. @puremichigan ➡️ Upper Peninsula @picturedrocksnps 🗯 February 2015
+
+@thenorthface_climb @bluewaterropes
+ERROR [2018-11-29 23:40:31] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:40:32] 25 comments.
+INFO [2018-11-29 23:40:32] Scrapping Post Link: https://www.instagram.com/p/BlakW9oB_Cj/
+ERROR [2018-11-29 23:40:33] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:40:33] date:2018-07-19T13:35:47.000Z
+INFO [2018-11-29 23:40:33] post-likes:2144
+ERROR [2018-11-29 23:40:33] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:40:33] ERROR something went wrong getting comment
+ERROR [2018-11-29 23:40:33] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:40:33] ERROR something went wrong getting comment
+ERROR [2018-11-29 23:40:33] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:40:33] ERROR something went wrong getting comment
+ERROR [2018-11-29 23:40:33] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:40:33] ERROR something went wrong getting comment
+INFO [2018-11-29 23:40:33] 0 comments.
+INFO [2018-11-29 23:40:33] Scrapping Post Link: https://www.instagram.com/p/BmDwgA6l1Me/
+ERROR [2018-11-29 23:40:34] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:40:34] date:2018-08-04T13:34:44.000Z
+INFO [2018-11-29 23:40:34] post-likes:38120
+INFO [2018-11-29 23:40:34] conrad_anker -- @etnbernard describes the panorama from the summit of the Marmolada, Dolomites, Italy. Thanks for fun times! 🏔🏔🏔 @thenorthfacede @thenorthfaceuk #mountainfestival
+ERROR [2018-11-29 23:40:34] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:40:35] 25 comments.
+INFO [2018-11-29 23:40:35] Scrapping Post Link: https://www.instagram.com/p/Bo0TX7cBmAt/
+INFO [2018-11-29 23:40:37] location_id:213825215
+INFO [2018-11-29 23:40:37] location_url:https://www.instagram.com/explore/locations/213825215/bozeman-montana/
+INFO [2018-11-29 23:40:37] location_name:Bozeman, Montana
+ERROR [2018-11-29 23:40:37] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:40:37] date:2018-10-12T03:01:49.000Z
+INFO [2018-11-29 23:40:37] post-likes:22910
+INFO [2018-11-29 23:40:37] conrad_anker -- Dear Max,
+In the 28 years we have know each other I’ve seen you grow from a toddler to a man. Our connection is through your father Alex Lowe. He is standing proud with a hand on your shoulder in this kindergarten snapshot. Your father and I shared a fascination with gravity. The transformation of the human spirit when set in a situation of dire consequences was a connection that ran deep. We helped each other reach our goals. The moments spent on summits became our life summits.
+Today, as you turn 30, you are well aware that there are no guarantees in life. It was 19 years and 6 days ago that an avalanche swept your father away. I walked away. I’ll never know why I survived. In the shadow of tragedy your mother, brothers and I found a solace that we knew was right for us. That you, the oldest of your mini bro-pack, welcomed me into your life was a foundation for the love that still reverberates and grows with in our family.
+From getting you to school on time to exploring the world there was never a dull moment. Being there for you as you graduated college and embarked on life’s journey was a highlight for both your mother and I. That you have found a place in the same profession as Alex and I is heartwarming. Your mother and I are ever so proud of you. The stories you tell, in all mediums, help all of us recognize what it means to be human. You are doing great things.
+This next decade begins with your most challenging and ambitious project yet. Your vision is to tell the story of your life: how it is shaped by the mountains and the people that define themselves by visiting the most inhospitable places on earth. How each of us is torn between a life of domestic happiness and a life on the edge of adventure. This is a big task. As you traverse the peaks and valleys of this project you will discover who you are.
+Like your father, you respond to challenge by working harder with increased dedication and focus. This drive is forever coupled with humor and happiness, as best expressed in the smile you had as a little shaver. This energy is still with you. You have a few more whiskers, yet this smile is all you.
+Happy Birthday!
+Love,
+Dad
+@max.lowe #alexlowe
+ERROR [2018-11-29 23:40:38] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:40:38] 25 comments.
+INFO [2018-11-29 23:40:38] 1mentions
+INFO [2018-11-29 23:40:38] Scrapping Post Link: https://www.instagram.com/p/BpE3AJgB8BU/
+INFO [2018-11-29 23:40:40] location_id:274593191
+INFO [2018-11-29 23:40:40] location_url:https://www.instagram.com/explore/locations/274593191/northstar-foundation/
+INFO [2018-11-29 23:40:40] location_name:NorthStar Foundation
+ERROR [2018-11-29 23:40:40] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:40:40] date:2018-10-18T13:20:59.000Z
+INFO [2018-11-29 23:40:40] post-likes:3829
+INFO [2018-11-29 23:40:40] conrad_anker -- Sunrise in Omaha, Nebraska. Walking in a city as it wakes up and greets the day is one of my favorite activities. Businesses start up, people walk with a brisk determination to get to work (are they late or extra motivated?) and a few ducks paddle around the pond. Thanks to @outwardboundusa Omaha , The Northstar Foundation and the Metropolitan Community College for hosting the Climb Higher Luncheon. Excited to share insight from four decades of climbing with the Omaha experiential learning community.
+#climbhigher
+ERROR [2018-11-29 23:40:40] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:40:41] 25 comments.
+INFO [2018-11-29 23:40:41] Scrapping Post Link: https://www.instagram.com/p/BluU-0mhKPa/
+ERROR [2018-11-29 23:40:42] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:40:42] date:2018-07-27T05:46:14.000Z
+INFO [2018-11-29 23:40:42] post-likes:4067
+ERROR [2018-11-29 23:40:42] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:40:42] ERROR something went wrong getting comment
+INFO [2018-11-29 23:40:42] hilareenelson -- 
+ERROR [2018-11-29 23:40:42] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:40:42] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:40:42] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:40:42] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:40:42] 1 comments.
+INFO [2018-11-29 23:40:42] 2mentions
+INFO [2018-11-29 23:40:42] Scrapping Post Link: https://www.instagram.com/p/Bn_aWRQBiL9/
+ERROR [2018-11-29 23:40:43] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:40:43] date:2018-09-21T14:03:00.000Z
+INFO [2018-11-29 23:40:43] post-likes:4338
+INFO [2018-11-29 23:40:43] conrad_anker -- @rachel.pohl & @charles_post
+with the
+
+The Wedding Party
+
+15 September 2018
+
+Wishing the two of you love and happiness.
+Valley of the Flowers, Montana
+INFO [2018-11-29 23:40:43] 20 comments.
+INFO [2018-11-29 23:40:43] Scrapping Post Link: https://www.instagram.com/p/Bm5-OlfhSFI/
+ERROR [2018-11-29 23:40:44] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:40:44] date:2018-08-25T14:49:41.000Z
+INFO [2018-11-29 23:40:45] post-likes:13856
+ERROR [2018-11-29 23:40:45] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:40:45] ERROR something went wrong getting comment
+ERROR [2018-11-29 23:40:45] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:40:45] ERROR something went wrong getting comment
+ERROR [2018-11-29 23:40:45] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:40:45] ERROR something went wrong getting comment
+ERROR [2018-11-29 23:40:45] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:40:45] ERROR something went wrong getting comment
+ERROR [2018-11-29 23:40:45] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:40:45] ERROR something went wrong getting comment
+INFO [2018-11-29 23:40:45] 0 comments.
+INFO [2018-11-29 23:40:45] Scrapping Post Link: https://www.instagram.com/p/BmlB3fcBcwj/
+ERROR [2018-11-29 23:40:46] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:40:46] date:2018-08-17T11:37:26.000Z
+INFO [2018-11-29 23:40:46] post-likes:7013
+INFO [2018-11-29 23:40:46] conrad_anker -- Big thanks to these stellar young men. The last twenty years have been the best of my life. Sam and Isaac enjoying the calm summit of Granite Peak, Montana. 14 August 2018
+@sam_loweanker @iloweanker #finealpineadventure
+ERROR [2018-11-29 23:40:46] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:40:46] 25 comments.
+INFO [2018-11-29 23:40:46] 2mentions
+INFO [2018-11-29 23:40:46] Scrapping Post Link: https://www.instagram.com/p/BqI7_B9lvGh/
+ERROR [2018-11-29 23:40:47] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:40:47] date:2018-11-13T23:52:53.000Z
+INFO [2018-11-29 23:40:47] post-likes:11409
+INFO [2018-11-29 23:40:48] conrad_anker -- Today is #internationalkindnessday! Wow. I would have never known with out these nifty handheld computers. A big thanks to @jimmy_chin for the 17 years of kindness. Built with happiness, being kind is the foundation of our adventures. Photo from Ulvetanna, Queen Maud Land, December 2017.
+Catch the mini film @reelrock 13. 😌Be good 🙏🏼 be kind 😊 be happy
+ERROR [2018-11-29 23:40:48] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:40:48] 25 comments.
+INFO [2018-11-29 23:40:48] 1mentions
+INFO [2018-11-29 23:40:48] Scrapping Post Link: https://www.instagram.com/p/BoDLsgIB3UO/
+INFO [2018-11-29 23:40:50] location_id:213825215
+INFO [2018-11-29 23:40:50] location_url:https://www.instagram.com/explore/locations/213825215/bozeman-montana/
+INFO [2018-11-29 23:40:50] location_name:Bozeman, Montana
+ERROR [2018-11-29 23:40:50] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:40:50] date:2018-09-23T01:38:19.000Z
+INFO [2018-11-29 23:40:50] post-likes:55530
+INFO [2018-11-29 23:40:50] conrad_anker -- @coldfear keeping the belay stance free of death cabs. Aaron enjoys the ice climbing of Cody, Wyoming like few others. He dedicates his winter to the pursuit of the ephemeral frozen waterfall. He rounds out the shoulder seasons with shoulder / core training in the fall and “hair boating” (full value kayaking) in the spring. The South Fork of the Shoshone drainage is located in the Shoshone National Forest.
+Today is the 25th Anniversary of the National Public Lands Day. It is a sweet reminder of how precious the shared lands are. The cliffs are winter range for the Big Horn sheep. In between is world class ice climbing.
+
+2018 is also the 50th Anniversary of the National Trails System and the popular National Wild & Scenic Rivers System.
+Integral to all of these public lands is the funding provided by the Land and Water Conservation Fund. Please, if you live in the US, call your Senator and Congress-person and advocate for full funding of the LWCF. Vote comes up end of September.
+Wild places are the best thing we can leave for future generations. It’s the right & responsible thing to do.
+#findyourpark #publiclands #savelwcf #finealpineadventure
+ERROR [2018-11-29 23:40:50] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:40:51] 25 comments.
+INFO [2018-11-29 23:40:51] Scrapping Post Link: https://www.instagram.com/p/BnBuBANhquA/
+ERROR [2018-11-29 23:40:52] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:40:52] date:2018-08-28T15:01:57.000Z
+INFO [2018-11-29 23:40:52] post-likes:15048
+ERROR [2018-11-29 23:40:52] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:40:52] ERROR something went wrong getting comment
+ERROR [2018-11-29 23:40:52] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:40:52] ERROR something went wrong getting comment
+ERROR [2018-11-29 23:40:52] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:40:52] ERROR something went wrong getting comment
+ERROR [2018-11-29 23:40:52] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:40:52] ERROR something went wrong getting comment
+ERROR [2018-11-29 23:40:52] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:40:52] ERROR something went wrong getting comment
+ERROR [2018-11-29 23:40:52] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:40:52] ERROR something went wrong getting comment
+ERROR [2018-11-29 23:40:52] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:40:52] ERROR something went wrong getting comment
+INFO [2018-11-29 23:40:52] 0 comments.
+INFO [2018-11-29 23:40:52] Scrapping Post Link: https://www.instagram.com/p/Bobx18_BP2a/
+ERROR [2018-11-29 23:40:53] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:40:53] date:2018-10-02T14:27:02.000Z
+INFO [2018-11-29 23:40:53] post-likes:8653
+INFO [2018-11-29 23:40:53] hilareenelson -- 
+ERROR [2018-11-29 23:40:53] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:40:53] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:40:53] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:40:53] 2 comments.
+INFO [2018-11-29 23:40:54] 3mentions
+INFO [2018-11-29 23:40:54] Scrapping Post Link: https://www.instagram.com/p/BkNPENXB3lw/
+ERROR [2018-11-29 23:40:54] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:40:55] date:2018-06-19T12:48:12.000Z
+INFO [2018-11-29 23:40:55] post-likes:9286
+ERROR [2018-11-29 23:40:55] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:40:55] ERROR something went wrong getting comment
+ERROR [2018-11-29 23:40:55] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:40:55] ERROR something went wrong getting comment
+INFO [2018-11-29 23:40:55] 0 comments.
+INFO [2018-11-29 23:40:55] Scrapping Post Link: https://www.instagram.com/p/BnwzLu0BajV/
+ERROR [2018-11-29 23:40:56] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:40:56] date:2018-09-15T21:51:24.000Z
+INFO [2018-11-29 23:40:56] post-likes:5261
+INFO [2018-11-29 23:40:56] conrad_anker -- @bencmasters and Luke the Mustang beneath the hop arch.
+Fine day at Springhill, Montana for the nuptials of @rachel.pohl & @charles_post.
+
+15 September 2018 💍❤️😍 #adoptamustang
+ERROR [2018-11-29 23:40:56] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:40:56] 25 comments.
+INFO [2018-11-29 23:40:56] 1mentions
+INFO [2018-11-29 23:40:56] Scrapping Post Link: https://www.instagram.com/p/BlX6p09BQll/
+ERROR [2018-11-29 23:40:57] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:40:57] date:2018-07-18T12:52:53.000Z
+INFO [2018-11-29 23:40:57] post-likes:7399
+INFO [2018-11-29 23:40:58] conrad_anker -- Gear is fuel for adventure. The purpose of the toys we use for climbing is to create experiences. Layer up experiences and we have happiness.
+A detractors of climbing posit that it is selfish. It’s a game that serves no purpose for no discernible end. This view that what is fun has limited value and benefits the person and not society applies to all recreation. We work to earn money. We trade our time and knowledge to institutions, collectively creating goods and services to be consumed by our fellow humans, in return for money. We earn money so we can do fun things. Recreation is basically fun and it rejuvenates the soul. Volunteering as recreation aside, all pastimes are inherently selfish. From bowling to bouldering and fishing to free soloing we work so that we can recreate. This is, after all, what is special about life.
+Spending time with your family makes recreation even more wonderful.
+@iloweanker moving two at a time with a solid belay from @ashanoski on 2.5 billion year old Gneiss. Gallatin Tower, Montana
+
+#wallsaremeantforclimbing #finealpineadventure
+ERROR [2018-11-29 23:40:58] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:40:58] 25 comments.
+INFO [2018-11-29 23:40:58] 3mentions
+INFO [2018-11-29 23:40:58] Scrapping Post Link: https://www.instagram.com/p/BmRy-6khgUl/
+ERROR [2018-11-29 23:40:59] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:40:59] date:2018-08-10T00:21:48.000Z
+INFO [2018-11-29 23:40:59] post-likes:22441
+INFO [2018-11-29 23:40:59] natgeo -- 
+ERROR [2018-11-29 23:40:59] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:40:59] 1 comments.
+INFO [2018-11-29 23:40:59] 4mentions
+INFO [2018-11-29 23:40:59] Scrapping Post Link: https://www.instagram.com/p/BpqEdoiFhsv/
+INFO [2018-11-29 23:41:01] location_id:944113066
+INFO [2018-11-29 23:41:01] location_url:https://www.instagram.com/explore/locations/944113066/hyalite-canyon/
+INFO [2018-11-29 23:41:01] location_name:Hyalite Canyon
+ERROR [2018-11-29 23:41:01] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:41:01] date:2018-11-02T00:10:30.000Z
+INFO [2018-11-29 23:41:01] post-likes:5974
+INFO [2018-11-29 23:41:01] conrad_anker -- 1. November. 2018
+Familiar dry tool routes and slippery buckets in soft drizzles and snow squalls. A welcome few climbs in the forest before the start of @reelrock thirteen.
+Photo by @a.wakeman and belay by @matt_cornell25
+
+@bozemanicefest
+INFO [2018-11-29 23:41:01] 10 comments.
+INFO [2018-11-29 23:41:01] Scrapping Post Link: https://www.instagram.com/p/BliWeGABtmv/
+ERROR [2018-11-29 23:41:02] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:41:02] date:2018-07-22T14:08:21.000Z
+INFO [2018-11-29 23:41:02] 0 comments.
+INFO [2018-11-29 23:41:02] Scrapping Post Link: https://www.instagram.com/p/BngY116hAl-/
+ERROR [2018-11-29 23:41:03] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:41:03] date:2018-09-09T12:53:23.000Z
+INFO [2018-11-29 23:41:03] post-likes:10533
+INFO [2018-11-29 23:41:03] conrad_anker -- It’s good to have friends. @davehahn.climb and I climbed together while we were working as guides on the Vinson Massif in Antarctica. This snapshot has us enjoying a warm beverage and shooting the breeze after a day in the mountains. One piece hardshell outfits were “de rigueur” back then.
+_____________________________
+
+Dave introduced me to the 1999 Mallory and Irvine Research Expedition. We topped out on the 17th of May, via the NE Ridge, in somewhat adverse conditions. Thirteen years later we were at the same place on the 26th of May 2012 with @melissaarnot and @khfilms, climbing from Nepal. It was warm and windless - Dave noted it was the best weather he had ever seen on summit day. A few years before, Dave joined @ivo_ninov, @jimmy_chin and me for an ascent of the Pacific Ocean Wall on El Capitan. It’s worth looking up his story for Outside Magazine, “Aces High” about this adventure. We’ve crossed paths on Denali & Kilimanjaro and always joke about the expired mashed potatoes we subsisted on while living in the blue weather port at Vinson Base Camp.
+Dave is the one of the funniest and most gentle guys around.
+ERROR [2018-11-29 23:41:04] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:41:04] 25 comments.
+INFO [2018-11-29 23:41:04] 1mentions
+INFO [2018-11-29 23:41:04] Scrapping Post Link: https://www.instagram.com/p/Bj967gwAyfH/
+ERROR [2018-11-29 23:41:05] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:41:05] date:2018-06-13T14:03:39.000Z
+INFO [2018-11-29 23:41:05] post-likes:3339
+INFO [2018-11-29 23:41:05] conrad_anker -- Harrison Park, Beaverhead County, Montana. Late spring hike with @jenniloweanker.
+INFO [2018-11-29 23:41:06] 16 comments.
+INFO [2018-11-29 23:41:06] Scrapping Post Link: https://www.instagram.com/p/BnKvNLHB4qR/
+ERROR [2018-11-29 23:41:07] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:41:07] date:2018-09-01T03:05:31.000Z
+INFO [2018-11-29 23:41:07] post-likes:10355
+INFO [2018-11-29 23:41:07] conrad_anker -- @jimmy_chin :: January 2005 Photograph by a @khumbuclimbingcenter student.
+@freesolofilm is the talk of the town. Watching @alexhonnold “hike” the boulder problem on Free Rider, El Cap is going to bring diaphoretic palms to every movie goer. This film wouldn’t be possible without the vision and dedication of Jimmy. In the 19 years we have tied in, Jimmy has had the eye to bring what we experience in the throes of gravity to still and video. Freesolo, debuting this weekend at the Telluride Film Festival 2018, is a result of an incredible team, not the least is @mochinyc.
+Thanks for the friendship Jimmy.
+#alwayscheckyourharnessprussik
+ERROR [2018-11-29 23:41:07] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:41:08] 25 comments.
+INFO [2018-11-29 23:41:08] 1mentions
+INFO [2018-11-29 23:41:08] Scrapping Post Link: https://www.instagram.com/p/BpV9SCmBvEA/
+INFO [2018-11-29 23:41:09] location_id:267520974094260
+INFO [2018-11-29 23:41:09] location_url:https://www.instagram.com/explore/locations/267520974094260/2018-mid-term-elections/
+INFO [2018-11-29 23:41:09] location_name:2018 Mid-Term Elections
+ERROR [2018-11-29 23:41:09] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:41:09] date:2018-10-25T05:09:09.000Z
+INFO [2018-11-29 23:41:09] post-likes:82553
+INFO [2018-11-29 23:41:10] conrad_anker -- I’m Conrad Anker and I approve this message.
+
+In 2016 I posted my views on the US election and was quickly reminded to “stick to climbing”. Not wanting to accelerate the toxicity of on line conversation (call
+it bullying if you like) I returned to landscapes, adventure and the standard FOMO content you have thumbed through till you landed here.
+As a citizen of the United States the values our nation are founded on are dear to me. I came of age during the Civil Rights movement and the Vietnam War. Our nation, to a degree, had come to terms with its history. Based on the the values of free speech and equality, all are (in theory) welcome to the pursuit of happiness.
+Since the election of President Trump the values of our country have been compromised. The honor and integrity of our nation’s highest office doesn’t effuse chivalry and courtesy. It has become a pulpit for an unprecedented quest for power. President Trump stokes this fire of power by marginalizing minorities. In doing so he creates strife and discord. The Native American, African American, Hispanic, Muslim and LGBTQ communities have been subject to derision and insult. Women, from all walks of life, have felt the brunt of this narcissistic man’s ire. This is not how I ever expected a President to behave.
+Public lands, health care and climate are three areas that this generation can act on for the benefit of future generations. Given this opportunity for legacy, President Trump has instead focused on short term results that benefit the wealthiest 1% and special interest groups.
+President Trump and the complicit Republican Party have taken the moral compass of our nation and spun it towards greed and avarice. Candidate Rosendale is basing his campaign on allegiance to President Trump. This is not a platform that works for me. By contrast @jontester is a farmer from Big Sandy and is a centrist, having bills signed by President Trump. Tester represents Montana.
+I’m Conrad Anker and these are my opinions.
+
+@pow_action_fund #dropinandvote #yourvoicematters
+ERROR [2018-11-29 23:41:10] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:41:10] 25 comments.
+INFO [2018-11-29 23:41:10] Scrapping Post Link: https://www.instagram.com/p/Bpm5bUGlQF8/
+ERROR [2018-11-29 23:41:11] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:41:11] date:2018-10-31T18:36:21.000Z
+INFO [2018-11-29 23:41:11] post-likes:17930
+ERROR [2018-11-29 23:41:11] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:41:11] ERROR something went wrong getting comment
+ERROR [2018-11-29 23:41:11] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:41:11] ERROR something went wrong getting comment
+ERROR [2018-11-29 23:41:11] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:41:11] ERROR something went wrong getting comment
+ERROR [2018-11-29 23:41:11] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:41:11] ERROR something went wrong getting comment
+ERROR [2018-11-29 23:41:11] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:41:11] ERROR something went wrong getting comment
+ERROR [2018-11-29 23:41:11] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:41:11] ERROR something went wrong getting comment
+ERROR [2018-11-29 23:41:11] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:41:11] ERROR something went wrong getting comment
+INFO [2018-11-29 23:41:11] 0 comments.
+INFO [2018-11-29 23:41:11] Scrapping Post Link: https://www.instagram.com/p/BpaPxg-l2Gq/
+ERROR [2018-11-29 23:41:12] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:41:12] date:2018-10-26T20:41:29.000Z
+INFO [2018-11-29 23:41:12] post-likes:9868
+ERROR [2018-11-29 23:41:13] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:41:13] ERROR something went wrong getting comment
+INFO [2018-11-29 23:41:13] davidlama_official -- 
+ERROR [2018-11-29 23:41:13] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:41:13] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:41:13] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:41:13] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:41:13] 1 comments.
+INFO [2018-11-29 23:41:13] 1mentions
+INFO [2018-11-29 23:41:13] Scrapping Post Link: https://www.instagram.com/p/BlJy4z4Bzko/
+INFO [2018-11-29 23:41:15] location_id:213011753
+INFO [2018-11-29 23:41:15] location_url:https://www.instagram.com/explore/locations/213011753/sydney-australia/
+INFO [2018-11-29 23:41:15] location_name:Sydney, Australia
+ERROR [2018-11-29 23:41:15] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:41:15] date:2018-07-13T01:15:39.000Z
+INFO [2018-11-29 23:41:15] post-likes:7023
+INFO [2018-11-29 23:41:15] conrad_anker -- 📷 : @kamil_sustiak // Thanks to great people @thenorthface_aunz & @nzmountainfilm for the two weeks of adventure and culture in Australia and New Zealand. From the beech forests of Rob Roy in NZ to the beaches of Manly in Oz, @jenniloweanker and I had a fantastic time. ••• On Sunday we had the chance to climb in the Blue Mountains in “character building” conditions. The night before left us with a solid frost (it is winter in the Southern Hemisphere) and the 2 degrees celsius temps in the shade were down right bone chilling. Layer up 60 km/hr winds and nature brought out the finest in us. Local grip master @leecossey shared a classic trad route on Pierce’s Point, complete w three rusted “carrots”. What looks like a climbing anchor is a taper ground machine bolt. To keep it real one has to pull a hanger from your chalk bag, fiddle it onto the relic, clip a draw and then clip the rope. It’s the secret why Australian climbers are so strong. @angiescarthjohnson is a local crusherette with hard sends - all at the age of 14. This was her first trad climb and her first chance to get the screaming barfies. It was nice to meet her parents and see the drive she has for climbing. Between Lee, Angie and I, we had three generations of climbers - each 20 years apart. What fun to see the same level of excitement and stoke for the frivolous game of gravity! Looking forward to our next climbing adventures in Australia and New Zealand. #finealpineadventure
+ERROR [2018-11-29 23:41:15] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:41:15] 25 comments.
+INFO [2018-11-29 23:41:15] 3mentions
+INFO [2018-11-29 23:41:15] Scrapping Post Link: https://www.instagram.com/p/Bj960NtgSk1/
+ERROR [2018-11-29 23:41:16] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:41:16] date:2018-06-13T14:02:39.000Z
+INFO [2018-11-29 23:41:16] post-likes:6423
+INFO [2018-11-29 23:41:16] conrad_anker -- Harrison Park, Beaverhead County, Montana. Verdant meadow and cloudscape.
+ERROR [2018-11-29 23:41:16] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:41:17] 25 comments.
+INFO [2018-11-29 23:41:17] Scrapping Post Link: https://www.instagram.com/p/Bp6wZiPlWNg/
+ERROR [2018-11-29 23:41:18] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:41:18] date:2018-11-08T11:42:16.000Z
+INFO [2018-11-29 23:41:18] post-likes:2561
+INFO [2018-11-29 23:41:18] conrad_anker -- @princessnokia, creative of the first order, engraves her coffee mug. So very nice to meet a kind and gentle soul, one who stands up for all. Looking forward to learning more from her perspective. #puertorico
+INFO [2018-11-29 23:41:19] 22 comments.
+INFO [2018-11-29 23:41:19] Scrapping Post Link: https://www.instagram.com/p/BoPxSUeh-HV/
+ERROR [2018-11-29 23:41:20] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:41:20] date:2018-09-27T22:31:17.000Z
+INFO [2018-11-29 23:41:20] post-likes:19481
+INFO [2018-11-29 23:41:20] alexhonnold -- 
+ERROR [2018-11-29 23:41:20] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:41:20] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:41:20] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:41:20] 2 comments.
+INFO [2018-11-29 23:41:20] 3mentions
+INFO [2018-11-29 23:41:20] Scrapping Post Link: https://www.instagram.com/p/Bmm8S7wh8tG/
+ERROR [2018-11-29 23:41:21] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:41:21] date:2018-08-18T05:27:14.000Z
+INFO [2018-11-29 23:41:21] post-likes:2958
+ERROR [2018-11-29 23:41:21] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:41:21] ERROR something went wrong getting comment
+ERROR [2018-11-29 23:41:21] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:41:21] ERROR something went wrong getting comment
+ERROR [2018-11-29 23:41:21] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:41:21] ERROR something went wrong getting comment
+ERROR [2018-11-29 23:41:21] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:41:21] ERROR something went wrong getting comment
+ERROR [2018-11-29 23:41:21] ERROR something went wrong getting user_commented
+ERROR [2018-11-29 23:41:21] ERROR something went wrong getting comment
+INFO [2018-11-29 23:41:21] 0 comments.
+INFO [2018-11-29 23:41:21] User conrad_anker has 580 comments.
+INFO [2018-11-29 23:41:21] Extracting information from thiagomlcorrea
+INFO [2018-11-29 23:41:22] Bio Url is empty
+INFO [2018-11-29 23:41:22] alias name: Thiago Correa
+INFO [2018-11-29 23:41:22] bio: 🌎 🆓 Life begins where fear ends
+INFO [2018-11-29 23:41:22] url: 
+INFO [2018-11-29 23:41:22] Posts: 354
+INFO [2018-11-29 23:41:22] Follower: 383717
+INFO [2018-11-29 23:41:22] Following: 192
+INFO [2018-11-29 23:41:22] isPrivate: False
+INFO [2018-11-29 23:41:39] Scrapping Post Link: https://www.instagram.com/p/BczO3m4j_DV/
+INFO [2018-11-29 23:41:41] location_id:1862800737302040
+INFO [2018-11-29 23:41:41] location_url:https://www.instagram.com/explore/locations/1862800737302040/praia-de-castelhanos-ilhabela/
+INFO [2018-11-29 23:41:41] location_name:Praia de Castelhanos - Ilhabela
+ERROR [2018-11-29 23:41:41] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:41:41] date:2017-12-17T10:46:28.000Z
+INFO [2018-11-29 23:41:41] post-likes:11831
+INFO [2018-11-29 23:41:41] thiagomlcorrea -- E assim começou nossa #summertripcorona . Primeiro destino: Ilha Bela. A gente fica até amanhã depois seguimos para Paraty. #thisisliving ▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️ ⌘ Foto tirada com meu @DJIGlobal Mavic Pro #djiamericalatina
+ERROR [2018-11-29 23:41:41] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:41:42] 25 comments.
+INFO [2018-11-29 23:41:42] caption:E assim começou nossa #summertripcorona . Primeiro destino: Ilha Bela. A gente fica até amanhã depois seguimos para Paraty. #thisisliving ▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️ ⌘ Foto tirada com meu @DJIGlobal Mavic Pro #djiamericalatina
+INFO [2018-11-29 23:41:42] 3mentions
+INFO [2018-11-29 23:41:42] Scrapping Post Link: https://www.instagram.com/p/BkIA-vRl3qu/
+INFO [2018-11-29 23:41:44] location_id:620950192
+INFO [2018-11-29 23:41:44] location_url:https://www.instagram.com/explore/locations/620950192/moscow-red-square-russia-is-an-occupier/
+INFO [2018-11-29 23:41:44] location_name:Moscow, Red Square Russia Is An Occupier
+ERROR [2018-11-29 23:41:44] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:41:44] date:2018-06-17T12:08:55.000Z
+INFO [2018-11-29 23:41:44] post-likes:23624
+INFO [2018-11-29 23:41:44] thiagomlcorrea -- E hoje começa aqui na Russia 🇷🇺 🙏🏼🇧🇷🏆
+ERROR [2018-11-29 23:41:44] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:41:45] 25 comments.
+INFO [2018-11-29 23:41:45] caption:E hoje começa aqui na Russia 🇷🇺 🙏🏼🇧🇷🏆
+INFO [2018-11-29 23:41:45] Scrapping Post Link: https://www.instagram.com/p/BcQM1zuDR4P/
+INFO [2018-11-29 23:41:46] location_id:215695353
+INFO [2018-11-29 23:41:46] location_url:https://www.instagram.com/explore/locations/215695353/maldives/
+INFO [2018-11-29 23:41:46] location_name:Maldives
+ERROR [2018-11-29 23:41:46] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:41:46] date:2017-12-03T20:18:45.000Z
+INFO [2018-11-29 23:41:46] post-likes:62237
+INFO [2018-11-29 23:41:47] thiagomlcorrea -- Maldivas 🇲🇻🐬☀️💦🌴🏖 foi mais ou menos assim com meus brothaa #maldives 🎶 Alina Baraz - Electric (r3hab remix)
+ERROR [2018-11-29 23:41:47] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:41:47] 25 comments.
+INFO [2018-11-29 23:41:47] caption:Maldivas 🇲🇻🐬☀️💦🌴🏖 foi mais ou menos assim com meus brothaa #maldives 🎶 Alina Baraz - Electric (r3hab remix)
+INFO [2018-11-29 23:41:47] Scrapping Post Link: https://www.instagram.com/p/Bfok9U7j9XL/
+INFO [2018-11-29 23:41:49] location_id:263786872
+INFO [2018-11-29 23:41:49] location_url:https://www.instagram.com/explore/locations/263786872/chapada-das-mesas/
+INFO [2018-11-29 23:41:49] location_name:Chapada das Mesas
+ERROR [2018-11-29 23:41:49] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:41:49] date:2018-02-25T21:02:02.000Z
+INFO [2018-11-29 23:41:49] post-likes:8219
+INFO [2018-11-29 23:41:49] thiagomlcorrea -- Kayaking 🚣🏼‍♀️ na Cachoeira São Romão 🇧🇷. Essa cachoeira é insane. ▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️ ⌘ Foto tirada com meu @DJIGlobal Mavic Pro #djiamericalatina
+ERROR [2018-11-29 23:41:49] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:41:49] 25 comments.
+INFO [2018-11-29 23:41:49] caption:Kayaking 🚣🏼‍♀️ na Cachoeira São Romão 🇧🇷. Essa cachoeira é insane. ▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️ ⌘ Foto tirada com meu @DJIGlobal Mavic Pro #djiamericalatina
+INFO [2018-11-29 23:41:50] 2mentions
+INFO [2018-11-29 23:41:50] Scrapping Post Link: https://www.instagram.com/p/BicPqD3jtpr/
+INFO [2018-11-29 23:41:51] location_id:228026862
+INFO [2018-11-29 23:41:51] location_url:https://www.instagram.com/explore/locations/228026862/lemoore-california/
+INFO [2018-11-29 23:41:51] location_name:Lemoore, California
+ERROR [2018-11-29 23:41:51] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:41:51] date:2018-05-06T15:39:12.000Z
+INFO [2018-11-29 23:41:52] post-likes:9716
+INFO [2018-11-29 23:41:52] thiagomlcorrea -- On my way to the last day of WSL Founders Cup with @Jeep #JeepWSL !
+What team is going to win?? 🇧🇷 🇺🇸 🇦🇺 🌍 or Team Europe?
+#ad
+ERROR [2018-11-29 23:41:52] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:41:52] 25 comments.
+INFO [2018-11-29 23:41:52] caption:On my way to the last day of WSL Founders Cup with @Jeep #JeepWSL !
+What team is going to win?? 🇧🇷 🇺🇸 🇦🇺 🌍 or Team Europe?
+#ad
+INFO [2018-11-29 23:41:52] 3mentions
+INFO [2018-11-29 23:41:52] Scrapping Post Link: https://www.instagram.com/p/Ba4odtdDbX3/
+INFO [2018-11-29 23:41:54] location_id:259270433
+INFO [2018-11-29 23:41:54] location_url:https://www.instagram.com/explore/locations/259270433/barcelo-maya-grand-resort/
+INFO [2018-11-29 23:41:54] location_name:Barceló Maya Grand Resort
+ERROR [2018-11-29 23:41:54] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:41:54] date:2017-10-30T20:07:22.000Z
+INFO [2018-11-29 23:41:54] post-likes:28112
+INFO [2018-11-29 23:41:54] thiagomlcorrea -- ☀️🌴💦 🇲🇽 Outro vídeo do #barcelostories com meu bro 🎥 : @howardfuruta no @barcelomayagrandresort ! A gente se diverte trabalhando 🙈😂 mais videos do projeto no link na minha bio! #rivieramaya #mexico #filmmaker
+ERROR [2018-11-29 23:41:54] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:41:55] 25 comments.
+INFO [2018-11-29 23:41:55] caption:☀️🌴💦 🇲🇽 Outro vídeo do #barcelostories com meu bro 🎥 : @howardfuruta no @barcelomayagrandresort ! A gente se diverte trabalhando 🙈😂 mais videos do projeto no link na minha bio! #rivieramaya #mexico #filmmaker
+INFO [2018-11-29 23:41:55] Scrapping Post Link: https://www.instagram.com/p/Baca6Z_DBgW/
+INFO [2018-11-29 23:41:56] location_id:238679947
+INFO [2018-11-29 23:41:56] location_url:https://www.instagram.com/explore/locations/238679947/jalapao-state-park/
+INFO [2018-11-29 23:41:56] location_name:Jalapão State Park
+ERROR [2018-11-29 23:41:56] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:41:56] date:2017-10-19T21:06:24.000Z
+INFO [2018-11-29 23:41:57] post-likes:15247
+INFO [2018-11-29 23:41:57] thiagomlcorrea -- 💙💚 Fervedouros do meu Jalapão 🇧🇷 #roadtrip #4wd #jalapao ▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️ ⌘ Tirada com meu @DJIGlobal Mavic Pro #djiamericalatina
+ERROR [2018-11-29 23:41:57] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:41:57] 25 comments.
+INFO [2018-11-29 23:41:57] caption:💙💚 Fervedouros do meu Jalapão 🇧🇷 #roadtrip #4wd #jalapao ▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️ ⌘ Tirada com meu @DJIGlobal Mavic Pro #djiamericalatina
+INFO [2018-11-29 23:41:57] 3mentions
+INFO [2018-11-29 23:41:57] Scrapping Post Link: https://www.instagram.com/p/BdEClr7jAqT/
+INFO [2018-11-29 23:41:59] location_id:287255416
+INFO [2018-11-29 23:41:59] location_url:https://www.instagram.com/explore/locations/287255416/ilha-grande-rio-de-janeiro/
+INFO [2018-11-29 23:41:59] location_name:Ilha Grande - Rio de Janeiro
+ERROR [2018-11-29 23:41:59] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:41:59] date:2017-12-23T23:26:16.000Z
+INFO [2018-11-29 23:41:59] post-likes:9174
+INFO [2018-11-29 23:41:59] thiagomlcorrea -- E Angra dos Reis foi muito mergulho, cachoeira, trilha.... e claro Corona!! #thisisliving Agora chegamos em Bonito - MS. #summertripcorona ▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️ ⌘ Foto tirada com meu @DJIGlobal Mavic Pro #djiamericalatina
+ERROR [2018-11-29 23:41:59] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:42:00] 25 comments.
+INFO [2018-11-29 23:42:00] caption:E Angra dos Reis foi muito mergulho, cachoeira, trilha.... e claro Corona!! #thisisliving Agora chegamos em Bonito - MS. #summertripcorona ▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️ ⌘ Foto tirada com meu @DJIGlobal Mavic Pro #djiamericalatina
+INFO [2018-11-29 23:42:00] 3mentions
+INFO [2018-11-29 23:42:00] Scrapping Post Link: https://www.instagram.com/p/Ba9tDQijKgs/
+INFO [2018-11-29 23:42:01] location_id:259270433
+INFO [2018-11-29 23:42:01] location_url:https://www.instagram.com/explore/locations/259270433/barcelo-maya-grand-resort/
+INFO [2018-11-29 23:42:01] location_name:Barceló Maya Grand Resort
+ERROR [2018-11-29 23:42:01] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:42:01] date:2017-11-01T19:19:50.000Z
+INFO [2018-11-29 23:42:01] post-likes:14800
+INFO [2018-11-29 23:42:02] thiagomlcorrea -- Yoga sesh before swim 💦🙏🏼#cenote #barcelostories #rivieramaya @barcelomayagrandresort
+ERROR [2018-11-29 23:42:02] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:42:02] 25 comments.
+INFO [2018-11-29 23:42:02] caption:Yoga sesh before swim 💦🙏🏼#cenote #barcelostories #rivieramaya @barcelomayagrandresort
+INFO [2018-11-29 23:42:02] 3mentions
+INFO [2018-11-29 23:42:02] Scrapping Post Link: https://www.instagram.com/p/BacQ-1JjwT1/
+INFO [2018-11-29 23:42:04] location_id:238679947
+INFO [2018-11-29 23:42:04] location_url:https://www.instagram.com/explore/locations/238679947/jalapao-state-park/
+INFO [2018-11-29 23:42:04] location_name:Jalapão State Park
+ERROR [2018-11-29 23:42:04] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:42:04] date:2017-10-19T19:39:37.000Z
+INFO [2018-11-29 23:42:04] post-likes:8401
+INFO [2018-11-29 23:42:04] thiagomlcorrea -- Sunset lovers #roadtrip #🇧🇷 🚙🌅🍀🌿
+ERROR [2018-11-29 23:42:04] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:42:05] 25 comments.
+INFO [2018-11-29 23:42:05] caption:Sunset lovers #roadtrip #🇧🇷 🚙🌅🍀🌿
+INFO [2018-11-29 23:42:05] 3mentions
+INFO [2018-11-29 23:42:05] Scrapping Post Link: https://www.instagram.com/p/BdYhmq8DJjd/
+INFO [2018-11-29 23:42:06] location_id:815691995263518
+INFO [2018-11-29 23:42:06] location_url:https://www.instagram.com/explore/locations/815691995263518/barra-grande/
+INFO [2018-11-29 23:42:06] location_name:Barra Grande
+ERROR [2018-11-29 23:42:06] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:42:06] date:2017-12-31T22:22:05.000Z
+INFO [2018-11-29 23:42:06] post-likes:10733
+INFO [2018-11-29 23:42:07] thiagomlcorrea -- #ThisIsLiving #summertripcorona
+ERROR [2018-11-29 23:42:07] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:42:07] 25 comments.
+INFO [2018-11-29 23:42:07] caption:#ThisIsLiving #summertripcorona
+INFO [2018-11-29 23:42:07] 4mentions
+INFO [2018-11-29 23:42:07] Scrapping Post Link: https://www.instagram.com/p/BXWHdwQjLPv/
+INFO [2018-11-29 23:42:09] location_id:186722517
+INFO [2018-11-29 23:42:09] location_url:https://www.instagram.com/explore/locations/186722517/fernando-de-noronha/
+INFO [2018-11-29 23:42:09] location_name:Fernando de Noronha
+ERROR [2018-11-29 23:42:09] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:42:09] date:2017-08-03T20:46:50.000Z
+INFO [2018-11-29 23:42:09] post-likes:14450
+INFO [2018-11-29 23:42:09] thiagomlcorrea -- 🐢 selfie com minha amiga tartaruga 💦💦💦 #amonoronha #gopro @amonoronha
+ERROR [2018-11-29 23:42:09] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:42:10] 25 comments.
+INFO [2018-11-29 23:42:10] caption:🐢 selfie com minha amiga tartaruga 💦💦💦 #amonoronha #gopro @amonoronha
+INFO [2018-11-29 23:42:10] 4mentions
+INFO [2018-11-29 23:42:10] Scrapping Post Link: https://www.instagram.com/p/BaSSwNzj5Vy/
+INFO [2018-11-29 23:42:12] location_id:1033873951
+INFO [2018-11-29 23:42:12] location_url:https://www.instagram.com/explore/locations/1033873951/formiga-falls/
+INFO [2018-11-29 23:42:12] location_name:Formiga Falls
+ERROR [2018-11-29 23:42:12] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:42:12] date:2017-10-15T22:42:41.000Z
+INFO [2018-11-29 23:42:12] post-likes:21565
+INFO [2018-11-29 23:42:12] thiagomlcorrea -- Cooling off in this blue water 😎💧💦🇧🇷 #jalapão #offroad #waterfall #gopro
+ERROR [2018-11-29 23:42:12] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:42:12] 25 comments.
+INFO [2018-11-29 23:42:12] caption:Cooling off in this blue water 😎💧💦🇧🇷 #jalapão #offroad #waterfall #gopro
+INFO [2018-11-29 23:42:12] 4mentions
+INFO [2018-11-29 23:42:12] Scrapping Post Link: https://www.instagram.com/p/BdbL901j8Tw/
+INFO [2018-11-29 23:42:15] location_id:815691995263518
+INFO [2018-11-29 23:42:15] location_url:https://www.instagram.com/explore/locations/815691995263518/barra-grande/
+INFO [2018-11-29 23:42:15] location_name:Barra Grande
+ERROR [2018-11-29 23:42:15] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:42:15] date:2018-01-01T23:10:44.000Z
+INFO [2018-11-29 23:42:15] post-likes:9840
+INFO [2018-11-29 23:42:15] thiagomlcorrea -- Tardezinha na Bahia #ThisIsLiving #summertripcorona
+ERROR [2018-11-29 23:42:15] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:42:15] 25 comments.
+INFO [2018-11-29 23:42:15] caption:Tardezinha na Bahia #ThisIsLiving #summertripcorona
+INFO [2018-11-29 23:42:15] 4mentions
+INFO [2018-11-29 23:42:15] Scrapping Post Link: https://www.instagram.com/p/Ba1wCTLjym5/
+INFO [2018-11-29 23:42:17] location_id:259270433
+INFO [2018-11-29 23:42:17] location_url:https://www.instagram.com/explore/locations/259270433/barcelo-maya-grand-resort/
+INFO [2018-11-29 23:42:17] location_name:Barceló Maya Grand Resort
+ERROR [2018-11-29 23:42:17] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:42:17] date:2017-10-29T17:14:53.000Z
+INFO [2018-11-29 23:42:17] post-likes:35504
+INFO [2018-11-29 23:42:17] thiagomlcorrea -- Destino. ✈️☀️💦🌴 Riviera Maya 🇲🇽 Semana de gravação no Mexico para o #barcelostories no @barcelomayagrandresort with my bro 🎥: @howardfuruta
+Tem mais vídeos do projeto no link no meu perfil!!
+ERROR [2018-11-29 23:42:17] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:42:18] 25 comments.
+INFO [2018-11-29 23:42:18] caption:Destino. ✈️☀️💦🌴 Riviera Maya 🇲🇽 Semana de gravação no Mexico para o #barcelostories no @barcelomayagrandresort with my bro 🎥: @howardfuruta
+Tem mais vídeos do projeto no link no meu perfil!!
+INFO [2018-11-29 23:42:18] Scrapping Post Link: https://www.instagram.com/p/BfrP9eiDnXi/
+INFO [2018-11-29 23:42:20] location_id:263786872
+INFO [2018-11-29 23:42:20] location_url:https://www.instagram.com/explore/locations/263786872/chapada-das-mesas/
+INFO [2018-11-29 23:42:20] location_name:Chapada das Mesas
+ERROR [2018-11-29 23:42:20] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:42:20] date:2018-02-26T21:56:16.000Z
+INFO [2018-11-29 23:42:20] post-likes:20266
+INFO [2018-11-29 23:42:20] thiagomlcorrea -- Always looking for amazing places to explore! Glad to have found this Poço Encanto Azul in the middle of Maranhão - Brazil 🇧🇷
+ERROR [2018-11-29 23:42:20] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:42:20] 25 comments.
+INFO [2018-11-29 23:42:20] caption:Always looking for amazing places to explore! Glad to have found this Poço Encanto Azul in the middle of Maranhão - Brazil 🇧🇷
+INFO [2018-11-29 23:42:20] 1mentions
+INFO [2018-11-29 23:42:20] Scrapping Post Link: https://www.instagram.com/p/BbAR9g7jRsN/
+INFO [2018-11-29 23:42:22] location_id:259270433
+INFO [2018-11-29 23:42:22] location_url:https://www.instagram.com/explore/locations/259270433/barcelo-maya-grand-resort/
+INFO [2018-11-29 23:42:22] location_name:Barceló Maya Grand Resort
+ERROR [2018-11-29 23:42:22] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:42:22] date:2017-11-02T19:24:24.000Z
+INFO [2018-11-29 23:42:22] post-likes:53335
+INFO [2018-11-29 23:42:22] thiagomlcorrea -- Having fun or working?? #barcelostories 🇲🇽⛵️🏄🏽💦💦 Haha with my bro 🎥 @howardfuruta @barcelomayagrandresort #mexico #rivieramaya
+ERROR [2018-11-29 23:42:22] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:42:23] 25 comments.
+INFO [2018-11-29 23:42:23] caption:Having fun or working?? #barcelostories 🇲🇽⛵️🏄🏽💦💦 Haha with my bro 🎥 @howardfuruta @barcelomayagrandresort #mexico #rivieramaya
+INFO [2018-11-29 23:42:23] Scrapping Post Link: https://www.instagram.com/p/BfOaAjlBLZx/
+INFO [2018-11-29 23:42:25] location_id:464372444
+INFO [2018-11-29 23:42:25] location_url:https://www.instagram.com/explore/locations/464372444/arpoador/
+INFO [2018-11-29 23:42:25] location_name:Arpoador
+ERROR [2018-11-29 23:42:25] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:42:25] date:2018-02-15T17:06:06.000Z
+INFO [2018-11-29 23:42:25] post-likes:10199
+INFO [2018-11-29 23:42:25] thiagomlcorrea -- Mar doce Lar #riodejaneiro 🇧🇷 ▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️ ⌘ Foto tirada com meu @DJIGlobal Mavic Pro #djiamericalatina
+ERROR [2018-11-29 23:42:25] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:42:26] 25 comments.
+INFO [2018-11-29 23:42:26] caption:Mar doce Lar #riodejaneiro 🇧🇷 ▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️ ⌘ Foto tirada com meu @DJIGlobal Mavic Pro #djiamericalatina
+INFO [2018-11-29 23:42:26] Scrapping Post Link: https://www.instagram.com/p/BZJk4FmnArk/
+INFO [2018-11-29 23:42:27] location_id:1008372476
+INFO [2018-11-29 23:42:27] location_url:https://www.instagram.com/explore/locations/1008372476/nine-arches-bridge-demodara/
+INFO [2018-11-29 23:42:27] location_name:Nine Arches Bridge, Demodara
+ERROR [2018-11-29 23:42:27] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:42:27] date:2017-09-17T16:56:30.000Z
+INFO [2018-11-29 23:42:27] post-likes:14862
+INFO [2018-11-29 23:42:28] thiagomlcorrea -- 🚂🛤🇱🇰 Sri Lanka railways . . .
+ERROR [2018-11-29 23:42:28] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:42:28] 25 comments.
+INFO [2018-11-29 23:42:28] caption:🚂🛤🇱🇰 Sri Lanka railways . . .
+INFO [2018-11-29 23:42:28] 1mentions
+INFO [2018-11-29 23:42:28] Scrapping Post Link: https://www.instagram.com/p/BdYKhi8Ds7S/
+INFO [2018-11-29 23:42:30] location_id:815691995263518
+INFO [2018-11-29 23:42:30] location_url:https://www.instagram.com/explore/locations/815691995263518/barra-grande/
+INFO [2018-11-29 23:42:30] location_name:Barra Grande
+ERROR [2018-11-29 23:42:30] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:42:30] date:2017-12-31T19:00:25.000Z
+INFO [2018-11-29 23:42:30] post-likes:7246
+INFO [2018-11-29 23:42:30] thiagomlcorrea -- Mil sorrisos nesse último dia do ano #summertripcorona #ThisIsLiving ▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️ ▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️⌘ Foto tirada com meu @DJIGlobal Mavic Pro #djiamericalatina
+ERROR [2018-11-29 23:42:30] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:42:31] 25 comments.
+INFO [2018-11-29 23:42:31] caption:Mil sorrisos nesse último dia do ano #summertripcorona #ThisIsLiving ▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️ ▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️⌘ Foto tirada com meu @DJIGlobal Mavic Pro #djiamericalatina
+INFO [2018-11-29 23:42:31] 3mentions
+INFO [2018-11-29 23:42:31] Scrapping Post Link: https://www.instagram.com/p/Bdi7X4ej1So/
+INFO [2018-11-29 23:42:32] location_id:567041712
+INFO [2018-11-29 23:42:32] location_url:https://www.instagram.com/explore/locations/567041712/brazil/
+INFO [2018-11-29 23:42:32] location_name:Brazil
+ERROR [2018-11-29 23:42:32] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:42:33] date:2018-01-04T23:22:53.000Z
+INFO [2018-11-29 23:42:33] post-likes:68372
+INFO [2018-11-29 23:42:33] thiagomlcorrea -- Mais um pouquinho da nossa #summertripcorona ! Angra / Bonito / Chapada dos Veadeiros #ThisIsLiving
+ERROR [2018-11-29 23:42:33] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:42:33] 25 comments.
+INFO [2018-11-29 23:42:33] caption:Mais um pouquinho da nossa #summertripcorona ! Angra / Bonito / Chapada dos Veadeiros #ThisIsLiving
+INFO [2018-11-29 23:42:33] Scrapping Post Link: https://www.instagram.com/p/BjA-SQaF0pk/
+INFO [2018-11-29 23:42:35] location_id:259270433
+INFO [2018-11-29 23:42:35] location_url:https://www.instagram.com/explore/locations/259270433/barcelo-maya-grand-resort/
+INFO [2018-11-29 23:42:35] location_name:Barceló Maya Grand Resort
+ERROR [2018-11-29 23:42:35] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:42:35] date:2018-05-20T21:59:18.000Z
+INFO [2018-11-29 23:42:35] post-likes:11355
+INFO [2018-11-29 23:42:35] thiagomlcorrea -- 🌴☀️🌊 What a week shooting for #barcelostories in México 🇲🇽
+ERROR [2018-11-29 23:42:35] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:42:36] 25 comments.
+INFO [2018-11-29 23:42:36] caption:🌴☀️🌊 What a week shooting for #barcelostories in México 🇲🇽
+INFO [2018-11-29 23:42:36] 2mentions
+INFO [2018-11-29 23:42:36] Scrapping Post Link: https://www.instagram.com/p/BeqwulFDjKN/
+INFO [2018-11-29 23:42:38] location_id:234495571
+INFO [2018-11-29 23:42:38] location_url:https://www.instagram.com/explore/locations/234495571/trancoso-bahia/
+INFO [2018-11-29 23:42:38] location_name:Trancoso - Bahia
+ERROR [2018-11-29 23:42:38] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:42:38] date:2018-02-01T20:51:58.000Z
+INFO [2018-11-29 23:42:38] post-likes:12700
+INFO [2018-11-29 23:42:38] thiagomlcorrea -- Conheci lugares lindos por aqui e pequenos achados que me inspiraram muito! Obrigado @fossil por me apresentar às belezas de Trancoso. E você, o que inspira a sua criatividade nesse verão? #FossilBrasil
+ERROR [2018-11-29 23:42:38] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:42:38] 25 comments.
+INFO [2018-11-29 23:42:38] caption:Conheci lugares lindos por aqui e pequenos achados que me inspiraram muito! Obrigado @fossil por me apresentar às belezas de Trancoso. E você, o que inspira a sua criatividade nesse verão? #FossilBrasil
+INFO [2018-11-29 23:42:38] 2mentions
+INFO [2018-11-29 23:42:38] Scrapping Post Link: https://www.instagram.com/p/BdQOXg-jr91/
+ERROR [2018-11-29 23:42:39] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:42:39] date:2017-12-28T21:30:49.000Z
+INFO [2018-11-29 23:42:39] post-likes:32531
+INFO [2018-11-29 23:42:39] thiagomlcorrea -- Os primeiros dias da #summertripcorona foram assim! Ilha Bela e Paraty #ThisIsLiving @corona
+ERROR [2018-11-29 23:42:39] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:42:40] 25 comments.
+INFO [2018-11-29 23:42:40] caption:Os primeiros dias da #summertripcorona foram assim! Ilha Bela e Paraty #ThisIsLiving @corona
+INFO [2018-11-29 23:42:40] Scrapping Post Link: https://www.instagram.com/p/BdNJ8rqjY0L/
+INFO [2018-11-29 23:42:42] location_id:265490793584790
+INFO [2018-11-29 23:42:42] location_url:https://www.instagram.com/explore/locations/265490793584790/cachoeira-santa-barbara/
+INFO [2018-11-29 23:42:42] location_name:Cachoeira Santa Barbara
+ERROR [2018-11-29 23:42:42] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:42:42] date:2017-12-27T12:23:44.000Z
+INFO [2018-11-29 23:42:42] post-likes:10739
+INFO [2018-11-29 23:42:42] thiagomlcorrea -- Penúltimo destino da #summertripcorona foi aqui na Chapada dos Veadeiros. Que lugar incrível. #thisisliving @corona Agora partiu pro Réveillon em Barra Grande - Bahia. @reveillonmilsorrisos
+ERROR [2018-11-29 23:42:42] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:42:43] 25 comments.
+INFO [2018-11-29 23:42:43] caption:Penúltimo destino da #summertripcorona foi aqui na Chapada dos Veadeiros. Que lugar incrível. #thisisliving @corona Agora partiu pro Réveillon em Barra Grande - Bahia. @reveillonmilsorrisos
+INFO [2018-11-29 23:42:43] 2mentions
+INFO [2018-11-29 23:42:43] Scrapping Post Link: https://www.instagram.com/p/Bc0foMMjYDf/
+INFO [2018-11-29 23:42:45] location_id:1757716270968384
+INFO [2018-11-29 23:42:45] location_url:https://www.instagram.com/explore/locations/1757716270968384/cachoeira-do-paqueta/
+INFO [2018-11-29 23:42:45] location_name:Cachoeira Do Paquetá
+ERROR [2018-11-29 23:42:45] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:42:45] date:2017-12-17T22:32:09.000Z
+INFO [2018-11-29 23:42:45] post-likes:9525
+INFO [2018-11-29 23:42:45] thiagomlcorrea -- Olha essa vista em cima da Cachoeira do Paquetá. Vale muito a pena a subida aqui #ThisIsLiving Ilha Bela - SP #summertripcorona
+ERROR [2018-11-29 23:42:45] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:42:45] 25 comments.
+INFO [2018-11-29 23:42:45] caption:Olha essa vista em cima da Cachoeira do Paquetá. Vale muito a pena a subida aqui #ThisIsLiving Ilha Bela - SP #summertripcorona
+INFO [2018-11-29 23:42:45] 1mentions
+INFO [2018-11-29 23:42:45] Scrapping Post Link: https://www.instagram.com/p/BaR4rQuD--G/
+INFO [2018-11-29 23:42:47] location_id:238679947
+INFO [2018-11-29 23:42:47] location_url:https://www.instagram.com/explore/locations/238679947/jalapao-state-park/
+INFO [2018-11-29 23:42:47] location_name:Jalapão State Park
+ERROR [2018-11-29 23:42:47] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:42:47] date:2017-10-15T18:54:49.000Z
+INFO [2018-11-29 23:42:47] post-likes:8461
+INFO [2018-11-29 23:42:48] thiagomlcorrea -- Paradinha na estrada pro por do sol.. logo ali 🌅👆🏼🚙🇧🇷 #jalapao
+ERROR [2018-11-29 23:42:48] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:42:48] 25 comments.
+INFO [2018-11-29 23:42:48] caption:Paradinha na estrada pro por do sol.. logo ali 🌅👆🏼🚙🇧🇷 #jalapao
+INFO [2018-11-29 23:42:48] 3mentions
+INFO [2018-11-29 23:42:48] Scrapping Post Link: https://www.instagram.com/p/BaxHPhUDaGa/
+INFO [2018-11-29 23:42:50] location_id:331088815
+INFO [2018-11-29 23:42:50] location_url:https://www.instagram.com/explore/locations/331088815/museo-subacuatico-de-arte/
+INFO [2018-11-29 23:42:50] location_name:Museo Subacuático de Arte
+ERROR [2018-11-29 23:42:50] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:42:50] date:2017-10-27T21:58:34.000Z
+INFO [2018-11-29 23:42:50] post-likes:11665
+INFO [2018-11-29 23:42:50] thiagomlcorrea -- Sexta-feira a noite, dia de TV 📺? Hahaha
+Semana de gravação no Mexico para o #barcelostories no @barcelomayagrandresort with my bro @howardfuruta 📷: @johngarzaphoto
+ERROR [2018-11-29 23:42:50] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:42:51] 25 comments.
+INFO [2018-11-29 23:42:51] caption:Sexta-feira a noite, dia de TV 📺? Hahaha
+Semana de gravação no Mexico para o #barcelostories no @barcelomayagrandresort with my bro @howardfuruta 📷: @johngarzaphoto
+INFO [2018-11-29 23:42:51] 4mentions
+INFO [2018-11-29 23:42:51] Scrapping Post Link: https://www.instagram.com/p/BXWEs7EjRP5/
+INFO [2018-11-29 23:42:53] location_id:216953618
+INFO [2018-11-29 23:42:53] location_url:https://www.instagram.com/explore/locations/216953618/rio-de-janeirogaleao-international-airport/
+INFO [2018-11-29 23:42:53] location_name:Rio de Janeiro–Galeão International Airport
+ERROR [2018-11-29 23:42:53] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:42:53] date:2017-08-03T20:22:41.000Z
+INFO [2018-11-29 23:42:53] post-likes:5373
+INFO [2018-11-29 23:42:53] thiagomlcorrea -- Voltando desse paraíso com a #NOVAGOL aproveitando para editar o vídeo da viagem!! @voegoloficial Gol + Conforto - o melhor espaço entre as poltronas e bagageiro exclusivo 🙈✈️💼 so assim mesmo pra viajar com conforto!
+E já já viajo de novo, pra onde vou agora? 🙊
+ERROR [2018-11-29 23:42:53] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:42:54] 25 comments.
+INFO [2018-11-29 23:42:54] caption:Voltando desse paraíso com a #NOVAGOL aproveitando para editar o vídeo da viagem!! @voegoloficial Gol + Conforto - o melhor espaço entre as poltronas e bagageiro exclusivo 🙈✈️💼 so assim mesmo pra viajar com conforto!
+E já já viajo de novo, pra onde vou agora? 🙊
+INFO [2018-11-29 23:42:54] 2mentions
+INFO [2018-11-29 23:42:54] Scrapping Post Link: https://www.instagram.com/p/BZ1PUlnjCoa/
+INFO [2018-11-29 23:42:56] location_id:117293298845
+INFO [2018-11-29 23:42:56] location_url:https://www.instagram.com/explore/locations/117293298845/maldives-insider/
+INFO [2018-11-29 23:42:56] location_name:Maldives Insider
+ERROR [2018-11-29 23:42:56] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:42:56] date:2017-10-04T15:54:44.000Z
+INFO [2018-11-29 23:42:56] post-likes:11747
+INFO [2018-11-29 23:42:56] thiagomlcorrea -- Water villa 💦☀️💙
+#maldives #mytf
+ERROR [2018-11-29 23:42:56] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:42:57] 25 comments.
+INFO [2018-11-29 23:42:57] caption:Water villa 💦☀️💙
+#maldives #mytf
+INFO [2018-11-29 23:42:57] 2mentions
+INFO [2018-11-29 23:42:57] Scrapping Post Link: https://www.instagram.com/p/BdGCJ3WjuEB/
+INFO [2018-11-29 23:42:58] location_id:1614291175265908
+INFO [2018-11-29 23:42:58] location_url:https://www.instagram.com/explore/locations/1614291175265908/rio-do-peixe/
+INFO [2018-11-29 23:42:58] location_name:Rio do Peixe
+ERROR [2018-11-29 23:42:58] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:42:58] date:2017-12-24T18:00:56.000Z
+INFO [2018-11-29 23:42:58] post-likes:13873
+INFO [2018-11-29 23:42:59] thiagomlcorrea -- Mesmo com chuva, Bonito continua lindo! #summertripcorona! Amanhã seguimos para Chapada dos Veadeiros. #thisisliving
+ERROR [2018-11-29 23:42:59] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:42:59] 25 comments.
+INFO [2018-11-29 23:42:59] caption:Mesmo com chuva, Bonito continua lindo! #summertripcorona! Amanhã seguimos para Chapada dos Veadeiros. #thisisliving
+INFO [2018-11-29 23:42:59] 2mentions
+INFO [2018-11-29 23:42:59] Scrapping Post Link: https://www.instagram.com/p/Bi5Jttbldmu/
+INFO [2018-11-29 23:43:01] location_id:187738441800011
+INFO [2018-11-29 23:43:01] location_url:https://www.instagram.com/explore/locations/187738441800011/zona-arqueologica-de-ek-balam-yucatan/
+INFO [2018-11-29 23:43:01] location_name:Zona Arqueológica De Ek Balam, Yucatán
+ERROR [2018-11-29 23:43:01] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:43:01] date:2018-05-17T21:05:14.000Z
+INFO [2018-11-29 23:43:01] post-likes:20133
+INFO [2018-11-29 23:43:01] thiagomlcorrea -- What would you pick: 23m rappel or kayaking??? It’s always good to explore the cenotes around Mexico 🇲🇽 with @barcelomayagrandresort for #barcelostories
+ERROR [2018-11-29 23:43:01] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:43:02] 25 comments.
+INFO [2018-11-29 23:43:02] caption:What would you pick: 23m rappel or kayaking??? It’s always good to explore the cenotes around Mexico 🇲🇽 with @barcelomayagrandresort for #barcelostories
+INFO [2018-11-29 23:43:02] 2mentions
+INFO [2018-11-29 23:43:02] Scrapping Post Link: https://www.instagram.com/p/BXRINCjDFEJ/
+INFO [2018-11-29 23:43:04] location_id:209218882817041
+INFO [2018-11-29 23:43:04] location_url:https://www.instagram.com/explore/locations/209218882817041/praia-do-porto-fernando-de-noronha/
+INFO [2018-11-29 23:43:04] location_name:Praia do Porto - Fernando de Noronha
+ERROR [2018-11-29 23:43:04] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:43:04] date:2017-08-01T22:17:05.000Z
+INFO [2018-11-29 23:43:04] post-likes:56392
+INFO [2018-11-29 23:43:04] thiagomlcorrea -- 💦🐟🐠🐡 free diving in Fernando de Noronha 💥🚢
+.
+.
+.
+#gopro #goprobr #amonoronha @amonoronha @goprobr
+ERROR [2018-11-29 23:43:04] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:43:04] 25 comments.
+INFO [2018-11-29 23:43:04] caption:💦🐟🐠🐡 free diving in Fernando de Noronha 💥🚢
+.
+.
+.
+#gopro #goprobr #amonoronha @amonoronha @goprobr
+INFO [2018-11-29 23:43:04] Scrapping Post Link: https://www.instagram.com/p/Bape_YxD70e/
+INFO [2018-11-29 23:43:06] location_id:567041712
+INFO [2018-11-29 23:43:06] location_url:https://www.instagram.com/explore/locations/567041712/brazil/
+INFO [2018-11-29 23:43:06] location_name:Brazil
+ERROR [2018-11-29 23:43:06] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:43:06] date:2017-10-24T22:55:37.000Z
+INFO [2018-11-29 23:43:06] post-likes:54185
+INFO [2018-11-29 23:43:06] thiagomlcorrea -- Um resumo do que foi nossa road trip pelo Jalapão e Chapada dos Veadeiros ! Muito obrigado @renaultbrasil #jalapao #chapadadosveadeiros #4x4
+ERROR [2018-11-29 23:43:06] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:43:07] 25 comments.
+INFO [2018-11-29 23:43:07] caption:Um resumo do que foi nossa road trip pelo Jalapão e Chapada dos Veadeiros ! Muito obrigado @renaultbrasil #jalapao #chapadadosveadeiros #4x4
+INFO [2018-11-29 23:43:07] Scrapping Post Link: https://www.instagram.com/p/BaPENG1DBHg/
+INFO [2018-11-29 23:43:09] location_id:1018309646
+INFO [2018-11-29 23:43:09] location_url:https://www.instagram.com/explore/locations/1018309646/fervedouro-e-pousada-bela-vista/
+INFO [2018-11-29 23:43:09] location_name:Fervedouro e Pousada Bela Vista
+ERROR [2018-11-29 23:43:09] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:43:09] date:2017-10-14T16:37:51.000Z
+INFO [2018-11-29 23:43:09] post-likes:14124
+INFO [2018-11-29 23:43:09] thiagomlcorrea -- Free as a bird 🙏🏼☀️💦🌿 #jalapão
+ERROR [2018-11-29 23:43:09] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:43:09] 25 comments.
+INFO [2018-11-29 23:43:09] caption:Free as a bird 🙏🏼☀️💦🌿 #jalapão
+INFO [2018-11-29 23:43:09] 5mentions
+INFO [2018-11-29 23:43:09] Scrapping Post Link: https://www.instagram.com/p/BZbXlHujgeZ/
+INFO [2018-11-29 23:43:11] location_id:215695353
+INFO [2018-11-29 23:43:11] location_url:https://www.instagram.com/explore/locations/215695353/maldives/
+INFO [2018-11-29 23:43:11] location_name:Maldives
+ERROR [2018-11-29 23:43:11] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:43:11] date:2017-09-24T14:46:38.000Z
+INFO [2018-11-29 23:43:11] post-likes:18585
+INFO [2018-11-29 23:43:11] thiagomlcorrea -- ☀️💦 🏖 walking on a dream ..🎶 Maldives
+ERROR [2018-11-29 23:43:11] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:43:12] 25 comments.
+INFO [2018-11-29 23:43:12] caption:☀️💦 🏖 walking on a dream ..🎶 Maldives
+INFO [2018-11-29 23:43:12] Scrapping Post Link: https://www.instagram.com/p/BXOTTpojIVp/
+INFO [2018-11-29 23:43:14] location_id:945121652
+INFO [2018-11-29 23:43:14] location_url:https://www.instagram.com/explore/locations/945121652/pousada-ze-maria/
+INFO [2018-11-29 23:43:14] location_name:Pousada Zé Maria
+ERROR [2018-11-29 23:43:14] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:43:14] date:2017-07-31T19:56:23.000Z
+INFO [2018-11-29 23:43:14] post-likes:14297
+INFO [2018-11-29 23:43:14] thiagomlcorrea -- 🙏🏼💦☀️ sem palavras pra esse lugar!! #amonoronha @amonoronha
+ERROR [2018-11-29 23:43:14] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:43:14] 25 comments.
+INFO [2018-11-29 23:43:14] caption:🙏🏼💦☀️ sem palavras pra esse lugar!! #amonoronha @amonoronha
+INFO [2018-11-29 23:43:14] 3mentions
+INFO [2018-11-29 23:43:14] Scrapping Post Link: https://www.instagram.com/p/BaH25TnDZYm/
+INFO [2018-11-29 23:43:17] location_id:238679947
+INFO [2018-11-29 23:43:17] location_url:https://www.instagram.com/explore/locations/238679947/jalapao-state-park/
+INFO [2018-11-29 23:43:17] location_name:Jalapão State Park
+ERROR [2018-11-29 23:43:17] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:43:17] date:2017-10-11T21:26:52.000Z
+INFO [2018-11-29 23:43:18] post-likes:13144
+INFO [2018-11-29 23:43:18] thiagomlcorrea -- Não tinha lugar melhor do que o Jalapão pra começar minha primeira off-road trip !! 🚙💨🌌
+Ficaremos 5 dias aqui e depois seguiremos pra Chapada dos Veadeiros!! #jalapão #offroad #roadtrip
+ERROR [2018-11-29 23:43:18] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:43:18] 25 comments.
+INFO [2018-11-29 23:43:18] caption:Não tinha lugar melhor do que o Jalapão pra começar minha primeira off-road trip !! 🚙💨🌌
+Ficaremos 5 dias aqui e depois seguiremos pra Chapada dos Veadeiros!! #jalapão #offroad #roadtrip
+INFO [2018-11-29 23:43:18] 3mentions
+INFO [2018-11-29 23:43:18] Scrapping Post Link: https://www.instagram.com/p/Bb-xOtSDph0/
+INFO [2018-11-29 23:43:20] location_id:215695353
+INFO [2018-11-29 23:43:20] location_url:https://www.instagram.com/explore/locations/215695353/maldives/
+INFO [2018-11-29 23:43:20] location_name:Maldives
+ERROR [2018-11-29 23:43:20] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:43:20] date:2017-11-27T01:48:43.000Z
+INFO [2018-11-29 23:43:20] post-likes:83203
+INFO [2018-11-29 23:43:20] thiagomlcorrea -- Dronie #maldives ☀️💦🏖#tb
+ERROR [2018-11-29 23:43:20] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:43:21] 25 comments.
+INFO [2018-11-29 23:43:21] caption:Dronie #maldives ☀️💦🏖#tb
+INFO [2018-11-29 23:43:21] Scrapping Post Link: https://www.instagram.com/p/Bc8UubBDlVg/
+INFO [2018-11-29 23:43:23] location_id:132572325
+INFO [2018-11-29 23:43:23] location_url:https://www.instagram.com/explore/locations/132572325/paraty-rio-de-janeiro-brazil/
+INFO [2018-11-29 23:43:23] location_name:Paraty, Rio de Janeiro, Brazil
+ERROR [2018-11-29 23:43:23] getting Location Infos  (perhaps not set)
+INFO [2018-11-29 23:43:23] date:2017-12-20T23:30:49.000Z
+INFO [2018-11-29 23:43:23] post-likes:8386
+INFO [2018-11-29 23:43:23] thiagomlcorrea -- E nossa #summertripcorona continua !! Próxima parada Angra dos Reis.. alguém conhece??? #thisisliving
+ERROR [2018-11-29 23:43:23] ERROR something went wrong getting user_commented
+INFO [2018-11-29 23:43:23] 25 comments.
+INFO [2018-11-29 23:43:23] caption:E nossa #summertripcorona continua !! Próxima parada Angra dos Reis.. alguém conhece??? #thisisliving
+INFO [2018-11-29 23:43:23] 2mentions
+INFO [2018-11-29 23:43:23] User thiagomlcorrea has 1000 comments.
