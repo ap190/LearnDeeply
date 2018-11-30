@@ -10,6 +10,10 @@ let start=0
 let end=start+chunksize
 
 while [ $end -le $filecount ]; do
+    if [ $start -e 0 ]; then
+        break
+    fi 
+
     echo \[$start --\> $end\]
     python data_cleaner.py profiles_11-19/ $start $end
 
