@@ -1,14 +1,16 @@
 #!/usr/bin/env python3.5
+
 import cv2
 import datetime
 import dateutil.parser as dateparser
 import numpy as np
 import os
-from PIL import Image
 import json
-from skimage import io
 import sys
 import urllib.request
+
+from PIL import Image
+from skimage import io
 
 from keras.applications import InceptionResNetV2
 from keras.applications import imagenet_utils
@@ -30,11 +32,10 @@ filenames = [file for file in os.listdir(fileprefix) if file.endswith('.json')]
 # each entry in the list will be a dictionary for each insta user we've collected
 data, counter = [], 1
 
-# need the iteration counter for automation to handle in smaller chunks
-# will need to concatenate later
-start_index = int(sys.argv[2])
-end_index = int(sys.argv[3])
-for filename in filenames[start_index:end_index]:
+startIndex = int(sys.argv[2])
+endIndex = int(sys.argv[3])
+
+for filename in filenames[startIndex:endIndex]:
     filename = fileprefix + filename
     try:
         with open(filename) as file:
@@ -61,14 +62,14 @@ for filename in filenames[start_index:end_index]:
                         img = np.expand_dims(img_to_array(img), axis=0)
                         processed_img = preprocess_input(img)
 
-                        savename =  user_data['user'] + '_' +  image['date'] + '.jpg'
-                        print('here {:s}'.format(savename))
+                        # save images in image directory
+                        savename =  'images/' + user_data['user'] + '_' +  image['date'] + '.jpg'
                         io.imsave(savename, np.reshape(img, (in_shape[0], in_shape[1], 3)))
-                        print('there')
 
                         # conduct image classification with Inception ResNet model
                         predictions = model.predict(processed_img)
                         predictions = imagenet_utils.decode_predictions(predictions)
+                        predictions = np.asarray(predictions)
 
                         # preprocess and restructure date information into more readable format
                         # weekdays ordered from start at monday = 0 and sunday = 6
@@ -77,7 +78,7 @@ for filename in filenames[start_index:end_index]:
                         # store metadata into dictionary
                         image_data = {
                             'picture'       : savename,
-                            'classification': np.asarray(predictions).tolist(),
+                            'classification': np.reshape(predictions, (predictions.shape[1], predictions.shape[2])).tolist(),
                             'tags'          : image['tags'],
                             'mentions'      : image['mentions'],
                             'description'   : image['description'],
@@ -105,6 +106,6 @@ for filename in filenames[start_index:end_index]:
 
 # write a new data.json file with the produced dictionary object
 now = datetime.datetime.now()
-savename = 'zzzzdata_' + str(now.month) + '-' + str(now.day) + '-' + str(now.hour) + str(now.minute) + '.json'
+savename = 'data_' + str(now.month) + '-' + str(now.day) + '-' + str(now.hour) + str(now.minute) + '.json'
 with open(savename, 'w') as outfile:
     json.dump(data, outfile, ensure_ascii=False, indent=2)

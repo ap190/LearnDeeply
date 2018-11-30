@@ -4,7 +4,7 @@ def popular_hashtags():
 	return: dictionary {hashtag: weight}
 	"""
 	dic = {}
-	with open('./hashtags.txt', 'r', encoding = 'utf8') as f:
+	with open('./hashtag/hashtags.txt', 'r', encoding = 'utf8') as f:
 		readed = f.read()
 		hashtags = readed.split()
 		num_hashtags = len(hashtags)

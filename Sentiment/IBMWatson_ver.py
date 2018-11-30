@@ -2,6 +2,10 @@ import json
 from watson_developer_cloud import NaturalLanguageUnderstandingV1
 from watson_developer_cloud.natural_language_understanding_v1 import Features, EmotionOptions, EntitiesOptions,SentimentOptions,KeywordsOptions
 
+from textblob import TextBlob, Word, Blobber
+from textblob.classifiers import NaiveBayesClassifier
+from textblob.taggers import NLTKTagger
+
 natural_language_understanding = NaturalLanguageUnderstandingV1(
     version='2018-03-16',
     iam_apikey='KNU1uoHR7W2C44UOJoKYGGyCajGRAosybOEVEPHlzkzn',
@@ -10,22 +14,12 @@ natural_language_understanding = NaturalLanguageUnderstandingV1(
 text1= 'Bruce Banner is the Hulk and Bruce Wayne is BATMAN! '
 text2= 'Today is wonderful'
 text3 = 'Today is bad'
-text4 = "i do love you"
+text4 = "i hate you so much"
 text_japan = "指原莉乃です。初心者です。猫2匹と生活してます"
+text_japan2 = "愛しているが愛してないわよ。□ポロンポロン□□愛あい出会いよポロンポロン□□オマジナイヤデ〜。以後、キオツケヤ〜。☆☆☆"
 text_chinese = "自由人在ShangHai"
 text_french = "tu as besoin de gants de boxe"
 text_korean = "이지금"
-
-# #Entities detect- [limit,mentions,model,sentiment,emotion]
-# response1 = natural_language_understanding.analyze(
-#     # html="<html><head><title>Fruits</title></head><body><h1>Apples and Oranges</h1><p>I love apples! I don't like oranges.</p></body></html>",
-#     text=text2,
-#     features=Features(entities=EntitiesOptions(sentiment=True,limit=1,emotion=True))
-#     ).get_result()
-# #Key words detect
-# response = natural_language_understanding.analyze(
-#     text=text3,
-#     features=Features(keywords=KeywordsOptions(sentiment=True,emotion=True,limit=2))).get_result()
 
 def createTargetlist(text):
     targets = text.split()
@@ -41,7 +35,7 @@ def createTargetlist(text):
 def EmotionClassify(target_text):
     response_emo = natural_language_understanding.analyze(
     text=target_text,
-    features=Features(emotion=EmotionOptions(document=True,targets=createTargetlist(target_text)))
+    features=Features(emotion=EmotionOptions(document=True))
     ).get_result()
     emotionscore = response_emo["emotion"]["document"]["emotion"]
     return emotionscore
@@ -56,12 +50,10 @@ def EmotionClassify(target_text):
 def SentimentClassify(target_text):
     response_senti = natural_language_understanding.analyze(
         text= target_text,
-        features=Features(sentiment=SentimentOptions(createTargetlist(target_text)))).get_result()
+        features=Features(sentiment=SentimentOptions()),language=TextBlob(target_text).detect_language()
+        ).get_result()
     sentiscore = response_senti["sentiment"]["document"]["score"]
     return sentiscore
 
-
-
-print(json.dumps(EmotionClassify(text4), indent=2))
-print("=========================================================")
+print(EmotionClassify(text1))
 print(SentimentClassify(text4))
