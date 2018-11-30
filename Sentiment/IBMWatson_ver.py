@@ -43,7 +43,8 @@ def EmotionClassify(target_text):
     text=target_text,
     features=Features(emotion=EmotionOptions(document=True,targets=createTargetlist(target_text)))
     ).get_result()
-    return response_emo
+    emotionscore = response_emo["emotion"]["document"]["emotion"]
+    return emotionscore
 
 
 #Sentiment - [(bool)document, (list)target]
