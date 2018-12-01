@@ -6,6 +6,8 @@ import dateutil.parser as dateparser
 import numpy as np
 import os
 import json
+import random
+import string
 import sys
 import urllib.request
 
@@ -37,6 +39,7 @@ endIndex = int(sys.argv[3])
 
 for filename in filenames[startIndex:endIndex]:
     filename = fileprefix + filename
+    
     try:
         with open(filename) as file:
             # load json file
@@ -63,7 +66,7 @@ for filename in filenames[startIndex:endIndex]:
                         processed_img = preprocess_input(img)
 
                         # save images in image directory
-                        savename =  'images/' + user_data['user'] + '_' +  image['date'] + '.jpg'
+                        savename =  'images/' + user_data['user'] + '_' + ''.join(random.choices(string.ascii_uppercase + string.digits, k=15)) + '.jpg'
                         io.imsave(savename, np.reshape(img, (in_shape[0], in_shape[1], 3)))
 
                         # conduct image classification with Inception ResNet model

@@ -6,6 +6,8 @@ import dateutil.parser as dateparser
 import numpy as np
 import os
 import json
+import random
+import string
 import sys
 import urllib.request
 
@@ -30,20 +32,18 @@ filenames = [file for file in os.listdir(fileprefix) if file.endswith('.json')]
 
 # iterate through json files and extract data
 # each entry in the list will be a dictionary for each insta user we've collected
-data, counter = [], 1
+data = []
 
-startIndex = int(sys.argv[2])
-endIndex = int(sys.argv[3])
-
-for filename in filenames[startIndex:endIndex]:
+for filename in filenames:
     filename = fileprefix + filename
-    print('attempting to load file {:s}'.format(filename))
 
     try:
         with open(filename) as file:
+            counter = 0
+
             # load json file
             jsonfile = json.load(file)
-            print('loaded file {:s} and associated JSON object(s)'.format(filename))
+            print('. . . < extracting from {:s} > . . . '.format(filename))
 
             for user in jsonfile:
                 # extact user specific data
@@ -54,7 +54,6 @@ for filename in filenames[startIndex:endIndex]:
                     'following': user['following'],
                     'images'   : []
                 }
-                print('extracted user metadata for {:s}'.format(user_data['user']))
 
                 # extract and compress images from the user's instagram page
                 for image in user['images']:
@@ -67,7 +66,7 @@ for filename in filenames[startIndex:endIndex]:
                         processed_img = preprocess_input(img)
 
                         # save images in image directory
-                        savename =  'images/' + user_data['user'] + '_' +  image['month'] + image['weekday'] + image['hour'] + '.jpg'
+                        savename =  'images/' + user_data['user'] + '_' + ''.join(random.choices(string.ascii_uppercase + string.digits, k=15)) + '.jpg'
                         io.imsave(savename, np.reshape(img, (in_shape[0], in_shape[1], 3)))
 
                         # conduct image classification with Inception ResNet model
@@ -91,21 +90,20 @@ for filename in filenames[startIndex:endIndex]:
 
                         # append image data dictionary into the instagram user's image posts
                         user_data['images'].append(image_data)
-                        print('... extracted image data')
                     except:
                         continue
 
 
                 # append instagram user's data and list of image posts into overall list
                 data.append(user_data)
-                
-                print('{:d} finished processing for user'.format(counter))
+
+                print('({:d}) finished processing for {:s}'.format(counter, user_data['user']))
                 counter += 1
     except: 
         continue
 
 # write a new data.json file with the produced dictionary object
 now = datetime.datetime.now()
-savename = 'dataNEW_' + str(now.month) + '-' + str(now.day) + '-' + str(now.hour) + str(now.minute) + '.json'
+savename = 'data_' + str(now.month) + '-' + str(now.day) + '-' + str(now.hour) + str(now.minute) + '.json'
 with open(savename, 'w') as outfile:
     json.dump(data, outfile, ensure_ascii=False, indent=2)
