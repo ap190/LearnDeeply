@@ -33,6 +33,8 @@ model_data = {
     'vocab_size': vocab_size,
     'probabilities': np.asarray(probabilities)
 }
+
+# add processed data structure for this NN model into global pre-processed data class
 utils.preprocess.add_model_data('image_class', model_data)
 # ====================
 
