@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.7
+#!/usr/bin/env python3.6.5
 '''
 Common utils amongs the Neural Net models.
 '''
@@ -104,8 +104,8 @@ class preprocess:
     def add_model_data(self, name, data):
         self.__dict__[name] = data
         self.models.append(name)
-def initialize_globals():
+def initialize_globals(data_path):
     global preprocess
-    preprocess = preprocess('../data/')
+    preprocess = preprocess(data_path)
 
 
