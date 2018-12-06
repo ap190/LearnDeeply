@@ -82,6 +82,52 @@ def embed_vector(batch_data):
     return e_vec, len(vocab), vocab
 
 
+wordnet_child_to_parent = {}
+def build_child_to_parent():
+    """ 
+    Construct a dictionary of child to parent wordnetids, to allow
+    for great generalization in image classification.
+    """
+    with open("../data/wordnet.is_a.txt") as file:
+        lines = file.readlines()
+        lines = [line.strip() for line in lines] 
+        for line in lines:
+            split = line.split()
+            parent = split[0]
+            child = split[1]
+            wordnet_child_to_parent[child] = parent
+
+def map_word_up(wordnetid, levels):
+    """ 
+    Given a wordnetid, returns it's parent the number of levels up (more general).
+    If the input wordnetid has no parent (i.e. is the topmost category) stops trying 
+    to move up and returns the wordnetid. 
+    """
+    for level in range(levels):
+        if not wordnetid in wordnet_child_to_parent:
+            return wordnetid
+        wordnetid = wordnet_child_to_parent[wordnetid]
+    return wordnetid
+
+def test_map_word_up():
+    """ Test that mapping upwords works """
+    assert('n02339376' == map_word_up('n02341475', 1))
+    assert('n02338901' == map_word_up('n02341475', 2))
+    assert('n02329401' == map_word_up('n02341475', 3))
+    assert('n01886756' == map_word_up('n02341475', 4))
+    assert('n01861778' == map_word_up('n02341475', 5))
+    assert('n01471682' == map_word_up('n02341475', 6))
+    assert('n01466257' == map_word_up('n02341475', 7))
+    assert('n00015388' == map_word_up('n02341475', 8))
+    assert('n00004475' == map_word_up('n02341475', 9))
+    assert('n00004258' == map_word_up('n02341475', 10))
+    assert('n00003553' == map_word_up('n02341475', 11))
+    assert('n00002684' == map_word_up('n02341475', 12))
+    assert('n00001930' == map_word_up('n02341475', 13))
+    assert('n00001740' == map_word_up('n02341475', 14))
+    assert('n00001740' == map_word_up('n02341475', 20))
+
+
 '''
 Preprocessing data for the different Neural Net models.
 Args:
@@ -96,15 +142,14 @@ class preprocess:
 
         self.json_data = json_data
         self.models = []
-
-    def wut(self, name):
-        self.__dict__[name] = 'hello'
     
     ''' Method for adding preprocessed data structure for a specific model to the preprocess class '''
     def add_model_data(self, name, data):
         self.__dict__[name] = data
         self.models.append(name)
+
 def initialize_globals(data_path):
+    build_child_to_parent()
     global preprocess
     preprocess = preprocess(data_path)
 
