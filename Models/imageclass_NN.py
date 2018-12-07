@@ -21,14 +21,14 @@ for user in json_data:
         if not utils.to_int(image['likes']) > 0:
             continue
 
-        detection_current = [item[1] for item in image['classification']]
-        detection_upmap = [utils.map_word_up(item[0], 5) for item in image['classification']]
+        detection_upmap = [utils.map_word_up(item[0], 7) for item in image['classification']]
         
-        detections.append(detection_current + detection_upmap)
+        detections.append(detection_upmap)
         probabilities.append([item[2] for item in image['classification']])
         num_likes.append(utils.to_int(image['likes']))
 
 e_vec, vocab_size, _ = utils.embed_vector(detections)
+print(vocab_size)
 model_data = {
     'inputs': np.asarray(e_vec),
     'labels': utils.log(np.asarray(num_likes)),
