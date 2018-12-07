@@ -31,6 +31,7 @@ def metadata():
 # ==================== IMAGE CLASSES
 def imageclass():
     inputs, labels = data.image_class['inputs'], data.image_class['labels']
+
     probabilities, vocab_size = data.image_class['probabilities'], data.image_class['vocab_size']
     imageNN = imageclass_NN.Model(inputs=inputs, labels=labels, probabilities=probabilities, vocab_size=vocab_size,
         learning_rate=0.001, embed_size=100, dropout=0.25, hidden_layers=3, hidden_sizes=[100, 150, 100])
@@ -42,7 +43,8 @@ def imageclass():
 # ==================== MAIN.PY
 def main():
     inputs, labels = data.metadata['inputs'], data.metadata['labels']
-    metaNN = metadata_NN.Model(inputs=inputs, labels=labels, dropout=0.25)
+    metaNN = metadata_NN.Model(inputs=inputs, labels=labels, 
+        learning_rate=0.001, dropout=0.25, hidden_layers=3, hidden_sizes=[100, 150, 100])
 
     meta_output = metaNN.predict(inputs)
 
@@ -58,7 +60,7 @@ def main():
     combinedNN = combined_NN.Model(inputs=combined_inputs, labels=combined_labels, 
         learning_rate=0.001, dropout=0.25, hidden_layers=5, hidden_sizes=[150, 250, 400, 250, 150], epochs=100)
     combinedNN.train_model(verbose=1)
-    combinedNN.test_model(verbose=1, correct_only=1)
+    combinedNN.test_model(verbose=1, correct_only=0)
 
 # ==================== 
 

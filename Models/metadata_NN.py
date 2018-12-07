@@ -49,7 +49,7 @@ for user in json_data:
 
     userdata, likes = [], []
     for post in user['images']:
-        if not utils.to_int(post['likes']):
+        if not utils.to_int(post['likes']) > 0:
             continue
 
         # tag_weight = 0

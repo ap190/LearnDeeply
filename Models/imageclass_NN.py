@@ -20,8 +20,11 @@ for user in json_data:
     for image in user['images']:
         if not utils.to_int(image['likes']) > 0:
             continue
+
+        detection_current = [item[1] for item in image['classification']]
+        detection_upmap = [utils.map_word_up(item[0], 5) for item in image['classification']]
         
-        detections.append([item[1] for item in image['classification']])
+        detections.append(detection_current + detection_upmap)
         probabilities.append([item[2] for item in image['classification']])
         num_likes.append(utils.to_int(image['likes']))
 
@@ -64,6 +67,7 @@ class Model:
 
         # dervied parameters
         self.input_length = len(self.train_inputs[0])
+        self.probabilities_length = len(self.train_probabilities[0])
 
         # optional parameters that have defaulted values
         self.embed_size = embed_size
@@ -81,7 +85,7 @@ class Model:
     def construct_graph(self):
         # instantiate input tensors 
         wordIDs = keras.layers.Input(shape=(self.input_length, ))
-        probabilities = keras.layers.Input(shape=(self.input_length, ))
+        probabilities = keras.layers.Input(shape=(self.probabilities_length, ))
 
         # encode inputs with embedding tensor
         E = keras.layers.Embedding(input_dim=self.vocab_size, output_dim=self.embed_size, input_length=self.input_length)(wordIDs)
@@ -98,7 +102,7 @@ class Model:
                 inputs = keras.layers.Dense(units=self.hidden_sizes[layer], kernel_initializer='random_normal', activation='relu')(inputs)
                 inputs = keras.layers.Dropout(rate=self.dropout)(inputs)
 
-        # add in last dense layer to computation graph, output size should always be 1 b/c doing regression
+        # add in last dense layer to computation graph
         output = keras.layers.Dense(units=self.input_length, kernel_initializer='random_normal')(inputs)
 
         # specify optimizer and initialize model for training

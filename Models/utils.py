@@ -83,12 +83,12 @@ def embed_vector(batch_data):
 
 
 wordnet_child_to_parent = {}
-def build_child_to_parent():
+def build_child_to_parent(data_path):
     """ 
     Construct a dictionary of child to parent wordnetids, to allow
     for great generalization in image classification.
     """
-    with open("../data/wordnet.is_a.txt") as file:
+    with open(data_path+"wordnet.is_a.txt") as file:
         lines = file.readlines()
         lines = [line.strip() for line in lines] 
         for line in lines:
@@ -149,7 +149,7 @@ class preprocess:
         self.models.append(name)
 
 def initialize_globals(data_path):
-    build_child_to_parent()
+    build_child_to_parent(data_path)
     global preprocess
     preprocess = preprocess(data_path)
 
