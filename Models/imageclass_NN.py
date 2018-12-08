@@ -30,10 +30,10 @@ for user in json_data:
 
 e_vec, vocab_size, _ = utils.embed_vector(detections)
 model_data = {
-    'inputs': np.asarray(e_vec),
-    'labels': utils.log(np.asarray(num_likes)),
+    'inputs': np.array(e_vec),
+    'labels': utils.log(np.array(num_likes)),
     'vocab_size': vocab_size,
-    'probabilities': np.asarray(probabilities)
+    'probabilities': np.array(probabilities)
 }
 
 # add processed data structure for this NN model into global pre-processed data class

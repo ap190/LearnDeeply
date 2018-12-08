@@ -3,25 +3,46 @@
 Neural Network for combining multiple models
 '''
 
+import json
 import keras
 import numpy as np
 import utils
 
+# ==================== DATA PREPROCESSING
+json_data = utils.preprocess.json_data
+
+captions, likes = [], []
+for user in json_data:
+    for image in user['images']:
+        if not utils.to_int(image['likes']) > 0:
+            continue
+
+        desc = image['description']
+        desc = " ".join(filter(lambda x:x[0]!='#' and x[0]!='@', desc.split()))
+        sentiment = utils.sentiment_analysis(desc)
+
+        captions.append(sentiment)
+        likes.append(utils.to_int(image['likes']))
+
+        print('(%.3f): %s' % (sentiment, desc))
+
+model_data = {
+    'inputs': np.array(captions),
+    'labels': utils.log(np.array(likes))
+}
+utils.preprocess.add_model_data('captions', model_data)
+# ====================
+
+
+# ====================
+''' Neural Network to process the combined system as well as adding in sentiment analysis of the captions '''
 class Model:
     def __init__(self, inputs, labels,
         learning_rate=0.001, test_size=0.33,
         dropout=0.0, hidden_layers=0, hidden_sizes=[], epochs=10, batch_size=100):
 
-        # shuffle data indices
-        indices = np.arange(len(labels))
-        np.random.shuffle(indices)
-        split = np.int(len(labels) * (1-test_size))
-
-        # split data for training and testing 
-        self.train_inputs = np.array([inputs[i, :] for i in indices[:split]])
-        self.train_labels = [labels[i] for i in indices[:split]]
-        self.test_inputs = np.array([inputs[i, :] for i in indices[split:]])
-        self.test_labels = [labels[i] for i in indices[split:]]
+        # split data into training and testing datasets
+        self.train_inputs, self.train_labels, self.test_inputs, self.test_labels = utils.shuffle_data(inputs, labels, test_size)
 
         # derived parameters
         self.input_length = len(self.train_inputs[0])

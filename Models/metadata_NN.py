@@ -78,7 +78,7 @@ for user in json_data:
     labels += likes
 
 model_data = {
-    'inputs': np.asarray(metadata),
+    'inputs': np.array(metadata),
     'labels': utils.log(np.asarray(labels))
 }
 utils.preprocess.add_model_data('metadata', model_data)
@@ -92,16 +92,8 @@ class Model:
         learning_rate=0.001, test_size=0.33, 
         dropout=0.0, hidden_layers=0, hidden_sizes=[], batch_size=30, epochs=10):
 
-        # shuffle data indices 
-        indices = np.arange(len(labels))
-        np.random.shuffle(indices)
-        split = np.int(len(labels) * (1-test_size))
-
-        # split data for training and testing
-        self.train_inputs = np.array([inputs[i, :] for i in indices[:split]])
-        self.train_labels = [labels[i] for i in indices[:split]]
-        self.test_inputs = np.array([inputs[i, :] for i in indices[split:]])
-        self.test_labels = [labels[i] for i in indices[split:]]
+        # split data into training and testing datasets
+        self.train_inputs, self.train_labels, self.test_inputs, self.test_labels = utils.shuffle_data(inputs, labels, test_size)
 
         # derived parameters
         self.input_length = len(self.train_inputs[0])
@@ -121,6 +113,7 @@ class Model:
     def construct_graph(self):
         # instantiate input tensors
         metadata_inputs = keras.layers.Input(shape=(self.input_length, ))
+        inputs = keras.layers.BatchNormalization()(metadata_inputs)
 
         # always include at least 1 layer before output
         inputs = keras.layers.Dense(units=100, kernel_initializer='random_normal', activation='relu')(metadata_inputs)

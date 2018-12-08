@@ -42,12 +42,14 @@ def imageclass():
 
 # ==================== MAIN.PY
 def main():
+    # meta data NN
     inputs, labels = data.metadata['inputs'], data.metadata['labels']
     metaNN = metadata_NN.Model(inputs=inputs, labels=labels, 
         learning_rate=0.001, dropout=0.25, hidden_layers=3, hidden_sizes=[100, 150, 100])
 
     meta_output = metaNN.predict(inputs)
 
+    # image classification NN
     inputs, labels = data.image_class['inputs'], data.image_class['labels']
     probabilities, vocab_size = data.image_class['probabilities'], data.image_class['vocab_size']
     imageNN = imageclass_NN.Model(inputs=inputs, labels=labels, probabilities=probabilities, vocab_size=vocab_size,
@@ -55,12 +57,18 @@ def main():
 
     image_output = imageNN.predict(inputs, probabilities)
 
-    combined_inputs = np.concatenate((meta_output, image_output), axis=1)
+    # combined NN
+    inputs = data.captions['inputs']
+    print(inputs[0])
+    stop
+    combined_inputs = np.concatenate((meta_output, image_output, np.reshape(inputs, (inputs.shape[0], 1))), axis=1)
     combined_labels = labels
+    print(combined_inputs[0])
+    stop
     combinedNN = combined_NN.Model(inputs=combined_inputs, labels=combined_labels, 
-        learning_rate=0.001, dropout=0.25, hidden_layers=5, hidden_sizes=[150, 250, 400, 250, 150], epochs=100)
+        learning_rate=0.001, dropout=0.25, hidden_layers=5, hidden_sizes=[150, 250, 400, 250, 150], epochs=5)
     combinedNN.train_model(verbose=1)
-    combinedNN.test_model(verbose=1, correct_only=0)
+    combinedNN.test_model(verbose=1, correct_only=1)
 
 # ==================== 
 
