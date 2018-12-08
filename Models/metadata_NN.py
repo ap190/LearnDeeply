@@ -64,15 +64,12 @@ for user in json_data:
                     len(post['description']) / max_description_length,
                     len(post['mentions']) / max_num_mentions,
                     post['weekday'] / 6,
-                    post['hour'] / 23]
+                    post['hour'] / 23,
+                    user['avg_likes']]
                     #tag_weight / max_tag_weight]
 
         likes.append(utils.to_int(post['likes']))
         userdata.append(postinfo)
-
-    user_mean = np.mean(likes)
-    for post in userdata:
-        post.append(user_mean)
 
     metadata += userdata
     labels += likes
