@@ -48,16 +48,16 @@ def main():
 
     print(metaNN.model.get_weights())
 
-    meta_output = metaNN.predict(inputs)
+    meta_output = metaNN.get_output_layer()
 
     inputs, labels = data.image_class['inputs'], data.image_class['labels']
     probabilities, vocab_size = data.image_class['probabilities'], data.image_class['vocab_size']
     imageNN = imageclass_NN.Model(inputs=inputs, labels=labels, probabilities=probabilities, vocab_size=vocab_size,
         learning_rate=0.001, embed_size=50, dropout=0, hidden_layers=3, hidden_sizes=[100, 150, 100])
 
-    image_output = imageNN.predict(inputs, probabilities)
+    image_output = imageNN.get_output_layer()
 
-    combined_inputs = np.concatenate((meta_output, image_output), axis=1)
+    combined_inputs = keras.layers.concatenate([meta_output, image_output])
     combined_labels = labels
     combinedNN = combined_NN.Model(inputs=combined_inputs, labels=combined_labels, 
         learning_rate=0.001, dropout=0.15, hidden_layers=5, hidden_sizes=[150, 250, 400, 250, 150], epochs=5)

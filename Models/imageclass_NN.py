@@ -104,6 +104,7 @@ class Model:
 
         # add in last dense layer to computation graph
         output = keras.layers.Dense(units=self.input_length, kernel_initializer='random_normal')(inputs)
+        self.output = output
 
         # specify optimizer and initialize model for training
         optimizer = keras.optimizers.Adam(lr=self.learning_rate)
@@ -111,6 +112,9 @@ class Model:
 
         # compile keras computation graph 
         self.model.compile(loss='mae', optimizer=optimizer, metrics=["mae", "mse"])
+
+    def get_output_layer(self):
+        return self.output
 
     ''' Train constructed model '''
     def train_model(self, verbose=0):

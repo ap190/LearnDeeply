@@ -37,9 +37,9 @@ class Model:
 
         # split data into training and testing datasets
         self.train_inputs, self.train_labels, self.test_inputs, self.test_labels = utils.shuffle_data(inputs, labels, test_size)
-
+        print(self.train_inputs)
         # derived parameters
-        self.input_length = len(self.train_inputs[0])
+        self.input_length = self.train_inputs.shape[0]
 
         # optional parameters that have defaulted values
         self.learning_rate = learning_rate
@@ -55,7 +55,7 @@ class Model:
     ''' Construct computation graph with keras '''
     def construct_graph(self):
         # instantiate input tensors
-        merged_inputs = keras.layers.Input(shape=(self.input_length, ))
+        merged_inputs = self.train_inputs
 
         # feed through at least 1 dense layer 
         inputs = keras.layers.Dense(units=100, kernel_initializer='random_normal', activation='relu')(merged_inputs)
