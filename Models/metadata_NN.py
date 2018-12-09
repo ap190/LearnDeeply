@@ -12,7 +12,8 @@ import utils
 # from hashtag.popular_hashtags import *
 
 # ==================== DATA PREPROCESSING FOR META DATA NN (WILL AUTO RUN ON IMPORT)
-#hash_weights = popular_hashtags()
+with open("top_hashtags.json", 'r') as f:
+    hash_weights = json.load(f)
 json_data = utils.preprocess.json_data
 
 max_num_following, max_num_followers,      max_num_posts    = 0, 0, 0
@@ -34,11 +35,11 @@ for user in json_data:
         max_num_mentions = max(max_num_mentions, len(post['mentions']))
 
         max_num_likes = max(max_num_likes, utils.to_int(post['likes']))
-        # tag_weight = 0
-        # for tag in post['tags']:
-        #     if tag[1:] in hash_weights:
-        #         tag_weight += hash_weights[tag[1:]]
-        # max_tag_weight = max(max_tag_weight, tag_weight)
+        tag_weight = 0
+        for tag in post['tags']:
+            if tag[1:] in hash_weights:
+                tag_weight += hash_weights[tag[1:]]
+        max_tag_weight = max(max_tag_weight, tag_weight)
 
 metadata, labels = [], []
 for user in json_data:
