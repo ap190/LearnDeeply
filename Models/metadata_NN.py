@@ -124,13 +124,16 @@ class Model:
                 inputs = keras.layers.Dropout(rate=self.dropout)(inputs)
 
         output = keras.layers.Dense(units=self.input_length, kernel_initializer='random_normal')(inputs)
-
+        self.output = output
         # specify optimizer and initialize model for training
         optimizer = keras.optimizers.Adam(lr=self.learning_rate)
         self.model = keras.models.Model(inputs=metadata_inputs, outputs=output)
 
         # comiple keras computation graph
         self.model.compile(loss='mae', optimizer=optimizer, metrics=['mae', 'mse'])
+
+    def get_output_layer(self):
+        return self.output
 
 
     ''' Train constructed model '''
