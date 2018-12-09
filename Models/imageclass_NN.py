@@ -21,7 +21,7 @@ for user in json_data:
         if not utils.to_int(image['likes']) > 0:
             continue
 
-        detection_upmap = [utils.map_word_up(item[0], 7) for item in image['classification']]
+        detection_upmap = [utils.map_word_up(item[0], 6) for item in image['classification']]
         
         detections.append(detection_upmap)
         probabilities.append([item[2] for item in image['classification']])
