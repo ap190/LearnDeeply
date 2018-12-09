@@ -114,6 +114,7 @@ def main():
         learning_rate=0.001, dropout=0.0, 
         hidden_layers=5, hidden_sizes=[150, 250, 400, 250, 150], epochs=5)
     combined_model = keras.Model(inputs=[metaNN.model_inputs, imageNN.model_inputs], outputs=combinedNN.model_outputs)
+    opti = keras.optimizers.Adam(lr=0.001, decay=1e-05)
     combined_model.compile(loss='mae', optimizer='Adam', metrics=['mae', 'mse'])
     combined_model.fit(x=[meta_train_inputs, imageclass_train_inputs], y=meta_train_labels,
         epochs=50, batch_size=30, verbose=1, validation_split=0.0)

@@ -176,7 +176,7 @@ class Model:
 
 
         # always include at least 1 layer before output
-        inputs = keras.layers.Dense(units=128, kernel_initializer='random_normal', activation='relu', name='iam1')(metadata_inputs)
+        inputs = keras.layers.Dense(units=128, kernel_initializer='random_normal', activation='softplus', name='iam1')(metadata_inputs)
         print("here1")
         inputs = keras.layers.Dropout(rate=self.dropout)(inputs)
         print(inputs)
@@ -185,10 +185,10 @@ class Model:
         if self.hidden_layers:
             # iterate through hidden layer construction
             for layer in range(self.hidden_layers):
-                inputs = keras.layers.Dense(units=self.hidden_sizes[layer], kernel_initializer='random_normal', activation='relu')(inputs)
+                inputs = keras.layers.Dense(units=self.hidden_sizes[layer], kernel_initializer='random_normal', activation='softplus')(inputs)
                 inputs = keras.layers.Dropout(rate=self.dropout)(inputs)
 
-        output = keras.layers.Dense(units=self.input_length, kernel_initializer='random_normal')(inputs)
+        output = keras.layers.Dense(units=self.input_length, kernel_initializer='random_normal', activation='linear')(inputs)
         
         return metadata_inputs, output
 
