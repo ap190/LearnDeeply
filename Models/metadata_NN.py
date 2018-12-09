@@ -60,16 +60,16 @@ for user in json_data:
 
 
         # using 24 hours for post hour
-        postinfo = [utils.to_int(user['following']) / max_num_following,
-                    utils.to_int(user['followers']) / max_num_followers,
-                    utils.to_int(user['posts']) / max_num_posts,
-                    len(post['tags']) / max_num_tags,
-                    len(post['description']) / max_description_length,
-                    len(post['mentions']) / max_num_mentions,
-                    post['weekday'] / 6,
-                    post['hour'] / 23,
-                    user['avg_likes'] / max_average_likes]
-                    # tag_weight / max_tag_weight]
+        # postinfo = [utils.to_int(user['following']) / max_num_following,
+        #             utils.to_int(user['followers']) / max_num_followers,
+        #             utils.to_int(user['posts']) / max_num_posts,
+        #             len(post['tags']) / max_num_tags,
+        #             len(post['description']) / max_description_length,
+        #             len(post['mentions']) / max_num_mentions,
+        #             post['weekday'] / 6,
+        #             post['hour'] / 23,
+        #             user['avg_likes'] / max_average_likes]
+        #             # tag_weight / max_tag_weight]
 
         # using 6 sections for hour instead of 24
         # hour = post['hour']
@@ -98,32 +98,32 @@ for user in json_data:
         #             #tag_weight / max_tag_weight]                
 
         # using the one_hot_weekday and one_hot_hour
-        # one_hot_weekday = [0]*7
-        # one_hot_weekday[post['weekday']] = 1
-        # one_hot_hour = [0]*6
-        # hour = post['hour']
-        # hour_ind = 0
-        # if hour >= 0 and hour < 8:
-        #     hour_ind = 0
-        # elif hour >= 8 and hour < 12:
-        #     hour_ind = 1
-        # elif hour >= 12 and hour < 14:
-        #     hour_ind = 2
-        # elif hour >= 14 and hour < 17:
-        #     hour_ind = 3
-        # elif hour >= 17 and hour < 20:
-        #     hour_ind = 4
-        # else:
-        #     hour_ind = 5
-        # one_hot_hour[hour_ind] = 1
-        # postinfo = [utils.to_int(user['following']) / max_num_following,
-        #             utils.to_int(user['followers']) / max_num_followers,
-        #             utils.to_int(user['posts']) / max_num_posts,
-        #             len(post['tags']) / max_num_tags,
-        #             len(post['description']) / max_description_length,
-        #             len(post['mentions']) / max_num_mentions,
-        #             user['avg_likes']] + one_hot_weekday + one_hot_hour
-        #             #tag_weight / max_tag_weight]
+        one_hot_weekday = [0]*7
+        one_hot_weekday[post['weekday']] = 1
+        one_hot_hour = [0]*6
+        hour = post['hour']
+        hour_ind = 0
+        if hour >= 0 and hour < 8:
+            hour_ind = 0
+        elif hour >= 8 and hour < 12:
+            hour_ind = 1
+        elif hour >= 12 and hour < 14:
+            hour_ind = 2
+        elif hour >= 14 and hour < 17:
+            hour_ind = 3
+        elif hour >= 17 and hour < 20:
+            hour_ind = 4
+        else:
+            hour_ind = 5
+        one_hot_hour[hour_ind] = 1
+        postinfo = [utils.to_int(user['following']) / max_num_following,
+                    utils.to_int(user['followers']) / max_num_followers,
+                    utils.to_int(user['posts']) / max_num_posts,
+                    len(post['tags']) / max_num_tags,
+                    len(post['description']) / max_description_length,
+                    len(post['mentions']) / max_num_mentions,
+                    user['avg_likes']] + one_hot_weekday + one_hot_hour
+                    #tag_weight / max_tag_weight]
 
         likes.append(utils.to_int(post['likes']))
         userdata.append(postinfo)
