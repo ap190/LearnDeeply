@@ -12,7 +12,7 @@ import utils
 # from hashtag.popular_hashtags import *
 
 # ==================== DATA PREPROCESSING FOR META DATA NN (WILL AUTO RUN ON IMPORT)
-hash_weights = json.load(open('top_hashtags.json'))
+hash_weights = json.load(open('top_hashtags.json', 'r'))
 json_data = utils.preprocess.json_data
 
 max_num_following, max_num_followers,      max_num_posts    = 0, 0, 0
