@@ -97,7 +97,7 @@ def main():
     metaNN = metadata_NN.Model(train_inputs=meta_train_inputs, train_labels=meta_test_labels, 
         test_inputs=meta_test_inputs, test_labels=meta_test_labels,
         learning_rate=0.001, dropout=0.0,
-        hidden_layers=3, hidden_sizes=[400, 200, 400])
+        hidden_layers=5, hidden_sizes=[256, 256, 256, 256, 256]) # (3) [400, 200, 400]
 
     # Image Classification Neural Network
     imageNN = imageclass_NN.Model(train_inputs=imageclass_train_inputs, train_labels=imageclass_train_labels, train_probabilities=imageclass_train_probabilities,
@@ -116,7 +116,7 @@ def main():
     combined_model = keras.Model(inputs=[metaNN.model_inputs, imageNN.model_inputs], outputs=combinedNN.model_outputs)
 
     opti = keras.optimizers.Adam(lr=0.001, decay=1e-05)
-    combined_model.compile(loss='mae', optimizer='Adam', metrics=['mae', 'mse'])
+    combined_model.compile(loss='mae', optimizer=opti, metrics=['mae', 'mse'])
 
     combined_model.fit(x=[meta_train_inputs, imageclass_train_inputs], y=meta_train_labels,
         epochs=50, batch_size=30, verbose=1, validation_split=0.0)

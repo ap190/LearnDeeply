@@ -68,8 +68,8 @@ for user in json_data:
         #             len(post['mentions']) / max_num_mentions,
         #             post['weekday'] / 6,
         #             post['hour'] / 23,
-        #             user['avg_likes'] / max_average_likes]
-        #             # tag_weight / max_tag_weight]
+        #             user['avg_likes'] / max_average_likes,
+        #             tag_weight / max_tag_weight]
 
         # using 6 sections for hour instead of 24
         # hour = post['hour']
@@ -94,8 +94,8 @@ for user in json_data:
         #             len(post['mentions']) / max_num_mentions,
         #             post['weekday'] / 6,
         #             hour_ind / 5,
-        #             user['avg_likes']]
-        #             #tag_weight / max_tag_weight]                
+        #             user['avg_likes'],
+        #             tag_weight / max_tag_weight]                
 
         # using the one_hot_weekday and one_hot_hour
         one_hot_weekday = [0]*7
