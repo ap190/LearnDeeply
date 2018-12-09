@@ -54,10 +54,10 @@ for user in json_data:
         if not utils.to_int(post['likes']) > 0:
             continue
 
-        # tag_weight = 0
-        # for tag in post['tags']:
-        #     if tag[1:] in hash_weights:
-        #         tag_weight += hash_weights[tag[1:]]
+        tag_weight = 0
+        for tag in post['tags']:
+            if tag[1:] in hash_weights:
+                tag_weight += hash_weights[tag[1:]]
 
 
         # using 24 hours for post hour
@@ -69,8 +69,8 @@ for user in json_data:
         #             len(post['mentions']) / max_num_mentions,
         #             post['weekday'] / 6,
         #             post['hour'] / 23,
-        #             user['avg_likes'] / max_average_likes]
-        #             # tag_weight / max_tag_weight]
+        #             user['avg_likes'] / max_average_likes,
+        #             tag_weight / max_tag_weight]
 
         # using 6 sections for hour instead of 24
         # hour = post['hour']
@@ -95,8 +95,8 @@ for user in json_data:
         #             len(post['mentions']) / max_num_mentions,
         #             post['weekday'] / 6,
         #             hour_ind / 5,
-        #             user['avg_likes']]
-        #             #tag_weight / max_tag_weight]                
+        #             user['avg_likes'],
+        #             tag_weight / max_tag_weight]                
 
         # using the one_hot_weekday and one_hot_hour
         one_hot_weekday = [0]*7
@@ -123,8 +123,9 @@ for user in json_data:
                     len(post['tags']) / max_num_tags,
                     len(post['description']) / max_description_length,
                     len(post['mentions']) / max_num_mentions,
-                    user['avg_likes']] + one_hot_weekday + one_hot_hour
-                    #tag_weight / max_tag_weight]
+                    user['avg_likes'],
+                    tag_weight / max_tag_weight] + one_hot_weekday + one_hot_hour
+                    
 
         likes.append(utils.to_int(post['likes']))
         userdata.append(postinfo)
