@@ -12,7 +12,7 @@ import utils
 # from hashtag.popular_hashtags import *
 
 # ==================== DATA PREPROCESSING FOR META DATA NN (WILL AUTO RUN ON IMPORT)
-#hash_weights = popular_hashtags()
+hash_weights = json.load(open('top_hashtags.json'))
 json_data = utils.preprocess.json_data
 
 max_num_following, max_num_followers,      max_num_posts    = 0, 0, 0
@@ -34,11 +34,11 @@ for user in json_data:
         max_num_mentions = max(max_num_mentions, len(post['mentions']))
 
         max_num_likes = max(max_num_likes, utils.to_int(post['likes']))
-        # tag_weight = 0
-        # for tag in post['tags']:
-        #     if tag[1:] in hash_weights:
-        #         tag_weight += hash_weights[tag[1:]]
-        # max_tag_weight = max(max_tag_weight, tag_weight)
+        tag_weight = 0
+        for tag in post['tags']:
+            if tag[1:] in hash_weights:
+                tag_weight += hash_weights[tag[1:]]
+        max_tag_weight = max(max_tag_weight, tag_weight)
 
 metadata, labels = [], []
 for user in json_data:
@@ -53,10 +53,10 @@ for user in json_data:
         if not utils.to_int(post['likes']) > 0:
             continue
 
-        # tag_weight = 0
-        # for tag in post['tags']:
-        #     if tag[1:] in hash_weights:
-        #         tag_weight += hash_weights[tag[1:]]
+        tag_weight = 0
+        for tag in post['tags']:
+            if tag[1:] in hash_weights:
+                tag_weight += hash_weights[tag[1:]]
 
 
         # using 24 hours for post hour
@@ -122,8 +122,8 @@ for user in json_data:
                     len(post['tags']) / max_num_tags,
                     len(post['description']) / max_description_length,
                     len(post['mentions']) / max_num_mentions,
-                    user['avg_likes']] + one_hot_weekday + one_hot_hour
-                    #tag_weight / max_tag_weight]
+                    user['avg_likes'],
+                    tag_weight / max_tag_weight] + one_hot_weekday + one_hot_hour
 
         likes.append(utils.to_int(post['likes']))
         userdata.append(postinfo)

@@ -21,7 +21,7 @@ for user in json_data:
         if not utils.to_int(image['likes']) > 0:
             continue
 
-        detection_upmap = [utils.map_word_up(item[0], 7) for item in image['classification']]
+        detection_upmap = [utils.map_word_up(item[0], 6) for item in image['classification']]
         
         detections.append(detection_upmap)
         probabilities.append([item[2] for item in image['classification']])
@@ -93,11 +93,11 @@ class Model:
         if self.hidden_layers:
             # iterate through hidden layer construction
             for layer in range(self.hidden_layers):
-                inputs = keras.layers.Dense(units=self.hidden_sizes[layer], kernel_initializer='random_normal', activation='relu')(inputs)
+                inputs = keras.layers.Dense(units=self.hidden_sizes[layer], kernel_initializer='random_normal', activation='softplus')(inputs)
                 inputs = keras.layers.Dropout(rate=self.dropout)(inputs)
 
         # add in last dense layer to computation graph
-        output = keras.layers.Dense(units=self.input_length, kernel_initializer='random_normal')(inputs)
+        output = keras.layers.Dense(units=self.input_length, kernel_initializer='random_normal', activation='linear')(inputs)
         
         return wordIDs, output
 
