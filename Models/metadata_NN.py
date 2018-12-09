@@ -85,12 +85,16 @@ utils.preprocess.add_model_data('metadata', model_data)
 # ====================
 ''' Neural Network for learning the weights of the meta data of users and their posts' effect on likes recieved '''
 class Model:
-    def __init__(self, inputs, labels, 
-        learning_rate=0.001, test_size=0.33, 
-        dropout=0.0, hidden_layers=0, hidden_sizes=[], batch_size=30, epochs=10):
+    def __init__(self, train_inputs, train_labels, test_inputs, test_labels, 
+        learning_rate=0.001, dropout=0.0,
+        hidden_layers=0, hidden_sizes=[], batch_size=30, epochs=10):
 
-        # split data into training and testing datasets
-        self.train_inputs, self.train_labels, self.test_inputs, self.test_labels = utils.shuffle_data(inputs, labels, test_size)
+        # required parameters
+        self.train_inputs = train_inputs
+        self.train_labels = train_labels
+
+        self.test_inputs = test_inputs
+        self.test_labels = test_labels
 
         # derived parameters
         self.input_length = len(self.train_inputs[0])
@@ -104,7 +108,7 @@ class Model:
         self.batch_size = batch_size
 
         # computation graph construction
-        self.construct_graph()
+        self.model_inputs, self.model_outputs = self.construct_graph()
 
     ''' Construct computation graph with keras '''
     def construct_graph(self):
@@ -124,17 +128,8 @@ class Model:
                 inputs = keras.layers.Dropout(rate=self.dropout)(inputs)
 
         output = keras.layers.Dense(units=self.input_length, kernel_initializer='random_normal')(inputs)
-        self.output = output
-        # specify optimizer and initialize model for training
-        optimizer = keras.optimizers.Adam(lr=self.learning_rate)
-        self.model = keras.models.Model(inputs=metadata_inputs, outputs=output)
-
-        # comiple keras computation graph
-        self.model.compile(loss='mae', optimizer=optimizer, metrics=['mae', 'mse'])
-
-    def get_output_layer(self):
-        return self.output
-
+        
+        return metadata_inputs, output
 
     ''' Train constructed model '''
     def train_model(self, verbose=0):

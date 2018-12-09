@@ -43,24 +43,19 @@ utils.preprocess.add_model_data('image_class', model_data)
 # ====================
 ''' Neural Network for learning how the objects in an image influences the number of likes on instagram it receives. '''
 class Model:
-    def __init__(self, inputs, labels, probabilities, vocab_size, 
-        embed_size=100, learning_rate=0.001, test_size=0.33,
-        dropout=0.0, hidden_layers=0, hidden_sizes=[], epochs=10, batch_size=100):
+    def __init__(self, train_inputs, train_labels, train_probabilities, test_inputs, test_labels, test_probabilities, 
+        vocab_size, embed_size=100, 
+        learning_rate=0.001, dropout=0.0, 
+        hidden_layers=0, hidden_sizes=[], epochs=10, batch_size=100):
 
-        # shuffle data indices 
-        indices = np.arange(len(labels))
-        np.random.shuffle(indices)
-        split = np.int(len(labels) * (1-test_size))
+        # required parameters
+        self.train_inputs = train_inputs
+        self.train_labels = train_labels
+        self.train_probabilities = train_probabilities
 
-        # required inputs to the model
-        self.train_inputs = [inputs[i, :] for i in indices[:split]]
-        self.train_labels = [labels[i] for i in indices[:split]]
-        self.train_probabilities = [probabilities[i, :] for i in indices[:split]]
-
-        self.test_inputs = [inputs[i, :] for i in indices[split:]]
-        self.test_labels = [labels[i] for i in indices[split:]]
-
-        self.test_probabilities = [probabilities[i, :] for i in indices[split:]]
+        self.test_inputs = test_inputs
+        self.test_labels = test_labels
+        self.test_probabilities = test_probabilities
 
         self.vocab_size = vocab_size
 
@@ -78,13 +73,13 @@ class Model:
         self.batch_size = batch_size
 
         # computation graph construction
-        self.construct_graph()
+        self.model_inputs, self.model_outputs = self.construct_graph()
 
     ''' Construct computation graph with keras '''
     def construct_graph(self):
         # instantiate input tensors 
         wordIDs = keras.layers.Input(shape=(self.input_length, ))
-        probabilities = keras.layers.Input(shape=(self.probabilities_length, ))
+        # probabilities = keras.layers.Input(shape=(self.probabilities_length, ))
 
         # encode inputs with embedding tensor
         E = keras.layers.Embedding(input_dim=self.vocab_size, output_dim=self.embed_size, input_length=self.input_length)(wordIDs)
@@ -103,14 +98,8 @@ class Model:
 
         # add in last dense layer to computation graph
         output = keras.layers.Dense(units=self.input_length, kernel_initializer='random_normal')(inputs)
-        self.output = output
-
-        # specify optimizer and initialize model for training
-        optimizer = keras.optimizers.Adam(lr=self.learning_rate)
-        self.model = keras.models.Model(inputs=[wordIDs, probabilities], outputs=output)
-
-        # compile keras computation graph 
-        self.model.compile(loss='mae', optimizer=optimizer, metrics=["mae", "mse"])
+        
+        return wordIDs, output
 
     def get_output_layer(self):
         return self.output
