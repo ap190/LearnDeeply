@@ -32,7 +32,7 @@ def test():
 # ==================== METADATA
 def metadata():
     inputs, labels = data.metadata['inputs'], data.metadata['labels']
-    metaNN = metadata_NN.Model(inputs=inputs, labels=labels)
+    metaNN = metadata_NN.Model(inputs=inputs, labels=labels, learning_rate=0.001, dropout=0, hidden_layers=3, hidden_sizes=[256, 256, 256])
     metaNN.train_model(verbose=1)
     metaNN.test_model(verbose=1)
 
@@ -97,12 +97,12 @@ def main():
     metaNN = metadata_NN.Model(train_inputs=meta_train_inputs, train_labels=meta_test_labels, 
         test_inputs=meta_test_inputs, test_labels=meta_test_labels,
         learning_rate=0.001, dropout=0.25,
-        hidden_layers=0, hidden_sizes=[100, 150, 100])
+        hidden_layers=3, hidden_sizes=[100, 150, 100])
 
     # Image Classification Neural Network
     imageNN = imageclass_NN.Model(train_inputs=imageclass_train_inputs, train_labels=imageclass_train_labels, train_probabilities=imageclass_train_probabilities,
         test_inputs=imageclass_test_inputs, test_labels=imageclass_test_labels, test_probabilities=imageclass_test_probabilities,
-        learning_rate=0.001, embed_size=50, vocab_size=imageclass_vocab_size, dropout=0.25, hidden_layers=0, hidden_sizes=[100, 150, 100])
+        learning_rate=0.001, embed_size=50, vocab_size=imageclass_vocab_size, dropout=0.25, hidden_layers=3, hidden_sizes=[100, 150, 100])
 
     combined_inputs = keras.layers.concatenate([metaNN.model_inputs, imageNN.model_inputs])
 
@@ -112,7 +112,7 @@ def main():
 
     combinedNN = combined_NN.Model(train_inputs=combined_inputs, train_labels=meta_train_labels, 
         learning_rate=0.001, dropout=0.15, 
-        hidden_layers=0, hidden_sizes=[150, 250, 400, 250, 150], epochs=5)
+        hidden_layers=5, hidden_sizes=[150, 250, 400, 250, 150], epochs=5)
     combined_model = keras.Model(inputs=[metaNN.model_inputs, imageNN.model_inputs], outputs=combinedNN.model_outputs)
     combined_model.compile(loss='mae', optimizer='Adam', metrics=['mae', 'mse'])
     combined_model.fit(x=[meta_train_inputs, imageclass_train_inputs], y=meta_train_labels,

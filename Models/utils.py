@@ -233,7 +233,7 @@ Returns:
 '''
 class preprocess:
     def __init__(self, data_path):
-        with open(data_path+'compiled_data.json') as jsonfile:
+        with open(data_path+'compiled_data.json', 'rb') as jsonfile:
             json_data = json.load(jsonfile)
 
         self.json_data = json_data

@@ -17,7 +17,7 @@ json_data = utils.preprocess.json_data
 
 max_num_following, max_num_followers,      max_num_posts    = 0, 0, 0
 max_num_tags,      max_description_length, max_num_mentions = 0, 0, 0
-max_tag_weight,    max_num_likes,                           = 0, 0
+max_tag_weight,    max_num_likes,          max_average_likes= 0, 0, 0
 
 for user in json_data:
     if not user['images']:
@@ -26,6 +26,7 @@ for user in json_data:
     max_num_following = max(max_num_following, utils.to_int(user['following']))
     max_num_followers = max(max_num_followers, utils.to_int(user['followers']))
     max_num_posts = max(max_num_posts, utils.to_int(user['posts']))
+    max_average_likes = max(max_average_likes, utils.to_int(user['avg_likes']))
 
     for post in user['images']:
         max_num_tags = max(max_num_tags, len(post['tags']))
@@ -57,6 +58,8 @@ for user in json_data:
         #     if tag[1:] in hash_weights:
         #         tag_weight += hash_weights[tag[1:]]
 
+
+        # using 24 hours for post hour
         postinfo = [utils.to_int(user['following']) / max_num_following,
                     utils.to_int(user['followers']) / max_num_followers,
                     utils.to_int(user['posts']) / max_num_posts,
@@ -65,8 +68,62 @@ for user in json_data:
                     len(post['mentions']) / max_num_mentions,
                     post['weekday'] / 6,
                     post['hour'] / 23,
-                    user['avg_likes']]
-                    #tag_weight / max_tag_weight]
+                    user['avg_likes'] / max_average_likes]
+                    # tag_weight / max_tag_weight]
+
+        # using 6 sections for hour instead of 24
+        # hour = post['hour']
+        # hour_ind = 0
+        # if hour >= 0 and hour < 8:
+        #     hour_ind = 0
+        # elif hour >= 8 and hour < 12:
+        #     hour_ind = 1
+        # elif hour >= 12 and hour < 14:
+        #     hour_ind = 2
+        # elif hour >= 14 and hour < 17:
+        #     hour_ind = 3
+        # elif hour >= 17 and hour < 20:
+        #     hour_ind = 4
+        # else:
+        #     hour_ind = 5
+        # postinfo = [utils.to_int(user['following']) / max_num_following,
+        #             utils.to_int(user['followers']) / max_num_followers,
+        #             utils.to_int(user['posts']) / max_num_posts,
+        #             len(post['tags']) / max_num_tags,
+        #             len(post['description']) / max_description_length,
+        #             len(post['mentions']) / max_num_mentions,
+        #             post['weekday'] / 6,
+        #             hour_ind / 5,
+        #             user['avg_likes']]
+        #             #tag_weight / max_tag_weight]                
+
+        # using the one_hot_weekday and one_hot_hour
+        # one_hot_weekday = [0]*7
+        # one_hot_weekday[post['weekday']] = 1
+        # one_hot_hour = [0]*6
+        # hour = post['hour']
+        # hour_ind = 0
+        # if hour >= 0 and hour < 8:
+        #     hour_ind = 0
+        # elif hour >= 8 and hour < 12:
+        #     hour_ind = 1
+        # elif hour >= 12 and hour < 14:
+        #     hour_ind = 2
+        # elif hour >= 14 and hour < 17:
+        #     hour_ind = 3
+        # elif hour >= 17 and hour < 20:
+        #     hour_ind = 4
+        # else:
+        #     hour_ind = 5
+        # one_hot_hour[hour_ind] = 1
+        # postinfo = [utils.to_int(user['following']) / max_num_following,
+        #             utils.to_int(user['followers']) / max_num_followers,
+        #             utils.to_int(user['posts']) / max_num_posts,
+        #             len(post['tags']) / max_num_tags,
+        #             len(post['description']) / max_description_length,
+        #             len(post['mentions']) / max_num_mentions,
+        #             user['avg_likes']] + one_hot_weekday + one_hot_hour
+        #             #tag_weight / max_tag_weight]
 
         likes.append(utils.to_int(post['likes']))
         userdata.append(postinfo)
@@ -98,6 +155,7 @@ class Model:
 
         # derived parameters
         self.input_length = len(self.train_inputs[0])
+        print(self.input_length)
 
         # optional parameters that have defaulted values
         self.learning_rate = learning_rate
@@ -114,11 +172,14 @@ class Model:
     def construct_graph(self):
         # instantiate input tensors
         metadata_inputs = keras.layers.Input(shape=(self.input_length, ))
-        inputs = keras.layers.BatchNormalization()(metadata_inputs)
+        # inputs = keras.layers.BatchNormalization()(metadata_inputs)
+
 
         # always include at least 1 layer before output
-        inputs = keras.layers.Dense(units=100, kernel_initializer='random_normal', activation='relu')(metadata_inputs)
+        inputs = keras.layers.Dense(units=128, kernel_initializer='random_normal', activation='relu', name='iam1')(metadata_inputs)
+        print("here1")
         inputs = keras.layers.Dropout(rate=self.dropout)(inputs)
+        print(inputs)
 
         # if number of hidden layers and their respective sizes are specified
         if self.hidden_layers:
