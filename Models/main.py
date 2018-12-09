@@ -15,7 +15,7 @@ data = utils.preprocess
 import keras
 import numpy as np
 
-#import image_CNN
+import image_CNN
 import imageclass_NN
 import metadata_NN
 import combined_NN
