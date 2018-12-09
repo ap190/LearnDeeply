@@ -19,15 +19,9 @@ for user in json_data:
 
         desc = image['description']
         desc = " ".join(filter(lambda x:x[0]!='#' and x[0]!='@', desc.split()))
-        sentiment = utils.sentiment_analysis(desc)
-
-        captions.append(sentiment)
-        likes.append(utils.to_int(image['likes']))
-
-        print('(%.3f): %s' % (sentiment, desc))
 
 model_data = {
-    'inputs': np.array(captions),
+    'inputs': np.array(desc),
     'labels': utils.log(np.array(likes))
 }
 utils.preprocess.add_model_data('captions', model_data)
