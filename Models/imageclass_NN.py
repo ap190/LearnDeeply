@@ -28,7 +28,6 @@ for user in json_data:
         num_likes.append(utils.to_int(image['likes']))
 
 e_vec, vocab_size, _ = utils.embed_vector(detections)
-print(vocab_size)
 model_data = {
     'inputs': np.array(e_vec),
     'labels': utils.log(np.array(num_likes)),
