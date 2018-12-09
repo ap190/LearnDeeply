@@ -96,13 +96,13 @@ def main():
     # Metadata Neural Network
     metaNN = metadata_NN.Model(train_inputs=meta_train_inputs, train_labels=meta_test_labels, 
         test_inputs=meta_test_inputs, test_labels=meta_test_labels,
-        learning_rate=0.001, dropout=0.25,
-        hidden_layers=3, hidden_sizes=[100, 150, 100])
+        learning_rate=0.001, dropout=0.0,
+        hidden_layers=3, hidden_sizes=[400, 200, 400])
 
     # Image Classification Neural Network
     imageNN = imageclass_NN.Model(train_inputs=imageclass_train_inputs, train_labels=imageclass_train_labels, train_probabilities=imageclass_train_probabilities,
         test_inputs=imageclass_test_inputs, test_labels=imageclass_test_labels, test_probabilities=imageclass_test_probabilities,
-        learning_rate=0.001, embed_size=50, vocab_size=imageclass_vocab_size, dropout=0.25, hidden_layers=3, hidden_sizes=[100, 150, 100])
+        learning_rate=0.001, embed_size=100, vocab_size=imageclass_vocab_size, dropout=0.0, hidden_layers=3, hidden_sizes=[400, 200, 400])
 
     combined_inputs = keras.layers.concatenate([metaNN.model_inputs, imageNN.model_inputs])
 
@@ -111,12 +111,12 @@ def main():
     # combined_inputs = np.concatenate((meta_output, image_output, np.reshape(inputs, (inputs.shape[0], 1))), axis=1)
 
     combinedNN = combined_NN.Model(train_inputs=combined_inputs, train_labels=meta_train_labels, 
-        learning_rate=0.001, dropout=0.15, 
+        learning_rate=0.001, dropout=0.0, 
         hidden_layers=5, hidden_sizes=[150, 250, 400, 250, 150], epochs=5)
     combined_model = keras.Model(inputs=[metaNN.model_inputs, imageNN.model_inputs], outputs=combinedNN.model_outputs)
     combined_model.compile(loss='mae', optimizer='Adam', metrics=['mae', 'mse'])
     combined_model.fit(x=[meta_train_inputs, imageclass_train_inputs], y=meta_train_labels,
-        epochs=5, batch_size=30, verbose=1, validation_split=0.2)
+        epochs=50, batch_size=30, verbose=1, validation_split=0.0)
 
     predictions = combined_model.predict([meta_test_inputs, imageclass_test_inputs])
 
