@@ -37,18 +37,18 @@ def main():
 
     # combine modules
     metaNN = metadata_nn.Graph(input_length=len(meta_inputs[0]), intermediate_layer=128,
-        dropout=0.25, hidden_layers=5, hidden_sizes=[256, 256, 256, 256, 256])
+        dropout=0.0, hidden_layers=5, hidden_sizes=[64, 128, 256, 512, 1024])
 
     imageNN = imageclass_nn.Graph(input_length=len(imageclass_inputs[0]), vocab_size=data.image_class['vocab_size'], embed_size=100,
-        dropout=0.25, hidden_layers=3, hidden_sizes=[400, 400, 400])
+        dropout=0.0, hidden_layers=5, hidden_sizes=[300, 400, 500, 400, 300])
 
-    nima = nima_nn.Graph(dropout=0.25)
+    nima = nima_nn.Graph(dropout=0.0)
 
     combineNN = combined_nn.Graph(input_tensor=keras.layers.concatenate([metaNN.outputs, imageNN.outputs, nima.outputs], axis=1), 
-        intermediate_layer=250, dropout=0.25, hidden_layers=5, hidden_sizes=[200, 300, 400, 300, 200])
+        intermediate_layer=250, dropout=0.0, hidden_layers=7, hidden_sizes=[200, 400, 800, 1600, 800, 400, 200])
 
     learning_rate, decay_rate = 0.001, 1e-05
-    epochs, batch_size = 5, 100
+    epochs, batch_size = 5, 30
     test_size = 0.33
     validation_split = 0
 

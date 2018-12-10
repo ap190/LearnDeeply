@@ -13,6 +13,7 @@ import keras
 import numpy as np
 
 from keras import backend as kb
+from keras.applications import mobilenet
 from keras.preprocessing import image
 from tqdm import tqdm
 
@@ -306,7 +307,11 @@ class DataGenerator(keras.utils.Sequence):
             image_class.append(self.inputs[ID, self.split[0]:self.split[1]])
             
             img = image.load_img(self.inputs[ID, -1], target_size=(224, 224))
-            image_array.append(image.img_to_array(img))
+            img_array = image.img_to_array(img)
+            img_array = mobilenet.preprocess_input(np.expand_dims(img_array, axis=0))
+            img_array = np.squeeze(img_array, axis=0)
+
+            image_array.append(img_array)
 
             outputs.append(self.labels[ID])
 

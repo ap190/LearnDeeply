@@ -47,10 +47,10 @@ class Graph:
 
         outputs = Dropout(rate=self.dropout)(base_model.output)
         outputs = Dense(10, activation='softmax')(outputs)
-        outputs.trainable = False
 
         NIMA = keras.Model(base_model.input, outputs)
         NIMA.load_weights('modules/mobilenet_weights.h5')
+        NIMA.layers[-1].trainable = True
 
         return base_model.input, NIMA.output
 
