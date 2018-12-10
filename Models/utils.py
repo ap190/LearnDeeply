@@ -71,12 +71,13 @@ Returns:
     a shuffled vector of indices
 '''
 def shuffle_indices(index_range):
-    if type(index_range) is 'int':
-        vec = np.arange(index_range)
-    elif isinstance(index_range, (list, np.ndarray)):
+    if isinstance(index_range, (list, np.ndarray)):
         vec = index_range
-
-    return np.random.shuffle(vec)
+    else:
+        vec = np.arange(index_range)
+    
+    np.random.shuffle(vec)
+    return vec
 
 
 ''' Numerically stable logarithm function
@@ -232,7 +233,7 @@ Returns:
 '''
 class preprocess:
     def __init__(self, data_path):
-        with open(data_path+'compiled_data.json') as jsonfile:
+        with open(data_path+'compiled_data.json', 'rb') as jsonfile:
             json_data = json.load(jsonfile)
 
         self.json_data = json_data
