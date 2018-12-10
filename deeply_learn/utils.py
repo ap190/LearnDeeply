@@ -9,9 +9,12 @@ Common utility functions
 '''
 
 import json
+import keras
 import numpy as np
 
 from keras import backend as kb
+from keras.preprocessing import image
+from tqdm import tqdm
 
 '''
 Converts whatever should be an integer that isn't an integer into an integer as it should be.
@@ -87,8 +90,6 @@ def hour_categorize(hour):
 Translates a list of words into integers referenced by a created vocabulary
 '''
 def embed_vector(batch_data):
-    print('starting the thing with embedding')
-    count = 0
     # build vocabulary of unique words in passed in list of words
     flat_list = list(np.array(batch_data).flatten())
     vocab = list(set(flat_list))
@@ -103,9 +104,6 @@ def embed_vector(batch_data):
                 words.append(vocab.index(word))
             else:
                 e_vec.append(vocab.index('UNK'))
-
-        count += 1
-        print(count)
 
         e_vec.append(words)
 
@@ -150,29 +148,81 @@ def rmse(y_true, y_pred):
 
 
 '''
+Creates keras data generators for training and testing
+'''
+def create_data_generators(inputs, labels, train_batch_size=30, test_size=0.33):
+    indices = shuffle_indices(len(labels))
+    split = np.int(len(indices) * (1-test_size))
+
+    train_index, test_index = indices[:split], indices[split:]
+
+    train_labels = [labels[i] for i in train_index]
+    test_labels = [labels[i] for i in test_index]
+
+    train_set, test_set = [], []
+    splitting_points = []
+    for count, item in enumerate(inputs):
+        train_data = [item[i] for i in train_index]
+        train_data = np.array(train_data)
+
+        test_data = [item[i] for i in test_index]
+        test_data = np.array(test_data)
+
+        if len(train_data.shape) == 1 and len(test_data.shape) == 1:
+            train_data = train_data.reshape((len(train_data), 1))
+            test_data = test_data.reshape((len(test_data), 1))
+
+        if count > 0:
+            splitting_points.append(splitting_points[count-1] + train_data.shape[1])
+        else:
+            splitting_points.append(train_data.shape[1])
+
+        train_set.append(train_data)
+        test_set.append(test_data)
+
+    train_set = np.concatenate(tuple(train_set), axis=1)
+    test_set = np.concatenate(tuple(test_set), axis=1)
+
+    train_gen = DataGenerator(train_index, train_set, splitting_points, train_labels, train_batch_size)
+    test_gen = DataGenerator(test_index, test_set, splitting_points, test_labels, 1)
+    
+    return train_gen, test_gen
+
+
+'''
 Use a passed in keras model for predictions
 '''
-def keras_predict(model, inputs, targets, tolerance=0.1, verbose=1, correct_only=0):
-    predictions = model.predict(inputs)
+def keras_predict(generator, model, tolerance=0.1, verbose=1, correct_only=0):
+    correct = []
+    history = {'prediction': [], 'target': []}
+    for i in tqdm(range(len(generator.IDs)), desc='generating predictions', ncols=100):
+        x, y = generator.__getitem__(i)
+        prediction = model.predict(x)
 
-    correct = 0
-    for prediction, target in zip(predictions, targets):
-        prediction, target = np.exp(prediction), np.exp(target)
-        mark = ''
+        prediction, target = np.exp(prediction), np.exp(y)
 
         if np.abs(prediction-target) <= target*tolerance:
-            correct += 1
-            mark = 'O'
+            correct.append(1)
+        else:
+            correct.append(0)
 
-        if verbose:
-                if correct_only and mark is 'O':
-                    print('prediction: %20.3f  |  target: %20.3f  |  %s' % (prediction, target, mark))
-                else: 
-                    print('prediction: %20.3f  |  target: %20.3f  |  %s' % (prediction, target, mark))
+        history['prediction'].append(prediction)
+        history['target'].append(target)
 
-    print('Total number correct = %d / %d' % (correct, len(targets)), end='\n')
 
-    return np.exp(predictions)
+    if verbose:
+        for i in range(len(correct)):
+            if correct_only:
+                if correct[i]:
+                    print('prediction: %20.3f  |  target: %20.3f  |  %s' % (history['prediction'][i], history['target'][i], 'O'))
+            else:
+                if correct[i]:
+                    print('prediction: %20.3f  |  target: %20.3f  |  %s' % (history['prediction'][i], history['target'][i], 'O'))
+                else:
+                    print('prediction: %20.3f  |  target: %20.3f  | ' % (history['prediction'][i], history['target'][i]))
+
+    print('Total number correct = %d / %d' % (np.sum(correct), len(generator.IDs)), end='\n')
+    return history
 
 
 '''
@@ -203,11 +253,63 @@ class preprocess:
     ''' Add a preprocessing function '''
     def add_preprocess_function(self, name, funct):
         self.preproc_functs[name] = funct
-
 def initialize_globals(data_path):
     build_child_to_parent(data_path)
     global preprocess
     preprocess = preprocess(data_path)
 
+
+'''
+Data generator for keras models
+This will allow us to load in images and generate batch data on the fly, solving the problem
+of running out of memory when trying to load in too many images
+(order of input data MUST be [meta, image classification, image path]!!!)
+'''
+class DataGenerator(keras.utils.Sequence):
+    def __init__(self, IDs, inputs, splitting_points, labels, batch_size=30, shuffle=True):
+        self.IDs = IDs
+        self.inputs = inputs
+        self.split = splitting_points
+        self.labels = labels
+
+        self.batch_size = batch_size
+        self.shuffle = shuffle
+
+        self.on_epoch_end()
+
+    def __len__(self):
+        return int(np.floor(len(self.IDs) / self.batch_size))
+
+    def __getitem__(self, index):
+        indices = self.indices[index*self.batch_size : (index+1)*self.batch_size]
+
+        temp_IDs = [self.indices[i] for i in indices]
+
+        inputs, labels = self.__data_generation(temp_IDs)
+
+        return inputs, labels
+
+    def on_epoch_end(self):
+        self.indices = np.arange(len(self.IDs))
+        if self.shuffle:
+            np.random.shuffle(self.indices)
+
+    def __data_generation(self, temp_IDs):
+        meta = []
+        image_class = []
+        image_array = []
+        outputs = []
+
+        for ID in temp_IDs:
+            meta.append(self.inputs[ID, :self.split[0]])
+
+            image_class.append(self.inputs[ID, self.split[0]:self.split[1]])
+            
+            img = image.load_img(self.inputs[ID, -1], target_size=(224, 224))
+            image_array.append(image.img_to_array(img))
+
+            outputs.append(self.labels[ID])
+
+        return [np.array(meta), np.array(image_class), np.array(image_array)], outputs
 
 

@@ -10,9 +10,8 @@ user's instagram post.
 '''
 
 import numpy as np
+import keras
 import utils
-from keras import backend as K 
-from keras.applications import mobilenet as M
 from keras.callbacks import ModelCheckpoint, TensorBoard
 from keras.layers import Dense, Dropout
 from keras.models import Model
@@ -23,15 +22,7 @@ from keras.applications.mobilenet import MobileNet
 
 # ==================== DATA PREPROCESSING (WILL AUTO RUN ON IMPORT)
 def nima_data(_data, _dict):
-    img = image.load_img(_data, target_size=(224, 224))
-
-    im_array = image.img_to_array(img)
-    im_array = np.expand_dims(im_array, axis=0)
-
-    pim = M.preprocess_input(im_array)
-    pim = pim.flatten()
-
-    _dict['images'].append(pim.tolist())
+    _dict['images'].append(_data)
 
 utils.preprocess.add_preprocess_function('nima', nima_data)
 # ====================
@@ -39,24 +30,29 @@ utils.preprocess.add_preprocess_function('nima', nima_data)
 
 # ==================== NIMA KNOCKOFF
 class Graph:
-    def __init__(self, input_shape, dropout=0.0):
+    def __init__(self, dropout=0.0):
         self.dropout = dropout
 
-        self.inputs, self.outputs, self.layers = self.construct_graph()
+        self.inputs, self.outputs = self.construct_graph()
 
     def construct_graph(self):
-        images = keras.layers.Input(shape=(input_shape[0]*input_shape[1]*input_shape[2], ))
-
+        # load images to target size
         image_size = 224
-        base_model = MobileNet(input_shape=(image_size, image_size, 3), input_tensor=images, alpha=1, include_top=False, pooling='avg')
+        base_model = MobileNet(input_shape=(image_size, image_size, 3), alpha=1, include_top=False, pooling='avg')
+        # incorrect layers, without the top layer we have 54 layers but this weights file has 55 layers of weights
+        # base_model.load_weights('modules/mobilenet_weights.h5')
 
         for layer in base_model.layers:
             layer.trainable = False
 
         outputs = Dropout(rate=self.dropout)(base_model.output)
         outputs = Dense(10, activation='softmax')(outputs)
+        outputs.trainable = False
 
-        return images, outputs, base_model.layers
+        NIMA = keras.Model(base_model.input, outputs)
+        NIMA.load_weights('modules/mobilenet_weights.h5')
+
+        return base_model.input, NIMA.output
 
 # ====================
 

@@ -12,6 +12,7 @@ import json
 import numpy as np
 import utils
 import sys
+from tqdm import tqdm
 
 def main():
     json_data = utils.preprocess.json_data
@@ -20,11 +21,6 @@ def main():
 
     num_likes = []
 
-    # image classification preprocessing
-    image_class_data = {
-        'detections': [],
-        'probabilities': []
-    }
     # metadata preprocessing
     meta_data = {
         'followers' : [],
@@ -38,14 +34,18 @@ def main():
         'weekday'   : [],
         'hour'      : []
     }
+    # image classification preprocessing
+    image_class_data = {
+        'detections': [],
+        'probabilities': []
+    }
     # nima preprocessing
     nima_data = {
         'image_path': sys.path[0] + '/data/',
         'images': []
     }
 
-    print('preprocessing data . . .')
-    for user in json_data:
+    for user in tqdm(json_data, desc='data preprocessing', ncols=100):
         for image in user['images']:
             likes = utils.to_int(image['likes']) 
 
@@ -68,7 +68,6 @@ def main():
             preproc_funct['nima'](image_path, nima_data)
 
     # add metadata
-    print('                 . . . adding metadata')
     meta_data = {
         'followers' : np.column_stack(np.array(meta_data['followers']) / max(meta_data['followers'])).T,
         'following' : np.column_stack(np.array(meta_data['following']) / max(meta_data['following'])).T,
@@ -90,20 +89,15 @@ def main():
     add_data('metadata', meta_data)
 
     # add image classification data
-    print('                 . . . adding image classifications')
     image_class_data['detections'], image_class_data['vocab_size'], _ = utils.embed_vector(image_class_data['detections'])
     add_data('image_class', image_class_data)
 
     # add nima 
-    print('                 . . . adding nima data')
     add_data('nima', nima_data)
 
     # add labels
-    print('                 . . . adding labels')
     add_data('labels', utils.log(np.array(num_likes)))
 
-    print('preprocessing finished.')
-    stop
 
 if __name__ == 'preprocess_data':
     main()
