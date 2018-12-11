@@ -50,13 +50,17 @@ utils.preprocess.add_preprocess_function('metadata', meta_data)
 # ==================== KERAS CREATED NEURAL NETWORK
 ''' Neural Network for learning how the metadata of a post influences the number of likes on instagram it receives. '''
 class Graph:
-    def __init__(self, input_length, intermediate_layer=128, dropout=0.0, hidden_layers=0, hidden_sizes=[]):
+    def __init__(self, input_length, output_length=0, intermediate_layer=128, dropout=0.0, hidden_layers=0, hidden_sizes=[]):
         self.input_length = input_length
 
         self.intermediate_layer = intermediate_layer
         self.dropout = dropout
         self.hidden_layers = hidden_layers
         self.hidden_sizes = hidden_sizes
+        if output_length == 0:
+            self.output_length = self.input_length
+        else:
+            self.output_length = output_length
 
         self.inputs, self.outputs = self.construct_graph()
 
@@ -75,7 +79,7 @@ class Graph:
                 inputs = keras.layers.Dropout(rate=self.dropout)(inputs)
 
         # last dense layer
-        outputs = keras.layers.Dense(units=self.input_length, kernel_initializer='random_normal', activation='linear')(inputs)
+        outputs = keras.layers.Dense(units=self.output_length, kernel_initializer='random_normal', activation='linear')(inputs)
 
         return metadata, outputs
 
