@@ -55,7 +55,7 @@ class Graph:
         # hidden layers
         if self.hidden_layers:
             for layer in range(self.hidden_layers):
-                inputs = keras.layers.Dense(units=self.hidden_sizes[layer], kernel_initializer='random_normal', activation='softplus')(inputs)
+                inputs = keras.layers.Dense(units=self.hidden_sizes[layer], kernel_initializer='random_normal', activation='relu')(inputs)
                 inputs = keras.layers.Dropout(rate=self.dropout)(inputs)
 
         # last dense layer

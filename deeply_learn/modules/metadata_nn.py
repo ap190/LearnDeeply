@@ -65,13 +65,13 @@ class Graph:
         metadata = keras.layers.Input(shape=(self.input_length, ))
 
         # first dense layer
-        inputs = keras.layers.Dense(units=self.intermediate_layer, kernel_initializer='random_normal', activation='softplus')(metadata)
+        inputs = keras.layers.Dense(units=self.intermediate_layer, kernel_initializer='random_normal', activation='relu')(metadata)
         inputs = keras.layers.Dropout(rate=self.dropout)(inputs)
 
         # hidden layers
         if self.hidden_layers:
             for layer in range(self.hidden_layers):
-                inputs = keras.layers.Dense(units=self.hidden_sizes[layer], kernel_initializer='random_normal', activation='softplus')(inputs)
+                inputs = keras.layers.Dense(units=self.hidden_sizes[layer], kernel_initializer='random_normal', activation='relu')(inputs)
                 inputs = keras.layers.Dropout(rate=self.dropout)(inputs)
 
         # last dense layer

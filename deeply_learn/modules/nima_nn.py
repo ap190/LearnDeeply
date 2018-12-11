@@ -39,8 +39,6 @@ class Graph:
         # load images to target size
         image_size = 224
         base_model = MobileNet(input_shape=(image_size, image_size, 3), alpha=1, include_top=False, pooling='avg')
-        # incorrect layers, without the top layer we have 54 layers but this weights file has 55 layers of weights
-        # base_model.load_weights('modules/mobilenet_weights.h5')
 
         for layer in base_model.layers:
             layer.trainable = False

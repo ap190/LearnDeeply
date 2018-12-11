@@ -25,12 +25,14 @@ def to_int(number):
     try:
         # if number is a string, need to clean it up a bit
         if isinstance(number, (str)):
-            number = number.replace(',', '')
+            ret = number.replace(',', '')
 
-            if number.endswith('m'):
-                ret = int(float(number[:-1]) * 1000000)
-            elif number.endswith('k'):
-                ret = int(float(number[:-1]) * 1000)
+            if ret.endswith('m'):
+                ret = int(float(ret[:-1]) * 1000000)
+            elif ret.endswith('k'):
+                ret = int(float(ret[:-1]) * 1000)
+            else:
+                ret = int(ret)
         # if number is some other type of number, why might have to round
         elif isinstance(number, (float)):
             ret = int(number)
@@ -315,6 +317,6 @@ class DataGenerator(keras.utils.Sequence):
 
             outputs.append(self.labels[ID])
 
-        return [np.array(meta), np.array(image_class), np.array(image_array)], outputs
+        return [np.array(meta),  np.array(image_array)], outputs
 
 

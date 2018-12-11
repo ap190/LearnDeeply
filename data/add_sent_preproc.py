@@ -17,21 +17,25 @@ Returns:
     sentiscore - a score from -1 to 1 to rank negative to positive
 '''
 # natural language understanding package and version requried.
-natural_language_understanding = NaturalLanguageUnderstandingV1(
-    version='2018-03-16',
-    iam_apikey='KNU1uoHR7W2C44UOJoKYGGyCajGRAosybOEVEPHlzkzn',
-    url='https://gateway.watsonplatform.net/natural-language-understanding/api'
-)
 def SentimentClassify(target_text):
-    # as of right now, this doesn't work for Chinese.
-    language = TextBlob(target_text).detect_language()
+    try:
+        natural_language_understanding = NaturalLanguageUnderstandingV1(
+            version='2018-03-16',
+            iam_apikey='KNU1uoHR7W2C44UOJoKYGGyCajGRAosybOEVEPHlzkzn',
+            url='https://gateway.watsonplatform.net/natural-language-understanding/api'
+        )
 
-    response_senti = natural_language_understanding.analyze(
-        text= target_text,
-        features=Features(sentiment=SentimentOptions()),language=language).get_result()
-    
-    sentiscore = response_senti["sentiment"]["document"]["score"]
-    return sentiscore
+        # as of right now, this doesn't work for Chinese.
+        language = TextBlob(target_text).detect_language()
+
+        response_senti = natural_language_understanding.analyze(
+            text= target_text,
+            features=Features(sentiment=SentimentOptions()),language=language).get_result()
+        
+        sentiscore = response_senti["sentiment"]["document"]["score"]
+        return sentiscore
+    except:
+        return 0
 
 '''
 Iterative deal with sentiment analysis to hand a list of inputs rather than a single string
@@ -62,6 +66,7 @@ for user in jsondata:
         desc = " ".join(filter(lambda x:x[0]!='#' and x[0]!='@', desc.split()))
         sentiment = sentiment_analysis(desc)
 
+        print('(%.3f) %s' % (sentiment, desc))
         image['sentiment'] = sentiment
 
 with open('compiled_data_wsent.json', 'w') as outfile:
