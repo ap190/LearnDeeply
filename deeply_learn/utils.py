@@ -328,6 +328,9 @@ class DataGenerator(keras.utils.Sequence):
         elif self.model_type == 3:
             """ Basic Combined NN """
             return [np.array(meta), np.array(image_class)], outputs
+        elif self.model_type == 4:
+            """ NIMA by itself """
+            return [np.array(image_array)], outputs
 
 
 

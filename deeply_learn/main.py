@@ -45,7 +45,7 @@ nima_inputs = data.nima['images']
 labels = data.labels
 
 # hyperparameters 
-learning_rate, decay_rate = 0.001, 1e-05
+learning_rate, decay_rate = 0.001, 0
 epochs, batch_size = 5, 30
 test_size = 0.33
 validation_split = 0
@@ -57,8 +57,8 @@ optimizer = keras.optimizers.Adam(lr=learning_rate, decay=decay_rate)
 def meta_nn():
     """
     Simple model that only trains on the user's metadata:
-    ~1374 / 5985 within a 10% distance
-    val_loss: 0.3539 - val_mean_absolute_error: 0.3539 - val_mean_squared_error: 0.2958
+    ~1485 / 5985within a 10% distance
+    val_loss: 0.3436 - val_mean_absolute_error: 0.3436 - val_mean_squared_error: 0.2906 - val_mean_absolute_percentage_error: 4.1939
     """
     model_type = 1
     metaNN = metadata_nn.Graph(input_length=len(meta_inputs[0]), output_length=1, intermediate_layer=128,
@@ -69,7 +69,7 @@ def meta_nn():
 
     training_generator, testing_generator = utils.create_data_generators(inputs, labels, train_batch_size=batch_size, test_size=test_size, model_type=model_type)
     # train model
-    model.fit_generator(generator=training_generator, validation_data=testing_generator, use_multiprocessing=True, workers=3, epochs=30)
+    model.fit_generator(generator=training_generator, validation_data=testing_generator, use_multiprocessing=True, workers=3, epochs=5)
     
     # make predictions and test the model
     utils.keras_predict(testing_generator, model)
@@ -101,13 +101,16 @@ def combined_basic_nn():
     Basic combined model that integrates meta_nn and image_class_nn
     val_loss: 0.3592 - val_mean_absolute_error: 0.3592 - val_mean_squared_error: 0.2830
     val_loss: 0.3479 - val_mean_absolute_error: 0.3479 - val_mean_squared_error: 0.3137
-    ~1315 / 5985
+    val_loss: 0.3466 - val_mean_absolute_error: 0.3466 - val_mean_squared_error: 0.2771
+    val_loss: 0.3449 - val_mean_absolute_error: 0.3449 - val_mean_squared_error: 0.2769
+    val_loss: 0.3382 - val_mean_absolute_error: 0.3382 - val_mean_squared_error: 0.2520
+    ~1400 / 5985
     """
     model_type = 3
     metaNN = metadata_nn.Graph(input_length=len(meta_inputs[0]), output_length=1, intermediate_layer=128,
-        dropout=0.0, hidden_layers=5, hidden_sizes=[400, 400, 400, 256, 256])
+        dropout=0.0, hidden_layers=0, hidden_sizes=[400, 400, 400, 256, 256])
 
-    imageNN = imageclass_nn.Graph(input_length=len(imageclass_inputs[0]), vocab_size=data.image_class['vocab_size'], embed_size=100,
+    imageNN = imageclass_nn.Graph(input_length=len(imageclass_inputs[0]), vocab_size=data.image_class['vocab_size'], embed_size=30,
         dropout=0.0, hidden_layers=0, hidden_sizes=[300, 400, 500, 400, 300])
 
     combineNN = combined_nn.Graph(input_tensor=keras.layers.concatenate([metaNN.outputs, imageNN.outputs], axis=1), 
@@ -118,11 +121,26 @@ def combined_basic_nn():
 
     training_generator, testing_generator = utils.create_data_generators(inputs, labels, train_batch_size=batch_size, test_size=test_size, model_type=model_type)
     # train model
-    combined_model.fit_generator(generator=training_generator, validation_data=testing_generator, use_multiprocessing=True, workers=3, epochs=10)
+    combined_model.fit_generator(generator=training_generator, validation_data=testing_generator, use_multiprocessing=True, workers=3, epochs=5)
     
     # make predictions and test the model
     utils.keras_predict(testing_generator, combined_model)
 
+def nima_nn():
+    """ NIMA transfer learning by itself"""
+    model_type = 4
+    nima = nima_nn.Graph(dropout=0.75)
+
+    model = keras.Model(inputs=[nima.inputs], outputs=nima.outputs)
+
+    model.compile(loss='mae', optimizer=optimizer, metrics=['mae', 'mse'])
+    training_generator, testing_generator = utils.create_data_generators(inputs, labels, train_batch_size=batch_size, test_size=test_size, model_type=model_type)
+
+    # train model
+    model.fit_generator(generator=training_generator, validation_data=testing_generator, use_multiprocessing=True, workers=3, epochs=30)
+    
+    # make predictions and test the model
+    utils.keras_predict(testing_generator, model)
 
 
 def combined_nn_model():
