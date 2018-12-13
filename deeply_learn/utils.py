@@ -25,12 +25,14 @@ def to_int(number):
     try:
         # if number is a string, need to clean it up a bit
         if isinstance(number, (str)):
-            number = number.replace(',', '')
+            ret = number.replace(',', '')
 
-            if number.endswith('m'):
-                ret = int(float(number[:-1]) * 1000000)
-            elif number.endswith('k'):
-                ret = int(float(number[:-1]) * 1000)
+            if ret.endswith('m'):
+                ret = int(float(ret[:-1]) * 1000000)
+            elif ret.endswith('k'):
+                ret = int(float(ret[:-1]) * 1000)
+            else:
+                ret = int(ret)
         # if number is some other type of number, why might have to round
         elif isinstance(number, (float)):
             ret = int(number)
@@ -151,7 +153,7 @@ def rmse(y_true, y_pred):
 '''
 Creates keras data generators for training and testing
 '''
-def create_data_generators(inputs, labels, train_batch_size=30, test_size=0.33):
+def create_data_generators(inputs, labels, train_batch_size=30, test_size=0.33, model_type=0):
     indices = shuffle_indices(len(labels))
     split = np.int(len(indices) * (1-test_size))
 
@@ -184,8 +186,8 @@ def create_data_generators(inputs, labels, train_batch_size=30, test_size=0.33):
     train_set = np.concatenate(tuple(train_set), axis=1)
     test_set = np.concatenate(tuple(test_set), axis=1)
 
-    train_gen = DataGenerator(train_index, train_set, splitting_points, train_labels, train_batch_size)
-    test_gen = DataGenerator(test_index, test_set, splitting_points, test_labels, 1)
+    train_gen = DataGenerator(train_index, train_set, splitting_points, train_labels, train_batch_size, model_type=model_type)
+    test_gen = DataGenerator(test_index, test_set, splitting_points, test_labels, 1, model_type=model_type)
     
     return train_gen, test_gen
 
@@ -267,7 +269,7 @@ of running out of memory when trying to load in too many images
 (order of input data MUST be [meta, image classification, image path]!!!)
 '''
 class DataGenerator(keras.utils.Sequence):
-    def __init__(self, IDs, inputs, splitting_points, labels, batch_size=30, shuffle=True):
+    def __init__(self, IDs, inputs, splitting_points, labels, batch_size=30, shuffle=True, model_type=0):
         self.IDs = IDs
         self.inputs = inputs
         self.split = splitting_points
@@ -275,6 +277,7 @@ class DataGenerator(keras.utils.Sequence):
 
         self.batch_size = batch_size
         self.shuffle = shuffle
+        self.model_type = model_type
 
         self.on_epoch_end()
 
@@ -315,6 +318,20 @@ class DataGenerator(keras.utils.Sequence):
 
             outputs.append(self.labels[ID])
 
-        return [np.array(meta), np.array(image_class), np.array(image_array)], outputs
+        if self.model_type == 0:
+            """ Combined NN """
+            return [np.array(meta), np.array(image_class), np.array(image_array)], outputs
+        elif self.model_type == 1:
+            """ MetaData only """
+            return np.array(meta), outputs
+        elif self.model_type == 2:
+            """ Image class predictions only """
+            return np.array(image_class), outputs
+        elif self.model_type == 3:
+            """ Basic Combined NN """
+            return [np.array(meta), np.array(image_class)], outputs
+        elif self.model_type == 4:
+            """ NIMA by itself """
+            return [np.array(image_array)], outputs
 
 

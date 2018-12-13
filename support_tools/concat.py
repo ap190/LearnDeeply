@@ -1,5 +1,8 @@
 import json
 
+"""
+Script to create new data json file from old json files.
+"""
 combined_list = []
 with open('./data.json', 'rb') as f:
 	data = json.load(f)

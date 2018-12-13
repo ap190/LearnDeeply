@@ -24,6 +24,7 @@ Returns:
 #     iam_apikey='KNU1uoHR7W2C44UOJoKYGGyCajGRAosybOEVEPHlzkzn',
 #     url='https://gateway.watsonplatform.net/natural-language-understanding/api'
 # )
+
 natural_language_understanding = NaturalLanguageUnderstandingV1(
     version='2018-03-16',
     iam_apikey='A2N0Mfgs7pH4RqRrve0r2uq8yEwKSYL46ayljA4wRpyu',
@@ -51,6 +52,7 @@ def SentimentClassify(target_text):
         err0 = err0+1
         print("a language error")
         return 24
+
 
 '''
 Iterative deal with sentiment analysis to hand a list of inputs rather than a single string
@@ -94,7 +96,7 @@ new_json = 'compiled_data_wsent.json '
 with open(new_json, 'w',encoding='UTF-8') as outfile:
     print("printing count: ",new_json)
     json.dump(jsondata, outfile, ensure_ascii=False, indent=2)
-    
+
 print("0 due to mutual: ",true0)
 print("0 due to language exception: ",err0)
         

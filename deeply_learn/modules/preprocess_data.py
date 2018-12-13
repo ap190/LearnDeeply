@@ -46,6 +46,9 @@ def main():
     }
 
     for user in tqdm(json_data, desc='data preprocessing', ncols=100):
+        # if utils.to_int(user['followers']) > 1000000:
+        #     continue
+
         for image in user['images']:
             likes = utils.to_int(image['likes']) 
 

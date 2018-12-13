@@ -1,3 +1,6 @@
+"""
+Script to split data into several json file.
+"""
 with open('alias_4.txt', 'r', encoding='utf16') as f:
 	loaded = f.read().split()
 	half = len(loaded)//2

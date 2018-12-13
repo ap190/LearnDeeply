@@ -4,6 +4,11 @@ from collections import Counter
 import matplotlib.pyplot as plt
 import numpy as np
 
+"""
+Class to create bins for likes, and for classifying likes to each bin with labels, 
+along with other support methods to visualize distribution.
+"""
+
 class bins:
 	def __init__(self, bin_nums = 10):
 		self.bin_nums = bin_nums
