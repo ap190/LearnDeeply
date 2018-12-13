@@ -19,9 +19,14 @@ Returns:
     sentiscore - a score from -1 to 1 to rank negative to positive
 '''
 # natural language understanding package and version requried.
+# natural_language_understanding = NaturalLanguageUnderstandingV1(
+#     version='2018-03-16',
+#     iam_apikey='KNU1uoHR7W2C44UOJoKYGGyCajGRAosybOEVEPHlzkzn',
+#     url='https://gateway.watsonplatform.net/natural-language-understanding/api'
+# )
 natural_language_understanding = NaturalLanguageUnderstandingV1(
     version='2018-03-16',
-    iam_apikey='KNU1uoHR7W2C44UOJoKYGGyCajGRAosybOEVEPHlzkzn',
+    iam_apikey='A2N0Mfgs7pH4RqRrve0r2uq8yEwKSYL46ayljA4wRpyu',
     url='https://gateway.watsonplatform.net/natural-language-understanding/api'
 )
 true0 = 0
@@ -45,7 +50,7 @@ def SentimentClassify(target_text):
         global err0
         err0 = err0+1
         print("a language error")
-        return 0
+        return 24
 
 '''
 Iterative deal with sentiment analysis to hand a list of inputs rather than a single string
@@ -81,12 +86,15 @@ for user in jsondata:
         sentiment = sentiment_analysis(desc)
         image['sentiment'] = sentiment
         
-        if count%1000==0 and count>14000:
-            new_json = 'compiled_data_wsent_%.1f.json ' %count
-            print("printing count: ",new_json)
-            with open(new_json, 'w',encoding='UTF-8') as outfile:
-                json.dump(jsondata, outfile, ensure_ascii=False, indent=2)
-                # outfile.truncate() 
+        if count%1000==0 and count<=18000:
+            print("dealing with: ",count)
+        if count%10==0 and count>18000:
+            print("dealing with: ",count)
+new_json = 'compiled_data_wsent.json '
+with open(new_json, 'w',encoding='UTF-8') as outfile:
+    print("printing count: ",new_json)
+    json.dump(jsondata, outfile, ensure_ascii=False, indent=2)
+    
 print("0 due to mutual: ",true0)
 print("0 due to language exception: ",err0)
         
