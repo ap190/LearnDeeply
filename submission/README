@@ -41,3 +41,21 @@ The original dataset
 
 Our dataset contians 18,170 posts from 1,307 Instagram users. 
 
+The data is in the JSON blob form of:
+	'alias',
+	'posts',
+	'followers',
+	'following',
+	'avg number likes',
+	'images': [
+		'picture',
+		'classifications',
+		'tags',
+		'mentions',
+		'descriptions',
+		'year',
+		'month',
+		'weekday',
+		'hour',
+		'likes'
+	]
