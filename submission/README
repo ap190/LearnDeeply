@@ -17,39 +17,3 @@ the data cleaning/pre-processing scripts and intermediate steps. However,
 the final data file that we used for the project is found within the 
 'deeply_learned/' directory as well. Our attempt with binning and histogram 
 creation can also be found in the 'data/' directory.
-
-
-# ==================== About Web Crawler
-Profiles folder contains post data for 16539 images from 972 Instagram influencers.
-Data for each profile is a JSON blob of the form:
-	"alias",
-	"username",
-	"descriptionProfile",
-	"urlProfile",
-	"urlImgProfile",
-	"website",
-	"numberPosts",
-	"numberFollowers",
-	"numberFollowing",
-	"private",
-	"posts": a list of JSON blobs corresponding to each post.
-
-Each post is blob of form:
-	"url",
-	"urlImage",- Note: in some of these this is a list
-	"isVideo",
-	 "multipleImage",
-	"tags", - being hashtags
-	"mentions",
-	"description",
-	"localization",
-	"date",
-	"numberLikes",
-	"filename"
-
-Thanks to gvsi for the orginal part of this dataset. We have built upon this dataset by implementing a webscrapper
-for Instagram using Selenium. 
-
-Note: Instagram regenerates image urls, so we had to write a script to regenerate stale URLs for the dataset of posts 
-we took from gvsi. We also dropped posts that no longer exist, and files for users that no longer exist. The original dataset 
-now consists of 15178 images. 
