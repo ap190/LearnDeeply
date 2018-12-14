@@ -9,7 +9,18 @@ The main portion of the code is within 'deeply_learned/' directory, and
 can be run with the following command:
 	python main.py
 A few optional arguments can be added to run specific model combinations
-if so desired. The proposed multi-modal approach as described in our
+if so desired. This is done as follows:
+
+python main.py -model <model_name> 
+
+model_name options include:
+combined_nn
+meta_nn
+image_class_nn
+combined_basic_nn
+meta_nima_nn
+
+The proposed multi-modal approach as described in our
 paper is run by the simple command with no optional arguments.
 
 Our data cleaner and such can be found in the directory 'data/', along with 
