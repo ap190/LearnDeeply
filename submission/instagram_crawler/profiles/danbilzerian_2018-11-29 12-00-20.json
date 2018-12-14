@@ -1,0 +1,343 @@
+{
+    "alias": "Dan Bilzerian",
+    "username": "danbilzerian",
+    "bio": "Snapchat: dbilzerian",
+    "prof_img": "https://instagram.fzty2-1.fna.fbcdn.net/vp/b5e3b2c65837c1e5b61178d983887dc0/5C8BE30F/t51.2885-19/s320x320/41677722_309612136484816_4022476815346958336_n.jpg",
+    "num_of_posts": 1288,
+    "followers": 25213053,
+    "following": 212,
+    "bio_url": "www.ignite.co",
+    "isprivate": false,
+    "scrapped": "2018-11-29 12:00:20",
+    "posts": [
+        {
+            "caption": "",
+            "location": {
+                "location_url": "https://www.instagram.com/explore/locations/222764158/hawaii/",
+                "location_name": "Hawaii",
+                "location_id": "222764158",
+                "latitude": 21.3113888889,
+                "longitude": -157.7963888889
+            },
+            "img": null,
+            "preview_img": null,
+            "date": "2018-10-16T21:35:05.000Z",
+            "tags": [],
+            "likes": 1263855,
+            "url": "https://www.instagram.com/p/BpAl9TLFh7K/",
+            "comments": {
+                "count": 25,
+                "list": [
+                    {
+                        "user": "danbilzerian",
+                        "comment": "Sister wives at play\ud83d\udeb8"
+                    }
+                ]
+            },
+            "mentions": []
+        },
+        {
+            "caption": "",
+            "location": {
+                "location_url": "https://www.instagram.com/explore/locations/1731497986866121/bel-air-estate/",
+                "location_name": "Bel-Air Estate",
+                "location_id": "1731497986866121",
+                "latitude": 34.08988,
+                "longitude": -118.45455
+            },
+            "img": null,
+            "preview_img": null,
+            "date": "2018-10-28T10:10:45.000Z",
+            "tags": [],
+            "likes": 966686,
+            "url": "https://www.instagram.com/p/BpeRLnzFRFu/",
+            "comments": {
+                "count": 25,
+                "list": [
+                    {
+                        "user": "danbilzerian",
+                        "comment": "Kings"
+                    }
+                ]
+            },
+            "mentions": [
+                "steveaoki",
+                "maluma",
+                "drewtaggart",
+                "ignite"
+            ]
+        },
+        {
+            "caption": "",
+            "location": {
+                "location_url": "https://www.instagram.com/explore/locations/214882868/sri-panwa/",
+                "location_name": "Sri panwa",
+                "location_id": "214882868",
+                "latitude": 7.8036009979,
+                "longitude": 98.4095453984
+            },
+            "img": "https://instagram.fzty2-1.fna.fbcdn.net/vp/ca02c9f3415c36098a8e6c57ee717039/5C02AEAF/t51.2885-15/e15/45387176_1914690775315226_194730278599563574_n.jpg",
+            "preview_img": null,
+            "date": "2018-11-28T09:28:27.000Z",
+            "tags": [],
+            "likes": 11579334,
+            "url": "https://www.instagram.com/p/Bqt_iWGn68H/",
+            "comments": {
+                "count": 25,
+                "list": [
+                    {
+                        "user": "danbilzerian",
+                        "comment": "Thailand \ud83c\udfa5 @liverichmedia"
+                    }
+                ]
+            },
+            "mentions": []
+        },
+        {
+            "caption": "",
+            "location": {
+                "location_url": "",
+                "location_name": "",
+                "location_id": 0,
+                "latitude": "",
+                "longitude": ""
+            },
+            "img": null,
+            "preview_img": null,
+            "date": "2018-11-07T11:04:22.000Z",
+            "tags": [],
+            "likes": 1453500,
+            "url": "https://www.instagram.com/p/Bp4HRDDnxal/",
+            "comments": {
+                "count": 25,
+                "list": [
+                    {
+                        "user": "danbilzerian",
+                        "comment": "Vegas with my girls"
+                    }
+                ]
+            },
+            "mentions": [
+                "katieeeebell"
+            ]
+        },
+        {
+            "caption": "",
+            "location": {
+                "location_url": "",
+                "location_name": "",
+                "location_id": 0,
+                "latitude": "",
+                "longitude": ""
+            },
+            "img": null,
+            "preview_img": null,
+            "date": "2018-10-12T08:06:18.000Z",
+            "tags": [],
+            "likes": 1852453,
+            "url": "https://www.instagram.com/p/Bo02OINl6Bi/",
+            "comments": {
+                "count": 25,
+                "list": [
+                    {
+                        "user": "danbilzerian",
+                        "comment": "I hired a photographer so you guys could see me walking with girls"
+                    }
+                ]
+            },
+            "mentions": []
+        },
+        {
+            "caption": "",
+            "location": {
+                "location_url": "",
+                "location_name": "",
+                "location_id": 0,
+                "latitude": "",
+                "longitude": ""
+            },
+            "img": null,
+            "preview_img": null,
+            "date": "2018-10-24T10:17:22.000Z",
+            "tags": [],
+            "likes": 720322,
+            "url": "https://www.instagram.com/p/BpT-wg5lUNY/",
+            "comments": {
+                "count": 25,
+                "list": [
+                    {
+                        "user": "danbilzerian",
+                        "comment": "Love of my life"
+                    }
+                ]
+            },
+            "mentions": []
+        },
+        {
+            "caption": "",
+            "location": {
+                "location_url": "https://www.instagram.com/explore/locations/1731497986866121/bel-air-estate/",
+                "location_name": "Bel-Air Estate",
+                "location_id": "1731497986866121",
+                "latitude": 34.08988,
+                "longitude": -118.45455
+            },
+            "img": null,
+            "preview_img": null,
+            "date": "2018-10-27T12:58:24.000Z",
+            "tags": [],
+            "likes": 1046115,
+            "url": "https://www.instagram.com/p/Bpb_klmlhhS/",
+            "comments": {
+                "count": 25,
+                "list": [
+                    {
+                        "user": "danbilzerian",
+                        "comment": "We own Halloween @ignite"
+                    }
+                ]
+            },
+            "mentions": [
+                "ignite"
+            ]
+        },
+        {
+            "caption": "",
+            "location": {
+                "location_url": "https://www.instagram.com/explore/locations/102744991/better-business-bureau-of-southern-nevada/",
+                "location_name": "Better Business Bureau of Southern Nevada",
+                "location_id": "102744991",
+                "latitude": 36.07927,
+                "longitude": -115.22449
+            },
+            "img": null,
+            "preview_img": null,
+            "date": "2018-10-11T06:32:36.000Z",
+            "tags": [],
+            "likes": 1209251,
+            "url": "https://www.instagram.com/p/BoyGs8VFVsb/",
+            "comments": {
+                "count": 25,
+                "list": [
+                    {
+                        "user": "danbilzerian",
+                        "comment": "I\u2019m only doing this for @ignite"
+                    }
+                ]
+            },
+            "mentions": [
+                "ignite"
+            ]
+        },
+        {
+            "caption": "",
+            "location": {
+                "location_url": "",
+                "location_name": "",
+                "location_id": 0,
+                "latitude": "",
+                "longitude": ""
+            },
+            "img": null,
+            "preview_img": null,
+            "date": "2018-10-27T02:22:32.000Z",
+            "tags": [],
+            "likes": 1087500,
+            "url": "https://www.instagram.com/p/Bpa2zZyFWeJ/",
+            "comments": {
+                "count": 25,
+                "list": [
+                    {
+                        "user": "danbilzerian",
+                        "comment": "Wonder if I could go a year without wearing a shirt"
+                    }
+                ]
+            },
+            "mentions": [
+                "swaelee"
+            ]
+        },
+        {
+            "caption": "",
+            "location": {
+                "location_url": "",
+                "location_name": "",
+                "location_id": 0,
+                "latitude": "",
+                "longitude": ""
+            },
+            "img": null,
+            "preview_img": null,
+            "date": "2018-10-09T02:15:30.000Z",
+            "tags": [],
+            "likes": 907018,
+            "url": "https://www.instagram.com/p/BosfsEaF7e0/",
+            "comments": {
+                "count": 25,
+                "list": [
+                    {
+                        "user": "danbilzerian",
+                        "comment": "Vegas with my sister wives"
+                    }
+                ]
+            },
+            "mentions": [
+                "ignite"
+            ]
+        },
+        {
+            "caption": "",
+            "location": {
+                "location_url": "",
+                "location_name": "",
+                "location_id": 0,
+                "latitude": "",
+                "longitude": ""
+            },
+            "img": null,
+            "preview_img": null,
+            "date": "2018-11-15T20:47:34.000Z",
+            "tags": [],
+            "likes": 1109497,
+            "url": "https://www.instagram.com/p/BqNwXiPnUbb/",
+            "comments": {
+                "count": 25,
+                "list": [
+                    {
+                        "user": "danbilzerian",
+                        "comment": "Gettin ready for work #MJbiz"
+                    }
+                ]
+            },
+            "mentions": [
+                "ignite"
+            ]
+        },
+        {
+            "caption": "",
+            "location": {
+                "location_url": "https://www.instagram.com/explore/locations/222764158/hawaii/",
+                "location_name": "Hawaii",
+                "location_id": "222764158",
+                "latitude": 21.3113888889,
+                "longitude": -157.7963888889
+            },
+            "img": null,
+            "preview_img": null,
+            "date": "2018-10-18T13:28:03.000Z",
+            "tags": [],
+            "likes": 1518358,
+            "url": "https://www.instagram.com/p/BpE3z3gFbZy/",
+            "comments": {
+                "count": 25,
+                "list": [
+                    {
+                        "user": "danbilzerian",
+                        "comment": "More mushrooms"
+                    }
+                ]
+            },
+            "mentions": []
+        }
+    ]
+}

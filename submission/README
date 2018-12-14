@@ -1,0 +1,55 @@
+# ==================== READ ME
+
+Most of everything that is needed for the proposed multi-modal model from
+our paper can be found in the 'deeply_learned' directory. This include the
+final data file(s) including the associated images, as well as the dictionary
+of hashtag weights and the wordnetID mappings.
+
+The main portion of the code is within 'deeply_learned/' directory, and 
+can be run with the following command:
+	python main.py
+A few optional arguments can be added to run specific model combinations
+if so desired. The proposed multi-modal approach as described in our
+paper is run by the simple command with no optional arguments.
+
+Our data cleaner and such can be found in the directory 'data/', along with 
+the data cleaning/pre-processing scripts and intermediate steps. However, 
+the final data file that we used for the project is found within the 
+'deeply_learned/' directory as well. Our attempt with binning and histogram 
+creation can also be found in the 'data/' directory.
+
+
+# ==================== About Web Crawler
+Profiles folder contains post data for 16539 images from 972 Instagram influencers.
+Data for each profile is a JSON blob of the form:
+	"alias",
+	"username",
+	"descriptionProfile",
+	"urlProfile",
+	"urlImgProfile",
+	"website",
+	"numberPosts",
+	"numberFollowers",
+	"numberFollowing",
+	"private",
+	"posts": a list of JSON blobs corresponding to each post.
+
+Each post is blob of form:
+	"url",
+	"urlImage",- Note: in some of these this is a list
+	"isVideo",
+	 "multipleImage",
+	"tags", - being hashtags
+	"mentions",
+	"description",
+	"localization",
+	"date",
+	"numberLikes",
+	"filename"
+
+Thanks to gvsi for the orginal part of this dataset. We have built upon this dataset by implementing a webscrapper
+for Instagram using Selenium. 
+
+Note: Instagram regenerates image urls, so we had to write a script to regenerate stale URLs for the dataset of posts 
+we took from gvsi. We also dropped posts that no longer exist, and files for users that no longer exist. The original dataset 
+now consists of 15178 images. 

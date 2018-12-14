@@ -1,0 +1,338 @@
+{
+    "alias": "Nick Bateman",
+    "username": "nick__bateman",
+    "bio": "info@batemanmgmt.com\nCo-Founder of @dtlabrand",
+    "prof_img": "https://instagram.fzty1-2.fna.fbcdn.net/vp/2ad88e21041a1fda15fe8e00563636e6/5C921D54/t51.2885-19/11820637_1612252312367806_45731821_a.jpg",
+    "num_of_posts": 1016,
+    "followers": 6635579,
+    "following": 215,
+    "bio_url": "dtlabrand.com",
+    "isprivate": false,
+    "scrapped": "2018-11-29 03:12:38",
+    "posts": [
+        {
+            "caption": "",
+            "location": {
+                "location_url": "",
+                "location_name": "",
+                "location_id": 0,
+                "latitude": "",
+                "longitude": ""
+            },
+            "img": "https://instagram.fzty1-2.fna.fbcdn.net/vp/c08ea23f01a2f8697d690fea26d0c1a4/5C025764/t51.2885-15/e15/44729075_1000887156779958_3969164674061015447_n.jpg",
+            "preview_img": null,
+            "date": "2018-11-13T12:00:21.000Z",
+            "tags": [],
+            "likes": 2853530,
+            "url": "https://www.instagram.com/p/BqHqUa9lRcy/",
+            "comments": {
+                "count": 25,
+                "list": [
+                    {
+                        "user": "nick__bateman",
+                        "comment": "The T-Rex works everytime \ud83e\udd96"
+                    }
+                ]
+            },
+            "mentions": []
+        },
+        {
+            "caption": "",
+            "location": {
+                "location_url": "https://www.instagram.com/explore/locations/212988663/new-york-new-york/",
+                "location_name": "New York, New York",
+                "location_id": "212988663",
+                "latitude": 40.7142,
+                "longitude": -74.0064
+            },
+            "img": null,
+            "preview_img": null,
+            "date": "2018-10-22T19:01:28.000Z",
+            "tags": [],
+            "likes": 361902,
+            "url": "https://www.instagram.com/p/BpPxJbQlSGY/",
+            "comments": {
+                "count": 25,
+                "list": [
+                    {
+                        "user": "nick__bateman",
+                        "comment": "Meetings and diapers \ud83d\udcc8\ud83d\udca9"
+                    }
+                ]
+            },
+            "mentions": [
+                "houseofdalla",
+                "husseindalla_"
+            ]
+        },
+        {
+            "caption": "",
+            "location": {
+                "location_url": "",
+                "location_name": "",
+                "location_id": 0,
+                "latitude": "",
+                "longitude": ""
+            },
+            "img": "https://instagram.fzty1-2.fna.fbcdn.net/vp/4ddf3e5a95dc8266eb8dd8f20d810c1a/5C01D642/t51.2885-15/e15/43817423_384812978724204_6111511557150098903_n.jpg",
+            "preview_img": null,
+            "date": "2018-10-17T20:15:47.000Z",
+            "tags": [],
+            "likes": 562226,
+            "url": "https://www.instagram.com/p/BpDBTASFMC_/",
+            "comments": {
+                "count": 25,
+                "list": [
+                    {
+                        "user": "nick__bateman",
+                        "comment": "My ultimate backyard #mancave is now complete with the #LGCineBeam #4KProjector"
+                    }
+                ]
+            },
+            "mentions": []
+        },
+        {
+            "caption": "",
+            "location": {
+                "location_url": "https://www.instagram.com/explore/locations/216978098/mumbai-maharashtra/",
+                "location_name": "Mumbai, Maharashtra",
+                "location_id": "216978098",
+                "latitude": 19.0621,
+                "longitude": 72.8764
+            },
+            "img": null,
+            "preview_img": null,
+            "date": "2018-11-07T06:21:37.000Z",
+            "tags": [],
+            "likes": 487242,
+            "url": "https://www.instagram.com/p/Bp3m6KqlfhI/",
+            "comments": {
+                "count": 25,
+                "list": [
+                    {
+                        "user": "nick__bateman",
+                        "comment": "Happy Diwali to my family across the world \ud83c\udf0e"
+                    }
+                ]
+            },
+            "mentions": [
+                "stephverschuren"
+            ]
+        },
+        {
+            "caption": "",
+            "location": {
+                "location_url": "https://www.instagram.com/explore/locations/212999109/los-angeles-california/",
+                "location_name": "Los Angeles, California",
+                "location_id": "212999109",
+                "latitude": 34.0522,
+                "longitude": -118.243
+            },
+            "img": null,
+            "preview_img": null,
+            "date": "2018-10-31T17:18:42.000Z",
+            "tags": [],
+            "likes": 547445,
+            "url": "https://www.instagram.com/p/BpmwilxlyIQ/",
+            "comments": {
+                "count": 25,
+                "list": [
+                    {
+                        "user": "nick__bateman",
+                        "comment": "Happy Halloween from the Bateman Family \ud83c\udf83"
+                    }
+                ]
+            },
+            "mentions": [
+                "maria__corrigan"
+            ]
+        },
+        {
+            "caption": "",
+            "location": {
+                "location_url": "https://www.instagram.com/explore/locations/221849125/santa-clarita-california/",
+                "location_name": "Santa Clarita, California",
+                "location_id": "221849125",
+                "latitude": 34.4166,
+                "longitude": -118.506
+            },
+            "img": null,
+            "preview_img": null,
+            "date": "2018-10-29T17:56:13.000Z",
+            "tags": [],
+            "likes": 595124,
+            "url": "https://www.instagram.com/p/BphrPmgFl1s/",
+            "comments": {
+                "count": 25,
+                "list": [
+                    {
+                        "user": "nick__bateman",
+                        "comment": "My lil wingman"
+                    }
+                ]
+            },
+            "mentions": []
+        },
+        {
+            "caption": "",
+            "location": {
+                "location_url": "https://www.instagram.com/explore/locations/112306702175355/orange-county/",
+                "location_name": "Orange County",
+                "location_id": "112306702175355",
+                "latitude": 33.79852,
+                "longitude": -117.85968
+            },
+            "img": null,
+            "preview_img": null,
+            "date": "2018-10-26T21:02:35.000Z",
+            "tags": [],
+            "likes": 348422,
+            "url": "https://www.instagram.com/p/BpaSL_bFXRP/",
+            "comments": {
+                "count": 25,
+                "list": [
+                    {
+                        "user": "nick__bateman",
+                        "comment": "I have a heightened respect for women after witnessing this beautiful soul become a mother and also knowing my mom raised me alone as a new parent myself. All I can say is holy f*ck \ud83d\ude4c\ud83c\udffc"
+                    }
+                ]
+            },
+            "mentions": [
+                "maria__corrigan"
+            ]
+        },
+        {
+            "caption": "",
+            "location": {
+                "location_url": "https://www.instagram.com/explore/locations/213897585/abu-dhabi-united-arab-emirates/",
+                "location_name": "Abu Dhabi, United Arab Emirates",
+                "location_id": "213897585",
+                "latitude": 24.4667,
+                "longitude": 54.3667
+            },
+            "img": null,
+            "preview_img": null,
+            "date": "2018-11-03T18:00:17.000Z",
+            "tags": [],
+            "likes": 346144,
+            "url": "https://www.instagram.com/p/BpujrvWlbkd/",
+            "comments": {
+                "count": 25,
+                "list": [
+                    {
+                        "user": "nick__bateman",
+                        "comment": "Guess what\u2019s in my Drink \ud83e\udd14"
+                    }
+                ]
+            },
+            "mentions": []
+        },
+        {
+            "caption": "",
+            "location": {
+                "location_url": "https://www.instagram.com/explore/locations/735485572/cartagena-colombia/",
+                "location_name": "Cartagena, Colombia",
+                "location_id": "735485572",
+                "latitude": 10.4236111111,
+                "longitude": -75.5252777778
+            },
+            "img": null,
+            "preview_img": null,
+            "date": "2018-11-18T12:30:30.000Z",
+            "tags": [],
+            "likes": 539524,
+            "url": "https://www.instagram.com/p/BqUl3ielKjA/",
+            "comments": {
+                "count": 25,
+                "list": [
+                    {
+                        "user": "nick__bateman",
+                        "comment": "Birthday Boy in Colombia \ud83c\udde8\ud83c\uddf4"
+                    }
+                ]
+            },
+            "mentions": [
+                "josephcannats",
+                "joe__weir"
+            ]
+        },
+        {
+            "caption": "",
+            "location": {
+                "location_url": "",
+                "location_name": "",
+                "location_id": 0,
+                "latitude": "",
+                "longitude": ""
+            },
+            "img": "https://instagram.fzty1-2.fna.fbcdn.net/vp/0fb4868b57ce603182b337971007b33f/5C0242C6/t51.2885-15/e15/43084477_1134357910061015_7767464158687898211_n.jpg",
+            "preview_img": null,
+            "date": "2018-10-30T19:42:41.000Z",
+            "tags": [],
+            "likes": 188477,
+            "url": "https://www.instagram.com/p/BpkcCVUFqBB/",
+            "comments": {
+                "count": 25,
+                "list": [
+                    {
+                        "user": "nick__bateman",
+                        "comment": "Gambit part deux \ud83c\udccf coming soon"
+                    }
+                ]
+            },
+            "mentions": []
+        },
+        {
+            "caption": "",
+            "location": {
+                "location_url": "https://www.instagram.com/explore/locations/221849125/santa-clarita-california/",
+                "location_name": "Santa Clarita, California",
+                "location_id": "221849125",
+                "latitude": 34.4166,
+                "longitude": -118.506
+            },
+            "img": null,
+            "preview_img": null,
+            "date": "2018-11-22T12:41:39.000Z",
+            "tags": [],
+            "likes": 521982,
+            "url": "https://www.instagram.com/p/Bqe6UswFfza/",
+            "comments": {
+                "count": 25,
+                "list": [
+                    {
+                        "user": "nick__bateman",
+                        "comment": "Happy Thanksgiving from the Bateman Boys \ud83c\udf41"
+                    }
+                ]
+            },
+            "mentions": []
+        },
+        {
+            "caption": "",
+            "location": {
+                "location_url": "",
+                "location_name": "",
+                "location_id": 0,
+                "latitude": "",
+                "longitude": ""
+            },
+            "img": "https://instagram.fzty1-2.fna.fbcdn.net/vp/eead6e028649280d41b9034bd8a427f3/5C0230A4/t51.2885-15/e15/43914036_314061832756071_5861657560412736988_n.jpg",
+            "preview_img": null,
+            "date": "2018-10-23T19:10:55.000Z",
+            "tags": [],
+            "likes": 1642913,
+            "url": "https://www.instagram.com/p/BpSW3JXlnyS/",
+            "comments": {
+                "count": 25,
+                "list": [
+                    {
+                        "user": "nick__bateman",
+                        "comment": "New morning routine \ud83c\udf1e"
+                    }
+                ]
+            },
+            "mentions": []
+        }
+    ]
+}
