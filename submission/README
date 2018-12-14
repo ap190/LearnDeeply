@@ -17,3 +17,16 @@ the data cleaning/pre-processing scripts and intermediate steps. However,
 the final data file that we used for the project is found within the 
 'deeply_learned/' directory as well. Our attempt with binning and histogram 
 creation can also be found in the 'data/' directory.
+
+
+# ==================== About our Dataset 
+
+Thanks to gvsi for the orginal part of this dataset and timgrossmann for the original web scraper. We have built upon this dataset by extending timgrossmann's scraper 
+for Instagram using Selenium. 
+
+Note: Instagram regenerates image urls, so we had to write a script to regenerate stale URLs for the dataset of posts 
+we took from gvsi. We also dropped posts that no longer exist, and files for users that no longer exist. 
+The original dataset 
+
+Our dataset contians 18,170 posts from 1,307 Instagram users. 
+
