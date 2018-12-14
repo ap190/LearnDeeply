@@ -23,6 +23,11 @@ meta_nima_nn
 The proposed multi-modal approach as described in our
 paper is run by the simple command with no optional arguments.
 
+Note that we did a lot tweaking and experimenting with hyperparameters and NN layer structures,
+so the final result may not reflect the results in our paper. But be assured it can be replicated
+with enough parameter tweaking. 
+Apologies for the losing the parameters in the process of our testing and experimenting. 
+
 Our data cleaner and such can be found in the directory 'data/', along with 
 the data cleaning/pre-processing scripts and intermediate steps. However, 
 the final data file that we used for the project is found within the 
