@@ -36,8 +36,8 @@ combined_basic_nn_arg = 'combined_basic_nn'
 meta_nima_nn_arg = 'meta_nima_nn'
 
 parser = argparse.ArgumentParser(description='Predict instagram virality')
-parser.add_argument('-model', type=str, default=combined_nn_arg,
-                    help='Specify a model to run.\n Options include: \n\tcombined_nn, \n\tmeta_nn')
+parser.add_argument('--model', type=str, default=combined_nn_arg,
+                    help='Specify a model to run.\n Options include: \n\tcombined_nn, \n\tmeta_nn, \n\timage_class_nn, \n\tcombined_basic_nn. \n\tmeta_nima_nn')
 
 # establish input and output data
 meta_inputs = data.metadata['combined_meta']
@@ -137,7 +137,7 @@ def combined_basic_nn():
     utils.keras_predict(testing_generator, combined_model)
 
 def meta_nima_nn():
-    """ NIMA transfer learning by itself"""
+    """ NIMA transfer learning and metadata """
     model_type = 4
 
     metaNN = metadata_nn.Graph(input_length=len(meta_inputs[0]), output_length=1, intermediate_layer=128,
@@ -160,8 +160,9 @@ def meta_nima_nn():
     utils.keras_predict(testing_generator, model, verbose=0)
 
 def combined_nn_model():
+    ''' runs combined modules (all 3) '''  
     model_type = 0
-    # combine modules
+
     metaNN = metadata_nn.Graph(input_length=len(meta_inputs[0]), intermediate_layer=128,
         dropout=0.0, hidden_layers=0, hidden_sizes=[64, 128, 256, 512, 1024])
 
