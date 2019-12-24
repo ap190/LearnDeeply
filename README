@@ -1,3 +1,5 @@
+#### Checkout report.pdf for a summary of our work on predicting instagram virality. #### 
+
 Profiles folder contains post data for 16539 images from 972 Instagram influencers.
 Data for each profile is a JSON blob of the form:
 	"alias",
